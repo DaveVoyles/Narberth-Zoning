@@ -146,13 +146,26 @@ The project should become a GitHub Pages site with an interactive dashboard and 
 ```text
 /
 ├── index.html                  # Landing page and executive summary
-├── data/
-│   ├── zone-4a-classified.csv
-│   ├── zone-5b-classified.csv
-│   ├── summary.json
-│   └── topic-tags.csv          # Future
+├── public/
+│   ├── data/
+│   │   ├── zone-4a-classified.csv
+│   │   ├── zone-5b-classified.csv
+│   │   ├── combined-classified.csv
+│   │   ├── summary.json
+│   │   └── topic-tags.csv      # Future
+│   └── documents/
+│       ├── raw-survey-results.pdf
+│       ├── zone-4a-classified.xlsx
+│       ├── zone-5b-classified.xlsx
+│       └── zoning-sentiment-analysis.pdf
 ├── src/
 │   ├── app.tsx
+│   ├── pages/
+│   │   ├── Home.tsx
+│   │   ├── Charts.tsx
+│   │   ├── DataTables.tsx
+│   │   ├── Findings.tsx
+│   │   └── Downloads.tsx
 │   ├── charts/
 │   ├── components/
 │   ├── data/
@@ -161,38 +174,77 @@ The project should become a GitHub Pages site with an interactive dashboard and 
 └── docs/                       # Optional GitHub Pages output if using docs publishing
 ```
 
-### Core pages or sections
+### Required pages and features
+
+The public website should have multiple pages so residents can choose between quick summaries, visual exploration, raw tables, and downloads.
 
 1. **Executive summary**
    - What the survey is
    - What pages were analyzed
    - Key stance percentages
    - Plain-language caveats
+   - Prominent link back to the GitHub repository
 
-2. **Zone comparison**
+2. **Charts and graphics**
    - Side-by-side Zone 4A and Zone 5B stance charts
    - Difference in opposition, neutral, and support shares
+   - Visual breakdowns by zone, page, category, confidence, and future topic tags
+   - WebGL visualizations such as response particles or topic constellations
+   - Reduced-motion and non-WebGL fallback views
 
-3. **Topic explorer**
-   - Filters by zone, stance, topic, and confidence
-   - Topic frequency charts
-   - Representative quotes
-
-4. **Response explorer**
+3. **Tables and data**
+   - No charts or decorative graphics on this page
    - Searchable table of classified responses
    - Filter by page, zone, stance, confidence, and rationale
-   - Link each chart back to underlying rows
+   - Sortable columns
+   - Clear row counts and active-filter counts
+   - Optional column visibility controls
 
-5. **Methodology**
+4. **Detailed findings**
+   - Text summary of the current findings
+   - Zone 4A readout
+   - Zone 5B readout
+   - Comparison between zones
+   - Key limitations and interpretation notes
+   - Future topic-analysis findings once topic tagging exists
+
+5. **Methodology and limitations**
    - Parsing steps
    - Classification categories
    - Rules for mixed responses
    - Known limitations
+   - Disclosure that the survey data is public-comment style feedback, not necessarily a statistically representative referendum
 
 6. **Downloads**
-   - Classified CSVs
+   - Original raw survey PDF
+   - Classified CSV files
+   - Classified XLSX files
+   - Combined CSV/XLSX export
    - Summary JSON
    - Methodology document
+   - Markdown or PDF summary report
+   - GitHub repository link
+
+7. **About / source**
+   - Link back to the GitHub repository
+   - Explanation of the neutral civic-data purpose
+   - Data update history
+   - Contact or contribution instructions if the project becomes collaborative
+
+### Download requirements
+
+The site should make it easy to download the source and outputs without digging through GitHub.
+
+| Download | Format | Purpose |
+|---|---|---|
+| Raw survey results | PDF | Lets users inspect the original 90+ page source document |
+| Zone 4A classifications | CSV and XLSX | Lets users inspect or reuse the Zone 4A row-level classifications |
+| Zone 5B classifications | CSV and XLSX | Lets users inspect or reuse the Zone 5B row-level classifications |
+| Combined classifications | CSV and XLSX | Lets users compare both zones in one file |
+| Summary data | JSON | Powers the charts and supports reuse by developers |
+| Findings summary | Markdown and PDF | Provides a shareable text report |
+
+Every download link should include a short description, file size when available, and last-updated date.
 
 ## Visual and interactive ideas
 
@@ -282,13 +334,19 @@ The site should not depend on manual copy/paste once the pipeline is established
 - Add a Vite + React + TypeScript app.
 - Configure GitHub Pages.
 - Add data files under `public/data/` or `src/data/`.
+- Add downloadable documents under `public/documents/`.
+- Generate or add XLSX versions of the classified outputs.
 
 ### Phase 2: Baseline dashboard
 
-- Build a landing page.
+- Build the multi-page routing shell.
+- Build a landing page with executive summary and GitHub repo link.
 - Add stance summary cards.
 - Add Zone 4A and Zone 5B comparison charts.
-- Add a filterable response table.
+- Add a charts and graphics page.
+- Add a no-chart data table page.
+- Add a detailed findings page.
+- Add a downloads page with PDF, CSV, XLSX, JSON, and report downloads.
 - Add methodology and limitations sections.
 
 ### Phase 3: Topic tagging
@@ -350,4 +408,3 @@ The first public version should be considered ready when:
 - The methodology is clear and transparent.
 - Visuals include accessible text or table alternatives.
 - The site states limitations and avoids advocacy language.
-
