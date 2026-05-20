@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      (() => {
+        const param = new URLSearchParams(window.location.search).get("clawpilotTheme");
+        const theme =
+          param || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+    <title>Classified response table | Narberth zoning survey explorer</title>
+    <meta
+      name="description"
+      content="Filterable classified response table for Narberth zoning survey sentiment in Zone 4A and Zone 5B."
+    >
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a class="brand" href="index.html#home" aria-label="Narberth zoning survey explorer home">
+          <span class="brand-mark" aria-hidden="true">N</span>
+          <span>Narberth zoning survey explorer</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          Menu
+        </button>
+        <div id="nav-links" class="nav-links">
+          <a href="index.html#home">Summary</a>
+          <a href="index.html#charts">Charts</a>
+          <a href="table.html">Table</a>
+          <a href="index.html#findings">Findings</a>
+          <a href="index.html#methodology">Methodology</a>
+          <a href="index.html#audit">Audit</a>
+          <a href="index.html#downloads">Downloads</a>
+          <a href="https://github.com/DaveVoyles/Narberth-Zoning" rel="noreferrer">GitHub</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="table" class="page-section">
+        <div class="section-heading">
+          <p class="eyebrow">Tables and data</p>
+          <h1>Classified response table</h1>
+          <p>
+            Use this standalone page to audit row-level classification metadata without the charts and
+            graphics from the main dashboard.
+          </p>
+        </div>
+        <form class="filters" aria-label="Filter table">
+          <label>
+            Zone
+            <select id="zone-filter">
+              <option value="">All zones</option>
+              <option value="Zone 4A">Zone 4A</option>
+              <option value="Zone 5B">Zone 5B</option>
+            </select>
+          </label>
+          <label>
+            Stance
+            <select id="category-filter">
+              <option value="">All stances</option>
+              <option value="Against proposed Zoning Changes">Against proposed Zoning Changes</option>
+              <option value="Neutral">Neutral</option>
+              <option value="In Favor of proposed Zoning Changes">In Favor of proposed Zoning Changes</option>
+            </select>
+          </label>
+          <label>
+            Confidence
+            <select id="confidence-filter">
+              <option value="">All confidence levels</option>
+              <option value="high">High</option>
+              <option value="medium">Medium</option>
+              <option value="low">Low</option>
+            </select>
+          </label>
+          <label>
+            Topic
+            <select id="topic-filter">
+              <option value="">All topics</option>
+            </select>
+          </label>
+          <label>
+            Search rationale
+            <input id="search-filter" type="search" placeholder="parking, height, traffic">
+          </label>
+          <div class="filter-actions">
+            <button id="reset-filters" class="button" type="button">Reset filters</button>
+            <button id="download-filtered" class="button" type="button">Download filtered CSV</button>
+          </div>
+        </form>
+        <p id="table-count" class="muted" aria-live="polite"></p>
+        <div class="table-wrap">
+          <table id="data-table">
+            <thead>
+              <tr>
+                <th scope="col">Zone</th>
+                <th scope="col">Index</th>
+                <th scope="col">Page</th>
+                <th scope="col">Stance</th>
+                <th scope="col">Confidence</th>
+                <th scope="col">Topics</th>
+                <th scope="col">Needs review</th>
+                <th scope="col">Rationale</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        Built from public project files in
+        <a href="https://github.com/DaveVoyles/Narberth-Zoning" rel="noreferrer">DaveVoyles/Narberth-Zoning</a>.
+      </p>
+      <p class="muted">Neutral presentation of survey classifications; no policy recommendation is made.</p>
+    </footer>
+
+    <noscript>
+      <div class="noscript">
+        JavaScript is disabled. Use these direct downloads:
+        <a href="data/combined-classified.csv">combined CSV</a>,
+        <a href="data/topic-tags.csv">topic tags CSV</a>, and
+        <a href="documents/narberth-zoning-classifications.xlsx">Excel workbook</a>.
+      </div>
+    </noscript>
+    <script src="assets/app.js"></script>
+  </body>
+</html>

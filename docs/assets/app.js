@@ -87,15 +87,27 @@ async function getFileSize(href) {
 function setupNavigation() {
   const toggle = document.querySelector(".nav-toggle");
   const links = document.querySelector("#nav-links");
-  const navLinks = [...document.querySelectorAll(".nav-links a[href^='#']")];
-  toggle.addEventListener("click", () => {
-    const open = links.classList.toggle("open");
-    toggle.setAttribute("aria-expanded", String(open));
-  });
+  const navLinks = [...document.querySelectorAll(".nav-links a")];
+  if (toggle && links) {
+    toggle.addEventListener("click", () => {
+      const open = links.classList.toggle("open");
+      toggle.setAttribute("aria-expanded", String(open));
+    });
+  }
   function updateActive() {
     const hash = window.location.hash || "#home";
     navLinks.forEach((link) => {
-      link.classList.toggle("active", link.getAttribute("href") === hash);
+      if (link.href.startsWith("http") && new URL(link.href).origin !== window.location.origin) {
+        link.classList.remove("active");
+        return;
+      }
+      const href = new URL(link.href, window.location.href);
+      const currentPage = window.location.pathname.split("/").pop() || "index.html";
+      const linkPage = href.pathname.split("/").pop() || "index.html";
+      const samePage = currentPage === linkPage;
+      const isCurrentHash = currentPage === "index.html" && samePage && href.hash === hash;
+      const isTablePage = currentPage === "table.html" && linkPage === "table.html";
+      link.classList.toggle("active", isCurrentHash || isTablePage);
     });
   }
   window.addEventListener("hashchange", updateActive);
@@ -104,6 +116,7 @@ function setupNavigation() {
 
 function renderSummaryCards() {
   const target = document.querySelector("#summary-cards");
+  if (!target) return;
   target.innerHTML = state.summary.zones.map((zone) => {
     const against = zone.categories.find((entry) => entry.category === categoryOrder[0]);
     const favor = zone.categories.find((entry) => entry.category === categoryOrder[2]);
@@ -119,6 +132,7 @@ function renderSummaryCards() {
 
 function renderBarChart() {
   const chart = document.querySelector("#bar-chart");
+  if (!chart) return;
   chart.innerHTML = state.summary.zones.map((zone) => {
     const segments = categoryOrder.map((category) => {
       const item = zone.categories.find((entry) => entry.category === category);
@@ -140,6 +154,7 @@ function legendHtml() {
 
 function renderChartTextSummary() {
   const target = document.querySelector("#chart-text-summary");
+  if (!target) return;
   target.innerHTML = state.summary.zones.map((zone) => {
     const parts = zone.categories
       .map((entry) => `${entry.count} ${shortCategory.get(entry.category).toLowerCase()} (${entry.percent}%)`)
@@ -150,6 +165,7 @@ function renderChartTextSummary() {
 
 function renderConfidenceChart() {
   const target = document.querySelector("#confidence-chart");
+  if (!target) return;
   target.innerHTML = state.summary.zones.map((zone) => {
     const confidence = Object.fromEntries(zone.confidence.map((entry) => [entry.confidence, entry]));
     const high = confidence.high || { percent: 0, count: 0 };
@@ -173,6 +189,7 @@ function renderConfidenceChart() {
 
 function renderTopicChart() {
   const target = document.querySelector("#topic-chart");
+  if (!target) return;
   const topics = state.topicSummary.topicCounts.slice(0, 10);
   const max = Math.max(...topics.map((item) => item.count), 1);
   target.innerHTML = topics.map((item) => `
@@ -186,6 +203,7 @@ function renderTopicChart() {
 
 function renderPageChart() {
   const target = document.querySelector("#page-chart");
+  if (!target) return;
   target.innerHTML = state.pageSummary.map((entry) => {
     const total = entry.total || 1;
     const segments = categoryOrder.map((category) => {
@@ -208,6 +226,7 @@ function colorToRgb(value) {
 function renderParticles() {
   const canvas = document.querySelector("#particle-canvas");
   const status = document.querySelector("#webgl-status");
+  if (!canvas || !status) return;
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const gl = canvas.getContext("webgl", { antialias: true, alpha: false });
   const ctx = gl ? null : canvas.getContext("2d");
@@ -321,11 +340,11 @@ function renderParticles() {
 }
 
 function rowMatches(row) {
-  const zone = document.querySelector("#zone-filter").value;
-  const category = document.querySelector("#category-filter").value;
-  const confidence = document.querySelector("#confidence-filter").value;
-  const topic = document.querySelector("#topic-filter").value;
-  const search = document.querySelector("#search-filter").value.trim().toLowerCase();
+  const zone = document.querySelector("#zone-filter")?.value || "";
+  const category = document.querySelector("#category-filter")?.value || "";
+  const confidence = document.querySelector("#confidence-filter")?.value || "";
+  const topic = document.querySelector("#topic-filter")?.value || "";
+  const search = (document.querySelector("#search-filter")?.value || "").trim().toLowerCase();
   return (
     (!zone || row.zone === zone) &&
     (!category || row.category === category) &&
@@ -346,10 +365,12 @@ function compareRows(a, b) {
 }
 
 function renderTable() {
+  const table = document.querySelector("#data-table");
+  if (!table) return;
   const rows = state.rows.filter(rowMatches).sort(compareRows);
-  const tbody = document.querySelector("#data-table tbody");
+  const tbody = table.querySelector("tbody");
   const count = document.querySelector("#table-count");
-  count.textContent = `${rows.length} of ${state.rows.length} rows shown.`;
+  if (count) count.textContent = `${rows.length} of ${state.rows.length} rows shown.`;
   tbody.innerHTML = rows.length
     ? rows.map((row) => `
       <tr>
@@ -367,6 +388,7 @@ function renderTable() {
 }
 
 function setupTableControls() {
+  if (!document.querySelector("#data-table")) return;
   const sortMap = {
     Zone: "zone",
     Index: "index",
@@ -424,6 +446,7 @@ function downloadFilteredCsv() {
 
 function renderTopicFilter() {
   const select = document.querySelector("#topic-filter");
+  if (!select) return;
   const topics = state.topicSummary.topicCounts.map((entry) => entry.topic).sort();
   select.innerHTML += topics.map((topic) => `<option value="${escapeHtml(topic)}">${escapeHtml(topic)}</option>`).join("");
 }
@@ -431,6 +454,7 @@ function renderTopicFilter() {
 function renderAuditSummary() {
   const review = document.querySelector("#review-queue-summary");
   const manifest = document.querySelector("#manifest-summary");
+  if (!review || !manifest) return;
   const needsReview = state.summary.combined.needsReview;
   review.textContent = `${needsReview} of ${state.summary.combined.totalResponses} classifications are medium or low confidence and should be prioritized for human review.`;
   manifest.textContent = `${state.manifest.files.length} public files are described in the generated manifest.`;
@@ -438,6 +462,7 @@ function renderAuditSummary() {
 
 async function renderDownloads() {
   const grid = document.querySelector("#download-grid");
+  if (!grid) return;
   const cards = await Promise.all(downloads.map(async (item) => {
     const size = await getFileSize(item.href);
     const external = item.href.startsWith("http");
@@ -484,7 +509,7 @@ async function init() {
   renderAuditSummary();
   setupTableControls();
   ["#zone-filter", "#category-filter", "#confidence-filter", "#topic-filter", "#search-filter"].forEach((selector) => {
-    document.querySelector(selector).addEventListener("input", renderTable);
+    document.querySelector(selector)?.addEventListener("input", renderTable);
   });
 }
 

@@ -21,7 +21,7 @@
   <body>
     <header class="site-header">
       <nav class="top-nav" aria-label="Primary navigation">
-        <a class="brand" href="#home" aria-label="Narberth zoning survey explorer home">
+        <a class="brand" href="index.html#home" aria-label="Narberth zoning survey explorer home">
           <span class="brand-mark" aria-hidden="true">N</span>
           <span>Narberth zoning survey explorer</span>
         </a>
@@ -31,7 +31,7 @@
         <div id="nav-links" class="nav-links">
           <a href="#home">Summary</a>
           <a href="#charts">Charts</a>
-          <a href="#tables">Tables</a>
+          <a href="table.html">Table</a>
           <a href="#findings">Findings</a>
           <a href="#methodology">Methodology</a>
           <a href="#audit">Audit</a>
@@ -129,74 +129,6 @@
           <p class="muted">Small page-level bars help show whether response mix changes across the analyzed sections.</p>
           <div id="page-chart" class="page-chart" role="img" aria-label="Stance distribution by PDF page"></div>
         </article>
-      </section>
-
-      <section id="tables" class="page-section">
-        <div class="section-heading">
-          <p class="eyebrow">Tables and data</p>
-          <h2>Classified response table</h2>
-          <p>This page intentionally avoids charts so the row-level classification data is easier to audit.</p>
-        </div>
-        <form class="filters" aria-label="Filter table">
-          <label>
-            Zone
-            <select id="zone-filter">
-              <option value="">All zones</option>
-              <option value="Zone 4A">Zone 4A</option>
-              <option value="Zone 5B">Zone 5B</option>
-            </select>
-          </label>
-          <label>
-            Stance
-            <select id="category-filter">
-              <option value="">All stances</option>
-              <option value="Against proposed Zoning Changes">Against proposed Zoning Changes</option>
-              <option value="Neutral">Neutral</option>
-              <option value="In Favor of proposed Zoning Changes">In Favor of proposed Zoning Changes</option>
-            </select>
-          </label>
-          <label>
-            Confidence
-            <select id="confidence-filter">
-              <option value="">All confidence levels</option>
-              <option value="high">High</option>
-              <option value="medium">Medium</option>
-              <option value="low">Low</option>
-            </select>
-          </label>
-          <label>
-            Topic
-            <select id="topic-filter">
-              <option value="">All topics</option>
-            </select>
-          </label>
-          <label>
-            Search rationale
-            <input id="search-filter" type="search" placeholder="parking, height, traffic">
-          </label>
-          <div class="filter-actions">
-            <button id="reset-filters" class="button" type="button">Reset filters</button>
-            <button id="download-filtered" class="button" type="button">Download filtered CSV</button>
-          </div>
-        </form>
-        <p id="table-count" class="muted" aria-live="polite"></p>
-        <div class="table-wrap">
-          <table id="data-table">
-            <thead>
-              <tr>
-                <th scope="col">Zone</th>
-                <th scope="col">Index</th>
-                <th scope="col">Page</th>
-                <th scope="col">Stance</th>
-                <th scope="col">Confidence</th>
-                <th scope="col">Topics</th>
-                <th scope="col">Needs review</th>
-                <th scope="col">Rationale</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
-        </div>
       </section>
 
       <section id="findings" class="page-section">

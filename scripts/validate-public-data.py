@@ -7,6 +7,7 @@ import re
 import zipfile
 from pathlib import Path
 from xml.etree import ElementTree
+from urllib.parse import urlsplit
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -94,14 +95,17 @@ def validate_json(errors: list[str]) -> None:
 
 
 def validate_links(errors: list[str]) -> None:
-    html = (DOCS / "index.html").read_text(encoding="utf-8")
+    html = "\n".join(path.read_text(encoding="utf-8") for path in DOCS.glob("*.html"))
     app = (DOCS / "assets/app.js").read_text(encoding="utf-8")
     hrefs = re.findall(r'(?:href|src)="([^"]+)"', html)
     hrefs += re.findall(r'href: "([^"]+)"', app)
     for href in hrefs:
         if href.startswith(("http", "#", "mailto:")):
             continue
-        if not (DOCS / href).exists():
+        path = urlsplit(href).path
+        if not path:
+            continue
+        if not (DOCS / path).exists():
             errors.append(f"missing linked asset: {href}")
 
 
