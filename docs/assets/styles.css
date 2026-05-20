@@ -1,54 +1,54 @@
 :root {
   color-scheme: light;
-  --cp-bg: #f7f4ef;
-  --cp-bg-elevated: #fcfbf8;
+  --cp-bg: #f4f5f7;
+  --cp-bg-elevated: #ffffff;
   --cp-surface: #ffffff;
-  --cp-surface-soft: #f5f5f5;
-  --cp-border: #dedede;
-  --cp-border-strong: #919191;
-  --cp-text: #242424;
-  --cp-text-muted: #5c5c5c;
-  --cp-text-soft: #6f6f6f;
-  --cp-accent: #b11f4b;
-  --cp-accent-hover: #9a1a41;
-  --cp-accent-soft: rgba(177, 31, 75, 0.08);
+  --cp-surface-soft: #e4e5e7;
+  --cp-border: #c7c9cc;
+  --cp-border-strong: #6c7077;
+  --cp-text: #1f2933;
+  --cp-text-muted: #5f6670;
+  --cp-text-soft: #6f7782;
+  --cp-accent: #1e407c;
+  --cp-accent-hover: #001e44;
+  --cp-accent-soft: rgba(30, 64, 124, 0.1);
   --cp-accent-fg: #ffffff;
-  --cp-success: #16a34a;
-  --cp-danger: #dc2626;
+  --cp-success: #15803d;
+  --cp-danger: #b91c1c;
   --cp-warning: #f59e0b;
-  --cp-link: #0078d4;
+  --cp-link: #1e407c;
   --cp-shadow: 0 18px 48px rgba(0, 0, 0, 0.12);
   --cp-overlay: rgba(255, 255, 255, 0.8);
   --cp-panel: rgba(255, 255, 255, 0.86);
   --cp-panel-strong: rgba(255, 255, 255, 0.96);
   --cp-sheen: rgba(255, 255, 255, 0.55);
-  --cp-highlight: rgba(177, 31, 75, 0.12);
+  --cp-highlight: rgba(30, 64, 124, 0.12);
 }
 html[data-theme="dark"] {
   color-scheme: dark;
-  --cp-bg: #3d3b3a;
-  --cp-bg-elevated: #343231;
-  --cp-surface: #292929;
-  --cp-surface-soft: #2e2e2e;
-  --cp-border: #474747;
-  --cp-border-strong: #5f5f5f;
-  --cp-text: #dedede;
-  --cp-text-muted: #919191;
-  --cp-text-soft: #b0b0b0;
-  --cp-accent: #fd8ea1;
-  --cp-accent-hover: #fb7b91;
-  --cp-accent-soft: rgba(253, 142, 161, 0.14);
-  --cp-accent-fg: #1a1a1a;
+  --cp-bg: #0b1628;
+  --cp-bg-elevated: #101f36;
+  --cp-surface: #14243d;
+  --cp-surface-soft: #1f2f49;
+  --cp-border: #33445f;
+  --cp-border-strong: #7c8798;
+  --cp-text: #f4f5f7;
+  --cp-text-muted: #c7c9cc;
+  --cp-text-soft: #a8adb5;
+  --cp-accent: #8fb3e8;
+  --cp-accent-hover: #b8cff0;
+  --cp-accent-soft: rgba(143, 179, 232, 0.16);
+  --cp-accent-fg: #001e44;
   --cp-success: #4ade80;
   --cp-danger: #f87171;
   --cp-warning: #fbbf24;
-  --cp-link: #4da6ff;
+  --cp-link: #b8cff0;
   --cp-shadow: 0 18px 48px rgba(0, 0, 0, 0.32);
-  --cp-overlay: rgba(41, 41, 41, 0.88);
-  --cp-panel: rgba(41, 41, 41, 0.72);
-  --cp-panel-strong: rgba(41, 41, 41, 0.96);
+  --cp-overlay: rgba(11, 22, 40, 0.88);
+  --cp-panel: rgba(20, 36, 61, 0.72);
+  --cp-panel-strong: rgba(20, 36, 61, 0.96);
   --cp-sheen: rgba(255, 255, 255, 0.04);
-  --cp-highlight: rgba(253, 142, 161, 0.12);
+  --cp-highlight: rgba(143, 179, 232, 0.14);
 }
 
 * {
@@ -348,7 +348,7 @@ h3 {
 }
 
 .segment.against {
-  background: var(--cp-accent);
+  background: var(--cp-danger);
 }
 
 .segment.neutral {
@@ -424,7 +424,7 @@ h3 {
   width: 0.8rem;
   height: 0.8rem;
   border-radius: 0.25rem;
-  background: var(--cp-accent);
+  background: var(--cp-danger);
 }
 
 .swatch.neutral {
@@ -433,6 +433,21 @@ h3 {
 
 .swatch.favor {
   background: var(--cp-success);
+}
+
+.tone-negative {
+  color: var(--cp-danger);
+  font-weight: 700;
+}
+
+.tone-positive {
+  color: var(--cp-success);
+  font-weight: 700;
+}
+
+.tone-neutral {
+  color: var(--cp-text-muted);
+  font-weight: 700;
 }
 
 canvas {

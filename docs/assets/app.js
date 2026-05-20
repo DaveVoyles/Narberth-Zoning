@@ -16,6 +16,12 @@ const classByCategory = new Map([
   ["In Favor of proposed Zoning Changes", "favor"],
 ]);
 
+const toneByCategory = new Map([
+  ["Against proposed Zoning Changes", "tone-negative"],
+  ["Neutral", "tone-neutral"],
+  ["In Favor of proposed Zoning Changes", "tone-positive"],
+]);
+
 const downloads = [
   { title: "Raw survey results", href: "documents/raw-survey-results.pdf", format: "PDF", description: "Original 90+ page survey export used as the source document." },
   { title: "Zone 4A classifications", href: "data/zone-4a-classified.csv", format: "CSV", description: "Enriched row-level classification output for Zone 4A responses." },
@@ -122,7 +128,7 @@ function renderSummaryCards() {
     const favor = zone.categories.find((entry) => entry.category === categoryOrder[2]);
     return `
       <div class="stat">
-        <span class="stat-value">${against.percent}%</span>
+        <span class="stat-value tone-negative">${against.percent}%</span>
         <span class="stat-label">${escapeHtml(zone.zone)} against as written</span>
         <p class="muted">${against.count} against / ${favor.count} in favor / ${zone.totalResponses} total</p>
       </div>
@@ -231,7 +237,7 @@ function renderParticles() {
   const gl = canvas.getContext("webgl", { antialias: true, alpha: false });
   const ctx = gl ? null : canvas.getContext("2d");
   const colors = {
-    against: colorToRgb(cssVar("--cp-accent")),
+    against: colorToRgb(cssVar("--cp-danger")),
     neutral: colorToRgb(cssVar("--cp-text-muted")),
     favor: colorToRgb(cssVar("--cp-success")),
     bg: colorToRgb(cssVar("--cp-bg-elevated")),
@@ -258,7 +264,7 @@ function renderParticles() {
     points.forEach((point) => {
       ctx.beginPath();
       ctx.arc(point.x * width, point.y * height, 3, 0, Math.PI * 2);
-      ctx.fillStyle = cssVar(point.category === "against" ? "--cp-accent" : point.category === "favor" ? "--cp-success" : "--cp-text-muted");
+      ctx.fillStyle = cssVar(point.category === "against" ? "--cp-danger" : point.category === "favor" ? "--cp-success" : "--cp-text-muted");
       ctx.fill();
     });
   }
@@ -377,7 +383,7 @@ function renderTable() {
         <td>${escapeHtml(row.zone)}</td>
         <td>${row.index}</td>
         <td>${row.page}</td>
-        <td>${escapeHtml(row.category)}</td>
+        <td class="${toneByCategory.get(row.category) || ""}">${escapeHtml(row.category)}</td>
         <td>${escapeHtml(row.confidence)}</td>
         <td>${escapeHtml(row.topics)}</td>
         <td>${escapeHtml(row.needs_review)}</td>
