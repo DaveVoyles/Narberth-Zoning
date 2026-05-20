@@ -47,7 +47,8 @@ Medium. This is a user-facing website and multi-file static asset/data change, b
 
 - Python validation script/check: CSV row counts, category totals, JSON validity, link target existence, XLSX zip/XML integrity.
 - Local file inspection: confirm site references only committed assets.
-- Optional GitHub push result: confirm commit reaches `origin/main`.
+- GitHub push result: confirm commit reaches `origin/main`.
+- GitHub Pages status: confirm Pages source is `main` / `docs` and deployment status is built.
 
 ### Existing patterns
 
@@ -180,6 +181,7 @@ None currently.
 | 20:27 | 4 | Chewy 🐻💪 | ⚠️ Completion review blocking: commit/push not yet done |
 | 20:29 | 6 | Luke 🌟⚔️ | ✅ Code review passed with no significant issues |
 | 20:30 | 0 | Orchestrator | ✅ Completion blocker resolved by final commit/push workflow |
+| 20:33 | 0 | Orchestrator | ✅ GitHub Pages enabled from `main` / `docs`; status reported `built` |
 
 ## Wave 0 Retrospective
 
@@ -273,7 +275,7 @@ None currently.
 
 - Add automated accessibility smoke testing if a test runner is introduced.
 - Add more robust client-side fetch/WebGL error messaging in a later polish pass.
-- Confirm GitHub Pages serves from `main` / `docs` after repository settings are available.
+- GitHub Pages serves from `main` / `docs`; status reported `built`.
 
 ### Duck findings
 
@@ -289,6 +291,7 @@ None currently.
 ### Decision log
 
 - ✅ Commit/push allowed because the user explicitly requested implementation, commit, and push.
+- ✅ GitHub Pages enabled from `main` branch and `/docs` folder.
 
 ## Definition of Done
 
@@ -300,6 +303,7 @@ None currently.
 - [x] Lane Contracts fulfilled.
 - [x] Synthesis complete.
 - [x] Relevant checks passed.
+- [x] GitHub Pages configured and built.
 - [x] Doc sync confirmed.
 - [x] No intentional shortcuts requiring TODO comments.
 - [x] Quality gates documented.
