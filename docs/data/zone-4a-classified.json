@@ -5,7 +5,11 @@
     "page": 90,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes apartments traffic parking"
+    "rationale": "opposes apartments traffic parking",
+    "topics": "Parking; Traffic and safety; Density; Conditional or mixed response",
+    "topic_count": 4,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -13,7 +17,11 @@
     "page": 90,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes ADUs and lot coverage"
+    "rationale": "opposes ADUs and lot coverage",
+    "topics": "Green space and stormwater",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -21,7 +29,11 @@
     "page": 90,
     "category": "Neutral",
     "confidence": "medium",
-    "rationale": "needs more information"
+    "rationale": "needs more information",
+    "topics": "Unclear or neutral",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -29,7 +41,11 @@
     "page": 90,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "explicitly opposes 4a changes"
+    "rationale": "explicitly opposes 4a changes",
+    "topics": "General opposition",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -37,7 +53,11 @@
     "page": 90,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "against new development"
+    "rationale": "against new development",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -45,7 +65,11 @@
     "page": 90,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes density and parking impacts"
+    "rationale": "opposes density and parking impacts",
+    "topics": "Parking; Density",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -53,7 +77,11 @@
     "page": 90,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes height and setbacks"
+    "rationale": "opposes height and setbacks",
+    "topics": "Building height",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -61,7 +89,11 @@
     "page": 90,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "supports additional housing units"
+    "rationale": "supports additional housing units",
+    "topics": "Density",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -69,7 +101,11 @@
     "page": 90,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "says approve"
+    "rationale": "says approve",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -77,7 +113,11 @@
     "page": 90,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "says agree"
+    "rationale": "says agree",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -85,7 +125,11 @@
     "page": 90,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "not in favor of higher buildings"
+    "rationale": "not in favor of higher buildings",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -93,7 +137,11 @@
     "page": 90,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes high rise buildings"
+    "rationale": "opposes high rise buildings",
+    "topics": "General opposition",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -101,7 +149,11 @@
     "page": 90,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "says stop development"
+    "rationale": "says stop development",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -109,7 +161,11 @@
     "page": 90,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "supports with affordability caveat"
+    "rationale": "supports with affordability caveat",
+    "topics": "Affordable housing",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -117,7 +173,11 @@
     "page": 91,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "explicitly opposes proposed changes"
+    "rationale": "explicitly opposes proposed changes",
+    "topics": "General opposition",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -125,7 +185,11 @@
     "page": 91,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes taller buildings"
+    "rationale": "opposes taller buildings",
+    "topics": "Building height",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -133,7 +197,11 @@
     "page": 91,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "requires off street parking"
+    "rationale": "requires off street parking",
+    "topics": "Parking; Traffic and safety",
+    "topic_count": 2,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -141,7 +209,11 @@
     "page": 91,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes urbanizing change"
+    "rationale": "opposes urbanizing change",
+    "topics": "General opposition",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -149,7 +221,11 @@
     "page": 91,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes more building"
+    "rationale": "opposes more building",
+    "topics": "General opposition",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -157,7 +233,11 @@
     "page": 91,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "urges rejection of changes"
+    "rationale": "urges rejection of changes",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -165,7 +245,11 @@
     "page": 91,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes density without parking"
+    "rationale": "opposes density without parking",
+    "topics": "Parking; Density",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -173,7 +257,11 @@
     "page": 91,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "against apartments and taller buildings"
+    "rationale": "against apartments and taller buildings",
+    "topics": "Building height; Density; Conditional or mixed response",
+    "topic_count": 3,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -181,7 +269,11 @@
     "page": 91,
     "category": "Neutral",
     "confidence": "medium",
-    "rationale": "unsure and conditional"
+    "rationale": "unsure and conditional",
+    "topics": "Conditional or mixed response",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -189,7 +281,11 @@
     "page": 91,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "says no and reconsider later"
+    "rationale": "says no and reconsider later",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -197,7 +293,11 @@
     "page": 91,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes apartments density height"
+    "rationale": "opposes apartments density height",
+    "topics": "Building height; Density; Conditional or mixed response",
+    "topic_count": 3,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -205,7 +305,11 @@
     "page": 91,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "strongly opposes"
+    "rationale": "strongly opposes",
+    "topics": "General opposition",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -213,7 +317,11 @@
     "page": 91,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "supports density overall"
+    "rationale": "supports density overall",
+    "topics": "Density",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -221,7 +329,11 @@
     "page": 91,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "not supportive"
+    "rationale": "not supportive",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -229,7 +341,11 @@
     "page": 91,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "very opposed"
+    "rationale": "very opposed",
+    "topics": "General opposition",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -237,7 +353,11 @@
     "page": 92,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "terrible idea parking concerns"
+    "rationale": "terrible idea parking concerns",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -245,7 +365,11 @@
     "page": 92,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "disagrees with most proposed changes"
+    "rationale": "disagrees with most proposed changes",
+    "topics": "General opposition",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -253,7 +377,11 @@
     "page": 92,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "not in favor"
+    "rationale": "not in favor",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -261,7 +389,11 @@
     "page": 92,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "skeptical of builder influence"
+    "rationale": "skeptical of builder influence",
+    "topics": "Developer incentives",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -269,7 +401,11 @@
     "page": 92,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "does not like solution"
+    "rationale": "does not like solution",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -277,7 +413,11 @@
     "page": 92,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "against due to parking"
+    "rationale": "against due to parking",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -285,7 +425,11 @@
     "page": 92,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes zoning changes"
+    "rationale": "opposes zoning changes",
+    "topics": "General opposition",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -293,7 +437,11 @@
     "page": 92,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "strongly objects to apartments"
+    "rationale": "strongly objects to apartments",
+    "topics": "Density; Conditional or mixed response",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -301,7 +449,11 @@
     "page": 92,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "rejects height and parking changes"
+    "rationale": "rejects height and parking changes",
+    "topics": "Parking; Building height",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -309,7 +461,11 @@
     "page": 92,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes more apartments"
+    "rationale": "opposes more apartments",
+    "topics": "Density; Conditional or mixed response",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -317,7 +473,11 @@
     "page": 92,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "rejects reduced parking"
+    "rationale": "rejects reduced parking",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -325,7 +485,11 @@
     "page": 92,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "supports reduced parking"
+    "rationale": "supports reduced parking",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -333,7 +497,11 @@
     "page": 92,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "supports more foot traffic"
+    "rationale": "supports more foot traffic",
+    "topics": "Traffic and safety",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -341,7 +509,11 @@
     "page": 92,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "says good"
+    "rationale": "says good",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -349,7 +521,11 @@
     "page": 92,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "says not smart"
+    "rationale": "says not smart",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -357,7 +533,11 @@
     "page": 92,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "strongly against"
+    "rationale": "strongly against",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -365,7 +545,11 @@
     "page": 92,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "does not support"
+    "rationale": "does not support",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -373,7 +557,11 @@
     "page": 92,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "thumbs up"
+    "rationale": "thumbs up",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -381,7 +569,11 @@
     "page": 92,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "does not agree with changes"
+    "rationale": "does not agree with changes",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -389,7 +581,11 @@
     "page": 92,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "not in favor"
+    "rationale": "not in favor",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -397,7 +593,11 @@
     "page": 92,
     "category": "Neutral",
     "confidence": "high",
-    "rationale": "states neutral"
+    "rationale": "states neutral",
+    "topics": "Unclear or neutral",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -405,7 +605,11 @@
     "page": 92,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "alleges conflicts and property harm"
+    "rationale": "alleges conflicts and property harm",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -413,7 +617,11 @@
     "page": 92,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "zoning not acceptable"
+    "rationale": "zoning not acceptable",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -421,7 +629,11 @@
     "page": 92,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes fourth floors"
+    "rationale": "opposes fourth floors",
+    "topics": "General opposition",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -429,7 +641,11 @@
     "page": 92,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes height and new zoning"
+    "rationale": "opposes height and new zoning",
+    "topics": "Building height",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -437,7 +653,11 @@
     "page": 92,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "says no good"
+    "rationale": "says no good",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -445,7 +665,11 @@
     "page": 93,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes density and parking reduction"
+    "rationale": "opposes density and parking reduction",
+    "topics": "Parking; Density",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -453,7 +677,11 @@
     "page": 93,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "says against it"
+    "rationale": "says against it",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -461,7 +689,11 @@
     "page": 93,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "absolutely against"
+    "rationale": "absolutely against",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -469,7 +701,11 @@
     "page": 93,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "prefers no growth due to parking"
+    "rationale": "prefers no growth due to parking",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -477,7 +713,11 @@
     "page": 93,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "says destroying Narberth"
+    "rationale": "says destroying Narberth",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -485,7 +725,11 @@
     "page": 93,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "rejects apartments and parking reduction"
+    "rationale": "rejects apartments and parking reduction",
+    "topics": "Parking; Density; Conditional or mixed response",
+    "topic_count": 3,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -493,7 +737,11 @@
     "page": 93,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "rejects height and parking changes"
+    "rationale": "rejects height and parking changes",
+    "topics": "Parking; Building height",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -501,7 +749,11 @@
     "page": 93,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "calls ideas terrible"
+    "rationale": "calls ideas terrible",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -509,7 +761,11 @@
     "page": 93,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "strongly supports parking reduction"
+    "rationale": "strongly supports parking reduction",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -517,7 +773,11 @@
     "page": 93,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "asks rejection"
+    "rationale": "asks rejection",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -525,7 +785,11 @@
     "page": 93,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "supports going higher"
+    "rationale": "supports going higher",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -533,7 +797,11 @@
     "page": 93,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "says residents do not want issues"
+    "rationale": "says residents do not want issues",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -541,7 +809,11 @@
     "page": 93,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes density impacts"
+    "rationale": "opposes density impacts",
+    "topics": "Density",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -549,7 +821,11 @@
     "page": 93,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "reasonable changes"
+    "rationale": "reasonable changes",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -557,7 +833,11 @@
     "page": 94,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes height affordability parking changes"
+    "rationale": "opposes height affordability parking changes",
+    "topics": "Parking; Building height; Affordable housing",
+    "topic_count": 3,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -565,7 +845,11 @@
     "page": 94,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "supports density and parking proposals"
+    "rationale": "supports density and parking proposals",
+    "topics": "Parking; Density",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -573,7 +857,11 @@
     "page": 94,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "rejects ADUs height and parking reduction"
+    "rationale": "rejects ADUs height and parking reduction",
+    "topics": "Parking; Building height",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -581,7 +869,11 @@
     "page": 94,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "rejects less than one parking space"
+    "rationale": "rejects less than one parking space",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -589,7 +881,11 @@
     "page": 94,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "supports eliminating parking minimums"
+    "rationale": "supports eliminating parking minimums",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -597,7 +893,11 @@
     "page": 94,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "limits change and opposes apartments"
+    "rationale": "limits change and opposes apartments",
+    "topics": "Density; Conditional or mixed response",
+    "topic_count": 2,
+    "needs_review": "yes",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -605,7 +905,11 @@
     "page": 94,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "rejects parking reduction and fourth story"
+    "rationale": "rejects parking reduction and fourth story",
+    "topics": "Parking; Building height",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -613,7 +917,11 @@
     "page": 94,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes reduced parking"
+    "rationale": "opposes reduced parking",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -621,7 +929,11 @@
     "page": 94,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes apartment scale and parking"
+    "rationale": "opposes apartment scale and parking",
+    "topics": "Parking; Density; Neighborhood character; Conditional or mixed response",
+    "topic_count": 4,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -629,7 +941,11 @@
     "page": 94,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "says fine"
+    "rationale": "says fine",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -637,7 +953,11 @@
     "page": 94,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposed"
+    "rationale": "opposed",
+    "topics": "General opposition",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -645,7 +965,11 @@
     "page": 94,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "bad idea"
+    "rationale": "bad idea",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -653,7 +977,11 @@
     "page": 94,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "says proposal lacks parking"
+    "rationale": "says proposal lacks parking",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -661,7 +989,11 @@
     "page": 94,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "not needed"
+    "rationale": "not needed",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -669,7 +1001,11 @@
     "page": 94,
     "category": "Neutral",
     "confidence": "low",
-    "rationale": "refers to prior answer"
+    "rationale": "refers to prior answer",
+    "topics": "Unclear or neutral",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -677,7 +1013,11 @@
     "page": 94,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "does not support"
+    "rationale": "does not support",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -685,7 +1025,11 @@
     "page": 94,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes high rise buildings"
+    "rationale": "opposes high rise buildings",
+    "topics": "General opposition",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -693,7 +1037,11 @@
     "page": 94,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "not in favor due traffic noise"
+    "rationale": "not in favor due traffic noise",
+    "topics": "Traffic and safety",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -701,7 +1049,11 @@
     "page": 94,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "says not good"
+    "rationale": "says not good",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -709,7 +1061,11 @@
     "page": 94,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "concerned about developers and height"
+    "rationale": "concerned about developers and height",
+    "topics": "Building height; Developer incentives",
+    "topic_count": 2,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -717,7 +1073,11 @@
     "page": 94,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes density bonus parking height"
+    "rationale": "opposes density bonus parking height",
+    "topics": "Parking; Building height; Density; Affordable housing",
+    "topic_count": 4,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -725,7 +1085,11 @@
     "page": 94,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "explicitly supports changes"
+    "rationale": "explicitly supports changes",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -733,7 +1097,11 @@
     "page": 94,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes more apartments"
+    "rationale": "opposes more apartments",
+    "topics": "Density; Conditional or mixed response",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -741,7 +1109,11 @@
     "page": 94,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes apartments and parking reduction"
+    "rationale": "opposes apartments and parking reduction",
+    "topics": "Parking; Density; Conditional or mixed response",
+    "topic_count": 3,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -749,7 +1121,11 @@
     "page": 94,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "disagrees with height increase"
+    "rationale": "disagrees with height increase",
+    "topics": "Building height",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -757,7 +1133,11 @@
     "page": 94,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "does not support zoning change"
+    "rationale": "does not support zoning change",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -765,7 +1145,11 @@
     "page": 94,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "prefers status quo"
+    "rationale": "prefers status quo",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -773,7 +1157,11 @@
     "page": 95,
     "category": "Neutral",
     "confidence": "low",
-    "rationale": "refers to prior answer"
+    "rationale": "refers to prior answer",
+    "topics": "Unclear or neutral",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -781,7 +1169,11 @@
     "page": 95,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "disagree"
+    "rationale": "disagree",
+    "topics": "General opposition",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -789,7 +1181,11 @@
     "page": 95,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "rejects height and parking changes"
+    "rationale": "rejects height and parking changes",
+    "topics": "Parking; Building height",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -797,7 +1193,11 @@
     "page": 95,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes more apartments"
+    "rationale": "opposes more apartments",
+    "topics": "Density; Conditional or mixed response",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -805,7 +1205,11 @@
     "page": 95,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "wants zoning left unchanged"
+    "rationale": "wants zoning left unchanged",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -813,7 +1217,11 @@
     "page": 95,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "supports fourth story possibility"
+    "rationale": "supports fourth story possibility",
+    "topics": "Building height",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -821,7 +1229,11 @@
     "page": 95,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes removing conditional use and parking reduction"
+    "rationale": "opposes removing conditional use and parking reduction",
+    "topics": "Parking; Conditional or mixed response",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -829,7 +1241,11 @@
     "page": 95,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "wants zone kept as is"
+    "rationale": "wants zone kept as is",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -837,7 +1253,11 @@
     "page": 95,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes density anywhere"
+    "rationale": "opposes density anywhere",
+    "topics": "Density",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -845,7 +1265,11 @@
     "page": 95,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "cites transit and parking problems"
+    "rationale": "cites transit and parking problems",
+    "topics": "Parking; Transit and walkability",
+    "topic_count": 2,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -853,7 +1277,11 @@
     "page": 95,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes height increase"
+    "rationale": "opposes height increase",
+    "topics": "Building height",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -861,7 +1289,11 @@
     "page": 95,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes apartments and multifamily"
+    "rationale": "opposes apartments and multifamily",
+    "topics": "Density; Conditional or mixed response",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -869,7 +1301,11 @@
     "page": 95,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "directly says do not"
+    "rationale": "directly says do not",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -877,7 +1313,11 @@
     "page": 95,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes height traffic and drainage impacts"
+    "rationale": "opposes height traffic and drainage impacts",
+    "topics": "Traffic and safety; Building height",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -885,7 +1325,11 @@
     "page": 95,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes height and parking changes"
+    "rationale": "opposes height and parking changes",
+    "topics": "Parking; Building height",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -893,7 +1337,11 @@
     "page": 95,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "very opposed"
+    "rationale": "very opposed",
+    "topics": "General opposition",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -901,7 +1349,11 @@
     "page": 95,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "strongly disagrees"
+    "rationale": "strongly disagrees",
+    "topics": "General opposition",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -909,7 +1361,11 @@
     "page": 95,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes unsupported density"
+    "rationale": "opposes unsupported density",
+    "topics": "Density",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -917,7 +1373,11 @@
     "page": 95,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "criticizes density issues as unresolved"
+    "rationale": "criticizes density issues as unresolved",
+    "topics": "Density",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -925,7 +1385,11 @@
     "page": 95,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "explicitly against it"
+    "rationale": "explicitly against it",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -933,7 +1397,11 @@
     "page": 95,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "says likes it"
+    "rationale": "says likes it",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -941,7 +1409,11 @@
     "page": 95,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "rejects more apartments"
+    "rationale": "rejects more apartments",
+    "topics": "Density; Conditional or mixed response",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -949,7 +1421,11 @@
     "page": 95,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes four stories and apartments"
+    "rationale": "opposes four stories and apartments",
+    "topics": "Building height; Density; Conditional or mixed response",
+    "topic_count": 3,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -957,7 +1433,11 @@
     "page": 95,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "likes septa pass caveat"
+    "rationale": "likes septa pass caveat",
+    "topics": "Transit and walkability",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -965,7 +1445,11 @@
     "page": 95,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "finds proposal more reasonable"
+    "rationale": "finds proposal more reasonable",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -973,7 +1457,11 @@
     "page": 95,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes higher building"
+    "rationale": "opposes higher building",
+    "topics": "General opposition",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -981,7 +1469,11 @@
     "page": 95,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes parking reduction"
+    "rationale": "opposes parking reduction",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -989,7 +1481,11 @@
     "page": 95,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "agrees with them"
+    "rationale": "agrees with them",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -997,7 +1493,11 @@
     "page": 95,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "says changes sound good"
+    "rationale": "says changes sound good",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1005,7 +1505,11 @@
     "page": 95,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "finds proposal feasible with question"
+    "rationale": "finds proposal feasible with question",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1013,7 +1517,11 @@
     "page": 95,
     "category": "Neutral",
     "confidence": "medium",
-    "rationale": "unclear and asks about parking reduction"
+    "rationale": "unclear and asks about parking reduction",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1021,7 +1529,11 @@
     "page": 95,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "does not like it"
+    "rationale": "does not like it",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1029,7 +1541,11 @@
     "page": 96,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "explicitly in favor"
+    "rationale": "explicitly in favor",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1037,7 +1553,11 @@
     "page": 96,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "emphasizes scarce parking"
+    "rationale": "emphasizes scarce parking",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1045,7 +1565,11 @@
     "page": 96,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "supports lower income housing incentive"
+    "rationale": "supports lower income housing incentive",
+    "topics": "Developer incentives",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1053,7 +1577,11 @@
     "page": 96,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "finds changes appropriate"
+    "rationale": "finds changes appropriate",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1061,7 +1589,11 @@
     "page": 96,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "rejects proposals outright"
+    "rationale": "rejects proposals outright",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1069,7 +1601,11 @@
     "page": 96,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "supports fourth floor with caveat"
+    "rationale": "supports fourth floor with caveat",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1077,7 +1613,11 @@
     "page": 96,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "calls idea terrible and too urban"
+    "rationale": "calls idea terrible and too urban",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1085,7 +1625,11 @@
     "page": 96,
     "category": "Neutral",
     "confidence": "high",
-    "rationale": "needs more information"
+    "rationale": "needs more information",
+    "topics": "Unclear or neutral",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1093,7 +1637,11 @@
     "page": 96,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "accepts some types but rejects fourth story"
+    "rationale": "accepts some types but rejects fourth story",
+    "topics": "Building height; Conditional or mixed response",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -1101,7 +1649,11 @@
     "page": 96,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes density parking and height"
+    "rationale": "opposes density parking and height",
+    "topics": "Parking; Building height; Density",
+    "topic_count": 3,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1109,7 +1661,11 @@
     "page": 96,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "against additional housing development"
+    "rationale": "against additional housing development",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1117,7 +1673,11 @@
     "page": 96,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes more apartments"
+    "rationale": "opposes more apartments",
+    "topics": "Density; Conditional or mixed response",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -1125,7 +1685,11 @@
     "page": 96,
     "category": "Neutral",
     "confidence": "high",
-    "rationale": "unsure"
+    "rationale": "unsure",
+    "topics": "Unclear or neutral",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1133,7 +1697,11 @@
     "page": 96,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes higher denser development"
+    "rationale": "opposes higher denser development",
+    "topics": "Density",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1141,7 +1709,11 @@
     "page": 96,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "strongly opposes parking reductions"
+    "rationale": "strongly opposes parking reductions",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1149,7 +1721,11 @@
     "page": 96,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "wants more parking not less"
+    "rationale": "wants more parking not less",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1157,7 +1733,11 @@
     "page": 96,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes height and parking changes"
+    "rationale": "opposes height and parking changes",
+    "topics": "Parking; Building height",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1165,7 +1745,11 @@
     "page": 96,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "does not agree"
+    "rationale": "does not agree",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1173,7 +1757,11 @@
     "page": 96,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "questions density and infrastructure"
+    "rationale": "questions density and infrastructure",
+    "topics": "Density; Schools and infrastructure",
+    "topic_count": 2,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1181,7 +1769,11 @@
     "page": 96,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "wants less density and larger lots"
+    "rationale": "wants less density and larger lots",
+    "topics": "Density",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1189,7 +1781,11 @@
     "page": 96,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "says proposal goes too far"
+    "rationale": "says proposal goes too far",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1197,7 +1793,11 @@
     "page": 96,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "wants stricter parking requirements"
+    "rationale": "wants stricter parking requirements",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1205,7 +1805,11 @@
     "page": 97,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "rejects density setbacks parking and height"
+    "rationale": "rejects density setbacks parking and height",
+    "topics": "Parking; Building height; Density",
+    "topic_count": 3,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1213,7 +1817,11 @@
     "page": 97,
     "category": "Neutral",
     "confidence": "medium",
-    "rationale": "appreciates goal but stance unclear"
+    "rationale": "appreciates goal but stance unclear",
+    "topics": "Conditional or mixed response",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -1221,7 +1829,11 @@
     "page": 97,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "cites lack of parking"
+    "rationale": "cites lack of parking",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1229,7 +1841,11 @@
     "page": 97,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "states disagreement"
+    "rationale": "states disagreement",
+    "topics": "General opposition",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1237,7 +1853,11 @@
     "page": 97,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "explicitly opposes it"
+    "rationale": "explicitly opposes it",
+    "topics": "General opposition",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1245,7 +1865,11 @@
     "page": 97,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "does not approve"
+    "rationale": "does not approve",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1253,7 +1877,11 @@
     "page": 97,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "says not a good idea as written"
+    "rationale": "says not a good idea as written",
+    "topics": "Conditional or mixed response",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -1261,7 +1889,11 @@
     "page": 97,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes more apartments"
+    "rationale": "opposes more apartments",
+    "topics": "Density; Conditional or mixed response",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -1269,7 +1901,11 @@
     "page": 97,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes reducing parking"
+    "rationale": "opposes reducing parking",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1277,7 +1913,11 @@
     "page": 97,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes added congestion"
+    "rationale": "opposes added congestion",
+    "topics": "Traffic and safety",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1285,7 +1925,11 @@
     "page": 97,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "wants even taller buildings"
+    "rationale": "wants even taller buildings",
+    "topics": "Building height",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1293,7 +1937,11 @@
     "page": 97,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "rejects parking amendment"
+    "rationale": "rejects parking amendment",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1301,7 +1949,11 @@
     "page": 97,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes over three stories and parking changes"
+    "rationale": "opposes over three stories and parking changes",
+    "topics": "Parking; Building height",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1309,7 +1961,11 @@
     "page": 97,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "not in favor of zoning changes"
+    "rationale": "not in favor of zoning changes",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1317,7 +1973,11 @@
     "page": 97,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "does not approve"
+    "rationale": "does not approve",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1325,7 +1985,11 @@
     "page": 97,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "calls scope too expansive"
+    "rationale": "calls scope too expansive",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1333,7 +1997,11 @@
     "page": 97,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "against the plans"
+    "rationale": "against the plans",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1341,7 +2009,11 @@
     "page": 97,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "agrees"
+    "rationale": "agrees",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1349,7 +2021,11 @@
     "page": 97,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "accepts some housing but flags height and parking"
+    "rationale": "accepts some housing but flags height and parking",
+    "topics": "Parking; Building height; Conditional or mixed response",
+    "topic_count": 3,
+    "needs_review": "yes",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -1357,7 +2033,11 @@
     "page": 97,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes making parking harder"
+    "rationale": "opposes making parking harder",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1365,7 +2045,11 @@
     "page": 97,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes over three stories and reduced parking"
+    "rationale": "opposes over three stories and reduced parking",
+    "topics": "Parking; Building height",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1373,7 +2057,11 @@
     "page": 97,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "likes idea with rent caveat"
+    "rationale": "likes idea with rent caveat",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1381,7 +2069,11 @@
     "page": 97,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "says good"
+    "rationale": "says good",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1389,7 +2081,11 @@
     "page": 97,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "says changes harm neighborhood culture"
+    "rationale": "says changes harm neighborhood culture",
+    "topics": "Neighborhood character",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1397,7 +2093,11 @@
     "page": 97,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "hates overcrowding and no parking"
+    "rationale": "hates overcrowding and no parking",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1405,7 +2105,11 @@
     "page": 97,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes four stories and parking reduction"
+    "rationale": "opposes four stories and parking reduction",
+    "topics": "Parking; Building height",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1413,7 +2117,11 @@
     "page": 97,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "supports downtown development with parking priority"
+    "rationale": "supports downtown development with parking priority",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1421,7 +2129,11 @@
     "page": 98,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "wants expansion even more"
+    "rationale": "wants expansion even more",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1429,7 +2141,11 @@
     "page": 98,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "explicit support"
+    "rationale": "explicit support",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1437,7 +2153,11 @@
     "page": 98,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes added density and parking impacts"
+    "rationale": "opposes added density and parking impacts",
+    "topics": "Parking; Density",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1445,7 +2165,11 @@
     "page": 98,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "agrees with housing and parking changes"
+    "rationale": "agrees with housing and parking changes",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1453,7 +2177,11 @@
     "page": 98,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "supports cottage and rowhouse by right"
+    "rationale": "supports cottage and rowhouse by right",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1461,7 +2189,11 @@
     "page": 98,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes tall buildings without parking"
+    "rationale": "opposes tall buildings without parking",
+    "topics": "Parking; Building height",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1469,7 +2201,11 @@
     "page": 98,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "supports people but rejects traffic and parking cost"
+    "rationale": "supports people but rejects traffic and parking cost",
+    "topics": "Parking; Traffic and safety; Conditional or mixed response",
+    "topic_count": 3,
+    "needs_review": "yes",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -1477,7 +2213,11 @@
     "page": 98,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "wants more housing and fewer constraints"
+    "rationale": "wants more housing and fewer constraints",
+    "topics": "Transit and walkability",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1485,7 +2225,11 @@
     "page": 98,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "calls parking reduction unrealistic"
+    "rationale": "calls parking reduction unrealistic",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1493,7 +2237,11 @@
     "page": 98,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "wants even more"
+    "rationale": "wants even more",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1501,7 +2249,11 @@
     "page": 98,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "criticizes pro change agenda"
+    "rationale": "criticizes pro change agenda",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1509,7 +2261,11 @@
     "page": 98,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "bad idea no more density"
+    "rationale": "bad idea no more density",
+    "topics": "Density",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1517,7 +2273,11 @@
     "page": 98,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "repeated rejection"
+    "rationale": "repeated rejection",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1525,7 +2285,11 @@
     "page": 98,
     "category": "Neutral",
     "confidence": "high",
-    "rationale": "non substantive response"
+    "rationale": "non substantive response",
+    "topics": "Unclear or neutral",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1533,7 +2297,11 @@
     "page": 98,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes parking reduction"
+    "rationale": "opposes parking reduction",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1541,7 +2309,11 @@
     "page": 98,
     "category": "Neutral",
     "confidence": "low",
-    "rationale": "refers to unavailable prior comments"
+    "rationale": "refers to unavailable prior comments",
+    "topics": "Unclear or neutral",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1549,7 +2321,11 @@
     "page": 98,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "strongly disagrees with change"
+    "rationale": "strongly disagrees with change",
+    "topics": "General opposition",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1557,7 +2333,11 @@
     "page": 98,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "supports proposed changes"
+    "rationale": "supports proposed changes",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1565,7 +2345,11 @@
     "page": 98,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "supports housing but rejects parking elimination"
+    "rationale": "supports housing but rejects parking elimination",
+    "topics": "Parking; Conditional or mixed response",
+    "topic_count": 2,
+    "needs_review": "yes",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -1573,7 +2357,11 @@
     "page": 98,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "praises overall approach"
+    "rationale": "praises overall approach",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1581,7 +2369,11 @@
     "page": 98,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes apartments fourth story and parking reduction"
+    "rationale": "opposes apartments fourth story and parking reduction",
+    "topics": "Parking; Building height; Density; Conditional or mixed response",
+    "topic_count": 4,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -1589,7 +2381,11 @@
     "page": 99,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes parking reduction and height"
+    "rationale": "opposes parking reduction and height",
+    "topics": "Parking; Building height",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1597,7 +2393,11 @@
     "page": 99,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "says seems fine"
+    "rationale": "says seems fine",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1605,7 +2405,11 @@
     "page": 99,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes ADUs fourth floor and parking reduction"
+    "rationale": "opposes ADUs fourth floor and parking reduction",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1613,7 +2417,11 @@
     "page": 99,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "opposes height and crowding"
+    "rationale": "opposes height and crowding",
+    "topics": "Building height",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1621,7 +2429,11 @@
     "page": 99,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Opposes more rentals and ADUs"
+    "rationale": "Opposes more rentals and ADUs",
+    "topics": "General opposition",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1629,7 +2441,11 @@
     "page": 99,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Loves change and apartment building"
+    "rationale": "Loves change and apartment building",
+    "topics": "Density; Conditional or mixed response",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -1637,7 +2453,11 @@
     "page": 99,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Says not needed"
+    "rationale": "Says not needed",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1645,7 +2465,11 @@
     "page": 99,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Opposes reduced parking"
+    "rationale": "Opposes reduced parking",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1653,7 +2477,11 @@
     "page": 99,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Rejects reduced parking and apartments"
+    "rationale": "Rejects reduced parking and apartments",
+    "topics": "Parking; Density; Conditional or mixed response",
+    "topic_count": 3,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -1661,7 +2489,11 @@
     "page": 99,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Supports greater height density and parking changes"
+    "rationale": "Supports greater height density and parking changes",
+    "topics": "Parking; Building height; Density",
+    "topic_count": 3,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1669,7 +2501,11 @@
     "page": 99,
     "category": "Neutral",
     "confidence": "low",
-    "rationale": "Asks about row homes"
+    "rationale": "Asks about row homes",
+    "topics": "Unclear or neutral",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1677,7 +2513,11 @@
     "page": 99,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Calls to reduce density"
+    "rationale": "Calls to reduce density",
+    "topics": "Density",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1685,7 +2525,11 @@
     "page": 100,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Says keep existing zoning"
+    "rationale": "Says keep existing zoning",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1693,7 +2537,11 @@
     "page": 100,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Rejects high density and low income housing"
+    "rationale": "Rejects high density and low income housing",
+    "topics": "Density",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1701,7 +2549,11 @@
     "page": 100,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Does not support apartments and row homes"
+    "rationale": "Does not support apartments and row homes",
+    "topics": "Density; Conditional or mixed response",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -1709,7 +2561,11 @@
     "page": 100,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Calls changes disastrous"
+    "rationale": "Calls changes disastrous",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1717,7 +2573,11 @@
     "page": 100,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Rejects row houses and less parking"
+    "rationale": "Rejects row houses and less parking",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1725,7 +2585,11 @@
     "page": 100,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Says zoning proposals worsen problems"
+    "rationale": "Says zoning proposals worsen problems",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1733,7 +2597,11 @@
     "page": 100,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Opposes height and parking assumptions"
+    "rationale": "Opposes height and parking assumptions",
+    "topics": "Parking; Building height",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1741,7 +2609,11 @@
     "page": 101,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "Opposes high rise and stresses parking"
+    "rationale": "Opposes high rise and stresses parking",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1749,7 +2621,11 @@
     "page": 101,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "Rejects apartments by right and parking reduction"
+    "rationale": "Rejects apartments by right and parking reduction",
+    "topics": "Parking; Density; Conditional or mixed response",
+    "topic_count": 3,
+    "needs_review": "yes",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -1757,7 +2633,11 @@
     "page": 101,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Says changes should be rejected"
+    "rationale": "Says changes should be rejected",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1765,7 +2645,11 @@
     "page": 101,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "Questions process and added stories"
+    "rationale": "Questions process and added stories",
+    "topics": "Building height; Process and trust",
+    "topic_count": 2,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1773,7 +2657,11 @@
     "page": 101,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Rejects four stories and parking reduction"
+    "rationale": "Rejects four stories and parking reduction",
+    "topics": "Parking; Building height",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1781,7 +2669,11 @@
     "page": 101,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "Refers to prior opposition"
+    "rationale": "Refers to prior opposition",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1789,7 +2681,11 @@
     "page": 101,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Thumbs down"
+    "rationale": "Thumbs down",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1797,7 +2693,11 @@
     "page": 101,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Says no credibility"
+    "rationale": "Says no credibility",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1805,7 +2705,11 @@
     "page": 101,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Too much risk for little benefit"
+    "rationale": "Too much risk for little benefit",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1813,7 +2717,11 @@
     "page": 101,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Opposes apartments and tall buildings"
+    "rationale": "Opposes apartments and tall buildings",
+    "topics": "Building height; Density; Conditional or mixed response",
+    "topic_count": 3,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -1821,7 +2729,11 @@
     "page": 101,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Rejects height and parking reduction"
+    "rationale": "Rejects height and parking reduction",
+    "topics": "Parking; Building height",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1829,7 +2741,11 @@
     "page": 102,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "Opposes reducing required parking"
+    "rationale": "Opposes reducing required parking",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1837,7 +2753,11 @@
     "page": 102,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Says more housing is great"
+    "rationale": "Says more housing is great",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1845,7 +2765,11 @@
     "page": 102,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Rejects parking reduction and fourth story"
+    "rationale": "Rejects parking reduction and fourth story",
+    "topics": "Parking; Building height",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1853,7 +2777,11 @@
     "page": 102,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Says proposal sounds great"
+    "rationale": "Says proposal sounds great",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1861,7 +2789,11 @@
     "page": 102,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Calls changes good"
+    "rationale": "Calls changes good",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1869,7 +2801,11 @@
     "page": 102,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Says no changes keep present code"
+    "rationale": "Says no changes keep present code",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1877,7 +2813,11 @@
     "page": 102,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "Not a fan"
+    "rationale": "Not a fan",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1885,7 +2825,11 @@
     "page": 102,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "Challenges SEPTA based parking reduction"
+    "rationale": "Challenges SEPTA based parking reduction",
+    "topics": "Parking; Transit and walkability",
+    "topic_count": 2,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1893,7 +2837,11 @@
     "page": 102,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Says it ruins character"
+    "rationale": "Says it ruins character",
+    "topics": "Neighborhood character",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1901,7 +2849,11 @@
     "page": 102,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "Would support with concerns"
+    "rationale": "Would support with concerns",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1909,7 +2861,11 @@
     "page": 102,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "Says it makes sense"
+    "rationale": "Says it makes sense",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1917,7 +2873,11 @@
     "page": 102,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Rejects height and parking reduction"
+    "rationale": "Rejects height and parking reduction",
+    "topics": "Parking; Building height",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1925,7 +2885,11 @@
     "page": 102,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Says no"
+    "rationale": "Says no",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1933,7 +2897,11 @@
     "page": 102,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Says bad idea"
+    "rationale": "Says bad idea",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1941,7 +2909,11 @@
     "page": 102,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Rejects more density"
+    "rationale": "Rejects more density",
+    "topics": "Density",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1949,7 +2921,11 @@
     "page": 102,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "Refers to prior opposition"
+    "rationale": "Refers to prior opposition",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1957,7 +2933,11 @@
     "page": 102,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Rejects four stories and less parking"
+    "rationale": "Rejects four stories and less parking",
+    "topics": "Parking; Building height",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1965,7 +2945,11 @@
     "page": 102,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Strongly supports proposal"
+    "rationale": "Strongly supports proposal",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1973,7 +2957,11 @@
     "page": 102,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Calls it ridiculous"
+    "rationale": "Calls it ridiculous",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1981,7 +2969,11 @@
     "page": 102,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Says leave rest alone"
+    "rationale": "Says leave rest alone",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -1989,7 +2981,11 @@
     "page": 102,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Opposes big apartment buildings"
+    "rationale": "Opposes big apartment buildings",
+    "topics": "Density; Conditional or mixed response",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -1997,7 +2993,11 @@
     "page": 103,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Rejects parking reductions coverage and density"
+    "rationale": "Rejects parking reductions coverage and density",
+    "topics": "Parking; Density; Green space and stormwater",
+    "topic_count": 3,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2005,7 +3005,11 @@
     "page": 103,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Says parking change is bad idea"
+    "rationale": "Says parking change is bad idea",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2013,7 +3017,11 @@
     "page": 103,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Calls proposal absurd"
+    "rationale": "Calls proposal absurd",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2021,7 +3029,11 @@
     "page": 103,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Opposes fourth story"
+    "rationale": "Opposes fourth story",
+    "topics": "Building height",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2029,7 +3041,11 @@
     "page": 103,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "Supports some types but rejects core elements"
+    "rationale": "Supports some types but rejects core elements",
+    "topics": "Conditional or mixed response",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -2037,7 +3053,11 @@
     "page": 103,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Says yes"
+    "rationale": "Says yes",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2045,7 +3065,11 @@
     "page": 103,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Agrees with changes"
+    "rationale": "Agrees with changes",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2053,7 +3077,11 @@
     "page": 103,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Says against it"
+    "rationale": "Says against it",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2061,7 +3089,11 @@
     "page": 103,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Supports changes and parking requirements"
+    "rationale": "Supports changes and parking requirements",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2069,7 +3101,11 @@
     "page": 103,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Strongly against proposal"
+    "rationale": "Strongly against proposal",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2077,7 +3113,11 @@
     "page": 103,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Not in favor"
+    "rationale": "Not in favor",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2085,7 +3125,11 @@
     "page": 103,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Opposes height bonus and impact"
+    "rationale": "Opposes height bonus and impact",
+    "topics": "Building height; Affordable housing",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2093,7 +3137,11 @@
     "page": 103,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Wants developers outside borough"
+    "rationale": "Wants developers outside borough",
+    "topics": "Developer incentives",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2101,7 +3149,11 @@
     "page": 103,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Calls it terrible"
+    "rationale": "Calls it terrible",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2109,7 +3161,11 @@
     "page": 103,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "Prefers rebuilding businesses first"
+    "rationale": "Prefers rebuilding businesses first",
+    "topics": "Transit and walkability",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2117,7 +3173,11 @@
     "page": 103,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Opposes parking choice and more housing"
+    "rationale": "Opposes parking choice and more housing",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2125,7 +3185,11 @@
     "page": 103,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "Concerned about parking plan"
+    "rationale": "Concerned about parking plan",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2133,7 +3197,11 @@
     "page": 103,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Disagrees and calls it terrible"
+    "rationale": "Disagrees and calls it terrible",
+    "topics": "General opposition",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2141,7 +3209,11 @@
     "page": 103,
     "category": "Neutral",
     "confidence": "medium",
-    "rationale": "Unsure depends on height"
+    "rationale": "Unsure depends on height",
+    "topics": "Building height",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2149,7 +3221,11 @@
     "page": 103,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Calls it nonsense"
+    "rationale": "Calls it nonsense",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2157,7 +3233,11 @@
     "page": 103,
     "category": "Neutral",
     "confidence": "high",
-    "rationale": "Blank response"
+    "rationale": "Blank response",
+    "topics": "Unclear or neutral",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2165,7 +3245,11 @@
     "page": 103,
     "category": "Neutral",
     "confidence": "medium",
-    "rationale": "Asks what parking reduction means"
+    "rationale": "Asks what parking reduction means",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2173,7 +3257,11 @@
     "page": 103,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Rejects density and parking reduction"
+    "rationale": "Rejects density and parking reduction",
+    "topics": "Parking; Density",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2181,7 +3269,11 @@
     "page": 103,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Opposes spot zoning and reduced parking"
+    "rationale": "Opposes spot zoning and reduced parking",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2189,7 +3281,11 @@
     "page": 103,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "Generally agrees"
+    "rationale": "Generally agrees",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2197,7 +3293,11 @@
     "page": 103,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Likes the idea"
+    "rationale": "Likes the idea",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2205,7 +3305,11 @@
     "page": 103,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "Not impressed"
+    "rationale": "Not impressed",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2213,7 +3317,11 @@
     "page": 104,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Wants current height and fewer apartments"
+    "rationale": "Wants current height and fewer apartments",
+    "topics": "Building height; Density; Conditional or mixed response",
+    "topic_count": 3,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -2221,7 +3329,11 @@
     "page": 104,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Rejects four stories and apartments"
+    "rationale": "Rejects four stories and apartments",
+    "topics": "Building height; Density; Conditional or mixed response",
+    "topic_count": 3,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -2229,7 +3341,11 @@
     "page": 104,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "Says ok"
+    "rationale": "Says ok",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2237,7 +3353,11 @@
     "page": 104,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Says proposal benefits developers"
+    "rationale": "Says proposal benefits developers",
+    "topics": "Developer incentives",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2245,7 +3365,11 @@
     "page": 104,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Does not support changes"
+    "rationale": "Does not support changes",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2253,7 +3377,11 @@
     "page": 104,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Full support"
+    "rationale": "Full support",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2261,7 +3389,11 @@
     "page": 104,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "Rejects affordable housing recommendation"
+    "rationale": "Rejects affordable housing recommendation",
+    "topics": "Affordable housing",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2269,7 +3401,11 @@
     "page": 104,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "Supports density but rejects parking change"
+    "rationale": "Supports density but rejects parking change",
+    "topics": "Parking; Density; Conditional or mixed response",
+    "topic_count": 3,
+    "needs_review": "yes",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -2277,7 +3413,11 @@
     "page": 104,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Rejects SEPTA and parking assumptions"
+    "rationale": "Rejects SEPTA and parking assumptions",
+    "topics": "Parking; Transit and walkability",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2285,7 +3425,11 @@
     "page": 104,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Urges rejecting proposals"
+    "rationale": "Urges rejecting proposals",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2293,7 +3437,11 @@
     "page": 104,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "Finds argument unconvincing"
+    "rationale": "Finds argument unconvincing",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2301,7 +3449,11 @@
     "page": 104,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "Accepts density only with one parking per unit"
+    "rationale": "Accepts density only with one parking per unit",
+    "topics": "Parking; Density",
+    "topic_count": 2,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2309,7 +3461,11 @@
     "page": 104,
     "category": "Neutral",
     "confidence": "low",
-    "rationale": "Prefers ownership row home"
+    "rationale": "Prefers ownership row home",
+    "topics": "Unclear or neutral",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2317,7 +3473,11 @@
     "page": 104,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Rejects apartment buildings and parking level"
+    "rationale": "Rejects apartment buildings and parking level",
+    "topics": "Parking; Density; Conditional or mixed response",
+    "topic_count": 3,
+    "needs_review": "no",
+    "mixed_flag": "yes"
   },
   {
     "zone": "Zone 4A",
@@ -2325,7 +3485,11 @@
     "page": 104,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Against density and reduced parking"
+    "rationale": "Against density and reduced parking",
+    "topics": "Parking; Density",
+    "topic_count": 2,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2333,7 +3497,11 @@
     "page": 104,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Supports more neighbors and housing options"
+    "rationale": "Supports more neighbors and housing options",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2341,7 +3509,11 @@
     "page": 104,
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "Criticizes plan and parking restriction"
+    "rationale": "Criticizes plan and parking restriction",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2349,7 +3521,11 @@
     "page": 104,
     "category": "Neutral",
     "confidence": "high",
-    "rationale": "Not applicable"
+    "rationale": "Not applicable",
+    "topics": "Unclear or neutral",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2357,7 +3533,11 @@
     "page": 104,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "Says changes seem reasonable"
+    "rationale": "Says changes seem reasonable",
+    "topics": "General stance",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2365,7 +3545,11 @@
     "page": 104,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Rejects density ideology and multifamily"
+    "rationale": "Rejects density ideology and multifamily",
+    "topics": "Density",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2373,7 +3557,11 @@
     "page": 104,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Questions taller buildings"
+    "rationale": "Questions taller buildings",
+    "topics": "Building height",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2381,7 +3569,11 @@
     "page": 104,
     "category": "Neutral",
     "confidence": "low",
-    "rationale": "Raises parking and family living considerations"
+    "rationale": "Raises parking and family living considerations",
+    "topics": "Parking",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2389,7 +3581,11 @@
     "page": 104,
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Does not support changes"
+    "rationale": "Does not support changes",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2397,7 +3593,11 @@
     "page": 105,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Supports recommendations"
+    "rationale": "Supports recommendations",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2405,7 +3605,11 @@
     "page": 105,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
-    "rationale": "Supports transit oriented development"
+    "rationale": "Supports transit oriented development",
+    "topics": "Transit and walkability",
+    "topic_count": 1,
+    "needs_review": "yes",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2413,7 +3617,11 @@
     "page": 105,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Supports more transit oriented development"
+    "rationale": "Supports more transit oriented development",
+    "topics": "Transit and walkability",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   },
   {
     "zone": "Zone 4A",
@@ -2421,6 +3629,10 @@
     "page": 105,
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
-    "rationale": "Agrees"
+    "rationale": "Agrees",
+    "topics": "General support",
+    "topic_count": 1,
+    "needs_review": "no",
+    "mixed_flag": "no"
   }
 ]

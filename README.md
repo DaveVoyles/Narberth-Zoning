@@ -24,6 +24,12 @@ The current classified outputs are:
 - `Zoning Sentiment Analysis.md`
 - `High-Level Survey Overview.md`
 
+The public GitHub Pages site is published from the `docs/` folder:
+
+- Live site: <https://davevoyles.github.io/Narberth-Zoning/>
+- Public data: `docs/data/`
+- Public downloads: `docs/documents/`
+
 ## Current headline findings
 
 Each written response in the two zoning sections was classified into one of three categories:
@@ -129,6 +135,8 @@ The next useful data layers are:
 | Zone comparison | Compare Zone 4A and Zone 5B side by side |
 | Methodology notes | Explain exactly how responses were parsed and categorized |
 | Limitations | Explain survey, extraction, classification, and representativeness limits |
+
+The current site now includes provisional keyword-assisted topic tags derived from the classification rationale. These are useful for exploration, but they should be reviewed before being treated as final topic analysis.
 
 ## Proposed public website
 
@@ -316,14 +324,18 @@ Recommended scripts:
 
 ```text
 scripts/
-├── extract-pdf-text.ts or .py
-├── parse-responses.ts or .py
-├── classify-responses.ts or .py
-├── summarize-results.ts or .py
-└── validate-data.ts or .py
+├── build-public-data.py
+└── validate-public-data.py
 ```
 
-The site should not depend on manual copy/paste once the pipeline is established.
+The site should not depend on manual copy/paste once the pipeline is established. The current repeatable workflow is:
+
+```bash
+python3 scripts/build-public-data.py
+python3 scripts/validate-public-data.py
+```
+
+`build-public-data.py` regenerates public CSV, JSON, XLSX, topic-tag, page-summary, and manifest assets under `docs/`. `validate-public-data.py` checks row counts, page ranges, category totals, confidence totals, JSON validity, CSV/JSON parity, local link targets, and XLSX structure.
 
 ## Implementation phases
 

@@ -1,0 +1,357 @@
+{
+  "generatedOn": "2026-05-19",
+  "taxonomy": [
+    {
+      "topic": "Parking",
+      "description": "Mentions parking requirements, street parking, off-site parking, or car storage.",
+      "keywords": [
+        "parking",
+        "car",
+        "cars",
+        "garage",
+        "off-site",
+        "off site",
+        "driveway"
+      ]
+    },
+    {
+      "topic": "Traffic and safety",
+      "description": "Mentions traffic, congestion, pedestrian safety, or road impacts.",
+      "keywords": [
+        "traffic",
+        "congestion",
+        "safety",
+        "pedestrian",
+        "street",
+        "road",
+        "crossing"
+      ]
+    },
+    {
+      "topic": "Building height",
+      "description": "Mentions building height, taller buildings, stories, or scale related to height.",
+      "keywords": [
+        "height",
+        "tall",
+        "taller",
+        "story",
+        "stories",
+        "four-story",
+        "4-story"
+      ]
+    },
+    {
+      "topic": "Density",
+      "description": "Mentions density, apartments, units, multi-family buildings, or crowding.",
+      "keywords": [
+        "density",
+        "dense",
+        "apartment",
+        "apartments",
+        "units",
+        "multi-family",
+        "multifamily"
+      ]
+    },
+    {
+      "topic": "Affordable housing",
+      "description": "Mentions affordability, affordable units, housing cost, or affordability bonuses.",
+      "keywords": [
+        "affordable",
+        "affordability",
+        "housing cost",
+        "bonus",
+        "bonuses"
+      ]
+    },
+    {
+      "topic": "Transit and walkability",
+      "description": "Mentions SEPTA, train access, transit assumptions, buses, or walkability.",
+      "keywords": [
+        "septa",
+        "train",
+        "transit",
+        "bus",
+        "walk",
+        "walkable",
+        "station"
+      ]
+    },
+    {
+      "topic": "Neighborhood character",
+      "description": "Mentions small-town feel, neighborhood character, historic scale, or community identity.",
+      "keywords": [
+        "character",
+        "small-town",
+        "small town",
+        "historic",
+        "neighborhood",
+        "scale"
+      ]
+    },
+    {
+      "topic": "Green space and stormwater",
+      "description": "Mentions green space, impervious coverage, trees, stormwater, or open space.",
+      "keywords": [
+        "green",
+        "impervious",
+        "trees",
+        "stormwater",
+        "open space",
+        "coverage"
+      ]
+    },
+    {
+      "topic": "Developer incentives",
+      "description": "Mentions developers, incentives, profit, giveaways, or builder benefits.",
+      "keywords": [
+        "developer",
+        "developers",
+        "incentive",
+        "profit",
+        "builder"
+      ]
+    },
+    {
+      "topic": "Process and trust",
+      "description": "Mentions Planning Commission, Borough Council, process, transparency, or trust.",
+      "keywords": [
+        "commission",
+        "council",
+        "process",
+        "transparent",
+        "trust",
+        "planning"
+      ]
+    },
+    {
+      "topic": "Schools and infrastructure",
+      "description": "Mentions schools, utilities, sewer, infrastructure, or borough capacity.",
+      "keywords": [
+        "school",
+        "schools",
+        "infrastructure",
+        "sewer",
+        "utility",
+        "utilities",
+        "capacity"
+      ]
+    },
+    {
+      "topic": "Property values",
+      "description": "Mentions property values, taxes, home values, or resale value.",
+      "keywords": [
+        "property value",
+        "property values",
+        "home value",
+        "tax",
+        "taxes",
+        "resale"
+      ]
+    },
+    {
+      "topic": "Conditional or mixed response",
+      "description": "Mentions conditional support, mixed stance, or support for parts but not as written.",
+      "keywords": [
+        "mixed",
+        "conditional",
+        "but",
+        "however",
+        "some",
+        "as written",
+        "part"
+      ]
+    }
+  ],
+  "topicCounts": [
+    {
+      "topic": "General stance",
+      "count": 183
+    },
+    {
+      "topic": "Parking",
+      "count": 163
+    },
+    {
+      "topic": "Building height",
+      "count": 91
+    },
+    {
+      "topic": "Density",
+      "count": 87
+    },
+    {
+      "topic": "Conditional or mixed response",
+      "count": 50
+    },
+    {
+      "topic": "General support",
+      "count": 48
+    },
+    {
+      "topic": "General opposition",
+      "count": 41
+    },
+    {
+      "topic": "Unclear or neutral",
+      "count": 27
+    },
+    {
+      "topic": "Affordable housing",
+      "count": 20
+    },
+    {
+      "topic": "Traffic and safety",
+      "count": 19
+    },
+    {
+      "topic": "Transit and walkability",
+      "count": 15
+    },
+    {
+      "topic": "Developer incentives",
+      "count": 9
+    },
+    {
+      "topic": "Neighborhood character",
+      "count": 6
+    },
+    {
+      "topic": "Green space and stormwater",
+      "count": 2
+    },
+    {
+      "topic": "Process and trust",
+      "count": 1
+    },
+    {
+      "topic": "Property values",
+      "count": 1
+    },
+    {
+      "topic": "Schools and infrastructure",
+      "count": 1
+    }
+  ],
+  "stanceByTopic": [
+    {
+      "topic": "General stance",
+      "total": 183,
+      "Against proposed Zoning Changes": 120,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 63
+    },
+    {
+      "topic": "Parking",
+      "total": 163,
+      "Against proposed Zoning Changes": 144,
+      "Neutral": 3,
+      "In Favor of proposed Zoning Changes": 16
+    },
+    {
+      "topic": "Building height",
+      "total": 91,
+      "Against proposed Zoning Changes": 80,
+      "Neutral": 1,
+      "In Favor of proposed Zoning Changes": 10
+    },
+    {
+      "topic": "Density",
+      "total": 87,
+      "Against proposed Zoning Changes": 76,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 11
+    },
+    {
+      "topic": "Conditional or mixed response",
+      "total": 50,
+      "Against proposed Zoning Changes": 43,
+      "Neutral": 3,
+      "In Favor of proposed Zoning Changes": 4
+    },
+    {
+      "topic": "General support",
+      "total": 48,
+      "Against proposed Zoning Changes": 13,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 35
+    },
+    {
+      "topic": "General opposition",
+      "total": 41,
+      "Against proposed Zoning Changes": 40,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 1
+    },
+    {
+      "topic": "Unclear or neutral",
+      "total": 27,
+      "Against proposed Zoning Changes": 0,
+      "Neutral": 27,
+      "In Favor of proposed Zoning Changes": 0
+    },
+    {
+      "topic": "Affordable housing",
+      "total": 20,
+      "Against proposed Zoning Changes": 13,
+      "Neutral": 1,
+      "In Favor of proposed Zoning Changes": 6
+    },
+    {
+      "topic": "Traffic and safety",
+      "total": 19,
+      "Against proposed Zoning Changes": 17,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 2
+    },
+    {
+      "topic": "Transit and walkability",
+      "total": 15,
+      "Against proposed Zoning Changes": 6,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 9
+    },
+    {
+      "topic": "Developer incentives",
+      "total": 9,
+      "Against proposed Zoning Changes": 7,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 2
+    },
+    {
+      "topic": "Neighborhood character",
+      "total": 6,
+      "Against proposed Zoning Changes": 6,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 0
+    },
+    {
+      "topic": "Green space and stormwater",
+      "total": 2,
+      "Against proposed Zoning Changes": 2,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 0
+    },
+    {
+      "topic": "Process and trust",
+      "total": 1,
+      "Against proposed Zoning Changes": 1,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 0
+    },
+    {
+      "topic": "Property values",
+      "total": 1,
+      "Against proposed Zoning Changes": 1,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 0
+    },
+    {
+      "topic": "Schools and infrastructure",
+      "total": 1,
+      "Against proposed Zoning Changes": 1,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 0
+    }
+  ]
+}

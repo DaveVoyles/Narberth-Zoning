@@ -1,0 +1,100 @@
+{
+  "generatedOn": "2026-05-19",
+  "totalClassifiedResponses": 606,
+  "sourceFiles": [
+    "Zone 4A Response Classifications.csv",
+    "Zone 5B Response Classifications.csv"
+  ],
+  "files": [
+    {
+      "path": "data/combined-classified.csv",
+      "bytes": 65394,
+      "description": "Combined enriched row-level classification data."
+    },
+    {
+      "path": "data/combined-classified.json",
+      "bytes": 180446,
+      "description": "Combined enriched row-level classification data for the site."
+    },
+    {
+      "path": "data/manifest.json",
+      "bytes": 2674,
+      "description": "Generated file inventory and metadata."
+    },
+    {
+      "path": "data/page-summary.json",
+      "bytes": 4963,
+      "description": "Page-level stance totals by zone."
+    },
+    {
+      "path": "data/summary.json",
+      "bytes": 2737,
+      "description": "Zone and combined stance/confidence totals."
+    },
+    {
+      "path": "data/topic-summary.json",
+      "bytes": 8275,
+      "description": "Topic counts, taxonomy, and stance-by-topic totals."
+    },
+    {
+      "path": "data/topic-tags.csv",
+      "bytes": 51798,
+      "description": "One row per response-topic assignment."
+    },
+    {
+      "path": "data/zone-4a-classified.csv",
+      "bytes": 33422,
+      "description": "Public project asset."
+    },
+    {
+      "path": "data/zone-4a-classified.json",
+      "bytes": 90904,
+      "description": "Public project asset."
+    },
+    {
+      "path": "data/zone-5b-classified.csv",
+      "bytes": 32062,
+      "description": "Public project asset."
+    },
+    {
+      "path": "data/zone-5b-classified.json",
+      "bytes": 89544,
+      "description": "Public project asset."
+    },
+    {
+      "path": "documents/high-level-survey-overview.md",
+      "bytes": 5853,
+      "description": "Public project asset."
+    },
+    {
+      "path": "documents/narberth-zoning-classifications.xlsx",
+      "bytes": 87377,
+      "description": "Excel workbook with overview and row-level sheets."
+    },
+    {
+      "path": "documents/project-readme.md",
+      "bytes": 15574,
+      "description": "Public project asset."
+    },
+    {
+      "path": "documents/raw-survey-results.pdf",
+      "bytes": 1396759,
+      "description": "Original source survey export."
+    },
+    {
+      "path": "documents/zone-4a-classified.xlsx",
+      "bytes": 18965,
+      "description": "Public project asset."
+    },
+    {
+      "path": "documents/zone-5b-classified.xlsx",
+      "bytes": 18851,
+      "description": "Public project asset."
+    },
+    {
+      "path": "documents/zoning-sentiment-analysis.md",
+      "bytes": 3253,
+      "description": "Public project asset."
+    }
+  ]
+}

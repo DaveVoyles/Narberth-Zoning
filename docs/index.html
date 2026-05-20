@@ -34,6 +34,7 @@
           <a href="#tables">Tables</a>
           <a href="#findings">Findings</a>
           <a href="#methodology">Methodology</a>
+          <a href="#audit">Audit</a>
           <a href="#downloads">Downloads</a>
           <a href="https://github.com/DaveVoyles/Narberth-Zoning" rel="noreferrer">GitHub</a>
         </div>
@@ -111,6 +112,23 @@
           <h3>Text equivalent</h3>
           <div id="chart-text-summary"></div>
         </div>
+        <div class="chart-layout secondary-charts">
+          <article class="card chart-card">
+            <h3>Confidence and review queue</h3>
+            <p class="muted">Medium and low-confidence rows are useful starting points for human review.</p>
+            <div id="confidence-chart" class="bar-chart" role="img" aria-label="Confidence distribution by zone"></div>
+          </article>
+          <article class="card chart-card">
+            <h3>Most common provisional topics</h3>
+            <p class="muted">Topic tags are keyword-assisted tags from classification rationale, not full raw responses.</p>
+            <div id="topic-chart" class="bar-chart" role="img" aria-label="Most common provisional topics"></div>
+          </article>
+        </div>
+        <article class="card chart-card">
+          <h3>Stance by PDF page</h3>
+          <p class="muted">Small page-level bars help show whether response mix changes across the analyzed sections.</p>
+          <div id="page-chart" class="page-chart" role="img" aria-label="Stance distribution by PDF page"></div>
+        </article>
       </section>
 
       <section id="tables" class="page-section">
@@ -147,9 +165,19 @@
             </select>
           </label>
           <label>
+            Topic
+            <select id="topic-filter">
+              <option value="">All topics</option>
+            </select>
+          </label>
+          <label>
             Search rationale
             <input id="search-filter" type="search" placeholder="parking, height, traffic">
           </label>
+          <div class="filter-actions">
+            <button id="reset-filters" class="button" type="button">Reset filters</button>
+            <button id="download-filtered" class="button" type="button">Download filtered CSV</button>
+          </div>
         </form>
         <p id="table-count" class="muted" aria-live="polite"></p>
         <div class="table-wrap">
@@ -161,6 +189,8 @@
                 <th scope="col">Page</th>
                 <th scope="col">Stance</th>
                 <th scope="col">Confidence</th>
+                <th scope="col">Topics</th>
+                <th scope="col">Needs review</th>
                 <th scope="col">Rationale</th>
               </tr>
             </thead>
@@ -220,6 +250,35 @@
         </div>
       </section>
 
+      <section id="audit" class="page-section">
+        <div class="section-heading">
+          <p class="eyebrow">Trust and reviewability</p>
+          <h2>How to audit this data</h2>
+          <p>
+            The dashboard is designed so every visual can be traced back to downloadable row-level
+            data. Topic tags are provisional and should be reviewed before being treated as final.
+          </p>
+        </div>
+        <div class="card-grid three">
+          <article class="card">
+            <h3>Review queue</h3>
+            <p id="review-queue-summary">Loading confidence review summary...</p>
+          </article>
+          <article class="card">
+            <h3>Privacy guardrail</h3>
+            <p>
+              The public table shows classification rationale, not full raw response text. Quote cards
+              and full-text displays should wait for privacy and redaction review.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Generated file manifest</h3>
+            <p id="manifest-summary">Loading generated file manifest...</p>
+            <a class="button" href="data/manifest.json" download>Download manifest</a>
+          </article>
+        </div>
+      </section>
+
       <section id="downloads" class="page-section">
         <div class="section-heading">
           <p class="eyebrow">Downloads</p>
@@ -240,7 +299,12 @@
 
     <noscript>
       <div class="noscript">
-        JavaScript is disabled. Download the CSV, XLSX, Markdown, and PDF files from the Downloads section links in the page source or repository.
+        JavaScript is disabled. Use these direct downloads:
+        <a href="documents/raw-survey-results.pdf">raw PDF</a>,
+        <a href="data/combined-classified.csv">combined CSV</a>,
+        <a href="data/topic-tags.csv">topic tags CSV</a>,
+        <a href="data/summary.json">summary JSON</a>, and
+        <a href="documents/narberth-zoning-classifications.xlsx">Excel workbook</a>.
       </div>
     </noscript>
     <script src="assets/app.js"></script>

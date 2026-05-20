@@ -307,6 +307,10 @@ h3 {
   gap: 1rem;
 }
 
+.secondary-charts {
+  margin-top: 1rem;
+}
+
 .chart-card {
   min-height: 360px;
 }
@@ -358,6 +362,52 @@ h3 {
   margin-top: 1rem;
 }
 
+.metric-row {
+  display: grid;
+  grid-template-columns: minmax(8rem, 12rem) 1fr 4rem;
+  gap: 0.75rem;
+  align-items: center;
+  margin: 0.75rem 0;
+}
+
+.metric-track,
+.page-track {
+  overflow: hidden;
+  height: 1.45rem;
+  border: 1px solid var(--cp-border);
+  border-radius: 0.625rem;
+  background: var(--cp-surface-soft);
+}
+
+.metric-fill {
+  display: block;
+  height: 100%;
+  border-radius: 0.625rem;
+  background: var(--cp-accent);
+}
+
+.page-chart {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.page-row {
+  display: grid;
+  grid-template-columns: 8rem 1fr 3rem;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.page-track {
+  display: flex;
+  height: 1.25rem;
+}
+
+.page-track .segment {
+  min-width: 0;
+  font-size: 0;
+}
+
 .legend span {
   display: inline-flex;
   align-items: center;
@@ -391,9 +441,16 @@ canvas {
 
 .filters {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.75rem;
   margin-bottom: 1rem;
+}
+
+.filter-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 0.75rem;
 }
 
 label {
@@ -424,7 +481,7 @@ input {
 table {
   width: 100%;
   border-collapse: collapse;
-  min-width: 860px;
+  min-width: 1060px;
 }
 
 th,
@@ -442,8 +499,18 @@ th {
   color: var(--cp-text);
 }
 
-td:nth-child(6) {
+td:nth-child(8) {
   min-width: 360px;
+}
+
+th[data-sort] {
+  cursor: pointer;
+}
+
+th[data-sort]::after {
+  content: " ↕";
+  color: var(--cp-text-muted);
+  font-size: 0.85rem;
 }
 
 .download-meta {

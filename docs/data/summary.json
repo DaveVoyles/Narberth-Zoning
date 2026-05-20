@@ -2,6 +2,7 @@
   "generatedOn": "2026-05-19",
   "sourceDocument": "Raw Survey Results.pdf",
   "repository": "https://github.com/DaveVoyles/Narberth-Zoning",
+  "methodologyNote": "Topic tags are provisional keyword-assisted tags inferred from classification rationale, not from full raw response text.",
   "zones": [
     {
       "zone": "Zone 4A",
@@ -31,16 +32,17 @@
           "percent": 76.9
         },
         {
-          "confidence": "low",
-          "count": 6,
-          "percent": 2.0
-        },
-        {
           "confidence": "medium",
           "count": 64,
           "percent": 21.1
+        },
+        {
+          "confidence": "low",
+          "count": 6,
+          "percent": 2.0
         }
-      ]
+      ],
+      "needsReview": 70
     },
     {
       "zone": "Zone 5B",
@@ -70,16 +72,17 @@
           "percent": 73.9
         },
         {
-          "confidence": "low",
-          "count": 5,
-          "percent": 1.7
-        },
-        {
           "confidence": "medium",
           "count": 74,
           "percent": 24.4
+        },
+        {
+          "confidence": "low",
+          "count": 5,
+          "percent": 1.7
         }
-      ]
+      ],
+      "needsReview": 79
     }
   ],
   "combined": {
@@ -100,6 +103,24 @@
         "count": 145,
         "percent": 23.9
       }
-    ]
+    ],
+    "confidence": [
+      {
+        "confidence": "high",
+        "count": 457,
+        "percent": 75.4
+      },
+      {
+        "confidence": "medium",
+        "count": 138,
+        "percent": 22.8
+      },
+      {
+        "confidence": "low",
+        "count": 11,
+        "percent": 1.8
+      }
+    ],
+    "needsReview": 149
   }
 }
