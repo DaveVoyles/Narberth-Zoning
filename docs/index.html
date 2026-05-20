@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      (() => {
+        const param = new URLSearchParams(window.location.search).get("clawpilotTheme");
+        const theme =
+          param || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+    <title>Narberth zoning survey explorer</title>
+    <meta
+      name="description"
+      content="Neutral public dashboard for Narberth zoning survey sentiment in Zone 4A and Zone 5B."
+    >
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a class="brand" href="#home" aria-label="Narberth zoning survey explorer home">
+          <span class="brand-mark" aria-hidden="true">N</span>
+          <span>Narberth zoning survey explorer</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          Menu
+        </button>
+        <div id="nav-links" class="nav-links">
+          <a href="#home">Summary</a>
+          <a href="#charts">Charts</a>
+          <a href="#tables">Tables</a>
+          <a href="#findings">Findings</a>
+          <a href="#methodology">Methodology</a>
+          <a href="#downloads">Downloads</a>
+          <a href="https://github.com/DaveVoyles/Narberth-Zoning" rel="noreferrer">GitHub</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="page-section hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Neutral civic data presentation</p>
+          <h1>Survey responses about proposed Narberth zoning changes, made easier to inspect.</h1>
+          <p>
+            This site summarizes classified written responses from the final zoning sections of
+            <cite>Survey on Housing Affordability in Narberth</cite>. It is a preliminary sentiment
+            readout, not a policy recommendation or scientific referendum.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#charts">View charts</a>
+            <a class="button" href="#downloads">Download data</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="Headline response counts">
+          <div class="stat">
+            <span class="stat-value">606</span>
+            <span class="stat-label">classified responses</span>
+          </div>
+          <div class="mini-grid" id="summary-cards" aria-live="polite"></div>
+        </aside>
+      </section>
+
+      <section class="page-section">
+        <div class="section-heading">
+          <p class="eyebrow">What was analyzed</p>
+          <h2>Two zoning sections from the raw survey export</h2>
+        </div>
+        <div class="card-grid two">
+          <article class="card">
+            <h3>Zone 5B / Montgomery Avenue</h3>
+            <p>Pages 77-89 ask respondents about proposed zoning changes in the 5B district.</p>
+            <p class="muted">303 written responses were classified.</p>
+          </article>
+          <article class="card">
+            <h3>Zone 4A</h3>
+            <p>Pages 90-105 ask respondents about proposed zoning changes in the 4A district.</p>
+            <p class="muted">303 written responses were classified.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="charts" class="page-section">
+        <div class="section-heading">
+          <p class="eyebrow">Charts and graphics</p>
+          <h2>Stance breakdown by zone</h2>
+          <p>
+            The charts below show each response classified as against, neutral, or in favor of the
+            proposed zoning changes as written.
+          </p>
+        </div>
+        <div class="chart-layout">
+          <article class="card chart-card">
+            <h3>Side-by-side stance comparison</h3>
+            <div id="bar-chart" class="bar-chart" role="img" aria-label="Bar chart comparing sentiment percentages for Zone 4A and Zone 5B"></div>
+          </article>
+          <article class="card chart-card">
+            <h3>Response particle field</h3>
+            <p class="muted">
+              Each point represents one classified response. WebGL is used when available; a canvas
+              fallback is used otherwise.
+            </p>
+            <canvas id="particle-canvas" width="720" height="420" aria-label="Interactive particle visualization of classified responses"></canvas>
+            <p id="webgl-status" class="muted" role="status"></p>
+          </article>
+        </div>
+        <div class="card">
+          <h3>Text equivalent</h3>
+          <div id="chart-text-summary"></div>
+        </div>
+      </section>
+
+      <section id="tables" class="page-section">
+        <div class="section-heading">
+          <p class="eyebrow">Tables and data</p>
+          <h2>Classified response table</h2>
+          <p>This page intentionally avoids charts so the row-level classification data is easier to audit.</p>
+        </div>
+        <form class="filters" aria-label="Filter table">
+          <label>
+            Zone
+            <select id="zone-filter">
+              <option value="">All zones</option>
+              <option value="Zone 4A">Zone 4A</option>
+              <option value="Zone 5B">Zone 5B</option>
+            </select>
+          </label>
+          <label>
+            Stance
+            <select id="category-filter">
+              <option value="">All stances</option>
+              <option value="Against proposed Zoning Changes">Against proposed Zoning Changes</option>
+              <option value="Neutral">Neutral</option>
+              <option value="In Favor of proposed Zoning Changes">In Favor of proposed Zoning Changes</option>
+            </select>
+          </label>
+          <label>
+            Confidence
+            <select id="confidence-filter">
+              <option value="">All confidence levels</option>
+              <option value="high">High</option>
+              <option value="medium">Medium</option>
+              <option value="low">Low</option>
+            </select>
+          </label>
+          <label>
+            Search rationale
+            <input id="search-filter" type="search" placeholder="parking, height, traffic">
+          </label>
+        </form>
+        <p id="table-count" class="muted" aria-live="polite"></p>
+        <div class="table-wrap">
+          <table id="data-table">
+            <thead>
+              <tr>
+                <th scope="col">Zone</th>
+                <th scope="col">Index</th>
+                <th scope="col">Page</th>
+                <th scope="col">Stance</th>
+                <th scope="col">Confidence</th>
+                <th scope="col">Rationale</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="findings" class="page-section">
+        <div class="section-heading">
+          <p class="eyebrow">Detailed findings</p>
+          <h2>Current high-level readout</h2>
+        </div>
+        <div class="content-card">
+          <p>
+            For both zoning sections, the largest category is <strong>Against proposed Zoning Changes</strong>.
+            Zone 4A shows a stronger against share than in-favor share, with relatively few neutral
+            responses. Zone 5B also shows more against than in-favor responses, though its in-favor
+            share is higher than Zone 4A.
+          </p>
+          <p>
+            Commonly mentioned topics include parking requirements, building height, density, traffic,
+            nearby residential streets, SEPTA assumptions, development scale, green space or impervious
+            surface, and preserving Narberth's small-town character.
+          </p>
+          <p>
+            This readout summarizes expressed respondent sentiment so Borough Council, residents, and
+            planners can compare resident feedback with separate planning, affordability, density, or
+            county-level goals.
+          </p>
+        </div>
+      </section>
+
+      <section id="methodology" class="page-section">
+        <div class="section-heading">
+          <p class="eyebrow">Methodology and limitations</p>
+          <h2>How to interpret this site</h2>
+        </div>
+        <div class="card-grid two">
+          <article class="card">
+            <h3>Classification method</h3>
+            <p>
+              Responses were parsed from the requested PDF page ranges and classified by stance toward
+              the proposal as written. Mixed responses were classified as against when they rejected
+              core proposal elements such as height, density, parking reductions, apartments, ADUs,
+              setbacks, lot coverage, mixed-use changes, or affordability bonuses.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Limitations</h3>
+            <p>
+              These responses are written public-comment style feedback. They may not represent all
+              Narberth residents, are not necessarily votes, may include repeated respondents, and
+              rely on judgment for mixed or ambiguous comments.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="downloads" class="page-section">
+        <div class="section-heading">
+          <p class="eyebrow">Downloads</p>
+          <h2>Source document and reusable outputs</h2>
+          <p>Download links point to static files in this GitHub Pages site and the public repository.</p>
+        </div>
+        <div id="download-grid" class="card-grid three"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        Built from public project files in
+        <a href="https://github.com/DaveVoyles/Narberth-Zoning" rel="noreferrer">DaveVoyles/Narberth-Zoning</a>.
+      </p>
+      <p class="muted">Neutral presentation of survey classifications; no policy recommendation is made.</p>
+    </footer>
+
+    <noscript>
+      <div class="noscript">
+        JavaScript is disabled. Download the CSV, XLSX, Markdown, and PDF files from the Downloads section links in the page source or repository.
+      </div>
+    </noscript>
+    <script src="assets/app.js"></script>
+  </body>
+</html>

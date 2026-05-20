@@ -1,0 +1,105 @@
+{
+  "generatedOn": "2026-05-19",
+  "sourceDocument": "Raw Survey Results.pdf",
+  "repository": "https://github.com/DaveVoyles/Narberth-Zoning",
+  "zones": [
+    {
+      "zone": "Zone 4A",
+      "sourcePages": "90-105",
+      "totalResponses": 303,
+      "categories": [
+        {
+          "category": "Against proposed Zoning Changes",
+          "count": 223,
+          "percent": 73.6
+        },
+        {
+          "category": "Neutral",
+          "count": 18,
+          "percent": 5.9
+        },
+        {
+          "category": "In Favor of proposed Zoning Changes",
+          "count": 62,
+          "percent": 20.5
+        }
+      ],
+      "confidence": [
+        {
+          "confidence": "high",
+          "count": 233,
+          "percent": 76.9
+        },
+        {
+          "confidence": "low",
+          "count": 6,
+          "percent": 2.0
+        },
+        {
+          "confidence": "medium",
+          "count": 64,
+          "percent": 21.1
+        }
+      ]
+    },
+    {
+      "zone": "Zone 5B",
+      "sourcePages": "77-89",
+      "totalResponses": 303,
+      "categories": [
+        {
+          "category": "Against proposed Zoning Changes",
+          "count": 204,
+          "percent": 67.3
+        },
+        {
+          "category": "Neutral",
+          "count": 16,
+          "percent": 5.3
+        },
+        {
+          "category": "In Favor of proposed Zoning Changes",
+          "count": 83,
+          "percent": 27.4
+        }
+      ],
+      "confidence": [
+        {
+          "confidence": "high",
+          "count": 224,
+          "percent": 73.9
+        },
+        {
+          "confidence": "low",
+          "count": 5,
+          "percent": 1.7
+        },
+        {
+          "confidence": "medium",
+          "count": 74,
+          "percent": 24.4
+        }
+      ]
+    }
+  ],
+  "combined": {
+    "totalResponses": 606,
+    "categories": [
+      {
+        "category": "Against proposed Zoning Changes",
+        "count": 427,
+        "percent": 70.5
+      },
+      {
+        "category": "Neutral",
+        "count": 34,
+        "percent": 5.6
+      },
+      {
+        "category": "In Favor of proposed Zoning Changes",
+        "count": 145,
+        "percent": 23.9
+      }
+    ]
+  }
+}

@@ -1,0 +1,2426 @@
+[
+  {
+    "zone": "Zone 5B",
+    "index": 1,
+    "page": 77,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "explicitly disagrees with changes"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 2,
+    "page": 77,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "conditional on more parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 3,
+    "page": 77,
+    "category": "Neutral",
+    "confidence": "medium",
+    "rationale": "asks about building impacts"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 4,
+    "page": 77,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes changes over parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 5,
+    "page": 77,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes new development"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 6,
+    "page": 77,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "not in favor"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 7,
+    "page": 77,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "rejects parking reduction and density"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 8,
+    "page": 77,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "supports more housing and business"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 9,
+    "page": 77,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "approves proposal"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 10,
+    "page": 77,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "agrees with proposal"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 11,
+    "page": 77,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes taller buildings"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 12,
+    "page": 77,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "rejects high rises"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 13,
+    "page": 77,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "wants park preserved"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 14,
+    "page": 77,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "supports with affordability caveat"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 15,
+    "page": 77,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "explicitly rejects proposal"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 16,
+    "page": 77,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "supports higher building here"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 17,
+    "page": 77,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "warns against added density"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 18,
+    "page": 78,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "questions apartments and parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 19,
+    "page": 78,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "rejects more building and density"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 20,
+    "page": 78,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "explicitly opposes zoning changes"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 21,
+    "page": 78,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "rejects limited parking provisions"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 22,
+    "page": 78,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes apartments and added people"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 23,
+    "page": 78,
+    "category": "Neutral",
+    "confidence": "high",
+    "rationale": "not sure"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 24,
+    "page": 78,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "says fine there"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 25,
+    "page": 78,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "concerned about congestion"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 26,
+    "page": 78,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "views proposal as harmful"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 27,
+    "page": 78,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "supports with sidewalk caveat"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 28,
+    "page": 78,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "not supportive"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 29,
+    "page": 78,
+    "category": "Neutral",
+    "confidence": "medium",
+    "rationale": "no clear stance on Montgomery"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 30,
+    "page": 78,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "calls it terrible with parking harm"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 31,
+    "page": 78,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "disagrees with all changes"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 32,
+    "page": 79,
+    "category": "Neutral",
+    "confidence": "medium",
+    "rationale": "asks for negatives"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 33,
+    "page": 79,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "hostile to proposal"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 34,
+    "page": 79,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "wants park without development"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 35,
+    "page": 79,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "against due parking pressure"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 36,
+    "page": 79,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "rejects height and parking changes"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 37,
+    "page": 79,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "low",
+    "rationale": "somewhat okay with reservations"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 38,
+    "page": 79,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes reduced parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 39,
+    "page": 79,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "fine with plan"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 40,
+    "page": 79,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "rejects reduced parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 41,
+    "page": 79,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "supports height and less parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 42,
+    "page": 79,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "loves it"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 43,
+    "page": 79,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "positive response"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 44,
+    "page": 79,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "calls idea terrible"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 45,
+    "page": 79,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "strongly against"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 46,
+    "page": 79,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "criticizes drafters"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 47,
+    "page": 79,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "limits floors below proposal"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 48,
+    "page": 79,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "rejects density height and parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 49,
+    "page": 79,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "rejects high rise"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 50,
+    "page": 79,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "dislikes revenue driven change"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 51,
+    "page": 79,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "calls proposal terrible"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 52,
+    "page": 79,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "rejects parking and height bonus"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 53,
+    "page": 79,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "rejects additional stories"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 54,
+    "page": 79,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "disapproves all zoning changes"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 55,
+    "page": 79,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "says no good"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 56,
+    "page": 79,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "rejects parking reduction and height"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 57,
+    "page": 79,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "against it"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 58,
+    "page": 79,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "says ignores resident wishes"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 59,
+    "page": 79,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "prefers no growth due traffic"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 60,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "says destroying Narberth"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 61,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "rejects height increase"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 62,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes stories and parking change"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 63,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "frames as developer driven"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 64,
+    "page": 80,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "supports reduced parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 65,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "asks rejection"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 66,
+    "page": 80,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "supports changes with caveats"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 67,
+    "page": 80,
+    "category": "Neutral",
+    "confidence": "medium",
+    "rationale": "no substantive stance"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 68,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes reduced parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 69,
+    "page": 80,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "says reasonable"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 70,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "rejects reduced parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 71,
+    "page": 80,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "supports less parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 72,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "rejects parking limits"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 73,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "rejects height increase"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 74,
+    "page": 80,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "supports lower parking minimums"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 75,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes more growth"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 76,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes parking reductions"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 77,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "cites density congestion parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 78,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "supports only smaller buildings"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 79,
+    "page": 80,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "says fine"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 80,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposed"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 81,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "strongly against"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 82,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "rejects five stories and parking reduction"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 83,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "says not needed"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 84,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "alleges developer corruption"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 85,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "says no"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 86,
+    "page": 80,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "seems okay with caveat"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 87,
+    "page": 80,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "fine with this"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 88,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "not good"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 89,
+    "page": 80,
+    "category": "Neutral",
+    "confidence": "high",
+    "rationale": "not applicable"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 90,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes height bonus and reduced parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 91,
+    "page": 80,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Supports these changes"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 92,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "rejects more business activity"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 93,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes reduced parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 94,
+    "page": 80,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "agrees"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 95,
+    "page": 80,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "does not support proposal"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 96,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "rejects four and five story buildings"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 97,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes mid rise buildings"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 98,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "disagrees"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 99,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "rejects four stories and parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 100,
+    "page": 81,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "seems okay"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 101,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "rejects more people"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 102,
+    "page": 81,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "says it makes sense"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 103,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes apartment construction"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 104,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "cites traffic nightmare"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 105,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "against density anywhere"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 106,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "dislikes parking assumptions"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 107,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes more apartments"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 108,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "does not support multifamily"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 109,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "warns not to overwhelm area"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 110,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes tall buildings"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 111,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes upzoning and parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 112,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "very opposed"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 113,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "strongly disagree"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 114,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "prefers visitors over residents"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 115,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "criticizes increasing density"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 116,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "says do not develop"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 117,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "opposes too tall buildings"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 118,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "wants delay until traffic calming"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 119,
+    "page": 81,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "not opposed to changes"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 120,
+    "page": 81,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "supports growth and changes"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 121,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes due to parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 122,
+    "page": 81,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "seems fine"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 123,
+    "page": 81,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "agrees with zoning changes"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 124,
+    "page": 81,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "agrees with them"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 125,
+    "page": 81,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "wants affordable housing"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 126,
+    "page": 81,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "calls plan reasonable"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 127,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "wants more parking lots"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 128,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "does not like it"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 129,
+    "page": 81,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "explicitly in favor"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 130,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "worries about traffic impact"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 131,
+    "page": 81,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "in agreement"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 132,
+    "page": 81,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "height is ok"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 133,
+    "page": 81,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes height and units"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 134,
+    "page": 82,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "higher heights are ok"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 135,
+    "page": 82,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes parking reduction and affordability"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 136,
+    "page": 82,
+    "category": "Neutral",
+    "confidence": "high",
+    "rationale": "needs more info"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 137,
+    "page": 82,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "accepts Montgomery changes"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 138,
+    "page": 82,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "too dense and too little parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 139,
+    "page": 82,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "no more apartments"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 140,
+    "page": 82,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes more housing"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 141,
+    "page": 82,
+    "category": "Neutral",
+    "confidence": "high",
+    "rationale": "unsure"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 142,
+    "page": 82,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "against height density parking reduction"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 143,
+    "page": 82,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes parking reduction"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 144,
+    "page": 82,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "needs more parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 145,
+    "page": 82,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes height and parking variances"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 146,
+    "page": 82,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "agrees with it"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 147,
+    "page": 82,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes apartments"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 148,
+    "page": 82,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "cites parking and safety"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 149,
+    "page": 82,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "opposes parking reduction"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 150,
+    "page": 82,
+    "category": "Neutral",
+    "confidence": "low",
+    "rationale": "unclear commercial comment"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 151,
+    "page": 82,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes dense development"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 152,
+    "page": 82,
+    "category": "Neutral",
+    "confidence": "low",
+    "rationale": "mixed affordability concern"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 153,
+    "page": 82,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes less parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 154,
+    "page": 82,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "disagrees"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 155,
+    "page": 82,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "ok with it despite question"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 156,
+    "page": 82,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "does not approve"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 157,
+    "page": 82,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "concerned about apartment parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 158,
+    "page": 82,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes five story buildings"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 159,
+    "page": 82,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes parking ratio"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 160,
+    "page": 82,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "does not agree"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 161,
+    "page": 83,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "good in general"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 162,
+    "page": 83,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "opposes reduced parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 163,
+    "page": 83,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes height and parking change"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 164,
+    "page": 83,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "ok with zoning changes"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 165,
+    "page": 83,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "does not approve"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 166,
+    "page": 83,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "parking would be problem"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 167,
+    "page": 83,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "against the plans"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 168,
+    "page": 83,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes high rises"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 169,
+    "page": 83,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes height and parking reduction"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 170,
+    "page": 83,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "sounds good"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 171,
+    "page": 83,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "should not continue as described"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 172,
+    "page": 83,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "likes this idea"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 173,
+    "page": 83,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "good with parking concern"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 174,
+    "page": 83,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "warns overcrowding"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 175,
+    "page": 83,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes additional housing"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 176,
+    "page": 83,
+    "category": "Neutral",
+    "confidence": "low",
+    "rationale": "reference unclear"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 177,
+    "page": 83,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "low",
+    "rationale": "implies loss of character"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 178,
+    "page": 83,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "more the better"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 179,
+    "page": 83,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "support"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 180,
+    "page": 83,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "opposes attracting lower income residents"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 181,
+    "page": 83,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "supports height and mixed use"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 182,
+    "page": 83,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "positive response"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 183,
+    "page": 83,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "completely oppose it"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 184,
+    "page": 83,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes eased parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 185,
+    "page": 83,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "wants stronger density incentive"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 186,
+    "page": 83,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes adding traffic and parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 187,
+    "page": 83,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "calls changes positive"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 188,
+    "page": 83,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "calls changes misuse of power"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 189,
+    "page": 83,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "encourages business growth"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 190,
+    "page": 83,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "emphatic no"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 191,
+    "page": 83,
+    "category": "Neutral",
+    "confidence": "high",
+    "rationale": "blank response"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 192,
+    "page": 83,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "no way"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 193,
+    "page": 83,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes five story buildings"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 194,
+    "page": 83,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes tall buildings"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 195,
+    "page": 83,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "supports proposed changes"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 196,
+    "page": 83,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "supports density bonus and parking reduction"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 197,
+    "page": 83,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "wants more affordable units"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 198,
+    "page": 83,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "opposes diminished parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 199,
+    "page": 84,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "calls plan poor"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 200,
+    "page": 84,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "seems okay"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 201,
+    "page": 84,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "opposes less parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 202,
+    "page": 84,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "too tall"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 203,
+    "page": 84,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "opposes overbuilding and minimal parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 204,
+    "page": 84,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "loves proactive change"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 205,
+    "page": 84,
+    "category": "Neutral",
+    "confidence": "high",
+    "rationale": "Non substantive response"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 206,
+    "page": 84,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Opposes parking reduction and affordability"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 207,
+    "page": 84,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Rejects reduced parking and more residents"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 208,
+    "page": 84,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Supports greater height and parking recommendations"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 209,
+    "page": 84,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "Agrees with proposal"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 210,
+    "page": 84,
+    "category": "Neutral",
+    "confidence": "high",
+    "rationale": "Cannot read materials"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 211,
+    "page": 84,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Says no need for five stories"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 212,
+    "page": 84,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "Could accept five stories with affordability"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 213,
+    "page": 84,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Calls proposal poor and rejects parking reduction"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 214,
+    "page": 84,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Calls changes a disaster"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 215,
+    "page": 84,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Vehemently opposed to affordable housing"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 216,
+    "page": 85,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Says zoning changes worsen problems"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 217,
+    "page": 85,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "Criticizes transit oriented development approach"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 218,
+    "page": 85,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Opposes five story structure and traffic"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 219,
+    "page": 85,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Opposes fifth floor density bonus"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 220,
+    "page": 85,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "Rejects lowering development costs"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 221,
+    "page": 85,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "Questions added stories without representation"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 222,
+    "page": 85,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Rejects five stories and reduced parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 223,
+    "page": 85,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Says do not reduce parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 224,
+    "page": 85,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Rejects YIMBY approach"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 225,
+    "page": 85,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "Negative credibility comment"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 226,
+    "page": 85,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Says proposal makes sense"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 227,
+    "page": 85,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "Says traffic makes area unappealing"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 228,
+    "page": 85,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Rejects reduced parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 229,
+    "page": 86,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Rejects fifth story and parking reduction"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 230,
+    "page": 86,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Supports upzoning and parking reform"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 231,
+    "page": 86,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Rejects density push and parking allowances"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 232,
+    "page": 86,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Supports walkable future with traffic calming"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 233,
+    "page": 86,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Says it looks good"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 234,
+    "page": 86,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Opposes further development"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 235,
+    "page": 86,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Says density is out of character"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 236,
+    "page": 86,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Requires at least one parking space"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 237,
+    "page": 86,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Says parking is a non starter"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 238,
+    "page": 86,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "Says it makes sense"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 239,
+    "page": 86,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "Fine with changes with height caveat"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 240,
+    "page": 86,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Rejects lower costs and parking reduction"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 241,
+    "page": 86,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Votes no on density and developer benefits"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 242,
+    "page": 86,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Calls it a bad idea"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 243,
+    "page": 86,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Wants original code kept"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 244,
+    "page": 86,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Strongly not in favor of density"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 245,
+    "page": 86,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Rejects five stories and low income housing"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 246,
+    "page": 87,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Calls recommendations common sense"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 247,
+    "page": 87,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "Calls proposal ridiculous"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 248,
+    "page": 87,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Says leave it alone"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 249,
+    "page": 87,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Against five story buildings"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 250,
+    "page": 87,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Absolutely against proposal"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 251,
+    "page": 87,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Rejects reduced parking ratio"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 252,
+    "page": 87,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "Calls recommendations ridiculous"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 253,
+    "page": 87,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Rejects height increase"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 254,
+    "page": 87,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Rejects density bonus and parking reduction"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 255,
+    "page": 87,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "Says yes"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 256,
+    "page": 87,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Likes the changes"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 257,
+    "page": 87,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Wants three stories or fewer"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 258,
+    "page": 87,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Supports these changes"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 259,
+    "page": 87,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Strongly against proposal"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 260,
+    "page": 87,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Not in favor"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 261,
+    "page": 87,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "Objects to affordable housing narrative"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 262,
+    "page": 87,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "Supports dense apartments along Montgomery"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 263,
+    "page": 87,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Says harmful to character"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 264,
+    "page": 87,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Says nobody wants it"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 265,
+    "page": 87,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Opposes proposed apartments"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 266,
+    "page": 87,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "Fine with Montgomery development"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 267,
+    "page": 87,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Rejects four story buildings"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 268,
+    "page": 87,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "Says it is acceptable"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 269,
+    "page": 87,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Calls proposal nonsense"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 270,
+    "page": 87,
+    "category": "Neutral",
+    "confidence": "high",
+    "rationale": "Blank response"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 271,
+    "page": 88,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Rejects parking reduction"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 272,
+    "page": 88,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Says changes harm livability"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 273,
+    "page": 88,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Rejects reducing parking below one"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 274,
+    "page": 88,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Supports repurposing areas"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 275,
+    "page": 88,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Calls it a great idea"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 276,
+    "page": 88,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "Negative overall reaction"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 277,
+    "page": 88,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "Concerned about home values"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 278,
+    "page": 88,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Vehemently opposes multipurpose buildings"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 279,
+    "page": 88,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Says very good"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 280,
+    "page": 88,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Raises parking problem and empty buildings"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 281,
+    "page": 88,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Does not support changes"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 282,
+    "page": 88,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Loves plan as progress"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 283,
+    "page": 88,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "Rejects affordable housing recommendation"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 284,
+    "page": 88,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Opposes development without more parking"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 285,
+    "page": 88,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Calls parking reduction insane"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 286,
+    "page": 88,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Strongly opposes zoning changes"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 287,
+    "page": 88,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "Says makes sense with environmental caveat"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 288,
+    "page": 88,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Requires one parking space per unit"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 289,
+    "page": 88,
+    "category": "Neutral",
+    "confidence": "high",
+    "rationale": "States housing preference only"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 290,
+    "page": 88,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Says stop building apartments"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 291,
+    "page": 88,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Opposes if reduced parking is included"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 292,
+    "page": 88,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Supports density and accessibility"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 293,
+    "page": 88,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Would not support added stories"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 294,
+    "page": 89,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Rejects parking requirement reduction"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 295,
+    "page": 89,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "Concerned about height and traffic"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 296,
+    "page": 89,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "Encourages development there"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 297,
+    "page": 89,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Says no taller buildings needed"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 298,
+    "page": 89,
+    "category": "Against proposed Zoning Changes",
+    "confidence": "medium",
+    "rationale": "Questions need for expansion"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 299,
+    "page": 89,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Supports denser development"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 300,
+    "page": 89,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "One hundred percent support"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 301,
+    "page": 89,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Supports densification"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 302,
+    "page": 89,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Supports upzoning for housing and businesses"
+  },
+  {
+    "zone": "Zone 5B",
+    "index": 303,
+    "page": 89,
+    "category": "In Favor of proposed Zoning Changes",
+    "confidence": "high",
+    "rationale": "Strongly supports"
+  }
+]
