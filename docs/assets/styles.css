@@ -179,7 +179,7 @@ main {
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1.45fr) minmax(280px, 0.55fr);
-  gap: 1.5rem;
+  gap: 2rem;
   align-items: stretch;
 }
 
@@ -200,7 +200,7 @@ main {
 .hero-panel {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.25rem;
   padding: 1.5rem;
 }
 
@@ -282,7 +282,7 @@ h3 {
 .mini-grid,
 .card-grid {
   display: grid;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .mini-grid {
@@ -316,11 +316,11 @@ h3 {
 .chart-layout {
   display: grid;
   grid-template-columns: minmax(0, 0.95fr) minmax(320px, 1.05fr);
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .secondary-charts {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .chart-card {
