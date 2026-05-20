@@ -78,6 +78,7 @@ body {
   background: var(--cp-bg);
   color: var(--cp-text);
   font-family: "Segoe UI", Aptos, Calibri, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.95rem;
   line-height: 1.55;
 }
 
@@ -202,7 +203,7 @@ main {
 .eyebrow {
   margin: 0 0 0.5rem;
   color: var(--cp-accent);
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -216,21 +217,21 @@ h3 {
 }
 
 h1 {
-  max-width: 15ch;
-  font-size: clamp(2.35rem, 7vw, 5rem);
+  max-width: 18ch;
+  font-size: clamp(1.9rem, 5.4vw, 3.6rem);
 }
 
 h2 {
-  font-size: clamp(1.65rem, 3vw, 2.55rem);
+  font-size: clamp(1.45rem, 2.5vw, 2.15rem);
 }
 
 h3 {
-  font-size: 1.15rem;
+  font-size: 1.05rem;
 }
 
 .hero-copy p {
   max-width: 72ch;
-  font-size: 1.05rem;
+  font-size: 0.98rem;
 }
 
 .hero-actions {
@@ -264,7 +265,7 @@ h3 {
 
 .stat-value {
   display: block;
-  font-size: 2.5rem;
+  font-size: 2.15rem;
   font-weight: 800;
 }
 
@@ -338,7 +339,7 @@ h3 {
   justify-content: center;
   min-width: 2rem;
   color: var(--cp-accent-fg);
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 700;
 }
 
@@ -510,7 +511,7 @@ th[data-sort] {
 th[data-sort]::after {
   content: " ↕";
   color: var(--cp-text-muted);
-  font-size: 0.85rem;
+  font-size: 0.8rem;
 }
 
 .download-meta {
@@ -528,7 +529,7 @@ th[data-sort]::after {
   padding: 0.2rem 0.55rem;
   background: var(--cp-surface-soft);
   color: var(--cp-text-muted);
-  font-size: 0.85rem;
+  font-size: 0.8rem;
 }
 
 .site-footer,
