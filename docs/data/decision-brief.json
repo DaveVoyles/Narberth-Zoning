@@ -1,0 +1,202 @@
+{
+  "generatedOn": "2026-05-19",
+  "title": "Narberth zoning survey decision brief",
+  "summary": {
+    "generatedOn": "2026-05-19",
+    "sourceDocument": "Raw Survey Results.pdf",
+    "repository": "https://github.com/DaveVoyles/Narberth-Zoning",
+    "methodologyNote": "Topic tags are provisional keyword-assisted tags inferred from classification rationale, not from full raw response text.",
+    "zones": [
+      {
+        "zone": "Zone 4A",
+        "sourcePages": "90-105",
+        "totalResponses": 303,
+        "categories": [
+          {
+            "category": "Against proposed Zoning Changes",
+            "count": 223,
+            "percent": 73.6
+          },
+          {
+            "category": "Neutral",
+            "count": 18,
+            "percent": 5.9
+          },
+          {
+            "category": "In Favor of proposed Zoning Changes",
+            "count": 62,
+            "percent": 20.5
+          }
+        ],
+        "confidence": [
+          {
+            "confidence": "high",
+            "count": 233,
+            "percent": 76.9
+          },
+          {
+            "confidence": "medium",
+            "count": 64,
+            "percent": 21.1
+          },
+          {
+            "confidence": "low",
+            "count": 6,
+            "percent": 2.0
+          }
+        ],
+        "needsReview": 70
+      },
+      {
+        "zone": "Zone 5B",
+        "sourcePages": "77-89",
+        "totalResponses": 303,
+        "categories": [
+          {
+            "category": "Against proposed Zoning Changes",
+            "count": 204,
+            "percent": 67.3
+          },
+          {
+            "category": "Neutral",
+            "count": 16,
+            "percent": 5.3
+          },
+          {
+            "category": "In Favor of proposed Zoning Changes",
+            "count": 83,
+            "percent": 27.4
+          }
+        ],
+        "confidence": [
+          {
+            "confidence": "high",
+            "count": 224,
+            "percent": 73.9
+          },
+          {
+            "confidence": "medium",
+            "count": 74,
+            "percent": 24.4
+          },
+          {
+            "confidence": "low",
+            "count": 5,
+            "percent": 1.7
+          }
+        ],
+        "needsReview": 79
+      }
+    ],
+    "combined": {
+      "totalResponses": 606,
+      "categories": [
+        {
+          "category": "Against proposed Zoning Changes",
+          "count": 427,
+          "percent": 70.5
+        },
+        {
+          "category": "Neutral",
+          "count": 34,
+          "percent": 5.6
+        },
+        {
+          "category": "In Favor of proposed Zoning Changes",
+          "count": 145,
+          "percent": 23.9
+        }
+      ],
+      "confidence": [
+        {
+          "confidence": "high",
+          "count": 457,
+          "percent": 75.4
+        },
+        {
+          "confidence": "medium",
+          "count": 138,
+          "percent": 22.8
+        },
+        {
+          "confidence": "low",
+          "count": 11,
+          "percent": 1.8
+        }
+      ],
+      "needsReview": 149
+    }
+  },
+  "topTopics": [
+    {
+      "topic": "General stance",
+      "count": 183,
+      "responseShare": 30.2,
+      "Against proposed Zoning Changes": 120,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 63
+    },
+    {
+      "topic": "Parking",
+      "count": 163,
+      "responseShare": 26.9,
+      "Against proposed Zoning Changes": 144,
+      "Neutral": 3,
+      "In Favor of proposed Zoning Changes": 16
+    },
+    {
+      "topic": "Building height",
+      "count": 91,
+      "responseShare": 15.0,
+      "Against proposed Zoning Changes": 80,
+      "Neutral": 1,
+      "In Favor of proposed Zoning Changes": 10
+    },
+    {
+      "topic": "Density",
+      "count": 87,
+      "responseShare": 14.4,
+      "Against proposed Zoning Changes": 76,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 11
+    },
+    {
+      "topic": "Conditional or mixed response",
+      "count": 50,
+      "responseShare": 8.3,
+      "Against proposed Zoning Changes": 43,
+      "Neutral": 3,
+      "In Favor of proposed Zoning Changes": 4
+    },
+    {
+      "topic": "General support",
+      "count": 48,
+      "responseShare": 7.9,
+      "Against proposed Zoning Changes": 13,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 35
+    }
+  ],
+  "reviewQueue": {
+    "totalRows": 185,
+    "combinedNeedsReview": 149
+  },
+  "keyTakeaways": [
+    "Across both analyzed sections, against-as-written classifications are the largest stance category.",
+    "Zone 4A has a higher against-as-written share than Zone 5B.",
+    "Zone 5B has a higher in-favor share than Zone 4A, though against-as-written responses remain larger.",
+    "Topic tags are provisional and should be treated as exploration aids until human review."
+  ],
+  "discussionQuestions": [
+    "Which proposal elements drive opposition: parking, height, density, process, affordability, or neighborhood character?",
+    "Which concerns are shared across both zones, and which are zone-specific?",
+    "Do mixed or conditional responses suggest amendments that could address resident concerns?",
+    "Which medium- or low-confidence classifications should be reviewed before official use?",
+    "What additional planning, affordability, infrastructure, or traffic evidence should be considered alongside resident sentiment?"
+  ],
+  "limits": [
+    "This is a classified readout of written survey responses, not a scientific referendum.",
+    "The public site does not display full raw response text or quote cards without privacy/redaction review.",
+    "Topic tags are keyword-assisted from classification rationale and may undercount or overcount themes."
+  ]
+}

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      (() => {
+        const param = new URLSearchParams(window.location.search).get("clawpilotTheme");
+        const theme =
+          param || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+    <title>Topics and concerns | Narberth zoning survey explorer</title>
+    <meta name="description" content="Provisional topic and concern summary for Narberth zoning survey classifications.">
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a class="brand" href="index.html#home" aria-label="Narberth zoning survey explorer home">
+          <span class="brand-mark" aria-hidden="true">N</span>
+          <span>Narberth zoning survey explorer</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+        <div id="nav-links" class="nav-links">
+          <a href="index.html#home">Summary</a>
+          <a href="brief.html">Brief</a>
+          <a href="index.html#charts">Charts</a>
+          <a href="topics.html">Topics</a>
+          <a href="table.html">Table</a>
+          <a href="review.html">Review</a>
+          <a href="index.html#findings">Findings</a>
+          <a href="index.html#downloads">Downloads</a>
+          <a href="https://github.com/DaveVoyles/Narberth-Zoning" rel="noreferrer">GitHub</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-section">
+        <div class="section-heading">
+          <p class="eyebrow">Topics and concerns</p>
+          <h1>What issues came up most often?</h1>
+          <p>
+            Topic tags are provisional, keyword-assisted tags inferred from classification rationale.
+            A single response can receive more than one tag, so topic totals are not vote totals.
+          </p>
+        </div>
+        <div id="topics-overall" class="mini-grid"></div>
+      </section>
+
+      <section class="page-section">
+        <div class="section-heading">
+          <p class="eyebrow">By zone</p>
+          <h2>Top provisional topics in each analyzed section</h2>
+        </div>
+        <div id="topics-by-zone" class="card-grid two"></div>
+      </section>
+
+      <section class="page-section">
+        <div class="content-card">
+          <h2>How to use this page</h2>
+          <p>
+            Use topics to identify recurring issues for discussion, not as final categories. Human
+            review should confirm the tags before they are used in official materials.
+          </p>
+          <p>
+            Download <a href="data/concerns-by-zone.json">concerns-by-zone JSON</a> or
+            <a href="data/topic-tags.csv">topic tags CSV</a> for review.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Built from public project files in <a href="https://github.com/DaveVoyles/Narberth-Zoning" rel="noreferrer">DaveVoyles/Narberth-Zoning</a>.</p>
+      <p class="muted">Neutral presentation of survey classifications; no policy recommendation is made.</p>
+    </footer>
+    <script src="assets/app.js"></script>
+  </body>
+</html>

@@ -228,6 +228,115 @@ def topic_summary(rows: list[dict[str, object]]) -> dict[str, object]:
     }
 
 
+def topic_metric(topic: str, topic_items: list[dict[str, object]], total_responses: int) -> dict[str, object]:
+    entry: dict[str, object] = {
+        "topic": topic,
+        "count": len(topic_items),
+        "responseShare": round(len(topic_items) / (total_responses or 1) * 100, 1),
+    }
+    for category in CATEGORY_ORDER:
+        entry[category] = sum(1 for row in topic_items if row["category"] == category)
+    return entry
+
+
+def concerns_by_zone(rows: list[dict[str, object]]) -> dict[str, object]:
+    tag_rows = topic_rows(rows)
+    overall_topics = sorted({row["topic"] for row in tag_rows})
+    overall = [
+        topic_metric(topic, [row for row in tag_rows if row["topic"] == topic], len(rows))
+        for topic in overall_topics
+    ]
+    by_zone = []
+    for zone in SOURCES:
+        zone_rows = [row for row in rows if row["zone"] == zone]
+        zone_tags = [row for row in tag_rows if row["zone"] == zone]
+        zone_topics = sorted({row["topic"] for row in zone_tags})
+        by_zone.append(
+            {
+                "zone": zone,
+                "sourcePages": SOURCES[zone]["pages"],
+                "totalResponses": len(zone_rows),
+                "topics": sorted(
+                    [
+                        topic_metric(topic, [row for row in zone_tags if row["topic"] == topic], len(zone_rows))
+                        for topic in zone_topics
+                    ],
+                    key=lambda item: (-int(item["count"]), str(item["topic"])),
+                ),
+            }
+        )
+    return {
+        "generatedOn": date.today().isoformat(),
+        "methodologyNote": "Topic counts are provisional keyword-assisted tags from classification rationale. A response can have more than one topic.",
+        "overall": sorted(overall, key=lambda item: (-int(item["count"]), str(item["topic"]))),
+        "byZone": by_zone,
+    }
+
+
+def review_queue(rows: list[dict[str, object]]) -> dict[str, object]:
+    queue = [
+        row
+        for row in rows
+        if row["needs_review"] == "yes" or row["mixed_flag"] == "yes"
+    ]
+    confidence_order = {"low": 0, "medium": 1, "high": 2}
+    queue = sorted(queue, key=lambda row: (confidence_order[str(row["confidence"])], row["zone"], row["index"]))
+    public_fields = ["zone", "index", "page", "category", "confidence", "topics", "needs_review", "mixed_flag", "rationale"]
+    return {
+        "generatedOn": date.today().isoformat(),
+        "totalRows": len(queue),
+        "criteria": [
+            "medium or low confidence classification",
+            "conditional or mixed response flag",
+        ],
+        "byConfidence": count_percent(queue, "confidence", ["high", "medium", "low"]),
+        "byZone": [
+            {
+                "zone": zone,
+                "totalRows": sum(1 for row in queue if row["zone"] == zone),
+                "needsReview": sum(1 for row in queue if row["zone"] == zone and row["needs_review"] == "yes"),
+                "mixed": sum(1 for row in queue if row["zone"] == zone and row["mixed_flag"] == "yes"),
+            }
+            for zone in SOURCES
+        ],
+        "rows": [{field: row[field] for field in public_fields} for row in queue],
+    }
+
+
+def decision_brief(rows: list[dict[str, object]]) -> dict[str, object]:
+    summary = summarize(rows)
+    concerns = concerns_by_zone(rows)
+    top_topics = concerns["overall"][:6]
+    return {
+        "generatedOn": date.today().isoformat(),
+        "title": "Narberth zoning survey decision brief",
+        "summary": summary,
+        "topTopics": top_topics,
+        "reviewQueue": {
+            "totalRows": review_queue(rows)["totalRows"],
+            "combinedNeedsReview": summary["combined"]["needsReview"],
+        },
+        "keyTakeaways": [
+            "Across both analyzed sections, against-as-written classifications are the largest stance category.",
+            "Zone 4A has a higher against-as-written share than Zone 5B.",
+            "Zone 5B has a higher in-favor share than Zone 4A, though against-as-written responses remain larger.",
+            "Topic tags are provisional and should be treated as exploration aids until human review.",
+        ],
+        "discussionQuestions": [
+            "Which proposal elements drive opposition: parking, height, density, process, affordability, or neighborhood character?",
+            "Which concerns are shared across both zones, and which are zone-specific?",
+            "Do mixed or conditional responses suggest amendments that could address resident concerns?",
+            "Which medium- or low-confidence classifications should be reviewed before official use?",
+            "What additional planning, affordability, infrastructure, or traffic evidence should be considered alongside resident sentiment?",
+        ],
+        "limits": [
+            "This is a classified readout of written survey responses, not a scientific referendum.",
+            "The public site does not display full raw response text or quote cards without privacy/redaction review.",
+            "Topic tags are keyword-assisted from classification rationale and may undercount or overcount themes.",
+        ],
+    }
+
+
 def page_summary(rows: list[dict[str, object]]) -> list[dict[str, object]]:
     output = []
     for zone in SOURCES:
@@ -265,6 +374,9 @@ def describe_file(name: str) -> str:
         "combined-classified.csv": "Combined enriched row-level classification data.",
         "combined-classified.json": "Combined enriched row-level classification data for the site.",
         "summary.json": "Zone and combined stance/confidence totals.",
+        "decision-brief.json": "Decision-maker summary metrics and discussion questions.",
+        "concerns-by-zone.json": "Provisional topic and concern counts by zone.",
+        "review-queue.json": "Rows prioritized for human review by confidence or mixed flag.",
         "topic-tags.csv": "One row per response-topic assignment.",
         "topic-summary.json": "Topic counts, taxonomy, and stance-by-topic totals.",
         "page-summary.json": "Page-level stance totals by zone.",
@@ -351,6 +463,9 @@ def main() -> None:
     (DATA / "summary.json").write_text(json.dumps(summarize(rows), indent=2), encoding="utf-8")
     write_csv(DATA / "topic-tags.csv", topic_rows(rows), ["zone", "index", "page", "category", "confidence", "topic"])
     (DATA / "topic-summary.json").write_text(json.dumps(topic_summary(rows), indent=2), encoding="utf-8")
+    (DATA / "concerns-by-zone.json").write_text(json.dumps(concerns_by_zone(rows), indent=2), encoding="utf-8")
+    (DATA / "decision-brief.json").write_text(json.dumps(decision_brief(rows), indent=2), encoding="utf-8")
+    (DATA / "review-queue.json").write_text(json.dumps(review_queue(rows), indent=2), encoding="utf-8")
     (DATA / "page-summary.json").write_text(json.dumps(page_summary(rows), indent=2), encoding="utf-8")
 
     for src, dst in [

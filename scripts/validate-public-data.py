@@ -92,6 +92,22 @@ def validate_json(errors: list[str]) -> None:
     manifest = json.loads((DATA / "manifest.json").read_text(encoding="utf-8"))
     if manifest["totalClassifiedResponses"] != 606:
         errors.append("manifest totalClassifiedResponses is not 606")
+    brief = json.loads((DATA / "decision-brief.json").read_text(encoding="utf-8"))
+    if brief["summary"]["combined"]["totalResponses"] != summary["combined"]["totalResponses"]:
+        errors.append("decision brief combined total does not match summary")
+    concerns = json.loads((DATA / "concerns-by-zone.json").read_text(encoding="utf-8"))
+    if not concerns.get("overall") or len(concerns.get("byZone", [])) != 2:
+        errors.append("concerns-by-zone.json missing overall or zone topic summaries")
+    review = json.loads((DATA / "review-queue.json").read_text(encoding="utf-8"))
+    combined_json = json.loads((DATA / "combined-classified.json").read_text(encoding="utf-8"))
+    row_keys = {(row["zone"], row["index"]) for row in combined_json}
+    if review["totalRows"] != len(review["rows"]):
+        errors.append("review queue totalRows does not match row list length")
+    for row in review["rows"]:
+        if (row["zone"], row["index"]) not in row_keys:
+            errors.append(f"review queue row not found in combined data: {row['zone']} #{row['index']}")
+        if row["needs_review"] != "yes" and row["mixed_flag"] != "yes":
+            errors.append(f"review queue row lacks review criteria: {row['zone']} #{row['index']}")
 
 
 def validate_links(errors: list[str]) -> None:

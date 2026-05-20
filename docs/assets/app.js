@@ -30,6 +30,9 @@ const downloads = [
   { title: "Topic tags", href: "data/topic-tags.csv", format: "CSV", description: "One row per response-topic assignment using provisional keyword-assisted tags." },
   { title: "Summary data", href: "data/summary.json", format: "JSON", description: "Counts and percentages powering the dashboard." },
   { title: "Topic summary", href: "data/topic-summary.json", format: "JSON", description: "Topic counts, taxonomy notes, and stance-by-topic totals." },
+  { title: "Decision brief data", href: "data/decision-brief.json", format: "JSON", description: "Meeting-ready summary metrics, takeaways, and discussion questions." },
+  { title: "Concerns by zone", href: "data/concerns-by-zone.json", format: "JSON", description: "Provisional topic and concern counts by zone." },
+  { title: "Review queue", href: "data/review-queue.json", format: "JSON", description: "Rows prioritized for human review by confidence or mixed-response flag." },
   { title: "Generated file manifest", href: "data/manifest.json", format: "JSON", description: "File inventory with byte sizes, generated date, and source relationships." },
   { title: "All classifications workbook", href: "documents/narberth-zoning-classifications.xlsx", format: "XLSX", description: "Excel workbook with overview, row-level data, and topic tags." },
   { title: "Zone 4A workbook", href: "documents/zone-4a-classified.xlsx", format: "XLSX", description: "Excel workbook for Zone 4A row-level classifications." },
@@ -42,6 +45,9 @@ const state = {
   summary: null,
   manifest: null,
   topicSummary: null,
+  decisionBrief: null,
+  concernsByZone: null,
+  reviewQueue: null,
   pageSummary: [],
   rows: [],
   sort: { field: "zone", direction: "asc" },
@@ -112,8 +118,13 @@ function setupNavigation() {
       const linkPage = href.pathname.split("/").pop() || "index.html";
       const samePage = currentPage === linkPage;
       const isCurrentHash = currentPage === "index.html" && samePage && href.hash === hash;
-      const isTablePage = currentPage === "table.html" && linkPage === "table.html";
-      link.classList.toggle("active", isCurrentHash || isTablePage);
+      const isCurrentPage = currentPage !== "index.html" && samePage;
+      link.classList.toggle("active", isCurrentHash || isCurrentPage);
+      if (isCurrentHash || isCurrentPage) {
+        link.setAttribute("aria-current", currentPage === "index.html" ? "location" : "page");
+      } else {
+        link.removeAttribute("aria-current");
+      }
     });
   }
   window.addEventListener("hashchange", updateActive);
@@ -124,8 +135,8 @@ function renderSummaryCards() {
   const target = document.querySelector("#summary-cards");
   if (!target) return;
   target.innerHTML = state.summary.zones.map((zone) => {
-    const against = zone.categories.find((entry) => entry.category === categoryOrder[0]);
-    const favor = zone.categories.find((entry) => entry.category === categoryOrder[2]);
+    const against = categoryItem(zone, categoryOrder[0]);
+    const favor = categoryItem(zone, categoryOrder[2]);
     return `
       <div class="stat">
         <span class="stat-value tone-negative">${against.percent}%</span>
@@ -141,7 +152,7 @@ function renderBarChart() {
   if (!chart) return;
   chart.innerHTML = state.summary.zones.map((zone) => {
     const segments = categoryOrder.map((category) => {
-      const item = zone.categories.find((entry) => entry.category === category);
+      const item = categoryItem(zone, category);
       return `<span class="segment ${classByCategory.get(category)}" style="width:${item.percent}%">${item.percent}%</span>`;
     }).join("");
     return `<div class="bar-group"><strong>${escapeHtml(zone.zone)}</strong><div><div class="stack">${segments}</div></div></div>`;
@@ -218,6 +229,139 @@ function renderPageChart() {
     }).join("");
     return `<div class="page-row"><strong>${escapeHtml(entry.zone)} p.${entry.page}</strong><span class="page-track">${segments}</span><span>${entry.total}</span></div>`;
   }).join("");
+}
+
+function categoryItem(summaryLike, category) {
+  return summaryLike.categories.find((entry) => entry.category === category) || { count: 0, percent: 0 };
+}
+
+function renderBriefPage() {
+  const target = document.querySelector("#brief-content");
+  if (!target) return;
+  const combined = state.decisionBrief.summary.combined;
+  const against = categoryItem(combined, categoryOrder[0]);
+  const neutral = categoryItem(combined, categoryOrder[1]);
+  const favor = categoryItem(combined, categoryOrder[2]);
+  target.innerHTML = `
+    <div class="card-grid three">
+      <article class="stat">
+        <span class="stat-value tone-negative">${against.percent}%</span>
+        <span class="stat-label">against as written (${against.count} responses)</span>
+      </article>
+      <article class="stat">
+        <span class="stat-value tone-neutral">${neutral.percent}%</span>
+        <span class="stat-label">neutral or unclear (${neutral.count} responses)</span>
+      </article>
+      <article class="stat">
+        <span class="stat-value tone-positive">${favor.percent}%</span>
+        <span class="stat-label">in favor (${favor.count} responses)</span>
+      </article>
+    </div>
+    <div class="card-grid two">
+      <article class="card">
+        <h2>Key takeaways</h2>
+        <ul class="clean-list">${state.decisionBrief.keyTakeaways.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
+      </article>
+      <article class="card">
+        <h2>Questions for public discussion</h2>
+        <ul class="clean-list">${state.decisionBrief.discussionQuestions.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
+      </article>
+    </div>
+  `;
+  const zoneTarget = document.querySelector("#brief-zones");
+  if (zoneTarget) {
+    zoneTarget.innerHTML = state.decisionBrief.summary.zones.map((zone) => {
+      const zoneAgainst = categoryItem(zone, categoryOrder[0]);
+      const zoneFavor = categoryItem(zone, categoryOrder[2]);
+      return `
+        <article class="card">
+          <h2>${escapeHtml(zone.zone)}</h2>
+          <p><strong>${zone.totalResponses}</strong> classified responses from source pages ${escapeHtml(zone.sourcePages)}.</p>
+          <p><span class="tone-negative">${zoneAgainst.count} against (${zoneAgainst.percent}%)</span> / <span class="tone-positive">${zoneFavor.count} in favor (${zoneFavor.percent}%)</span>.</p>
+          <p class="muted">${zone.needsReview} classifications are medium or low confidence and should receive human review before official use.</p>
+        </article>
+      `;
+    }).join("");
+  }
+  const limits = document.querySelector("#brief-limits");
+  if (limits) {
+    limits.innerHTML = state.decisionBrief.limits.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
+  }
+}
+
+function topicStanceSummary(item) {
+  return `
+    <span class="tone-negative">${item[categoryOrder[0]] || 0} against</span>,
+    <span class="tone-neutral">${item[categoryOrder[1]] || 0} neutral</span>,
+    <span class="tone-positive">${item[categoryOrder[2]] || 0} in favor</span>
+  `;
+}
+
+function renderTopicsPage() {
+  const overall = document.querySelector("#topics-overall");
+  if (!overall) return;
+  const topics = state.concernsByZone.overall.slice(0, 12);
+  const max = Math.max(...topics.map((item) => item.count), 1);
+  overall.innerHTML = topics.map((item) => `
+    <article class="card topic-card">
+      <div class="metric-row wide">
+        <strong>${escapeHtml(item.topic)}</strong>
+        <span class="metric-track"><span class="metric-fill" style="width:${(item.count / max) * 100}%"></span></span>
+        <span>${item.count}</span>
+      </div>
+      <p class="muted">${item.responseShare}% of classified responses received this provisional tag. ${topicStanceSummary(item)}.</p>
+    </article>
+  `).join("");
+  const byZone = document.querySelector("#topics-by-zone");
+  if (byZone) {
+    byZone.innerHTML = state.concernsByZone.byZone.map((zone) => `
+      <article class="card">
+        <h2>${escapeHtml(zone.zone)}</h2>
+        <p class="muted">${zone.totalResponses} responses; source pages ${escapeHtml(zone.sourcePages)}.</p>
+        <ol class="ranked-list">
+          ${zone.topics.slice(0, 8).map((topic) => `<li><strong>${escapeHtml(topic.topic)}</strong>: ${topic.count} tags (${topic.responseShare}%)</li>`).join("")}
+        </ol>
+      </article>
+    `).join("");
+  }
+}
+
+function renderReviewPage() {
+  const summary = document.querySelector("#review-summary");
+  if (!summary) return;
+  summary.innerHTML = `
+    <div class="card-grid three">
+      <article class="stat">
+        <span class="stat-value">${state.reviewQueue.totalRows}</span>
+        <span class="stat-label">rows in the review queue</span>
+      </article>
+      ${state.reviewQueue.byZone.map((zone) => `
+        <article class="stat">
+          <span class="stat-value">${zone.totalRows}</span>
+          <span class="stat-label">${escapeHtml(zone.zone)} review rows</span>
+        </article>
+      `).join("")}
+    </div>
+  `;
+  const criteria = document.querySelector("#review-criteria");
+  if (criteria) {
+    criteria.innerHTML = state.reviewQueue.criteria.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
+  }
+  const rows = document.querySelector("#review-queue-rows");
+  if (rows) {
+    rows.innerHTML = state.reviewQueue.rows.slice(0, 30).map((row) => `
+      <tr>
+        <td>${escapeHtml(row.zone)}</td>
+        <td>${row.index}</td>
+        <td>${row.page}</td>
+        <td class="${toneByCategory.get(row.category) || ""}">${escapeHtml(row.category)}</td>
+        <td>${escapeHtml(row.confidence)}</td>
+        <td>${escapeHtml(row.mixed_flag)}</td>
+        <td>${escapeHtml(row.topics)}</td>
+        <td>${escapeHtml(row.rationale)}</td>
+      </tr>
+    `).join("");
+  }
 }
 
 function colorToRgb(value) {
@@ -490,18 +634,24 @@ async function renderDownloads() {
 
 async function init() {
   setupNavigation();
-  const [summary, rows, manifest, topicSummary, pageSummary] = await Promise.all([
+  const [summary, rows, manifest, topicSummary, pageSummary, decisionBrief, concernsByZone, reviewQueue] = await Promise.all([
     fetchJson("data/summary.json"),
     fetchJson("data/combined-classified.json"),
     fetchJson("data/manifest.json"),
     fetchJson("data/topic-summary.json"),
     fetchJson("data/page-summary.json"),
+    fetchJson("data/decision-brief.json"),
+    fetchJson("data/concerns-by-zone.json"),
+    fetchJson("data/review-queue.json"),
   ]);
   state.summary = summary;
   state.rows = rows;
   state.manifest = manifest;
   state.topicSummary = topicSummary;
   state.pageSummary = pageSummary;
+  state.decisionBrief = decisionBrief;
+  state.concernsByZone = concernsByZone;
+  state.reviewQueue = reviewQueue;
   renderTopicFilter();
   renderSummaryCards();
   renderBarChart();
@@ -513,6 +663,9 @@ async function init() {
   renderTable();
   renderDownloads();
   renderAuditSummary();
+  renderBriefPage();
+  renderTopicsPage();
+  renderReviewPage();
   setupTableControls();
   ["#zone-filter", "#category-filter", "#confidence-filter", "#topic-filter", "#search-filter"].forEach((selector) => {
     document.querySelector(selector)?.addEventListener("input", renderTable);

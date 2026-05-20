@@ -17,14 +17,29 @@
       "description": "Combined enriched row-level classification data for the site."
     },
     {
+      "path": "data/concerns-by-zone.json",
+      "bytes": 11225,
+      "description": "Provisional topic and concern counts by zone."
+    },
+    {
+      "path": "data/decision-brief.json",
+      "bytes": 5731,
+      "description": "Decision-maker summary metrics and discussion questions."
+    },
+    {
       "path": "data/manifest.json",
-      "bytes": 2674,
+      "bytes": 3139,
       "description": "Generated file inventory and metadata."
     },
     {
       "path": "data/page-summary.json",
       "bytes": 4963,
       "description": "Page-level stance totals by zone."
+    },
+    {
+      "path": "data/review-queue.json",
+      "bytes": 57296,
+      "description": "Rows prioritized for human review by confidence or mixed flag."
     },
     {
       "path": "data/summary.json",
@@ -73,7 +88,7 @@
     },
     {
       "path": "documents/project-readme.md",
-      "bytes": 15574,
+      "bytes": 16455,
       "description": "Public project asset."
     },
     {

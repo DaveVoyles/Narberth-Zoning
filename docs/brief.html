@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      (() => {
+        const param = new URLSearchParams(window.location.search).get("clawpilotTheme");
+        const theme =
+          param || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+    <title>Decision brief | Narberth zoning survey explorer</title>
+    <meta name="description" content="Meeting-ready Narberth zoning survey decision brief for residents, Borough Council, and planners.">
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a class="brand" href="index.html#home" aria-label="Narberth zoning survey explorer home">
+          <span class="brand-mark" aria-hidden="true">N</span>
+          <span>Narberth zoning survey explorer</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+        <div id="nav-links" class="nav-links">
+          <a href="index.html#home">Summary</a>
+          <a href="brief.html">Brief</a>
+          <a href="index.html#charts">Charts</a>
+          <a href="topics.html">Topics</a>
+          <a href="table.html">Table</a>
+          <a href="review.html">Review</a>
+          <a href="index.html#findings">Findings</a>
+          <a href="index.html#downloads">Downloads</a>
+          <a href="https://github.com/DaveVoyles/Narberth-Zoning" rel="noreferrer">GitHub</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-section">
+        <div class="section-heading">
+          <p class="eyebrow">Decision brief</p>
+          <h1>Meeting-ready summary for residents and decision-makers</h1>
+          <p>
+            This page summarizes the classified written responses in a print-friendly format. It is
+            intended to support public discussion, not to recommend a policy outcome.
+          </p>
+        </div>
+        <div id="brief-content"></div>
+      </section>
+
+      <section class="page-section">
+        <div class="section-heading">
+          <p class="eyebrow">Zone comparison</p>
+          <h2>What differs by analyzed section</h2>
+        </div>
+        <div id="brief-zones" class="card-grid two"></div>
+      </section>
+
+      <section class="page-section">
+        <div class="content-card">
+          <h2>Limits to keep visible</h2>
+          <ul id="brief-limits" class="clean-list"></ul>
+          <p>
+            Download the underlying <a href="data/decision-brief.json">decision brief JSON</a> or
+            inspect the <a href="table.html">classified response table</a> to trace these figures.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Built from public project files in <a href="https://github.com/DaveVoyles/Narberth-Zoning" rel="noreferrer">DaveVoyles/Narberth-Zoning</a>.</p>
+      <p class="muted">Neutral presentation of survey classifications; no policy recommendation is made.</p>
+    </footer>
+    <script src="assets/app.js"></script>
+  </body>
+</html>

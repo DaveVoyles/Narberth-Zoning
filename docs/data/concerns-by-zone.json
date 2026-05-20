@@ -1,0 +1,398 @@
+{
+  "generatedOn": "2026-05-19",
+  "methodologyNote": "Topic counts are provisional keyword-assisted tags from classification rationale. A response can have more than one topic.",
+  "overall": [
+    {
+      "topic": "General stance",
+      "count": 183,
+      "responseShare": 30.2,
+      "Against proposed Zoning Changes": 120,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 63
+    },
+    {
+      "topic": "Parking",
+      "count": 163,
+      "responseShare": 26.9,
+      "Against proposed Zoning Changes": 144,
+      "Neutral": 3,
+      "In Favor of proposed Zoning Changes": 16
+    },
+    {
+      "topic": "Building height",
+      "count": 91,
+      "responseShare": 15.0,
+      "Against proposed Zoning Changes": 80,
+      "Neutral": 1,
+      "In Favor of proposed Zoning Changes": 10
+    },
+    {
+      "topic": "Density",
+      "count": 87,
+      "responseShare": 14.4,
+      "Against proposed Zoning Changes": 76,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 11
+    },
+    {
+      "topic": "Conditional or mixed response",
+      "count": 50,
+      "responseShare": 8.3,
+      "Against proposed Zoning Changes": 43,
+      "Neutral": 3,
+      "In Favor of proposed Zoning Changes": 4
+    },
+    {
+      "topic": "General support",
+      "count": 48,
+      "responseShare": 7.9,
+      "Against proposed Zoning Changes": 13,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 35
+    },
+    {
+      "topic": "General opposition",
+      "count": 41,
+      "responseShare": 6.8,
+      "Against proposed Zoning Changes": 40,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 1
+    },
+    {
+      "topic": "Unclear or neutral",
+      "count": 27,
+      "responseShare": 4.5,
+      "Against proposed Zoning Changes": 0,
+      "Neutral": 27,
+      "In Favor of proposed Zoning Changes": 0
+    },
+    {
+      "topic": "Affordable housing",
+      "count": 20,
+      "responseShare": 3.3,
+      "Against proposed Zoning Changes": 13,
+      "Neutral": 1,
+      "In Favor of proposed Zoning Changes": 6
+    },
+    {
+      "topic": "Traffic and safety",
+      "count": 19,
+      "responseShare": 3.1,
+      "Against proposed Zoning Changes": 17,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 2
+    },
+    {
+      "topic": "Transit and walkability",
+      "count": 15,
+      "responseShare": 2.5,
+      "Against proposed Zoning Changes": 6,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 9
+    },
+    {
+      "topic": "Developer incentives",
+      "count": 9,
+      "responseShare": 1.5,
+      "Against proposed Zoning Changes": 7,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 2
+    },
+    {
+      "topic": "Neighborhood character",
+      "count": 6,
+      "responseShare": 1.0,
+      "Against proposed Zoning Changes": 6,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 0
+    },
+    {
+      "topic": "Green space and stormwater",
+      "count": 2,
+      "responseShare": 0.3,
+      "Against proposed Zoning Changes": 2,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 0
+    },
+    {
+      "topic": "Process and trust",
+      "count": 1,
+      "responseShare": 0.2,
+      "Against proposed Zoning Changes": 1,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 0
+    },
+    {
+      "topic": "Property values",
+      "count": 1,
+      "responseShare": 0.2,
+      "Against proposed Zoning Changes": 1,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 0
+    },
+    {
+      "topic": "Schools and infrastructure",
+      "count": 1,
+      "responseShare": 0.2,
+      "Against proposed Zoning Changes": 1,
+      "Neutral": 0,
+      "In Favor of proposed Zoning Changes": 0
+    }
+  ],
+  "byZone": [
+    {
+      "zone": "Zone 4A",
+      "sourcePages": "90-105",
+      "totalResponses": 303,
+      "topics": [
+        {
+          "topic": "General stance",
+          "count": 89,
+          "responseShare": 29.4,
+          "Against proposed Zoning Changes": 64,
+          "Neutral": 0,
+          "In Favor of proposed Zoning Changes": 25
+        },
+        {
+          "topic": "Parking",
+          "count": 87,
+          "responseShare": 28.7,
+          "Against proposed Zoning Changes": 76,
+          "Neutral": 3,
+          "In Favor of proposed Zoning Changes": 8
+        },
+        {
+          "topic": "Density",
+          "count": 54,
+          "responseShare": 17.8,
+          "Against proposed Zoning Changes": 49,
+          "Neutral": 0,
+          "In Favor of proposed Zoning Changes": 5
+        },
+        {
+          "topic": "Building height",
+          "count": 47,
+          "responseShare": 15.5,
+          "Against proposed Zoning Changes": 43,
+          "Neutral": 1,
+          "In Favor of proposed Zoning Changes": 3
+        },
+        {
+          "topic": "Conditional or mixed response",
+          "count": 36,
+          "responseShare": 11.9,
+          "Against proposed Zoning Changes": 33,
+          "Neutral": 2,
+          "In Favor of proposed Zoning Changes": 1
+        },
+        {
+          "topic": "General support",
+          "count": 25,
+          "responseShare": 8.3,
+          "Against proposed Zoning Changes": 8,
+          "Neutral": 0,
+          "In Favor of proposed Zoning Changes": 17
+        },
+        {
+          "topic": "General opposition",
+          "count": 21,
+          "responseShare": 6.9,
+          "Against proposed Zoning Changes": 21,
+          "Neutral": 0,
+          "In Favor of proposed Zoning Changes": 0
+        },
+        {
+          "topic": "Unclear or neutral",
+          "count": 12,
+          "responseShare": 4.0,
+          "Against proposed Zoning Changes": 0,
+          "Neutral": 12,
+          "In Favor of proposed Zoning Changes": 0
+        },
+        {
+          "topic": "Transit and walkability",
+          "count": 8,
+          "responseShare": 2.6,
+          "Against proposed Zoning Changes": 4,
+          "Neutral": 0,
+          "In Favor of proposed Zoning Changes": 4
+        },
+        {
+          "topic": "Traffic and safety",
+          "count": 7,
+          "responseShare": 2.3,
+          "Against proposed Zoning Changes": 6,
+          "Neutral": 0,
+          "In Favor of proposed Zoning Changes": 1
+        },
+        {
+          "topic": "Affordable housing",
+          "count": 5,
+          "responseShare": 1.7,
+          "Against proposed Zoning Changes": 4,
+          "Neutral": 0,
+          "In Favor of proposed Zoning Changes": 1
+        },
+        {
+          "topic": "Developer incentives",
+          "count": 5,
+          "responseShare": 1.7,
+          "Against proposed Zoning Changes": 4,
+          "Neutral": 0,
+          "In Favor of proposed Zoning Changes": 1
+        },
+        {
+          "topic": "Neighborhood character",
+          "count": 3,
+          "responseShare": 1.0,
+          "Against proposed Zoning Changes": 3,
+          "Neutral": 0,
+          "In Favor of proposed Zoning Changes": 0
+        },
+        {
+          "topic": "Green space and stormwater",
+          "count": 2,
+          "responseShare": 0.7,
+          "Against proposed Zoning Changes": 2,
+          "Neutral": 0,
+          "In Favor of proposed Zoning Changes": 0
+        },
+        {
+          "topic": "Process and trust",
+          "count": 1,
+          "responseShare": 0.3,
+          "Against proposed Zoning Changes": 1,
+          "Neutral": 0,
+          "In Favor of proposed Zoning Changes": 0
+        },
+        {
+          "topic": "Schools and infrastructure",
+          "count": 1,
+          "responseShare": 0.3,
+          "Against proposed Zoning Changes": 1,
+          "Neutral": 0,
+          "In Favor of proposed Zoning Changes": 0
+        }
+      ]
+    },
+    {
+      "zone": "Zone 5B",
+      "sourcePages": "77-89",
+      "totalResponses": 303,
+      "topics": [
+        {
+          "topic": "General stance",
+          "count": 94,
+          "responseShare": 31.0,
+          "Against proposed Zoning Changes": 56,
+          "Neutral": 0,
+          "In Favor of proposed Zoning Changes": 38
+        },
+        {
+          "topic": "Parking",
+          "count": 76,
+          "responseShare": 25.1,
+          "Against proposed Zoning Changes": 68,
+          "Neutral": 0,
+          "In Favor of proposed Zoning Changes": 8
+        },
+        {
+          "topic": "Building height",
+          "count": 44,
+          "responseShare": 14.5,
+          "Against proposed Zoning Changes": 37,
+          "Neutral": 0,
+          "In Favor of proposed Zoning Changes": 7
+        },
+        {
+          "topic": "Density",
+          "count": 33,
+          "responseShare": 10.9,
+          "Against proposed Zoning Changes": 27,
+          "Neutral": 0,
+          "In Favor of proposed Zoning Changes": 6
+        },
+        {
+          "topic": "General support",
+          "count": 23,
+          "responseShare": 7.6,
+          "Against proposed Zoning Changes": 5,
+          "Neutral": 0,
+          "In Favor of proposed Zoning Changes": 18
+        },
+        {
+          "topic": "General opposition",
+          "count": 20,
+          "responseShare": 6.6,
+          "Against proposed Zoning Changes": 19,
+          "Neutral": 0,
+          "In Favor of proposed Zoning Changes": 1
+        },
+        {
+          "topic": "Affordable housing",
+          "count": 15,
+          "responseShare": 5.0,
+          "Against proposed Zoning Changes": 9,
+          "Neutral": 1,
+          "In Favor of proposed Zoning Changes": 5
+        },
+        {
+          "topic": "Unclear or neutral",
+          "count": 15,
+          "responseShare": 5.0,
+          "Against proposed Zoning Changes": 0,
+          "Neutral": 15,
+          "In Favor of proposed Zoning Changes": 0
+        },
+        {
+          "topic": "Conditional or mixed response",
+          "count": 14,
+          "responseShare": 4.6,
+          "Against proposed Zoning Changes": 10,
+          "Neutral": 1,
+          "In Favor of proposed Zoning Changes": 3
+        },
+        {
+          "topic": "Traffic and safety",
+          "count": 12,
+          "responseShare": 4.0,
+          "Against proposed Zoning Changes": 11,
+          "Neutral": 0,
+          "In Favor of proposed Zoning Changes": 1
+        },
+        {
+          "topic": "Transit and walkability",
+          "count": 7,
+          "responseShare": 2.3,
+          "Against proposed Zoning Changes": 2,
+          "Neutral": 0,
+          "In Favor of proposed Zoning Changes": 5
+        },
+        {
+          "topic": "Developer incentives",
+          "count": 4,
+          "responseShare": 1.3,
+          "Against proposed Zoning Changes": 3,
+          "Neutral": 0,
+          "In Favor of proposed Zoning Changes": 1
+        },
+        {
+          "topic": "Neighborhood character",
+          "count": 3,
+          "responseShare": 1.0,
+          "Against proposed Zoning Changes": 3,
+          "Neutral": 0,
+          "In Favor of proposed Zoning Changes": 0
+        },
+        {
+          "topic": "Property values",
+          "count": 1,
+          "responseShare": 0.3,
+          "Against proposed Zoning Changes": 1,
+          "Neutral": 0,
+          "In Favor of proposed Zoning Changes": 0
+        }
+      ]
+    }
+  ]
+}

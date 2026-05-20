@@ -193,14 +193,26 @@ The public website should have multiple pages so residents can choose between qu
    - Plain-language caveats
    - Prominent link back to the GitHub repository
 
-2. **Charts and graphics**
+2. **Decision brief**
+   - Meeting-ready summary for residents, Borough Council, and planners
+   - Headline stance percentages
+   - Key takeaways and limitations
+   - Discussion questions for public meetings
+   - Print-friendly layout
+
+3. **Charts and graphics**
    - Side-by-side Zone 4A and Zone 5B stance charts
    - Difference in opposition, neutral, and support shares
    - Visual breakdowns by zone, page, category, confidence, and future topic tags
    - WebGL visualizations such as response particles or topic constellations
    - Reduced-motion and non-WebGL fallback views
 
-3. **Tables and data**
+4. **Topics and concerns**
+   - Provisional topic counts overall and by zone
+   - Stance breakdowns inside each topic
+   - Clear warning that topic tags are keyword-assisted and need human review
+
+5. **Tables and data**
    - No charts or decorative graphics on this page
    - Searchable table of classified responses
    - Filter by page, zone, stance, confidence, and rationale
@@ -208,7 +220,13 @@ The public website should have multiple pages so residents can choose between qu
    - Clear row counts and active-filter counts
    - Optional column visibility controls
 
-4. **Detailed findings**
+6. **Review queue**
+   - Rows prioritized for human review
+   - Medium/low-confidence classifications
+   - Mixed or conditional response flags
+   - Downloadable review data
+
+7. **Detailed findings**
    - Text summary of the current findings
    - Zone 4A readout
    - Zone 5B readout
@@ -216,14 +234,14 @@ The public website should have multiple pages so residents can choose between qu
    - Key limitations and interpretation notes
    - Future topic-analysis findings once topic tagging exists
 
-5. **Methodology and limitations**
+8. **Methodology and limitations**
    - Parsing steps
    - Classification categories
    - Rules for mixed responses
    - Known limitations
    - Disclosure that the survey data is public-comment style feedback, not necessarily a statistically representative referendum
 
-6. **Downloads**
+9. **Downloads**
    - Original raw survey PDF
    - Classified CSV files
    - Classified XLSX files
@@ -233,7 +251,7 @@ The public website should have multiple pages so residents can choose between qu
    - Markdown or PDF summary report
    - GitHub repository link
 
-7. **About / source**
+10. **About / source**
    - Link back to the GitHub repository
    - Explanation of the neutral civic-data purpose
    - Data update history
@@ -250,6 +268,9 @@ The site should make it easy to download the source and outputs without digging 
 | Zone 5B classifications | CSV and XLSX | Lets users inspect or reuse the Zone 5B row-level classifications |
 | Combined classifications | CSV and XLSX | Lets users compare both zones in one file |
 | Summary data | JSON | Powers the charts and supports reuse by developers |
+| Decision brief data | JSON | Provides meeting-ready takeaways and discussion questions |
+| Concerns by zone | JSON | Provides provisional topic counts overall and by zone |
+| Review queue | JSON | Prioritizes rows for human review by confidence or mixed-response flags |
 | Findings summary | Markdown and PDF | Provides a shareable text report |
 
 Every download link should include a short description, file size when available, and last-updated date.
