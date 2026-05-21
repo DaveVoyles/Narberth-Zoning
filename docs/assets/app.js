@@ -350,19 +350,6 @@ function renderDecisionFaq(selector = "#decision-faq", limit = 6) {
   `).join("");
 }
 
-function renderReadFirst(selector = "#read-first-panel") {
-  const target = document.querySelector(selector);
-  if (!target) return;
-  target.innerHTML = state.decisionBrief.readFirst.map((item, index) => `
-    <article class="card read-first-card">
-      <span class="step-number">${index + 1}</span>
-      <h3>${escapeHtml(item.title)}</h3>
-      <p>${escapeHtml(item.body)}</p>
-      <a href="${escapeHtml(item.href)}">${escapeHtml(item.linkText)}</a>
-    </article>
-  `).join("");
-}
-
 function colorStanceText(value) {
   return escapeHtml(value)
     .replace(/\b(against|opposition)\b/gi, '<span class="tone-negative">$1</span>')
@@ -402,31 +389,6 @@ function renderConfidenceExplainer(selector = "#confidence-explainer") {
     <ul class="clean-list">
       ${data.reviewCriteria.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
     </ul>
-  `;
-}
-
-function renderConfidenceCallout() {
-  const target = document.querySelector("#confidence-callout");
-  if (!target) return;
-  const combined = state.summary.combined;
-  const confidence = Object.fromEntries(combined.confidence.map((entry) => [entry.confidence, entry]));
-  const high = confidence.high || { count: 0, percent: 0 };
-  const medium = confidence.medium || { count: 0, percent: 0 };
-  const low = confidence.low || { count: 0, percent: 0 };
-  target.innerHTML = `
-    <div class="stat decision-callout">
-      <span class="stat-value">${combined.needsReview}</span>
-      <span class="stat-label">medium or low-confidence classifications need human review</span>
-    </div>
-    <p>
-      <strong>${high.count}</strong> rows are high confidence (${high.percent}%),
-      <strong>${medium.count}</strong> are medium (${medium.percent}%), and
-      <strong>${low.count}</strong> are low (${low.percent}%).
-    </p>
-    <p class="muted">
-      The review queue contains ${state.reviewQueue.totalRows} rows because it also includes
-      mixed or conditional responses. Use this as an audit list before official use.
-    </p>
   `;
 }
 
@@ -929,15 +891,6 @@ function renderTopicFilter() {
   select.innerHTML += topics.map((topic) => `<option value="${escapeHtml(topic)}">${escapeHtml(topic)}</option>`).join("");
 }
 
-function renderAuditSummary() {
-  const review = document.querySelector("#review-queue-summary");
-  const manifest = document.querySelector("#manifest-summary");
-  if (!review || !manifest) return;
-  const needsReview = state.summary.combined.needsReview;
-  review.textContent = `${needsReview} of ${state.summary.combined.totalResponses} classifications are medium or low confidence and should be prioritized for human review.`;
-  manifest.textContent = `${state.manifest.files.length} public files are described in the generated manifest.`;
-}
-
 async function renderDownloads() {
   const grid = document.querySelector("#download-grid");
   if (!grid) return;
@@ -984,7 +937,6 @@ async function init() {
   state.representativeCards = representativeCards;
   renderTopicFilter();
   renderSummaryCards();
-  renderReadFirst();
   renderBarChart();
   renderSourceDocuments();
   renderDifferenceChart();
@@ -995,14 +947,12 @@ async function init() {
   renderDecisionFaq();
   renderZoneComparisonCards();
   renderConfidenceExplainer();
-  renderConfidenceCallout();
   renderConcernResponseMatrix();
   renderGlossary();
   renderWhatWouldChangeMinds();
   renderParticles();
   renderTable();
   renderDownloads();
-  renderAuditSummary();
   renderBriefPage();
   renderTopicsPage();
   setupTableControls();

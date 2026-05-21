@@ -34,7 +34,6 @@
           <a href="#questions">Questions</a>
           <a href="#charts">Charts</a>
           <a href="#topic-insights">Topics</a>
-          <a href="#findings">Findings</a>
           <a href="#downloads">Downloads</a>
           <a href="table.html">Table</a>
           <a href="https://github.com/DaveVoyles/Narberth-Zoning" rel="noreferrer">GitHub</a>
@@ -53,7 +52,7 @@
             readout, not a policy recommendation or scientific referendum.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#read-first">Read this first</a>
+            <a class="button primary" href="#brief">See the brief</a>
             <a class="button primary" href="#charts">View charts</a>
             <a class="button" href="#downloads">Download data</a>
           </div>
@@ -67,18 +66,6 @@
         </aside>
       </section>
 
-      <section id="read-first" class="page-section">
-        <div class="section-heading">
-          <p class="eyebrow">Read this first</p>
-          <h2>Five points to orient interpretation</h2>
-          <p>
-            Start here before using the charts. These points distinguish what the data can say from
-            what still needs source review, planning evidence, or public discussion.
-          </p>
-        </div>
-        <div id="read-first-panel" class="card-grid read-first-grid"></div>
-      </section>
-
       <section id="brief" class="page-section">
         <div class="section-heading">
           <p class="eyebrow">Decision brief</p>
@@ -90,24 +77,6 @@
         </div>
         <div id="brief-content"></div>
         <div id="brief-zones" class="card-grid two"></div>
-      </section>
-
-      <section class="page-section compact-section">
-        <div class="content-card">
-          <h2>Shareable section links</h2>
-          <p class="muted">Use these stable anchors to point someone directly to the part of the dashboard they need.</p>
-          <nav class="anchor-list" aria-label="Shareable section links">
-            <a href="#read-first">Read first</a>
-            <a href="#brief">Brief</a>
-            <a href="#sources">Sources</a>
-            <a href="#questions">Questions</a>
-            <a href="#charts">Charts</a>
-            <a href="#representative-cards">Comment themes</a>
-            <a href="#methodology">Methodology</a>
-            <a href="#glossary">Glossary</a>
-            <a href="#downloads">Downloads</a>
-          </nav>
-        </div>
       </section>
 
       <section id="sources" class="page-section">
@@ -135,10 +104,6 @@
           <article class="card">
             <h3>Common questions</h3>
             <div id="decision-faq" class="faq-list"></div>
-          </article>
-          <article class="card">
-            <h3>Confidence and review needed</h3>
-            <div id="confidence-callout"></div>
           </article>
         </div>
       </section>
@@ -299,34 +264,6 @@
         <div id="concern-response-matrix" class="matrix-grid"></div>
       </section>
 
-      <section id="findings" class="page-section">
-        <div class="section-heading">
-          <p class="eyebrow">Detailed findings</p>
-          <h2>Current high-level readout</h2>
-        </div>
-        <div class="content-card">
-          <p>
-            For both zoning sections, the largest category is
-            <strong class="tone-negative">Against proposed Zoning Changes</strong>.
-            Zone 4A shows a stronger <span class="tone-negative">against</span> share than
-            <span class="tone-positive">in-favor</span> share, with relatively few neutral responses.
-            Zone 5B also shows more <span class="tone-negative">against</span> than
-            <span class="tone-positive">in-favor</span> responses, though its in-favor share is higher
-            than Zone 4A.
-          </p>
-          <p>
-            Commonly mentioned topics include parking requirements, building height, density, traffic,
-            nearby residential streets, SEPTA assumptions, development scale, green space or impervious
-            surface, and preserving Narberth's small-town character.
-          </p>
-          <p>
-            This readout summarizes expressed respondent sentiment so Borough Council, residents, and
-            planners can compare resident feedback with separate planning, affordability, density, or
-            county-level goals.
-          </p>
-        </div>
-      </section>
-
       <section id="change-minds" class="page-section">
         <div class="section-heading">
           <p class="eyebrow">What would need to be addressed?</p>
@@ -372,35 +309,6 @@
           <h2>Terms used throughout the dashboard</h2>
         </div>
         <div id="glossary-list" class="glossary-grid"></div>
-      </section>
-
-      <section id="audit" class="page-section">
-        <div class="section-heading">
-          <p class="eyebrow">Trust and reviewability</p>
-          <h2>How to audit this data</h2>
-          <p>
-            The dashboard is designed so every visual can be traced back to downloadable row-level
-            data. Topic tags are provisional and should be reviewed before being treated as final.
-          </p>
-        </div>
-        <div class="card-grid three">
-          <article class="card">
-            <h3>Review queue</h3>
-            <p id="review-queue-summary">Loading confidence review summary...</p>
-          </article>
-          <article class="card">
-            <h3>Privacy guardrail</h3>
-            <p>
-              The public table shows classification rationale. Representative cards summarize themes
-              without names, synthetic resident labels, or direct quotes.
-            </p>
-          </article>
-          <article class="card">
-            <h3>Generated file manifest</h3>
-            <p id="manifest-summary">Loading generated file manifest...</p>
-            <a class="button" href="data/manifest.json" download>Download manifest</a>
-          </article>
-        </div>
       </section>
 
       <section id="downloads" class="page-section">
