@@ -340,6 +340,149 @@ def concerns_by_zone(rows: list[dict[str, object]]) -> dict[str, object]:
     }
 
 
+def zone_comparison(summary: dict[str, object]) -> list[dict[str, object]]:
+    zones = {zone["zone"]: zone for zone in summary["zones"]}
+    zone_4a = zones["Zone 4A"]
+    zone_5b = zones["Zone 5B"]
+    zone_4a_categories = {entry["category"]: entry for entry in zone_4a["categories"]}
+    zone_5b_categories = {entry["category"]: entry for entry in zone_5b["categories"]}
+    zone_pairs = [
+        ("Zone 4A", zone_4a_categories),
+        ("Zone 5B", zone_5b_categories),
+    ]
+
+    def stance_comparison(category: str, label: str) -> tuple[str, str]:
+        first_zone, first_categories = zone_pairs[0]
+        second_zone, second_categories = zone_pairs[1]
+        first_percent = first_categories[category]["percent"]
+        second_percent = second_categories[category]["percent"]
+        gap = round(abs(first_percent - second_percent), 1)
+        if first_percent == second_percent:
+            return (
+                f"Both zones have the same {label} share",
+                f"Both {first_zone} and {second_zone} are {first_percent}% {label}.",
+            )
+        higher_zone = first_zone if first_percent > second_percent else second_zone
+        lower_zone = second_zone if first_percent > second_percent else first_zone
+        return (
+            f"{higher_zone} has more {label} responses",
+            f"The {label} share is {gap} percentage points higher in {higher_zone} than {lower_zone}.",
+        )
+
+    both_majority_against = all(categories[CATEGORY_ORDER[0]]["percent"] > 50 for _, categories in zone_pairs)
+    majority_title = "Both zones have majority opposition as written" if both_majority_against else "Against share by zone"
+    against_title, against_summary = stance_comparison(CATEGORY_ORDER[0], "against")
+    favor_title, favor_summary = stance_comparison(CATEGORY_ORDER[2], "in-favor")
+    return [
+        {
+            "title": majority_title,
+            "summary": (
+                f"Zone 4A is {zone_4a_categories[CATEGORY_ORDER[0]]['percent']}% against and "
+                f"Zone 5B is {zone_5b_categories[CATEGORY_ORDER[0]]['percent']}% against."
+            ),
+            "stance": CATEGORY_ORDER[0],
+        },
+        {
+            "title": against_title,
+            "summary": against_summary,
+            "stance": CATEGORY_ORDER[0],
+        },
+        {
+            "title": favor_title,
+            "summary": favor_summary,
+            "stance": CATEGORY_ORDER[2],
+        },
+    ]
+
+
+def decision_faq(summary: dict[str, object], review: dict[str, object]) -> list[dict[str, object]]:
+    combined = {entry["category"]: entry for entry in summary["combined"]["categories"]}
+    zones = {zone["zone"]: {entry["category"]: entry for entry in zone["categories"]} for zone in summary["zones"]}
+    return [
+        {
+            "question": "What is the main takeaway?",
+            "answer": (
+                f"Against-as-written responses are the largest category overall: "
+                f"{combined[CATEGORY_ORDER[0]]['count']} of {summary['combined']['totalResponses']} "
+                f"responses ({combined[CATEGORY_ORDER[0]]['percent']}%)."
+            ),
+        },
+        {
+            "question": "How different are Zone 4A and Zone 5B?",
+            "answer": (
+                f"Zone 4A has a higher against share ({zones['Zone 4A'][CATEGORY_ORDER[0]]['percent']}%) "
+                f"than Zone 5B ({zones['Zone 5B'][CATEGORY_ORDER[0]]['percent']}%). Zone 5B has a higher "
+                f"in-favor share ({zones['Zone 5B'][CATEGORY_ORDER[2]]['percent']}%) than Zone 4A "
+                f"({zones['Zone 4A'][CATEGORY_ORDER[2]]['percent']}%)."
+            ),
+        },
+        {
+            "question": "What are people worried about?",
+            "answer": (
+                "The recurring provisional topics include parking, traffic and safety, building height, "
+                "density, neighborhood character, affordability, transit assumptions, green space, "
+                "infrastructure, and process or trust."
+            ),
+        },
+        {
+            "question": "Are supporters supporting everything?",
+            "answer": (
+                "Not necessarily. Use the conditional and mixed-response review set to find places where "
+                "respondents may support housing goals while objecting to specific proposal details."
+            ),
+        },
+        {
+            "question": "How reliable is this classification?",
+            "answer": (
+                f"The readout is provisional. {summary['combined']['needsReview']} classifications are "
+                f"medium or low confidence, and {review['totalRows']} rows are in the review queue because "
+                "they need review or are mixed/conditional."
+            ),
+        },
+        {
+            "question": "Does this prove what all residents think?",
+            "answer": (
+                "No. It summarizes written responses from the analyzed survey sections. It is not a "
+                "statistically weighted poll, a referendum, or a policy recommendation."
+            ),
+        },
+    ]
+
+
+def what_would_change_minds(rows: list[dict[str, object]]) -> dict[str, object]:
+    conditional_rows = [
+        row
+        for row in rows
+        if row["mixed_flag"] == "yes"
+        or row["category"] == CATEGORY_ORDER[1]
+        or "conditional" in str(row["rationale"]).lower()
+    ]
+    tag_rows = topic_rows(conditional_rows)
+    topics = sorted({row["topic"] for row in tag_rows})
+    top_topics = sorted(
+        [
+            topic_metric(topic, [row for row in tag_rows if row["topic"] == topic], len(conditional_rows))
+            for topic in topics
+        ],
+        key=lambda item: (-int(item["count"]), str(item["topic"])),
+    )[:6]
+    return {
+        "conditionalRows": len(conditional_rows),
+        "summary": (
+            "Rows flagged as mixed, neutral, or conditional are the best starting point for understanding "
+            "which amendments, safeguards, or evidence could address concerns."
+        ),
+        "topTopics": top_topics,
+        "discussionPrompts": [
+            "Would clearer parking management, loading, or spillover protections reduce opposition?",
+            "Would height, massing, setbacks, or transition standards address scale concerns?",
+            "Would affordability requirements, duration, and enforcement details make benefits more credible?",
+            "Would traffic, school, stormwater, and infrastructure evidence answer capacity concerns?",
+            "Would a phased approach or additional public review points improve trust in the process?",
+        ],
+    }
+
+
 def review_queue(rows: list[dict[str, object]]) -> dict[str, object]:
     queue = [
         row
@@ -406,14 +549,18 @@ def representative_cards(rows: list[dict[str, object]]) -> dict[str, object]:
 def decision_brief(rows: list[dict[str, object]]) -> dict[str, object]:
     summary = summarize(rows)
     concerns = concerns_by_zone(rows)
+    review = review_queue(rows)
     top_topics = concerns["overall"][:6]
     return {
         "generatedOn": date.today().isoformat(),
         "title": "Narberth zoning survey decision brief",
         "summary": summary,
         "topTopics": top_topics,
+        "zoneComparison": zone_comparison(summary),
+        "decisionFaq": decision_faq(summary, review),
+        "whatWouldChangeMinds": what_would_change_minds(rows),
         "reviewQueue": {
-            "totalRows": review_queue(rows)["totalRows"],
+            "totalRows": review["totalRows"],
             "combinedNeedsReview": summary["combined"]["needsReview"],
         },
         "keyTakeaways": [

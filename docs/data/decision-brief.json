@@ -209,6 +209,110 @@
       "In Favor of proposed Zoning Changes": 35
     }
   ],
+  "zoneComparison": [
+    {
+      "title": "Both zones have majority opposition as written",
+      "summary": "Zone 4A is 73.6% against and Zone 5B is 67.3% against.",
+      "stance": "Against proposed Zoning Changes"
+    },
+    {
+      "title": "Zone 4A has more against responses",
+      "summary": "The against share is 6.3 percentage points higher in Zone 4A than Zone 5B.",
+      "stance": "Against proposed Zoning Changes"
+    },
+    {
+      "title": "Zone 5B has more in-favor responses",
+      "summary": "The in-favor share is 6.9 percentage points higher in Zone 5B than Zone 4A.",
+      "stance": "In Favor of proposed Zoning Changes"
+    }
+  ],
+  "decisionFaq": [
+    {
+      "question": "What is the main takeaway?",
+      "answer": "Against-as-written responses are the largest category overall: 427 of 606 responses (70.5%)."
+    },
+    {
+      "question": "How different are Zone 4A and Zone 5B?",
+      "answer": "Zone 4A has a higher against share (73.6%) than Zone 5B (67.3%). Zone 5B has a higher in-favor share (27.4%) than Zone 4A (20.5%)."
+    },
+    {
+      "question": "What are people worried about?",
+      "answer": "The recurring provisional topics include parking, traffic and safety, building height, density, neighborhood character, affordability, transit assumptions, green space, infrastructure, and process or trust."
+    },
+    {
+      "question": "Are supporters supporting everything?",
+      "answer": "Not necessarily. Use the conditional and mixed-response review set to find places where respondents may support housing goals while objecting to specific proposal details."
+    },
+    {
+      "question": "How reliable is this classification?",
+      "answer": "The readout is provisional. 149 classifications are medium or low confidence, and 185 rows are in the review queue because they need review or are mixed/conditional."
+    },
+    {
+      "question": "Does this prove what all residents think?",
+      "answer": "No. It summarizes written responses from the analyzed survey sections. It is not a statistically weighted poll, a referendum, or a policy recommendation."
+    }
+  ],
+  "whatWouldChangeMinds": {
+    "conditionalRows": 81,
+    "summary": "Rows flagged as mixed, neutral, or conditional are the best starting point for understanding which amendments, safeguards, or evidence could address concerns.",
+    "topTopics": [
+      {
+        "topic": "Conditional or mixed response",
+        "count": 50,
+        "responseShare": 61.7,
+        "Against proposed Zoning Changes": 43,
+        "Neutral": 3,
+        "In Favor of proposed Zoning Changes": 4
+      },
+      {
+        "topic": "Density",
+        "count": 37,
+        "responseShare": 45.7,
+        "Against proposed Zoning Changes": 35,
+        "Neutral": 0,
+        "In Favor of proposed Zoning Changes": 2
+      },
+      {
+        "topic": "Unclear or neutral",
+        "count": 27,
+        "responseShare": 33.3,
+        "Against proposed Zoning Changes": 0,
+        "Neutral": 27,
+        "In Favor of proposed Zoning Changes": 0
+      },
+      {
+        "topic": "Parking",
+        "count": 19,
+        "responseShare": 23.5,
+        "Against proposed Zoning Changes": 16,
+        "Neutral": 3,
+        "In Favor of proposed Zoning Changes": 0
+      },
+      {
+        "topic": "Building height",
+        "count": 11,
+        "responseShare": 13.6,
+        "Against proposed Zoning Changes": 9,
+        "Neutral": 1,
+        "In Favor of proposed Zoning Changes": 1
+      },
+      {
+        "topic": "Traffic and safety",
+        "count": 2,
+        "responseShare": 2.5,
+        "Against proposed Zoning Changes": 2,
+        "Neutral": 0,
+        "In Favor of proposed Zoning Changes": 0
+      }
+    ],
+    "discussionPrompts": [
+      "Would clearer parking management, loading, or spillover protections reduce opposition?",
+      "Would height, massing, setbacks, or transition standards address scale concerns?",
+      "Would affordability requirements, duration, and enforcement details make benefits more credible?",
+      "Would traffic, school, stormwater, and infrastructure evidence answer capacity concerns?",
+      "Would a phased approach or additional public review points improve trust in the process?"
+    ]
+  },
   "reviewQueue": {
     "totalRows": 185,
     "combinedNeedsReview": 149

@@ -215,7 +215,8 @@ main {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   margin-block-start: 0;
   line-height: 1.12;
 }
@@ -231,6 +232,11 @@ h2 {
 
 h3 {
   font-size: 1.05rem;
+}
+
+h4 {
+  margin-block-end: 0.5rem;
+  font-size: 0.98rem;
 }
 
 .hero-copy p {
@@ -300,6 +306,10 @@ h3 {
 
 .card-grid.three {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.compact-grid {
+  margin-top: 1rem;
 }
 
 .source-grid {
@@ -447,6 +457,45 @@ h3 {
 
 .difference-fill.favor {
   background: var(--cp-success);
+}
+
+.faq-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.faq-item {
+  border: 1px solid var(--cp-border);
+  border-radius: 0.625rem;
+  background: var(--cp-surface-soft);
+}
+
+.faq-item summary {
+  cursor: pointer;
+  padding: 0.85rem 1rem;
+  color: var(--cp-text);
+  font-weight: 800;
+}
+
+.faq-item p {
+  margin: 0;
+  padding: 0 1rem 1rem;
+}
+
+.compare-card {
+  border-left: 6px solid var(--cp-text-muted);
+}
+
+.compare-card.against {
+  border-left-color: var(--cp-danger);
+}
+
+.compare-card.favor {
+  border-left-color: var(--cp-success);
+}
+
+.decision-callout {
+  margin-bottom: 1rem;
 }
 
 .donut-grid,
@@ -609,6 +658,59 @@ h3 {
   font-weight: 700;
 }
 
+.heatmap-card {
+  overflow-x: auto;
+}
+
+.heatmap-grid {
+  display: grid;
+  min-width: 720px;
+  gap: 0.35rem;
+}
+
+.heatmap-header,
+.heatmap-row {
+  display: grid;
+  grid-template-columns: minmax(14rem, 1.4fr) repeat(3, minmax(5rem, 0.55fr));
+  gap: 0.35rem;
+  align-items: center;
+}
+
+.heatmap-header {
+  color: var(--cp-text-muted);
+  font-size: 0.86rem;
+  font-weight: 800;
+}
+
+.heatmap-cell {
+  border-radius: 0.5rem;
+  padding: 0.45rem 0.6rem;
+  background: var(--cp-surface-soft);
+  font-weight: 800;
+  text-align: center;
+}
+
+.heatmap-cell.against {
+  background: color-mix(in srgb, var(--cp-danger) var(--heatmap-weight), var(--cp-surface));
+  color: var(--cp-text);
+}
+
+.heatmap-cell.neutral {
+  background: color-mix(in srgb, var(--cp-text-muted) var(--heatmap-weight), var(--cp-surface));
+  color: var(--cp-text);
+}
+
+.heatmap-cell.favor {
+  background: color-mix(in srgb, var(--cp-success) var(--heatmap-weight), var(--cp-surface));
+  color: var(--cp-text);
+}
+
+.stance-topic-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
 .quote-card blockquote {
   margin: 0 0 1rem;
   padding-left: 1rem;
@@ -739,7 +841,8 @@ th[data-sort]::after {
   .site-footer,
   .hero-actions,
   .nav-toggle,
-  canvas {
+  canvas,
+  .button {
     display: none !important;
   }
 
@@ -762,6 +865,25 @@ th[data-sort]::after {
     border: 1px solid var(--cp-border);
     box-shadow: none;
     break-inside: avoid;
+  }
+
+  .chart-layout,
+  .card-grid.two,
+  .card-grid.three,
+  .stance-topic-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .faq-item {
+    break-inside: avoid;
+  }
+
+  .faq-item summary {
+    list-style: none;
+  }
+
+  .faq-item p {
+    display: block;
   }
 }
 

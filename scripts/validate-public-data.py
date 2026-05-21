@@ -107,9 +107,21 @@ def validate_json(errors: list[str]) -> None:
     brief = json.loads((DATA / "decision-brief.json").read_text(encoding="utf-8"))
     if brief["summary"]["combined"]["totalResponses"] != summary["combined"]["totalResponses"]:
         errors.append("decision brief combined total does not match summary")
+    if len(brief.get("decisionFaq", [])) < 5:
+        errors.append("decision brief should include upfront reader FAQ entries")
+    if len(brief.get("zoneComparison", [])) < 3:
+        errors.append("decision brief should include plain-language zone comparison cards")
+    change_minds = brief.get("whatWouldChangeMinds", {})
+    if change_minds.get("conditionalRows", 0) <= 0 or not change_minds.get("discussionPrompts"):
+        errors.append("decision brief should include whatWouldChangeMinds prompts and row count")
     concerns = json.loads((DATA / "concerns-by-zone.json").read_text(encoding="utf-8"))
     if not concerns.get("overall") or len(concerns.get("byZone", [])) != 2:
         errors.append("concerns-by-zone.json missing overall or zone topic summaries")
+    topic_summary = json.loads((DATA / "topic-summary.json").read_text(encoding="utf-8"))
+    for topic in topic_summary.get("stanceByTopic", []):
+        stance_total = sum(topic.get(category, 0) for category in EXPECTED["Zone 4A"]["categories"])
+        if topic.get("total") != stance_total:
+            errors.append(f"topic stance total mismatch: {topic.get('topic')}")
     review = json.loads((DATA / "review-queue.json").read_text(encoding="utf-8"))
     combined_json = json.loads((DATA / "combined-classified.json").read_text(encoding="utf-8"))
     row_keys = {(row["zone"], row["index"]) for row in combined_json}

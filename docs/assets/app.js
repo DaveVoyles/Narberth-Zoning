@@ -176,7 +176,11 @@ function renderChartTextSummary() {
   if (!target) return;
   target.innerHTML = state.summary.zones.map((zone) => {
     const parts = zone.categories
-      .map((entry) => `${entry.count} ${shortCategory.get(entry.category).toLowerCase()} (${entry.percent}%)`)
+      .map((entry) => {
+        const label = shortCategory.get(entry.category).toLowerCase();
+        const tone = toneByCategory.get(entry.category) || "tone-neutral";
+        return `<span class="${tone}">${entry.count} ${label} (${entry.percent}%)</span>`;
+      })
       .join(", ");
     return `<p><strong>${escapeHtml(zone.zone)}:</strong> ${parts}.</p>`;
   }).join("");
@@ -370,6 +374,87 @@ function categoryItem(summaryLike, category) {
   return summaryLike.categories.find((entry) => entry.category === category) || { count: 0, percent: 0 };
 }
 
+function categoryCount(item, category) {
+  return Number(item[category] || 0);
+}
+
+function renderDecisionFaq(selector = "#decision-faq", limit = 6) {
+  const target = document.querySelector(selector);
+  if (!target) return;
+  target.innerHTML = state.decisionBrief.decisionFaq.slice(0, limit).map((item) => `
+    <details class="faq-item" open>
+      <summary>${escapeHtml(item.question)}</summary>
+      <p>${escapeHtml(item.answer)}</p>
+    </details>
+  `).join("");
+}
+
+function renderZoneComparisonCards(selector = "#zone-comparison-cards") {
+  const target = document.querySelector(selector);
+  if (!target) return;
+  target.innerHTML = state.decisionBrief.zoneComparison.map((item) => `
+    <article class="card compare-card ${classByCategory.get(item.stance) || "neutral"}">
+      <p class="eyebrow">${escapeHtml(shortCategory.get(item.stance) || "Comparison")}</p>
+      <h3>${escapeHtml(item.title)}</h3>
+      <p>${escapeHtml(item.summary)}</p>
+    </article>
+  `).join("");
+}
+
+function renderConfidenceCallout() {
+  const target = document.querySelector("#confidence-callout");
+  if (!target) return;
+  const combined = state.summary.combined;
+  const confidence = Object.fromEntries(combined.confidence.map((entry) => [entry.confidence, entry]));
+  const high = confidence.high || { count: 0, percent: 0 };
+  const medium = confidence.medium || { count: 0, percent: 0 };
+  const low = confidence.low || { count: 0, percent: 0 };
+  target.innerHTML = `
+    <div class="stat decision-callout">
+      <span class="stat-value">${combined.needsReview}</span>
+      <span class="stat-label">medium or low-confidence classifications need human review</span>
+    </div>
+    <p>
+      <strong>${high.count}</strong> rows are high confidence (${high.percent}%),
+      <strong>${medium.count}</strong> are medium (${medium.percent}%), and
+      <strong>${low.count}</strong> are low (${low.percent}%).
+    </p>
+    <p class="muted">
+      The review queue contains ${state.reviewQueue.totalRows} rows because it also includes
+      mixed or conditional responses. Use this as an audit list before official use.
+    </p>
+    <a class="button" href="review.html">Open review queue</a>
+  `;
+}
+
+function renderWhatWouldChangeMinds(selector = "#change-minds-panel") {
+  const target = document.querySelector(selector);
+  if (!target) return;
+  const data = state.decisionBrief.whatWouldChangeMinds;
+  target.innerHTML = `
+    <p>${escapeHtml(data.summary)}</p>
+    <div class="card-grid two compact-grid">
+      <div>
+        <h3>Top topics in mixed or conditional rows</h3>
+        <ol class="ranked-list">
+          ${data.topTopics.map((topic) => `
+            <li>
+              <strong>${escapeHtml(topic.topic)}</strong>:
+              ${topic.count} tags across ${data.conditionalRows} rows
+            </li>
+          `).join("")}
+        </ol>
+      </div>
+      <div>
+        <h3>Questions to answer before acting</h3>
+        <ul class="clean-list">
+          ${data.discussionPrompts.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
+        </ul>
+      </div>
+    </div>
+  `;
+}
+
 function renderBriefPage() {
   const target = document.querySelector("#brief-content");
   if (!target) return;
@@ -459,6 +544,68 @@ function renderTopicsPage() {
       </article>
     `).join("");
   }
+  renderTopicStanceHeatmap();
+  renderTopConcernsByStance();
+}
+
+function renderTopicStanceHeatmap() {
+  const target = document.querySelector("#topic-stance-heatmap");
+  if (!target) return;
+  const topics = state.topicSummary.stanceByTopic.slice(0, 12);
+  const max = Math.max(...topics.flatMap((topic) => categoryOrder.map((category) => categoryCount(topic, category))), 1);
+  target.innerHTML = `
+    <div class="heatmap-grid" role="table" aria-label="Topic by stance heatmap">
+      <div class="heatmap-header" role="row">
+        <span role="columnheader">Topic</span>
+        ${categoryOrder.map((category) => `<span role="columnheader">${escapeHtml(shortCategory.get(category))}</span>`).join("")}
+      </div>
+      ${topics.map((topic) => `
+        <div class="heatmap-row" role="row">
+          <strong role="rowheader">${escapeHtml(topic.topic)}</strong>
+          ${categoryOrder.map((category) => {
+            const count = categoryCount(topic, category);
+            const intensity = count / max;
+            return `
+              <span
+                role="cell"
+                class="heatmap-cell ${classByCategory.get(category)}"
+                style="--heatmap-weight:${Math.round(18 + intensity * 62)}%"
+              >
+                ${count}
+              </span>
+            `;
+          }).join("")}
+        </div>
+      `).join("")}
+    </div>
+    <p class="muted">Counts are topic tags by stance; one response can appear in more than one topic row.</p>
+  `;
+}
+
+function renderTopConcernsByStance() {
+  const target = document.querySelector("#top-concerns-by-stance");
+  if (!target) return;
+  target.innerHTML = state.concernsByZone.byZone.map((zone) => `
+    <article class="card">
+      <h3>${escapeHtml(zone.zone)}</h3>
+      <div class="stance-topic-grid">
+        ${categoryOrder.map((category) => {
+          const topics = zone.topics
+            .filter((topic) => categoryCount(topic, category) > 0)
+            .sort((a, b) => categoryCount(b, category) - categoryCount(a, category) || a.topic.localeCompare(b.topic))
+            .slice(0, 4);
+          return `
+            <section>
+              <h4 class="${toneByCategory.get(category) || "tone-neutral"}">${escapeHtml(shortCategory.get(category))}</h4>
+              <ol class="ranked-list">
+                ${topics.map((topic) => `<li>${escapeHtml(topic.topic)}: ${categoryCount(topic, category)}</li>`).join("")}
+              </ol>
+            </section>
+          `;
+        }).join("")}
+      </div>
+    </article>
+  `).join("");
 }
 
 function renderReviewPage() {
@@ -803,6 +950,13 @@ async function init() {
   renderPageChart();
   renderZoneContext();
   renderRepresentativeCards();
+  renderDecisionFaq();
+  renderDecisionFaq("#brief-faq");
+  renderZoneComparisonCards();
+  renderZoneComparisonCards("#brief-zone-comparison");
+  renderConfidenceCallout();
+  renderWhatWouldChangeMinds();
+  renderWhatWouldChangeMinds("#brief-change-minds");
   renderParticles();
   renderTable();
   renderDownloads();

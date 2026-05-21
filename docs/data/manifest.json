@@ -55,12 +55,12 @@
     },
     {
       "path": "data/decision-brief.json",
-      "bytes": 6989,
+      "bytes": 11238,
       "description": "Decision-maker summary metrics and discussion questions."
     },
     {
       "path": "data/manifest.json",
-      "bytes": 4528,
+      "bytes": 4529,
       "description": "Generated file inventory and metadata."
     },
     {
