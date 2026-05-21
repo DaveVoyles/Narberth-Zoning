@@ -570,10 +570,6 @@ function renderBriefPage() {
       `;
     }).join("");
   }
-  const limits = document.querySelector("#brief-limits");
-  if (limits) {
-    limits.innerHTML = state.decisionBrief.limits.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
-  }
 }
 
 function topicStanceSummary(item) {
