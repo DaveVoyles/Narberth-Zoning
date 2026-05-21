@@ -213,11 +213,12 @@ function renderSourceDocuments() {
   const target = document.querySelector("#source-documents");
   if (!target) return;
   target.innerHTML = (state.summary.sourceDocuments || []).map((source) => `
-    <article class="card source-card">
-      <h3>${escapeHtml(source.title)}</h3>
-      <p><strong>${escapeHtml(source.role)}</strong></p>
-      <p>${escapeHtml(source.scope)}</p>
-      <a class="button" href="${escapeHtml(source.href)}" download>Open source</a>
+    <article class="source-card compact-source-card">
+      <div>
+        <h3>${escapeHtml(source.title)}</h3>
+        <p><strong>${escapeHtml(source.role)}</strong> · ${escapeHtml(source.scope)}</p>
+      </div>
+      <a class="button small-button" href="${escapeHtml(source.href)}" download>Open</a>
     </article>
   `).join("");
 }
@@ -278,22 +279,6 @@ function renderConfidenceChart() {
       </div>
     `;
   }).join("");
-}
-
-function renderTopicChart() {
-  const target = document.querySelector("#topic-chart");
-  if (!target) return;
-  const topics = state.topicSummary.topicCounts
-    .filter((item) => !genericTopicLabels.has(item.topic))
-    .slice(0, 10);
-  const max = Math.max(...topics.map((item) => item.count), 1);
-  target.innerHTML = topics.map((item) => `
-    <div class="metric-row">
-      <strong>${escapeHtml(item.topic)}</strong>
-      <span class="metric-track"><span class="metric-fill" style="width:${(item.count / max) * 100}%"></span></span>
-      <span>${item.count}</span>
-    </div>
-  `).join("");
 }
 
 function dominantTopicCategory(topic) {
@@ -361,10 +346,11 @@ function renderZoneContext() {
   ];
   target.innerHTML = contexts.map((item) => `
     <article class="zone-context-card">
-      <h4>${escapeHtml(item.zone)}</h4>
-      <p class="muted">Source pages ${escapeHtml(item.pages)}</p>
-      ${sourceReferenceHtml(item.pages)}
-      <ul class="clean-list">${item.places.map((place) => `<li>${escapeHtml(place)}</li>`).join("")}</ul>
+      <div>
+        <h4>${escapeHtml(item.zone)}</h4>
+        <p class="muted">PDF pages ${escapeHtml(item.pages)} · not parcel geometry</p>
+      </div>
+      <div class="context-tags">${item.places.map((place) => `<span>${escapeHtml(place)}</span>`).join("")}</div>
     </article>
   `).join("");
 }
@@ -488,17 +474,12 @@ function renderConcernResponseMatrix(selector = "#concern-response-matrix") {
   const target = document.querySelector(selector);
   if (!target) return;
   target.innerHTML = state.decisionBrief.concernResponseMatrix.map((item) => `
-    <article class="card matrix-card">
-      <p class="eyebrow">${escapeHtml(item.tagCount)} tags · ${escapeHtml(item.responseShare)}% of responses</p>
+    <article class="card matrix-card compact-matrix-card">
+      <p class="eyebrow">${escapeHtml(item.tagCount)} tags · ${escapeHtml(item.responseShare)}%</p>
       <h3>${escapeHtml(item.concern)}</h3>
-      <dl>
-        <dt>Possible response path</dt>
-        <dd>${escapeHtml(item.responsePath)}</dd>
-        <dt>Evidence to bring forward</dt>
-        <dd>${escapeHtml(item.evidenceNeeded)}</dd>
-        <dt>Source reference</dt>
-        <dd>${escapeHtml(item.sourceReference)} <a href="topics.html">Review topic rows</a>.</dd>
-      </dl>
+      <p><strong>Response:</strong> ${escapeHtml(item.responsePath)}</p>
+      <p><strong>Evidence:</strong> ${escapeHtml(item.evidenceNeeded)}</p>
+      <a href="index.html#topic-insights">Review topic insights</a>
     </article>
   `).join("");
 }
@@ -507,7 +488,7 @@ function renderGlossary(selector = "#glossary-list") {
   const target = document.querySelector(selector);
   if (!target) return;
   target.innerHTML = state.decisionBrief.glossary.map((item) => `
-    <article class="card glossary-card">
+    <article class="glossary-card compact-glossary-card">
       <h3>${escapeHtml(item.term)}</h3>
       <p>${escapeHtml(item.definition)}</p>
     </article>
@@ -1055,8 +1036,6 @@ async function init() {
   renderSourceDocuments();
   renderDifferenceChart();
   renderConfidenceChart();
-  renderTopicChart();
-  renderTopicCloud("#topic-cloud", 16);
   renderTopicCloud("#topic-cloud-page", 22);
   renderPageChart();
   renderZoneContext();

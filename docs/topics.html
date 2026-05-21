@@ -28,7 +28,7 @@
           <a href="brief.html">Brief</a>
           <a href="index.html#questions">Questions</a>
           <a href="index.html#charts">Charts</a>
-          <a href="topics.html">Topics</a>
+          <a href="index.html#topic-insights">Topics</a>
           <a href="table.html">Table</a>
           <a href="review.html">Review</a>
           <a href="index.html#findings">Findings</a>
@@ -40,74 +40,20 @@
 
     <main>
       <section class="page-section">
-        <div class="section-heading">
-          <p class="eyebrow">Topics and concerns</p>
-          <h1>What issues came up most often?</h1>
+        <div class="content-card">
+          <h1>Topic charts moved to the summary page</h1>
           <p>
-            Topic tags are provisional, keyword-assisted tags inferred from classification rationale.
+            The topic cards, topic cloud, by-zone topic comparison, topic-by-stance heatmap, and
+            top concerns by stance now live on the main summary page so readers can see them alongside
+            the stance charts.
+          </p>
+          <p>
+            Topic tags remain provisional, keyword-assisted tags inferred from classification rationale.
             A single response can receive more than one tag, so topic totals are not vote totals.
           </p>
-        </div>
-        <div id="topics-overall" class="mini-grid"></div>
-      </section>
-
-      <section class="page-section">
-        <div class="section-heading">
-          <p class="eyebrow">Topic cloud</p>
-          <h2>Frequency-weighted provisional topics</h2>
           <p>
-            Larger labels mark recurring themes found in the classification rationale, such as
-            parking, height, or density. This is a quick orientation aid, not a final topic model
-            or vote count; the ranked cards above provide exact tag counts.
-          </p>
-        </div>
-        <div id="topics-page-cloud" class="card topic-cloud-card">
-          <div id="topic-cloud-page" class="topic-cloud" aria-label="Provisional topic cloud"></div>
-        </div>
-      </section>
-
-      <section class="page-section">
-        <div class="section-heading">
-          <p class="eyebrow">By zone</p>
-          <h2>Top provisional topics in each analyzed section</h2>
-        </div>
-        <div id="topics-by-zone" class="card-grid two"></div>
-      </section>
-
-      <section class="page-section">
-        <div class="section-heading">
-          <p class="eyebrow">Topic by stance</p>
-          <h2>Which topics appear with opposition, neutrality, or support?</h2>
-          <p>
-            The heatmap uses text counts and color together. Topic rows are tags, not vote totals,
-            because a single response can receive multiple tags.
-          </p>
-        </div>
-        <div id="topic-stance-heatmap" class="card heatmap-card"></div>
-      </section>
-
-      <section class="page-section">
-        <div class="section-heading">
-          <p class="eyebrow">Top concerns by stance</p>
-          <h2>What rises to the top within each stance?</h2>
-          <p>
-            This separates high-volume opposition topics from neutral or supportive themes so readers
-            can see what each group emphasized.
-          </p>
-        </div>
-        <div id="top-concerns-by-stance" class="card-grid two"></div>
-      </section>
-
-      <section class="page-section">
-        <div class="content-card">
-          <h2>How to use this page</h2>
-          <p>
-            Use topics to identify recurring issues for discussion, not as final categories. Human
-            review should confirm the tags before they are used in official materials.
-          </p>
-          <p>
-            Download <a href="data/concerns-by-zone.json">concerns-by-zone JSON</a> or
-            <a href="data/topic-tags.csv">topic tags CSV</a> for review.
+            <a class="button primary" href="index.html#topic-insights">View topic insights on the summary page</a>
+            <a class="button" href="data/topic-tags.csv">Download topic tags CSV</a>
           </p>
         </div>
       </section>

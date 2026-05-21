@@ -33,7 +33,7 @@
           <a href="brief.html">Brief</a>
           <a href="#questions">Questions</a>
           <a href="#charts">Charts</a>
-          <a href="topics.html">Topics</a>
+          <a href="#topic-insights">Topics</a>
           <a href="table.html">Table</a>
           <a href="review.html">Review</a>
           <a href="#findings">Findings</a>
@@ -102,9 +102,7 @@
           <p class="eyebrow">Initial source documents</p>
           <h2>What this first analysis is based on</h2>
           <p>
-            These are the project documents used to produce the current classification readout and
-            public dashboard. The source list is generated with the public data files so it stays
-            aligned with the downloads.
+            Compact list of the source files behind the current classification readout and dashboard.
           </p>
         </div>
         <div id="source-documents" class="card-grid source-grid"></div>
@@ -178,17 +176,7 @@
             <div id="difference-chart" class="difference-chart"></div>
           </article>
         </div>
-        <div class="chart-layout secondary-charts">
-          <article class="card chart-card">
-            <h3>Provisional topic cloud</h3>
-            <p class="muted">
-              Larger labels mark recurring themes found in the classification rationale, such as
-              parking, height, or density. Use this as a quick orientation tool, not as a final
-              topic model or vote count; it matters because it highlights which concerns deserve
-              closer source review.
-            </p>
-            <div id="topic-cloud" class="topic-cloud" aria-label="Provisional topic cloud"></div>
-          </article>
+        <div class="chart-layout secondary-charts single-chart">
           <article class="card chart-card">
             <h3>Response particle field</h3>
             <p class="muted">
@@ -209,7 +197,7 @@
           </p>
           <div id="chart-text-summary"></div>
         </div>
-        <div class="chart-layout secondary-charts">
+        <div class="chart-layout secondary-charts single-chart">
           <article class="card chart-card">
             <h3>Confidence and review queue</h3>
             <p class="muted">
@@ -218,21 +206,63 @@
             </p>
             <div id="confidence-chart" class="bar-chart" role="img" aria-label="Confidence distribution by zone"></div>
           </article>
-          <article class="card chart-card">
-            <h3>Most common provisional topics</h3>
-            <p class="muted">
-              This ranks the most frequent provisional tags from the classification rationale; it matters
-              because it points to the issues residents mentioned most often, without treating tags as votes.
-            </p>
-            <div id="topic-chart" class="bar-chart" role="img" aria-label="Most common provisional topics"></div>
-          </article>
         </div>
+        <section id="topic-insights" class="topic-insights">
+          <div class="section-heading compact-heading">
+            <p class="eyebrow">Topic insights</p>
+            <h3>What issues came up most often?</h3>
+            <p>
+              Topic tags are provisional, keyword-assisted tags inferred from classification rationale.
+              A single response can receive more than one tag, so topic totals are not vote totals.
+            </p>
+          </div>
+          <div id="topics-overall" class="mini-grid"></div>
+          <article class="card chart-card topic-cloud-card">
+            <p class="eyebrow">Topic cloud</p>
+            <h3>Frequency-weighted provisional topics</h3>
+            <p class="muted">
+              Larger labels mark recurring themes found in the classification rationale, such as
+              parking, height, or density. This matters because it highlights which concerns deserve
+              closer source review without treating topic tags as votes.
+            </p>
+            <div id="topic-cloud-page" class="topic-cloud" aria-label="Provisional topic cloud"></div>
+          </article>
+          <article class="card chart-card heatmap-card">
+            <p class="eyebrow">Topic by stance</p>
+            <h3>Which topics appear with opposition, neutrality, or support?</h3>
+            <p class="muted">
+              This heatmap shows which provisional topics appear most often within each stance; it matters
+              because it helps separate broad opposition from the specific issues driving each group.
+            </p>
+            <div id="topic-stance-heatmap"></div>
+          </article>
+          <div class="chart-layout secondary-charts">
+            <article class="card chart-card">
+              <p class="eyebrow">By zone</p>
+              <h3>Top provisional topics in each analyzed section</h3>
+              <p class="muted">
+                This compares recurring topics in Zone 4A and Zone 5B; it matters because some concerns
+                may be shared while others are tied to a specific zoning section.
+              </p>
+              <div id="topics-by-zone" class="card-grid two nested-card-grid"></div>
+            </article>
+            <article class="card chart-card">
+              <p class="eyebrow">Top concerns by stance</p>
+              <h3>What rises to the top within each stance?</h3>
+              <p class="muted">
+                This separates high-volume opposition topics from neutral or supportive themes so readers
+                can see what each group emphasized.
+              </p>
+              <div id="top-concerns-by-stance" class="card-grid two nested-card-grid"></div>
+            </article>
+          </div>
+        </section>
         <div class="chart-layout secondary-charts single-chart">
           <article class="card chart-card">
             <h3>Zone context</h3>
             <p class="muted">
-              Boundary geometry is not available yet, so this is a context panel rather than a map.
-              It matters because readers should not mistake this dashboard for a parcel-level zoning map.
+              This identifies which survey pages and area labels each zone refers to. It is not a map;
+              use it to keep the chart data tied to the right survey section, not to parcel boundaries.
             </p>
             <div id="zone-context" class="zone-context"></div>
           </article>
