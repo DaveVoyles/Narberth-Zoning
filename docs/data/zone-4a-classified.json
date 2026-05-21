@@ -54,7 +54,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "against new development",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -102,7 +102,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
     "rationale": "says approve",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -126,7 +126,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "not in favor of higher buildings",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -150,7 +150,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "says stop development",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -234,7 +234,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "urges rejection of changes",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -282,7 +282,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
     "rationale": "says no and reconsider later",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "yes",
     "mixed_flag": "no"
@@ -378,7 +378,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "not in favor",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -402,7 +402,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "does not like solution",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -510,7 +510,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
     "rationale": "says good",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "yes",
     "mixed_flag": "no"
@@ -522,7 +522,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "says not smart",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -534,7 +534,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "strongly against",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -558,7 +558,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
     "rationale": "thumbs up",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "yes",
     "mixed_flag": "no"
@@ -582,7 +582,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "not in favor",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -606,7 +606,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
     "rationale": "alleges conflicts and property harm",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "yes",
     "mixed_flag": "no"
@@ -618,7 +618,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "zoning not acceptable",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -654,7 +654,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "says no good",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -678,7 +678,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "says against it",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -690,7 +690,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "absolutely against",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -714,7 +714,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
     "rationale": "says destroying Narberth",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "yes",
     "mixed_flag": "no"
@@ -750,7 +750,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "calls ideas terrible",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -774,7 +774,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "asks rejection",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -798,7 +798,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
     "rationale": "says residents do not want issues",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "yes",
     "mixed_flag": "no"
@@ -822,7 +822,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
     "rationale": "reasonable changes",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -942,7 +942,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
     "rationale": "says fine",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "yes",
     "mixed_flag": "no"
@@ -966,7 +966,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "bad idea",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -990,7 +990,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "not needed",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -1050,7 +1050,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "says not good",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -1146,7 +1146,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
     "rationale": "prefers status quo",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "yes",
     "mixed_flag": "no"
@@ -1206,7 +1206,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "wants zoning left unchanged",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -1242,7 +1242,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "wants zone kept as is",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -1302,7 +1302,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "directly says do not",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -1386,7 +1386,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "explicitly against it",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -1398,7 +1398,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
     "rationale": "says likes it",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -1446,7 +1446,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
     "rationale": "finds proposal more reasonable",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "yes",
     "mixed_flag": "no"
@@ -1494,7 +1494,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
     "rationale": "says changes sound good",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -1506,7 +1506,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
     "rationale": "finds proposal feasible with question",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "yes",
     "mixed_flag": "no"
@@ -1530,7 +1530,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "does not like it",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -1542,7 +1542,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
     "rationale": "explicitly in favor",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -1578,7 +1578,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
     "rationale": "finds changes appropriate",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -1590,7 +1590,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "rejects proposals outright",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -1614,7 +1614,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "calls idea terrible and too urban",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -1662,7 +1662,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "against additional housing development",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -1782,7 +1782,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "says proposal goes too far",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -1866,7 +1866,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "does not approve",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -1962,7 +1962,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "not in favor of zoning changes",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -1974,7 +1974,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "does not approve",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -1986,7 +1986,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "calls scope too expansive",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -1998,7 +1998,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "against the plans",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -2058,7 +2058,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
     "rationale": "likes idea with rent caveat",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "yes",
     "mixed_flag": "no"
@@ -2070,7 +2070,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
     "rationale": "says good",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -2130,7 +2130,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
     "rationale": "wants expansion even more",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -2238,7 +2238,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
     "rationale": "wants even more",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -2250,7 +2250,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
     "rationale": "criticizes pro change agenda",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "yes",
     "mixed_flag": "no"
@@ -2274,7 +2274,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "repeated rejection",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -2358,7 +2358,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
     "rationale": "praises overall approach",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -2394,7 +2394,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
     "rationale": "says seems fine",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "yes",
     "mixed_flag": "no"
@@ -2454,7 +2454,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Says not needed",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -2526,7 +2526,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Says keep existing zoning",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -2562,7 +2562,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Calls changes disastrous",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -2586,7 +2586,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Says zoning proposals worsen problems",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -2634,7 +2634,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Says changes should be rejected",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -2670,7 +2670,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
     "rationale": "Refers to prior opposition",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "yes",
     "mixed_flag": "no"
@@ -2682,7 +2682,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Thumbs down",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -2694,7 +2694,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Says no credibility",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -2706,7 +2706,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Too much risk for little benefit",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -2754,7 +2754,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Says more housing is great",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -2778,7 +2778,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Says proposal sounds great",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -2790,7 +2790,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Calls changes good",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -2802,7 +2802,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Says no changes keep present code",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -2814,7 +2814,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
     "rationale": "Not a fan",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "yes",
     "mixed_flag": "no"
@@ -2862,7 +2862,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
     "rationale": "Says it makes sense",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "yes",
     "mixed_flag": "no"
@@ -2886,7 +2886,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Says no",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -2898,7 +2898,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Says bad idea",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -2922,7 +2922,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
     "rationale": "Refers to prior opposition",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "yes",
     "mixed_flag": "no"
@@ -2958,7 +2958,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Calls it ridiculous",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -2970,7 +2970,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Says leave rest alone",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -3018,7 +3018,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Calls proposal absurd",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -3054,7 +3054,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Says yes",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -3078,7 +3078,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Says against it",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -3102,7 +3102,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Strongly against proposal",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -3114,7 +3114,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Not in favor",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -3150,7 +3150,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Calls it terrible",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -3222,7 +3222,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Calls it nonsense",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -3294,7 +3294,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Likes the idea",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -3306,7 +3306,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
     "rationale": "Not impressed",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "yes",
     "mixed_flag": "no"
@@ -3342,7 +3342,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
     "rationale": "Says ok",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "yes",
     "mixed_flag": "no"
@@ -3426,7 +3426,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "high",
     "rationale": "Urges rejecting proposals",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "no",
     "mixed_flag": "no"
@@ -3438,7 +3438,7 @@
     "category": "Against proposed Zoning Changes",
     "confidence": "medium",
     "rationale": "Finds argument unconvincing",
-    "topics": "General stance",
+    "topics": "General opposition",
     "topic_count": 1,
     "needs_review": "yes",
     "mixed_flag": "no"
@@ -3534,7 +3534,7 @@
     "category": "In Favor of proposed Zoning Changes",
     "confidence": "medium",
     "rationale": "Says changes seem reasonable",
-    "topics": "General stance",
+    "topics": "General support",
     "topic_count": 1,
     "needs_review": "yes",
     "mixed_flag": "no"

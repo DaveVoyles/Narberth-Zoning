@@ -3,26 +3,26 @@ Zone 4A,1,90,Against proposed Zoning Changes,high,opposes apartments traffic par
 Zone 4A,2,90,Against proposed Zoning Changes,high,opposes ADUs and lot coverage,Green space and stormwater,1,no,no
 Zone 4A,3,90,Neutral,medium,needs more information,Unclear or neutral,1,yes,no
 Zone 4A,4,90,Against proposed Zoning Changes,high,explicitly opposes 4a changes,General opposition,1,no,no
-Zone 4A,5,90,Against proposed Zoning Changes,high,against new development,General stance,1,no,no
+Zone 4A,5,90,Against proposed Zoning Changes,high,against new development,General opposition,1,no,no
 Zone 4A,6,90,Against proposed Zoning Changes,high,opposes density and parking impacts,Parking; Density,2,no,no
 Zone 4A,7,90,Against proposed Zoning Changes,high,opposes height and setbacks,Building height,1,no,no
 Zone 4A,8,90,In Favor of proposed Zoning Changes,high,supports additional housing units,Density,1,no,no
-Zone 4A,9,90,In Favor of proposed Zoning Changes,high,says approve,General stance,1,no,no
+Zone 4A,9,90,In Favor of proposed Zoning Changes,high,says approve,General support,1,no,no
 Zone 4A,10,90,In Favor of proposed Zoning Changes,high,says agree,General support,1,no,no
-Zone 4A,11,90,Against proposed Zoning Changes,high,not in favor of higher buildings,General stance,1,no,no
+Zone 4A,11,90,Against proposed Zoning Changes,high,not in favor of higher buildings,General opposition,1,no,no
 Zone 4A,12,90,Against proposed Zoning Changes,high,opposes high rise buildings,General opposition,1,no,no
-Zone 4A,13,90,Against proposed Zoning Changes,high,says stop development,General stance,1,no,no
+Zone 4A,13,90,Against proposed Zoning Changes,high,says stop development,General opposition,1,no,no
 Zone 4A,14,90,In Favor of proposed Zoning Changes,high,supports with affordability caveat,Affordable housing,1,no,no
 Zone 4A,15,91,Against proposed Zoning Changes,high,explicitly opposes proposed changes,General opposition,1,no,no
 Zone 4A,16,91,Against proposed Zoning Changes,high,opposes taller buildings,Building height,1,no,no
 Zone 4A,17,91,Against proposed Zoning Changes,medium,requires off street parking,Parking; Traffic and safety,2,yes,no
 Zone 4A,18,91,Against proposed Zoning Changes,high,opposes urbanizing change,General opposition,1,no,no
 Zone 4A,19,91,Against proposed Zoning Changes,high,opposes more building,General opposition,1,no,no
-Zone 4A,20,91,Against proposed Zoning Changes,high,urges rejection of changes,General stance,1,no,no
+Zone 4A,20,91,Against proposed Zoning Changes,high,urges rejection of changes,General opposition,1,no,no
 Zone 4A,21,91,Against proposed Zoning Changes,high,opposes density without parking,Parking; Density,2,no,no
 Zone 4A,22,91,Against proposed Zoning Changes,high,against apartments and taller buildings,Building height; Density; Conditional or mixed response,3,no,yes
 Zone 4A,23,91,Neutral,medium,unsure and conditional,Conditional or mixed response,1,yes,yes
-Zone 4A,24,91,Against proposed Zoning Changes,medium,says no and reconsider later,General stance,1,yes,no
+Zone 4A,24,91,Against proposed Zoning Changes,medium,says no and reconsider later,General opposition,1,yes,no
 Zone 4A,25,91,Against proposed Zoning Changes,high,opposes apartments density height,Building height; Density; Conditional or mixed response,3,no,yes
 Zone 4A,26,91,Against proposed Zoning Changes,high,strongly opposes,General opposition,1,no,no
 Zone 4A,27,91,In Favor of proposed Zoning Changes,medium,supports density overall,Density,1,yes,no
@@ -30,9 +30,9 @@ Zone 4A,28,91,Against proposed Zoning Changes,high,not supportive,General suppor
 Zone 4A,29,91,Against proposed Zoning Changes,high,very opposed,General opposition,1,no,no
 Zone 4A,30,92,Against proposed Zoning Changes,high,terrible idea parking concerns,Parking,1,no,no
 Zone 4A,31,92,Against proposed Zoning Changes,high,disagrees with most proposed changes,General opposition,1,no,no
-Zone 4A,32,92,Against proposed Zoning Changes,high,not in favor,General stance,1,no,no
+Zone 4A,32,92,Against proposed Zoning Changes,high,not in favor,General opposition,1,no,no
 Zone 4A,33,92,Against proposed Zoning Changes,medium,skeptical of builder influence,Developer incentives,1,yes,no
-Zone 4A,34,92,Against proposed Zoning Changes,high,does not like solution,General stance,1,no,no
+Zone 4A,34,92,Against proposed Zoning Changes,high,does not like solution,General opposition,1,no,no
 Zone 4A,35,92,Against proposed Zoning Changes,high,against due to parking,Parking,1,no,no
 Zone 4A,36,92,Against proposed Zoning Changes,high,opposes zoning changes,General opposition,1,no,no
 Zone 4A,37,92,Against proposed Zoning Changes,high,strongly objects to apartments,Density; Conditional or mixed response,2,no,yes
@@ -41,33 +41,33 @@ Zone 4A,39,92,Against proposed Zoning Changes,high,opposes more apartments,Densi
 Zone 4A,40,92,Against proposed Zoning Changes,medium,rejects reduced parking,Parking,1,yes,no
 Zone 4A,41,92,In Favor of proposed Zoning Changes,high,supports reduced parking,Parking,1,no,no
 Zone 4A,42,92,In Favor of proposed Zoning Changes,high,supports more foot traffic,Traffic and safety,1,no,no
-Zone 4A,43,92,In Favor of proposed Zoning Changes,medium,says good,General stance,1,yes,no
-Zone 4A,44,92,Against proposed Zoning Changes,high,says not smart,General stance,1,no,no
-Zone 4A,45,92,Against proposed Zoning Changes,high,strongly against,General stance,1,no,no
+Zone 4A,43,92,In Favor of proposed Zoning Changes,medium,says good,General support,1,yes,no
+Zone 4A,44,92,Against proposed Zoning Changes,high,says not smart,General opposition,1,no,no
+Zone 4A,45,92,Against proposed Zoning Changes,high,strongly against,General opposition,1,no,no
 Zone 4A,46,92,Against proposed Zoning Changes,high,does not support,General support,1,no,no
-Zone 4A,47,92,In Favor of proposed Zoning Changes,medium,thumbs up,General stance,1,yes,no
+Zone 4A,47,92,In Favor of proposed Zoning Changes,medium,thumbs up,General support,1,yes,no
 Zone 4A,48,92,Against proposed Zoning Changes,high,does not agree with changes,General support,1,no,no
-Zone 4A,49,92,Against proposed Zoning Changes,high,not in favor,General stance,1,no,no
+Zone 4A,49,92,Against proposed Zoning Changes,high,not in favor,General opposition,1,no,no
 Zone 4A,50,92,Neutral,high,states neutral,Unclear or neutral,1,no,no
-Zone 4A,51,92,Against proposed Zoning Changes,medium,alleges conflicts and property harm,General stance,1,yes,no
-Zone 4A,52,92,Against proposed Zoning Changes,high,zoning not acceptable,General stance,1,no,no
+Zone 4A,51,92,Against proposed Zoning Changes,medium,alleges conflicts and property harm,General opposition,1,yes,no
+Zone 4A,52,92,Against proposed Zoning Changes,high,zoning not acceptable,General opposition,1,no,no
 Zone 4A,53,92,Against proposed Zoning Changes,high,opposes fourth floors,General opposition,1,no,no
 Zone 4A,54,92,Against proposed Zoning Changes,high,opposes height and new zoning,Building height,1,no,no
-Zone 4A,55,92,Against proposed Zoning Changes,high,says no good,General stance,1,no,no
+Zone 4A,55,92,Against proposed Zoning Changes,high,says no good,General opposition,1,no,no
 Zone 4A,56,93,Against proposed Zoning Changes,high,opposes density and parking reduction,Parking; Density,2,no,no
-Zone 4A,57,93,Against proposed Zoning Changes,high,says against it,General stance,1,no,no
-Zone 4A,58,93,Against proposed Zoning Changes,high,absolutely against,General stance,1,no,no
+Zone 4A,57,93,Against proposed Zoning Changes,high,says against it,General opposition,1,no,no
+Zone 4A,58,93,Against proposed Zoning Changes,high,absolutely against,General opposition,1,no,no
 Zone 4A,59,93,Against proposed Zoning Changes,medium,prefers no growth due to parking,Parking,1,yes,no
-Zone 4A,60,93,Against proposed Zoning Changes,medium,says destroying Narberth,General stance,1,yes,no
+Zone 4A,60,93,Against proposed Zoning Changes,medium,says destroying Narberth,General opposition,1,yes,no
 Zone 4A,61,93,Against proposed Zoning Changes,high,rejects apartments and parking reduction,Parking; Density; Conditional or mixed response,3,no,yes
 Zone 4A,62,93,Against proposed Zoning Changes,high,rejects height and parking changes,Parking; Building height,2,no,no
-Zone 4A,63,93,Against proposed Zoning Changes,high,calls ideas terrible,General stance,1,no,no
+Zone 4A,63,93,Against proposed Zoning Changes,high,calls ideas terrible,General opposition,1,no,no
 Zone 4A,64,93,In Favor of proposed Zoning Changes,high,strongly supports parking reduction,Parking,1,no,no
-Zone 4A,65,93,Against proposed Zoning Changes,high,asks rejection,General stance,1,no,no
+Zone 4A,65,93,Against proposed Zoning Changes,high,asks rejection,General opposition,1,no,no
 Zone 4A,66,93,In Favor of proposed Zoning Changes,high,supports going higher,General support,1,no,no
-Zone 4A,67,93,Against proposed Zoning Changes,medium,says residents do not want issues,General stance,1,yes,no
+Zone 4A,67,93,Against proposed Zoning Changes,medium,says residents do not want issues,General opposition,1,yes,no
 Zone 4A,68,93,Against proposed Zoning Changes,high,opposes density impacts,Density,1,no,no
-Zone 4A,69,93,In Favor of proposed Zoning Changes,high,reasonable changes,General stance,1,no,no
+Zone 4A,69,93,In Favor of proposed Zoning Changes,high,reasonable changes,General support,1,no,no
 Zone 4A,70,94,Against proposed Zoning Changes,high,opposes height affordability parking changes,Parking; Building height; Affordable housing,3,no,no
 Zone 4A,71,94,In Favor of proposed Zoning Changes,high,supports density and parking proposals,Parking; Density,2,no,no
 Zone 4A,72,94,Against proposed Zoning Changes,high,rejects ADUs height and parking reduction,Parking; Building height,2,no,no
@@ -77,16 +77,16 @@ Zone 4A,75,94,Against proposed Zoning Changes,medium,limits change and opposes a
 Zone 4A,76,94,Against proposed Zoning Changes,high,rejects parking reduction and fourth story,Parking; Building height,2,no,no
 Zone 4A,77,94,Against proposed Zoning Changes,high,opposes reduced parking,Parking,1,no,no
 Zone 4A,78,94,Against proposed Zoning Changes,high,opposes apartment scale and parking,Parking; Density; Neighborhood character; Conditional or mixed response,4,no,yes
-Zone 4A,79,94,In Favor of proposed Zoning Changes,medium,says fine,General stance,1,yes,no
+Zone 4A,79,94,In Favor of proposed Zoning Changes,medium,says fine,General support,1,yes,no
 Zone 4A,80,94,Against proposed Zoning Changes,high,opposed,General opposition,1,no,no
-Zone 4A,81,94,Against proposed Zoning Changes,high,bad idea,General stance,1,no,no
+Zone 4A,81,94,Against proposed Zoning Changes,high,bad idea,General opposition,1,no,no
 Zone 4A,82,94,Against proposed Zoning Changes,medium,says proposal lacks parking,Parking,1,yes,no
-Zone 4A,83,94,Against proposed Zoning Changes,high,not needed,General stance,1,no,no
+Zone 4A,83,94,Against proposed Zoning Changes,high,not needed,General opposition,1,no,no
 Zone 4A,84,94,Neutral,low,refers to prior answer,Unclear or neutral,1,yes,no
 Zone 4A,85,94,Against proposed Zoning Changes,high,does not support,General support,1,no,no
 Zone 4A,86,94,Against proposed Zoning Changes,high,opposes high rise buildings,General opposition,1,no,no
 Zone 4A,87,94,Against proposed Zoning Changes,high,not in favor due traffic noise,Traffic and safety,1,no,no
-Zone 4A,88,94,Against proposed Zoning Changes,high,says not good,General stance,1,no,no
+Zone 4A,88,94,Against proposed Zoning Changes,high,says not good,General opposition,1,no,no
 Zone 4A,89,94,Against proposed Zoning Changes,medium,concerned about developers and height,Building height; Developer incentives,2,yes,no
 Zone 4A,90,94,Against proposed Zoning Changes,high,opposes density bonus parking height,Parking; Building height; Density; Affordable housing,4,no,no
 Zone 4A,91,94,In Favor of proposed Zoning Changes,high,explicitly supports changes,General support,1,no,no
@@ -94,50 +94,50 @@ Zone 4A,92,94,Against proposed Zoning Changes,high,opposes more apartments,Densi
 Zone 4A,93,94,Against proposed Zoning Changes,high,opposes apartments and parking reduction,Parking; Density; Conditional or mixed response,3,no,yes
 Zone 4A,94,94,Against proposed Zoning Changes,high,disagrees with height increase,Building height,1,no,no
 Zone 4A,95,94,Against proposed Zoning Changes,high,does not support zoning change,General support,1,no,no
-Zone 4A,96,94,Against proposed Zoning Changes,medium,prefers status quo,General stance,1,yes,no
+Zone 4A,96,94,Against proposed Zoning Changes,medium,prefers status quo,General opposition,1,yes,no
 Zone 4A,97,95,Neutral,low,refers to prior answer,Unclear or neutral,1,yes,no
 Zone 4A,98,95,Against proposed Zoning Changes,high,disagree,General opposition,1,no,no
 Zone 4A,99,95,Against proposed Zoning Changes,high,rejects height and parking changes,Parking; Building height,2,no,no
 Zone 4A,100,95,Against proposed Zoning Changes,high,opposes more apartments,Density; Conditional or mixed response,2,no,yes
-Zone 4A,101,95,Against proposed Zoning Changes,high,wants zoning left unchanged,General stance,1,no,no
+Zone 4A,101,95,Against proposed Zoning Changes,high,wants zoning left unchanged,General opposition,1,no,no
 Zone 4A,102,95,In Favor of proposed Zoning Changes,medium,supports fourth story possibility,Building height,1,yes,no
 Zone 4A,103,95,Against proposed Zoning Changes,high,opposes removing conditional use and parking reduction,Parking; Conditional or mixed response,2,no,yes
-Zone 4A,104,95,Against proposed Zoning Changes,high,wants zone kept as is,General stance,1,no,no
+Zone 4A,104,95,Against proposed Zoning Changes,high,wants zone kept as is,General opposition,1,no,no
 Zone 4A,105,95,Against proposed Zoning Changes,high,opposes density anywhere,Density,1,no,no
 Zone 4A,106,95,Against proposed Zoning Changes,medium,cites transit and parking problems,Parking; Transit and walkability,2,yes,no
 Zone 4A,107,95,Against proposed Zoning Changes,high,opposes height increase,Building height,1,no,no
 Zone 4A,108,95,Against proposed Zoning Changes,high,opposes apartments and multifamily,Density; Conditional or mixed response,2,no,yes
-Zone 4A,109,95,Against proposed Zoning Changes,high,directly says do not,General stance,1,no,no
+Zone 4A,109,95,Against proposed Zoning Changes,high,directly says do not,General opposition,1,no,no
 Zone 4A,110,95,Against proposed Zoning Changes,high,opposes height traffic and drainage impacts,Traffic and safety; Building height,2,no,no
 Zone 4A,111,95,Against proposed Zoning Changes,high,opposes height and parking changes,Parking; Building height,2,no,no
 Zone 4A,112,95,Against proposed Zoning Changes,high,very opposed,General opposition,1,no,no
 Zone 4A,113,95,Against proposed Zoning Changes,high,strongly disagrees,General opposition,1,no,no
 Zone 4A,114,95,Against proposed Zoning Changes,high,opposes unsupported density,Density,1,no,no
 Zone 4A,115,95,Against proposed Zoning Changes,medium,criticizes density issues as unresolved,Density,1,yes,no
-Zone 4A,116,95,Against proposed Zoning Changes,high,explicitly against it,General stance,1,no,no
-Zone 4A,117,95,In Favor of proposed Zoning Changes,high,says likes it,General stance,1,no,no
+Zone 4A,116,95,Against proposed Zoning Changes,high,explicitly against it,General opposition,1,no,no
+Zone 4A,117,95,In Favor of proposed Zoning Changes,high,says likes it,General support,1,no,no
 Zone 4A,118,95,Against proposed Zoning Changes,high,rejects more apartments,Density; Conditional or mixed response,2,no,yes
 Zone 4A,119,95,Against proposed Zoning Changes,high,opposes four stories and apartments,Building height; Density; Conditional or mixed response,3,no,yes
 Zone 4A,120,95,In Favor of proposed Zoning Changes,medium,likes septa pass caveat,Transit and walkability,1,yes,no
-Zone 4A,121,95,In Favor of proposed Zoning Changes,medium,finds proposal more reasonable,General stance,1,yes,no
+Zone 4A,121,95,In Favor of proposed Zoning Changes,medium,finds proposal more reasonable,General support,1,yes,no
 Zone 4A,122,95,Against proposed Zoning Changes,high,opposes higher building,General opposition,1,no,no
 Zone 4A,123,95,Against proposed Zoning Changes,high,opposes parking reduction,Parking,1,no,no
 Zone 4A,124,95,In Favor of proposed Zoning Changes,high,agrees with them,General support,1,no,no
-Zone 4A,125,95,In Favor of proposed Zoning Changes,high,says changes sound good,General stance,1,no,no
-Zone 4A,126,95,In Favor of proposed Zoning Changes,medium,finds proposal feasible with question,General stance,1,yes,no
+Zone 4A,125,95,In Favor of proposed Zoning Changes,high,says changes sound good,General support,1,no,no
+Zone 4A,126,95,In Favor of proposed Zoning Changes,medium,finds proposal feasible with question,General support,1,yes,no
 Zone 4A,127,95,Neutral,medium,unclear and asks about parking reduction,Parking,1,yes,no
-Zone 4A,128,95,Against proposed Zoning Changes,high,does not like it,General stance,1,no,no
-Zone 4A,129,96,In Favor of proposed Zoning Changes,high,explicitly in favor,General stance,1,no,no
+Zone 4A,128,95,Against proposed Zoning Changes,high,does not like it,General opposition,1,no,no
+Zone 4A,129,96,In Favor of proposed Zoning Changes,high,explicitly in favor,General support,1,no,no
 Zone 4A,130,96,Against proposed Zoning Changes,medium,emphasizes scarce parking,Parking,1,yes,no
 Zone 4A,131,96,In Favor of proposed Zoning Changes,high,supports lower income housing incentive,Developer incentives,1,no,no
-Zone 4A,132,96,In Favor of proposed Zoning Changes,high,finds changes appropriate,General stance,1,no,no
-Zone 4A,133,96,Against proposed Zoning Changes,high,rejects proposals outright,General stance,1,no,no
+Zone 4A,132,96,In Favor of proposed Zoning Changes,high,finds changes appropriate,General support,1,no,no
+Zone 4A,133,96,Against proposed Zoning Changes,high,rejects proposals outright,General opposition,1,no,no
 Zone 4A,134,96,In Favor of proposed Zoning Changes,medium,supports fourth floor with caveat,General support,1,yes,no
-Zone 4A,135,96,Against proposed Zoning Changes,high,calls idea terrible and too urban,General stance,1,no,no
+Zone 4A,135,96,Against proposed Zoning Changes,high,calls idea terrible and too urban,General opposition,1,no,no
 Zone 4A,136,96,Neutral,high,needs more information,Unclear or neutral,1,no,no
 Zone 4A,137,96,Against proposed Zoning Changes,high,accepts some types but rejects fourth story,Building height; Conditional or mixed response,2,no,yes
 Zone 4A,138,96,Against proposed Zoning Changes,high,opposes density parking and height,Parking; Building height; Density,3,no,no
-Zone 4A,139,96,Against proposed Zoning Changes,high,against additional housing development,General stance,1,no,no
+Zone 4A,139,96,Against proposed Zoning Changes,high,against additional housing development,General opposition,1,no,no
 Zone 4A,140,96,Against proposed Zoning Changes,high,opposes more apartments,Density; Conditional or mixed response,2,no,yes
 Zone 4A,141,96,Neutral,high,unsure,Unclear or neutral,1,no,no
 Zone 4A,142,96,Against proposed Zoning Changes,high,opposes higher denser development,Density,1,no,no
@@ -147,14 +147,14 @@ Zone 4A,145,96,Against proposed Zoning Changes,high,opposes height and parking c
 Zone 4A,146,96,Against proposed Zoning Changes,high,does not agree,General support,1,no,no
 Zone 4A,147,96,Against proposed Zoning Changes,medium,questions density and infrastructure,Density; Schools and infrastructure,2,yes,no
 Zone 4A,148,96,Against proposed Zoning Changes,high,wants less density and larger lots,Density,1,no,no
-Zone 4A,149,96,Against proposed Zoning Changes,high,says proposal goes too far,General stance,1,no,no
+Zone 4A,149,96,Against proposed Zoning Changes,high,says proposal goes too far,General opposition,1,no,no
 Zone 4A,150,96,Against proposed Zoning Changes,medium,wants stricter parking requirements,Parking,1,yes,no
 Zone 4A,151,97,Against proposed Zoning Changes,high,rejects density setbacks parking and height,Parking; Building height; Density,3,no,no
 Zone 4A,152,97,Neutral,medium,appreciates goal but stance unclear,Conditional or mixed response,1,yes,yes
 Zone 4A,153,97,Against proposed Zoning Changes,high,cites lack of parking,Parking,1,no,no
 Zone 4A,154,97,Against proposed Zoning Changes,high,states disagreement,General opposition,1,no,no
 Zone 4A,155,97,Against proposed Zoning Changes,high,explicitly opposes it,General opposition,1,no,no
-Zone 4A,156,97,Against proposed Zoning Changes,high,does not approve,General stance,1,no,no
+Zone 4A,156,97,Against proposed Zoning Changes,high,does not approve,General opposition,1,no,no
 Zone 4A,157,97,Against proposed Zoning Changes,high,says not a good idea as written,Conditional or mixed response,1,no,yes
 Zone 4A,158,97,Against proposed Zoning Changes,high,opposes more apartments,Density; Conditional or mixed response,2,no,yes
 Zone 4A,159,97,Against proposed Zoning Changes,high,opposes reducing parking,Parking,1,no,no
@@ -162,21 +162,21 @@ Zone 4A,160,97,Against proposed Zoning Changes,high,opposes added congestion,Tra
 Zone 4A,161,97,In Favor of proposed Zoning Changes,high,wants even taller buildings,Building height,1,no,no
 Zone 4A,162,97,Against proposed Zoning Changes,high,rejects parking amendment,Parking,1,no,no
 Zone 4A,163,97,Against proposed Zoning Changes,high,opposes over three stories and parking changes,Parking; Building height,2,no,no
-Zone 4A,164,97,Against proposed Zoning Changes,high,not in favor of zoning changes,General stance,1,no,no
-Zone 4A,165,97,Against proposed Zoning Changes,high,does not approve,General stance,1,no,no
-Zone 4A,166,97,Against proposed Zoning Changes,high,calls scope too expansive,General stance,1,no,no
-Zone 4A,167,97,Against proposed Zoning Changes,high,against the plans,General stance,1,no,no
+Zone 4A,164,97,Against proposed Zoning Changes,high,not in favor of zoning changes,General opposition,1,no,no
+Zone 4A,165,97,Against proposed Zoning Changes,high,does not approve,General opposition,1,no,no
+Zone 4A,166,97,Against proposed Zoning Changes,high,calls scope too expansive,General opposition,1,no,no
+Zone 4A,167,97,Against proposed Zoning Changes,high,against the plans,General opposition,1,no,no
 Zone 4A,168,97,In Favor of proposed Zoning Changes,high,agrees,General support,1,no,no
 Zone 4A,169,97,Against proposed Zoning Changes,medium,accepts some housing but flags height and parking,Parking; Building height; Conditional or mixed response,3,yes,yes
 Zone 4A,170,97,Against proposed Zoning Changes,high,opposes making parking harder,Parking,1,no,no
 Zone 4A,171,97,Against proposed Zoning Changes,high,opposes over three stories and reduced parking,Parking; Building height,2,no,no
-Zone 4A,172,97,In Favor of proposed Zoning Changes,medium,likes idea with rent caveat,General stance,1,yes,no
-Zone 4A,173,97,In Favor of proposed Zoning Changes,high,says good,General stance,1,no,no
+Zone 4A,172,97,In Favor of proposed Zoning Changes,medium,likes idea with rent caveat,General support,1,yes,no
+Zone 4A,173,97,In Favor of proposed Zoning Changes,high,says good,General support,1,no,no
 Zone 4A,174,97,Against proposed Zoning Changes,high,says changes harm neighborhood culture,Neighborhood character,1,no,no
 Zone 4A,175,97,Against proposed Zoning Changes,high,hates overcrowding and no parking,Parking,1,no,no
 Zone 4A,176,97,Against proposed Zoning Changes,high,opposes four stories and parking reduction,Parking; Building height,2,no,no
 Zone 4A,177,97,In Favor of proposed Zoning Changes,medium,supports downtown development with parking priority,Parking,1,yes,no
-Zone 4A,178,98,In Favor of proposed Zoning Changes,high,wants expansion even more,General stance,1,no,no
+Zone 4A,178,98,In Favor of proposed Zoning Changes,high,wants expansion even more,General support,1,no,no
 Zone 4A,179,98,In Favor of proposed Zoning Changes,high,explicit support,General support,1,no,no
 Zone 4A,180,98,Against proposed Zoning Changes,high,opposes added density and parking impacts,Parking; Density,2,no,no
 Zone 4A,181,98,In Favor of proposed Zoning Changes,high,agrees with housing and parking changes,Parking,1,no,no
@@ -185,107 +185,107 @@ Zone 4A,183,98,Against proposed Zoning Changes,high,opposes tall buildings witho
 Zone 4A,184,98,Against proposed Zoning Changes,medium,supports people but rejects traffic and parking cost,Parking; Traffic and safety; Conditional or mixed response,3,yes,yes
 Zone 4A,185,98,In Favor of proposed Zoning Changes,high,wants more housing and fewer constraints,Transit and walkability,1,no,no
 Zone 4A,186,98,Against proposed Zoning Changes,medium,calls parking reduction unrealistic,Parking,1,yes,no
-Zone 4A,187,98,In Favor of proposed Zoning Changes,high,wants even more,General stance,1,no,no
-Zone 4A,188,98,Against proposed Zoning Changes,medium,criticizes pro change agenda,General stance,1,yes,no
+Zone 4A,187,98,In Favor of proposed Zoning Changes,high,wants even more,General support,1,no,no
+Zone 4A,188,98,Against proposed Zoning Changes,medium,criticizes pro change agenda,General opposition,1,yes,no
 Zone 4A,189,98,Against proposed Zoning Changes,high,bad idea no more density,Density,1,no,no
-Zone 4A,190,98,Against proposed Zoning Changes,high,repeated rejection,General stance,1,no,no
+Zone 4A,190,98,Against proposed Zoning Changes,high,repeated rejection,General opposition,1,no,no
 Zone 4A,191,98,Neutral,high,non substantive response,Unclear or neutral,1,no,no
 Zone 4A,192,98,Against proposed Zoning Changes,high,opposes parking reduction,Parking,1,no,no
 Zone 4A,193,98,Neutral,low,refers to unavailable prior comments,Unclear or neutral,1,yes,no
 Zone 4A,194,98,Against proposed Zoning Changes,high,strongly disagrees with change,General opposition,1,no,no
 Zone 4A,195,98,In Favor of proposed Zoning Changes,high,supports proposed changes,General support,1,no,no
 Zone 4A,196,98,Against proposed Zoning Changes,medium,supports housing but rejects parking elimination,Parking; Conditional or mixed response,2,yes,yes
-Zone 4A,197,98,In Favor of proposed Zoning Changes,high,praises overall approach,General stance,1,no,no
+Zone 4A,197,98,In Favor of proposed Zoning Changes,high,praises overall approach,General support,1,no,no
 Zone 4A,198,98,Against proposed Zoning Changes,high,opposes apartments fourth story and parking reduction,Parking; Building height; Density; Conditional or mixed response,4,no,yes
 Zone 4A,199,99,Against proposed Zoning Changes,high,opposes parking reduction and height,Parking; Building height,2,no,no
-Zone 4A,200,99,In Favor of proposed Zoning Changes,medium,says seems fine,General stance,1,yes,no
+Zone 4A,200,99,In Favor of proposed Zoning Changes,medium,says seems fine,General support,1,yes,no
 Zone 4A,201,99,Against proposed Zoning Changes,high,opposes ADUs fourth floor and parking reduction,Parking,1,no,no
 Zone 4A,202,99,Against proposed Zoning Changes,high,opposes height and crowding,Building height,1,no,no
 Zone 4A,203,99,Against proposed Zoning Changes,high,Opposes more rentals and ADUs,General opposition,1,no,no
 Zone 4A,204,99,In Favor of proposed Zoning Changes,high,Loves change and apartment building,Density; Conditional or mixed response,2,no,yes
-Zone 4A,205,99,Against proposed Zoning Changes,high,Says not needed,General stance,1,no,no
+Zone 4A,205,99,Against proposed Zoning Changes,high,Says not needed,General opposition,1,no,no
 Zone 4A,206,99,Against proposed Zoning Changes,high,Opposes reduced parking,Parking,1,no,no
 Zone 4A,207,99,Against proposed Zoning Changes,high,Rejects reduced parking and apartments,Parking; Density; Conditional or mixed response,3,no,yes
 Zone 4A,208,99,In Favor of proposed Zoning Changes,high,Supports greater height density and parking changes,Parking; Building height; Density,3,no,no
 Zone 4A,209,99,Neutral,low,Asks about row homes,Unclear or neutral,1,yes,no
 Zone 4A,210,99,Against proposed Zoning Changes,high,Calls to reduce density,Density,1,no,no
-Zone 4A,211,100,Against proposed Zoning Changes,high,Says keep existing zoning,General stance,1,no,no
+Zone 4A,211,100,Against proposed Zoning Changes,high,Says keep existing zoning,General opposition,1,no,no
 Zone 4A,212,100,Against proposed Zoning Changes,high,Rejects high density and low income housing,Density,1,no,no
 Zone 4A,213,100,Against proposed Zoning Changes,high,Does not support apartments and row homes,Density; Conditional or mixed response,2,no,yes
-Zone 4A,214,100,Against proposed Zoning Changes,high,Calls changes disastrous,General stance,1,no,no
+Zone 4A,214,100,Against proposed Zoning Changes,high,Calls changes disastrous,General opposition,1,no,no
 Zone 4A,215,100,Against proposed Zoning Changes,high,Rejects row houses and less parking,Parking,1,no,no
-Zone 4A,216,100,Against proposed Zoning Changes,high,Says zoning proposals worsen problems,General stance,1,no,no
+Zone 4A,216,100,Against proposed Zoning Changes,high,Says zoning proposals worsen problems,General opposition,1,no,no
 Zone 4A,217,100,Against proposed Zoning Changes,high,Opposes height and parking assumptions,Parking; Building height,2,no,no
 Zone 4A,218,101,Against proposed Zoning Changes,medium,Opposes high rise and stresses parking,Parking,1,yes,no
 Zone 4A,219,101,Against proposed Zoning Changes,medium,Rejects apartments by right and parking reduction,Parking; Density; Conditional or mixed response,3,yes,yes
-Zone 4A,220,101,Against proposed Zoning Changes,high,Says changes should be rejected,General stance,1,no,no
+Zone 4A,220,101,Against proposed Zoning Changes,high,Says changes should be rejected,General opposition,1,no,no
 Zone 4A,221,101,Against proposed Zoning Changes,medium,Questions process and added stories,Building height; Process and trust,2,yes,no
 Zone 4A,222,101,Against proposed Zoning Changes,high,Rejects four stories and parking reduction,Parking; Building height,2,no,no
-Zone 4A,223,101,Against proposed Zoning Changes,medium,Refers to prior opposition,General stance,1,yes,no
-Zone 4A,224,101,Against proposed Zoning Changes,high,Thumbs down,General stance,1,no,no
-Zone 4A,225,101,Against proposed Zoning Changes,high,Says no credibility,General stance,1,no,no
-Zone 4A,226,101,Against proposed Zoning Changes,high,Too much risk for little benefit,General stance,1,no,no
+Zone 4A,223,101,Against proposed Zoning Changes,medium,Refers to prior opposition,General opposition,1,yes,no
+Zone 4A,224,101,Against proposed Zoning Changes,high,Thumbs down,General opposition,1,no,no
+Zone 4A,225,101,Against proposed Zoning Changes,high,Says no credibility,General opposition,1,no,no
+Zone 4A,226,101,Against proposed Zoning Changes,high,Too much risk for little benefit,General opposition,1,no,no
 Zone 4A,227,101,Against proposed Zoning Changes,high,Opposes apartments and tall buildings,Building height; Density; Conditional or mixed response,3,no,yes
 Zone 4A,228,101,Against proposed Zoning Changes,high,Rejects height and parking reduction,Parking; Building height,2,no,no
 Zone 4A,229,102,Against proposed Zoning Changes,medium,Opposes reducing required parking,Parking,1,yes,no
-Zone 4A,230,102,In Favor of proposed Zoning Changes,high,Says more housing is great,General stance,1,no,no
+Zone 4A,230,102,In Favor of proposed Zoning Changes,high,Says more housing is great,General support,1,no,no
 Zone 4A,231,102,Against proposed Zoning Changes,high,Rejects parking reduction and fourth story,Parking; Building height,2,no,no
-Zone 4A,232,102,In Favor of proposed Zoning Changes,high,Says proposal sounds great,General stance,1,no,no
-Zone 4A,233,102,In Favor of proposed Zoning Changes,high,Calls changes good,General stance,1,no,no
-Zone 4A,234,102,Against proposed Zoning Changes,high,Says no changes keep present code,General stance,1,no,no
-Zone 4A,235,102,Against proposed Zoning Changes,medium,Not a fan,General stance,1,yes,no
+Zone 4A,232,102,In Favor of proposed Zoning Changes,high,Says proposal sounds great,General support,1,no,no
+Zone 4A,233,102,In Favor of proposed Zoning Changes,high,Calls changes good,General support,1,no,no
+Zone 4A,234,102,Against proposed Zoning Changes,high,Says no changes keep present code,General opposition,1,no,no
+Zone 4A,235,102,Against proposed Zoning Changes,medium,Not a fan,General opposition,1,yes,no
 Zone 4A,236,102,Against proposed Zoning Changes,medium,Challenges SEPTA based parking reduction,Parking; Transit and walkability,2,yes,no
 Zone 4A,237,102,Against proposed Zoning Changes,high,Says it ruins character,Neighborhood character,1,no,no
 Zone 4A,238,102,In Favor of proposed Zoning Changes,medium,Would support with concerns,General support,1,yes,no
-Zone 4A,239,102,In Favor of proposed Zoning Changes,medium,Says it makes sense,General stance,1,yes,no
+Zone 4A,239,102,In Favor of proposed Zoning Changes,medium,Says it makes sense,General support,1,yes,no
 Zone 4A,240,102,Against proposed Zoning Changes,high,Rejects height and parking reduction,Parking; Building height,2,no,no
-Zone 4A,241,102,Against proposed Zoning Changes,high,Says no,General stance,1,no,no
-Zone 4A,242,102,Against proposed Zoning Changes,high,Says bad idea,General stance,1,no,no
+Zone 4A,241,102,Against proposed Zoning Changes,high,Says no,General opposition,1,no,no
+Zone 4A,242,102,Against proposed Zoning Changes,high,Says bad idea,General opposition,1,no,no
 Zone 4A,243,102,Against proposed Zoning Changes,high,Rejects more density,Density,1,no,no
-Zone 4A,244,102,Against proposed Zoning Changes,medium,Refers to prior opposition,General stance,1,yes,no
+Zone 4A,244,102,Against proposed Zoning Changes,medium,Refers to prior opposition,General opposition,1,yes,no
 Zone 4A,245,102,Against proposed Zoning Changes,high,Rejects four stories and less parking,Parking; Building height,2,no,no
 Zone 4A,246,102,In Favor of proposed Zoning Changes,high,Strongly supports proposal,General support,1,no,no
-Zone 4A,247,102,Against proposed Zoning Changes,high,Calls it ridiculous,General stance,1,no,no
-Zone 4A,248,102,Against proposed Zoning Changes,high,Says leave rest alone,General stance,1,no,no
+Zone 4A,247,102,Against proposed Zoning Changes,high,Calls it ridiculous,General opposition,1,no,no
+Zone 4A,248,102,Against proposed Zoning Changes,high,Says leave rest alone,General opposition,1,no,no
 Zone 4A,249,102,Against proposed Zoning Changes,high,Opposes big apartment buildings,Density; Conditional or mixed response,2,no,yes
 Zone 4A,250,103,Against proposed Zoning Changes,high,Rejects parking reductions coverage and density,Parking; Density; Green space and stormwater,3,no,no
 Zone 4A,251,103,Against proposed Zoning Changes,high,Says parking change is bad idea,Parking,1,no,no
-Zone 4A,252,103,Against proposed Zoning Changes,high,Calls proposal absurd,General stance,1,no,no
+Zone 4A,252,103,Against proposed Zoning Changes,high,Calls proposal absurd,General opposition,1,no,no
 Zone 4A,253,103,Against proposed Zoning Changes,high,Opposes fourth story,Building height,1,no,no
 Zone 4A,254,103,Against proposed Zoning Changes,medium,Supports some types but rejects core elements,Conditional or mixed response,1,yes,yes
-Zone 4A,255,103,In Favor of proposed Zoning Changes,high,Says yes,General stance,1,no,no
+Zone 4A,255,103,In Favor of proposed Zoning Changes,high,Says yes,General support,1,no,no
 Zone 4A,256,103,In Favor of proposed Zoning Changes,high,Agrees with changes,General support,1,no,no
-Zone 4A,257,103,Against proposed Zoning Changes,high,Says against it,General stance,1,no,no
+Zone 4A,257,103,Against proposed Zoning Changes,high,Says against it,General opposition,1,no,no
 Zone 4A,258,103,In Favor of proposed Zoning Changes,high,Supports changes and parking requirements,Parking,1,no,no
-Zone 4A,259,103,Against proposed Zoning Changes,high,Strongly against proposal,General stance,1,no,no
-Zone 4A,260,103,Against proposed Zoning Changes,high,Not in favor,General stance,1,no,no
+Zone 4A,259,103,Against proposed Zoning Changes,high,Strongly against proposal,General opposition,1,no,no
+Zone 4A,260,103,Against proposed Zoning Changes,high,Not in favor,General opposition,1,no,no
 Zone 4A,261,103,Against proposed Zoning Changes,high,Opposes height bonus and impact,Building height; Affordable housing,2,no,no
 Zone 4A,262,103,Against proposed Zoning Changes,high,Wants developers outside borough,Developer incentives,1,no,no
-Zone 4A,263,103,Against proposed Zoning Changes,high,Calls it terrible,General stance,1,no,no
+Zone 4A,263,103,Against proposed Zoning Changes,high,Calls it terrible,General opposition,1,no,no
 Zone 4A,264,103,Against proposed Zoning Changes,medium,Prefers rebuilding businesses first,Transit and walkability,1,yes,no
 Zone 4A,265,103,Against proposed Zoning Changes,high,Opposes parking choice and more housing,Parking,1,no,no
 Zone 4A,266,103,Against proposed Zoning Changes,medium,Concerned about parking plan,Parking,1,yes,no
 Zone 4A,267,103,Against proposed Zoning Changes,high,Disagrees and calls it terrible,General opposition,1,no,no
 Zone 4A,268,103,Neutral,medium,Unsure depends on height,Building height,1,yes,no
-Zone 4A,269,103,Against proposed Zoning Changes,high,Calls it nonsense,General stance,1,no,no
+Zone 4A,269,103,Against proposed Zoning Changes,high,Calls it nonsense,General opposition,1,no,no
 Zone 4A,270,103,Neutral,high,Blank response,Unclear or neutral,1,no,no
 Zone 4A,271,103,Neutral,medium,Asks what parking reduction means,Parking,1,yes,no
 Zone 4A,272,103,Against proposed Zoning Changes,high,Rejects density and parking reduction,Parking; Density,2,no,no
 Zone 4A,273,103,Against proposed Zoning Changes,high,Opposes spot zoning and reduced parking,Parking,1,no,no
 Zone 4A,274,103,In Favor of proposed Zoning Changes,medium,Generally agrees,General support,1,yes,no
-Zone 4A,275,103,In Favor of proposed Zoning Changes,high,Likes the idea,General stance,1,no,no
-Zone 4A,276,103,Against proposed Zoning Changes,medium,Not impressed,General stance,1,yes,no
+Zone 4A,275,103,In Favor of proposed Zoning Changes,high,Likes the idea,General support,1,no,no
+Zone 4A,276,103,Against proposed Zoning Changes,medium,Not impressed,General opposition,1,yes,no
 Zone 4A,277,104,Against proposed Zoning Changes,high,Wants current height and fewer apartments,Building height; Density; Conditional or mixed response,3,no,yes
 Zone 4A,278,104,Against proposed Zoning Changes,high,Rejects four stories and apartments,Building height; Density; Conditional or mixed response,3,no,yes
-Zone 4A,279,104,In Favor of proposed Zoning Changes,medium,Says ok,General stance,1,yes,no
+Zone 4A,279,104,In Favor of proposed Zoning Changes,medium,Says ok,General support,1,yes,no
 Zone 4A,280,104,Against proposed Zoning Changes,high,Says proposal benefits developers,Developer incentives,1,no,no
 Zone 4A,281,104,Against proposed Zoning Changes,high,Does not support changes,General support,1,no,no
 Zone 4A,282,104,In Favor of proposed Zoning Changes,high,Full support,General support,1,no,no
 Zone 4A,283,104,Against proposed Zoning Changes,medium,Rejects affordable housing recommendation,Affordable housing,1,yes,no
 Zone 4A,284,104,Against proposed Zoning Changes,medium,Supports density but rejects parking change,Parking; Density; Conditional or mixed response,3,yes,yes
 Zone 4A,285,104,Against proposed Zoning Changes,high,Rejects SEPTA and parking assumptions,Parking; Transit and walkability,2,no,no
-Zone 4A,286,104,Against proposed Zoning Changes,high,Urges rejecting proposals,General stance,1,no,no
-Zone 4A,287,104,Against proposed Zoning Changes,medium,Finds argument unconvincing,General stance,1,yes,no
+Zone 4A,286,104,Against proposed Zoning Changes,high,Urges rejecting proposals,General opposition,1,no,no
+Zone 4A,287,104,Against proposed Zoning Changes,medium,Finds argument unconvincing,General opposition,1,yes,no
 Zone 4A,288,104,Against proposed Zoning Changes,medium,Accepts density only with one parking per unit,Parking; Density,2,yes,no
 Zone 4A,289,104,Neutral,low,Prefers ownership row home,Unclear or neutral,1,yes,no
 Zone 4A,290,104,Against proposed Zoning Changes,high,Rejects apartment buildings and parking level,Parking; Density; Conditional or mixed response,3,no,yes
@@ -293,7 +293,7 @@ Zone 4A,291,104,Against proposed Zoning Changes,high,Against density and reduced
 Zone 4A,292,104,In Favor of proposed Zoning Changes,high,Supports more neighbors and housing options,General support,1,no,no
 Zone 4A,293,104,Against proposed Zoning Changes,medium,Criticizes plan and parking restriction,Parking,1,yes,no
 Zone 4A,294,104,Neutral,high,Not applicable,Unclear or neutral,1,no,no
-Zone 4A,295,104,In Favor of proposed Zoning Changes,medium,Says changes seem reasonable,General stance,1,yes,no
+Zone 4A,295,104,In Favor of proposed Zoning Changes,medium,Says changes seem reasonable,General support,1,yes,no
 Zone 4A,296,104,Against proposed Zoning Changes,high,Rejects density ideology and multifamily,Density,1,no,no
 Zone 4A,297,104,Against proposed Zoning Changes,high,Questions taller buildings,Building height,1,no,no
 Zone 4A,298,104,Neutral,low,Raises parking and family living considerations,Parking,1,yes,no
@@ -307,16 +307,16 @@ Zone 5B,2,77,Against proposed Zoning Changes,medium,conditional on more parking,
 Zone 5B,3,77,Neutral,medium,asks about building impacts,Unclear or neutral,1,yes,no
 Zone 5B,4,77,Against proposed Zoning Changes,high,opposes changes over parking,Parking,1,no,no
 Zone 5B,5,77,Against proposed Zoning Changes,high,opposes new development,General opposition,1,no,no
-Zone 5B,6,77,Against proposed Zoning Changes,high,not in favor,General stance,1,no,no
+Zone 5B,6,77,Against proposed Zoning Changes,high,not in favor,General opposition,1,no,no
 Zone 5B,7,77,Against proposed Zoning Changes,high,rejects parking reduction and density,Parking; Density,2,no,no
 Zone 5B,8,77,In Favor of proposed Zoning Changes,high,supports more housing and business,Transit and walkability,1,no,no
-Zone 5B,9,77,In Favor of proposed Zoning Changes,high,approves proposal,General stance,1,no,no
+Zone 5B,9,77,In Favor of proposed Zoning Changes,high,approves proposal,General support,1,no,no
 Zone 5B,10,77,In Favor of proposed Zoning Changes,high,agrees with proposal,General support,1,no,no
 Zone 5B,11,77,Against proposed Zoning Changes,high,opposes taller buildings,Building height,1,no,no
-Zone 5B,12,77,Against proposed Zoning Changes,high,rejects high rises,General stance,1,no,no
-Zone 5B,13,77,Against proposed Zoning Changes,medium,wants park preserved,General stance,1,yes,no
+Zone 5B,12,77,Against proposed Zoning Changes,high,rejects high rises,General opposition,1,no,no
+Zone 5B,13,77,Against proposed Zoning Changes,medium,wants park preserved,General opposition,1,yes,no
 Zone 5B,14,77,In Favor of proposed Zoning Changes,high,supports with affordability caveat,Affordable housing,1,no,no
-Zone 5B,15,77,Against proposed Zoning Changes,high,explicitly rejects proposal,General stance,1,no,no
+Zone 5B,15,77,Against proposed Zoning Changes,high,explicitly rejects proposal,General opposition,1,no,no
 Zone 5B,16,77,In Favor of proposed Zoning Changes,medium,supports higher building here,General support,1,yes,no
 Zone 5B,17,77,Against proposed Zoning Changes,high,warns against added density,Density,1,no,no
 Zone 5B,18,78,Against proposed Zoning Changes,high,questions apartments and parking,Parking; Density; Conditional or mixed response,3,no,yes
@@ -325,52 +325,52 @@ Zone 5B,20,78,Against proposed Zoning Changes,high,explicitly opposes zoning cha
 Zone 5B,21,78,Against proposed Zoning Changes,medium,rejects limited parking provisions,Parking,1,yes,no
 Zone 5B,22,78,Against proposed Zoning Changes,high,opposes apartments and added people,Density; Conditional or mixed response,2,no,yes
 Zone 5B,23,78,Neutral,high,not sure,Unclear or neutral,1,no,no
-Zone 5B,24,78,In Favor of proposed Zoning Changes,medium,says fine there,General stance,1,yes,no
+Zone 5B,24,78,In Favor of proposed Zoning Changes,medium,says fine there,General support,1,yes,no
 Zone 5B,25,78,Against proposed Zoning Changes,medium,concerned about congestion,Traffic and safety,1,yes,no
-Zone 5B,26,78,Against proposed Zoning Changes,medium,views proposal as harmful,General stance,1,yes,no
+Zone 5B,26,78,Against proposed Zoning Changes,medium,views proposal as harmful,General opposition,1,yes,no
 Zone 5B,27,78,In Favor of proposed Zoning Changes,high,supports with sidewalk caveat,Transit and walkability,1,no,no
 Zone 5B,28,78,Against proposed Zoning Changes,high,not supportive,General support,1,no,no
 Zone 5B,29,78,Neutral,medium,no clear stance on Montgomery,Unclear or neutral,1,yes,no
 Zone 5B,30,78,Against proposed Zoning Changes,high,calls it terrible with parking harm,Parking,1,no,no
 Zone 5B,31,78,Against proposed Zoning Changes,high,disagrees with all changes,General opposition,1,no,no
 Zone 5B,32,79,Neutral,medium,asks for negatives,Unclear or neutral,1,yes,no
-Zone 5B,33,79,Against proposed Zoning Changes,medium,hostile to proposal,General stance,1,yes,no
-Zone 5B,34,79,Against proposed Zoning Changes,high,wants park without development,General stance,1,no,no
+Zone 5B,33,79,Against proposed Zoning Changes,medium,hostile to proposal,General opposition,1,yes,no
+Zone 5B,34,79,Against proposed Zoning Changes,high,wants park without development,General opposition,1,no,no
 Zone 5B,35,79,Against proposed Zoning Changes,high,against due parking pressure,Parking,1,no,no
 Zone 5B,36,79,Against proposed Zoning Changes,high,rejects height and parking changes,Parking; Building height,2,no,no
 Zone 5B,37,79,In Favor of proposed Zoning Changes,low,somewhat okay with reservations,Conditional or mixed response,1,yes,yes
 Zone 5B,38,79,Against proposed Zoning Changes,high,opposes reduced parking,Parking,1,no,no
-Zone 5B,39,79,In Favor of proposed Zoning Changes,high,fine with plan,General stance,1,no,no
+Zone 5B,39,79,In Favor of proposed Zoning Changes,high,fine with plan,General support,1,no,no
 Zone 5B,40,79,Against proposed Zoning Changes,high,rejects reduced parking,Parking,1,no,no
 Zone 5B,41,79,In Favor of proposed Zoning Changes,high,supports height and less parking,Parking; Building height,2,no,no
-Zone 5B,42,79,In Favor of proposed Zoning Changes,high,loves it,General stance,1,no,no
-Zone 5B,43,79,In Favor of proposed Zoning Changes,high,positive response,General stance,1,no,no
-Zone 5B,44,79,Against proposed Zoning Changes,medium,calls idea terrible,General stance,1,yes,no
-Zone 5B,45,79,Against proposed Zoning Changes,high,strongly against,General stance,1,no,no
-Zone 5B,46,79,Against proposed Zoning Changes,medium,criticizes drafters,General stance,1,yes,no
-Zone 5B,47,79,Against proposed Zoning Changes,high,limits floors below proposal,General stance,1,no,no
+Zone 5B,42,79,In Favor of proposed Zoning Changes,high,loves it,General support,1,no,no
+Zone 5B,43,79,In Favor of proposed Zoning Changes,high,positive response,General support,1,no,no
+Zone 5B,44,79,Against proposed Zoning Changes,medium,calls idea terrible,General opposition,1,yes,no
+Zone 5B,45,79,Against proposed Zoning Changes,high,strongly against,General opposition,1,no,no
+Zone 5B,46,79,Against proposed Zoning Changes,medium,criticizes drafters,General opposition,1,yes,no
+Zone 5B,47,79,Against proposed Zoning Changes,high,limits floors below proposal,General opposition,1,no,no
 Zone 5B,48,79,Against proposed Zoning Changes,high,rejects density height and parking,Parking; Building height; Density,3,no,no
-Zone 5B,49,79,Against proposed Zoning Changes,high,rejects high rise,General stance,1,no,no
-Zone 5B,50,79,Against proposed Zoning Changes,high,dislikes revenue driven change,General stance,1,no,no
-Zone 5B,51,79,Against proposed Zoning Changes,high,calls proposal terrible,General stance,1,no,no
+Zone 5B,49,79,Against proposed Zoning Changes,high,rejects high rise,General opposition,1,no,no
+Zone 5B,50,79,Against proposed Zoning Changes,high,dislikes revenue driven change,General opposition,1,no,no
+Zone 5B,51,79,Against proposed Zoning Changes,high,calls proposal terrible,General opposition,1,no,no
 Zone 5B,52,79,Against proposed Zoning Changes,high,rejects parking and height bonus,Parking; Building height; Affordable housing,3,no,no
 Zone 5B,53,79,Against proposed Zoning Changes,medium,rejects additional stories,Building height,1,yes,no
-Zone 5B,54,79,Against proposed Zoning Changes,high,disapproves all zoning changes,General stance,1,no,no
-Zone 5B,55,79,Against proposed Zoning Changes,high,says no good,General stance,1,no,no
+Zone 5B,54,79,Against proposed Zoning Changes,high,disapproves all zoning changes,General opposition,1,no,no
+Zone 5B,55,79,Against proposed Zoning Changes,high,says no good,General opposition,1,no,no
 Zone 5B,56,79,Against proposed Zoning Changes,high,rejects parking reduction and height,Parking; Building height,2,no,no
-Zone 5B,57,79,Against proposed Zoning Changes,high,against it,General stance,1,no,no
-Zone 5B,58,79,Against proposed Zoning Changes,medium,says ignores resident wishes,General stance,1,yes,no
+Zone 5B,57,79,Against proposed Zoning Changes,high,against it,General opposition,1,no,no
+Zone 5B,58,79,Against proposed Zoning Changes,medium,says ignores resident wishes,General opposition,1,yes,no
 Zone 5B,59,79,Against proposed Zoning Changes,high,prefers no growth due traffic,Traffic and safety,1,no,no
-Zone 5B,60,80,Against proposed Zoning Changes,high,says destroying Narberth,General stance,1,no,no
+Zone 5B,60,80,Against proposed Zoning Changes,high,says destroying Narberth,General opposition,1,no,no
 Zone 5B,61,80,Against proposed Zoning Changes,high,rejects height increase,Building height,1,no,no
 Zone 5B,62,80,Against proposed Zoning Changes,high,opposes stories and parking change,Parking; Building height,2,no,no
 Zone 5B,63,80,Against proposed Zoning Changes,medium,frames as developer driven,Developer incentives,1,yes,no
 Zone 5B,64,80,In Favor of proposed Zoning Changes,medium,supports reduced parking,Parking,1,yes,no
-Zone 5B,65,80,Against proposed Zoning Changes,high,asks rejection,General stance,1,no,no
+Zone 5B,65,80,Against proposed Zoning Changes,high,asks rejection,General opposition,1,no,no
 Zone 5B,66,80,In Favor of proposed Zoning Changes,high,supports changes with caveats,General support,1,no,no
 Zone 5B,67,80,Neutral,medium,no substantive stance,Unclear or neutral,1,yes,no
 Zone 5B,68,80,Against proposed Zoning Changes,high,opposes reduced parking,Parking,1,no,no
-Zone 5B,69,80,In Favor of proposed Zoning Changes,medium,says reasonable,General stance,1,yes,no
+Zone 5B,69,80,In Favor of proposed Zoning Changes,medium,says reasonable,General support,1,yes,no
 Zone 5B,70,80,Against proposed Zoning Changes,high,rejects reduced parking,Parking,1,no,no
 Zone 5B,71,80,In Favor of proposed Zoning Changes,high,supports less parking,Parking,1,no,no
 Zone 5B,72,80,Against proposed Zoning Changes,high,rejects parking limits,Parking,1,no,no
@@ -380,16 +380,16 @@ Zone 5B,75,80,Against proposed Zoning Changes,high,opposes more growth,General o
 Zone 5B,76,80,Against proposed Zoning Changes,high,opposes parking reductions,Parking,1,no,no
 Zone 5B,77,80,Against proposed Zoning Changes,high,cites density congestion parking,Parking; Traffic and safety; Density,3,no,no
 Zone 5B,78,80,Against proposed Zoning Changes,medium,supports only smaller buildings,General support,1,yes,no
-Zone 5B,79,80,In Favor of proposed Zoning Changes,medium,says fine,General stance,1,yes,no
+Zone 5B,79,80,In Favor of proposed Zoning Changes,medium,says fine,General support,1,yes,no
 Zone 5B,80,80,Against proposed Zoning Changes,high,opposed,General opposition,1,no,no
-Zone 5B,81,80,Against proposed Zoning Changes,high,strongly against,General stance,1,no,no
+Zone 5B,81,80,Against proposed Zoning Changes,high,strongly against,General opposition,1,no,no
 Zone 5B,82,80,Against proposed Zoning Changes,high,rejects five stories and parking reduction,Parking; Building height,2,no,no
-Zone 5B,83,80,Against proposed Zoning Changes,medium,says not needed,General stance,1,yes,no
+Zone 5B,83,80,Against proposed Zoning Changes,medium,says not needed,General opposition,1,yes,no
 Zone 5B,84,80,Against proposed Zoning Changes,medium,alleges developer corruption,Developer incentives,1,yes,no
-Zone 5B,85,80,Against proposed Zoning Changes,high,says no,General stance,1,no,no
-Zone 5B,86,80,In Favor of proposed Zoning Changes,medium,seems okay with caveat,General stance,1,yes,no
-Zone 5B,87,80,In Favor of proposed Zoning Changes,high,fine with this,General stance,1,no,no
-Zone 5B,88,80,Against proposed Zoning Changes,high,not good,General stance,1,no,no
+Zone 5B,85,80,Against proposed Zoning Changes,high,says no,General opposition,1,no,no
+Zone 5B,86,80,In Favor of proposed Zoning Changes,medium,seems okay with caveat,General support,1,yes,no
+Zone 5B,87,80,In Favor of proposed Zoning Changes,high,fine with this,General support,1,no,no
+Zone 5B,88,80,Against proposed Zoning Changes,high,not good,General opposition,1,no,no
 Zone 5B,89,80,Neutral,high,not applicable,Unclear or neutral,1,no,no
 Zone 5B,90,80,Against proposed Zoning Changes,high,opposes height bonus and reduced parking,Parking; Building height; Affordable housing,3,no,no
 Zone 5B,91,80,In Favor of proposed Zoning Changes,high,Supports these changes,General support,1,no,no
@@ -401,36 +401,36 @@ Zone 5B,96,81,Against proposed Zoning Changes,high,rejects four and five story b
 Zone 5B,97,81,Against proposed Zoning Changes,high,opposes mid rise buildings,General opposition,1,no,no
 Zone 5B,98,81,Against proposed Zoning Changes,high,disagrees,General opposition,1,no,no
 Zone 5B,99,81,Against proposed Zoning Changes,high,rejects four stories and parking,Parking; Building height,2,no,no
-Zone 5B,100,81,In Favor of proposed Zoning Changes,medium,seems okay,General stance,1,yes,no
-Zone 5B,101,81,Against proposed Zoning Changes,medium,rejects more people,General stance,1,yes,no
-Zone 5B,102,81,In Favor of proposed Zoning Changes,high,says it makes sense,General stance,1,no,no
+Zone 5B,100,81,In Favor of proposed Zoning Changes,medium,seems okay,General support,1,yes,no
+Zone 5B,101,81,Against proposed Zoning Changes,medium,rejects more people,General opposition,1,yes,no
+Zone 5B,102,81,In Favor of proposed Zoning Changes,high,says it makes sense,General support,1,no,no
 Zone 5B,103,81,Against proposed Zoning Changes,high,opposes apartment construction,Density; Conditional or mixed response,2,no,yes
 Zone 5B,104,81,Against proposed Zoning Changes,high,cites traffic nightmare,Traffic and safety,1,no,no
 Zone 5B,105,81,Against proposed Zoning Changes,high,against density anywhere,Density,1,no,no
 Zone 5B,106,81,Against proposed Zoning Changes,high,dislikes parking assumptions,Parking,1,no,no
 Zone 5B,107,81,Against proposed Zoning Changes,high,opposes more apartments,Density; Conditional or mixed response,2,no,yes
 Zone 5B,108,81,Against proposed Zoning Changes,high,does not support multifamily,Density,1,no,no
-Zone 5B,109,81,Against proposed Zoning Changes,medium,warns not to overwhelm area,General stance,1,yes,no
+Zone 5B,109,81,Against proposed Zoning Changes,medium,warns not to overwhelm area,General opposition,1,yes,no
 Zone 5B,110,81,Against proposed Zoning Changes,high,opposes tall buildings,Building height,1,no,no
 Zone 5B,111,81,Against proposed Zoning Changes,high,opposes upzoning and parking,Parking,1,no,no
 Zone 5B,112,81,Against proposed Zoning Changes,high,very opposed,General opposition,1,no,no
 Zone 5B,113,81,Against proposed Zoning Changes,high,strongly disagree,General opposition,1,no,no
-Zone 5B,114,81,Against proposed Zoning Changes,medium,prefers visitors over residents,General stance,1,yes,no
+Zone 5B,114,81,Against proposed Zoning Changes,medium,prefers visitors over residents,General opposition,1,yes,no
 Zone 5B,115,81,Against proposed Zoning Changes,medium,criticizes increasing density,Density,1,yes,no
-Zone 5B,116,81,Against proposed Zoning Changes,high,says do not develop,General stance,1,no,no
+Zone 5B,116,81,Against proposed Zoning Changes,high,says do not develop,General opposition,1,no,no
 Zone 5B,117,81,Against proposed Zoning Changes,medium,opposes too tall buildings,Building height,1,yes,no
 Zone 5B,118,81,Against proposed Zoning Changes,medium,wants delay until traffic calming,Traffic and safety,1,yes,no
 Zone 5B,119,81,In Favor of proposed Zoning Changes,medium,not opposed to changes,General opposition,1,yes,no
 Zone 5B,120,81,In Favor of proposed Zoning Changes,high,supports growth and changes,General support,1,no,no
 Zone 5B,121,81,Against proposed Zoning Changes,high,opposes due to parking,Parking,1,no,no
-Zone 5B,122,81,In Favor of proposed Zoning Changes,medium,seems fine,General stance,1,yes,no
+Zone 5B,122,81,In Favor of proposed Zoning Changes,medium,seems fine,General support,1,yes,no
 Zone 5B,123,81,In Favor of proposed Zoning Changes,high,agrees with zoning changes,General support,1,no,no
 Zone 5B,124,81,In Favor of proposed Zoning Changes,high,agrees with them,General support,1,no,no
 Zone 5B,125,81,In Favor of proposed Zoning Changes,high,wants affordable housing,Affordable housing,1,no,no
-Zone 5B,126,81,In Favor of proposed Zoning Changes,high,calls plan reasonable,General stance,1,no,no
+Zone 5B,126,81,In Favor of proposed Zoning Changes,high,calls plan reasonable,General support,1,no,no
 Zone 5B,127,81,Against proposed Zoning Changes,medium,wants more parking lots,Parking,1,yes,no
-Zone 5B,128,81,Against proposed Zoning Changes,high,does not like it,General stance,1,no,no
-Zone 5B,129,81,In Favor of proposed Zoning Changes,high,explicitly in favor,General stance,1,no,no
+Zone 5B,128,81,Against proposed Zoning Changes,high,does not like it,General opposition,1,no,no
+Zone 5B,129,81,In Favor of proposed Zoning Changes,high,explicitly in favor,General support,1,no,no
 Zone 5B,130,81,Against proposed Zoning Changes,medium,worries about traffic impact,Traffic and safety,1,yes,no
 Zone 5B,131,81,In Favor of proposed Zoning Changes,high,in agreement,General support,1,no,no
 Zone 5B,132,81,In Favor of proposed Zoning Changes,high,height is ok,Building height,1,no,no
@@ -438,7 +438,7 @@ Zone 5B,133,81,Against proposed Zoning Changes,high,opposes height and units,Bui
 Zone 5B,134,82,In Favor of proposed Zoning Changes,high,higher heights are ok,Building height,1,no,no
 Zone 5B,135,82,Against proposed Zoning Changes,high,opposes parking reduction and affordability,Parking; Affordable housing,2,no,no
 Zone 5B,136,82,Neutral,high,needs more info,Unclear or neutral,1,no,no
-Zone 5B,137,82,In Favor of proposed Zoning Changes,medium,accepts Montgomery changes,General stance,1,yes,no
+Zone 5B,137,82,In Favor of proposed Zoning Changes,medium,accepts Montgomery changes,General support,1,yes,no
 Zone 5B,138,82,Against proposed Zoning Changes,high,too dense and too little parking,Parking; Density,2,no,no
 Zone 5B,139,82,Against proposed Zoning Changes,high,no more apartments,Density; Conditional or mixed response,2,no,yes
 Zone 5B,140,82,Against proposed Zoning Changes,high,opposes more housing,General opposition,1,no,no
@@ -456,56 +456,56 @@ Zone 5B,151,82,Against proposed Zoning Changes,high,opposes dense development,De
 Zone 5B,152,82,Neutral,low,mixed affordability concern,Affordable housing; Conditional or mixed response,2,yes,yes
 Zone 5B,153,82,Against proposed Zoning Changes,high,opposes less parking,Parking,1,no,no
 Zone 5B,154,82,Against proposed Zoning Changes,high,disagrees,General opposition,1,no,no
-Zone 5B,155,82,In Favor of proposed Zoning Changes,medium,ok with it despite question,General stance,1,yes,no
-Zone 5B,156,82,Against proposed Zoning Changes,high,does not approve,General stance,1,no,no
+Zone 5B,155,82,In Favor of proposed Zoning Changes,medium,ok with it despite question,General support,1,yes,no
+Zone 5B,156,82,Against proposed Zoning Changes,high,does not approve,General opposition,1,no,no
 Zone 5B,157,82,Against proposed Zoning Changes,medium,concerned about apartment parking,Parking; Density; Conditional or mixed response,3,yes,yes
 Zone 5B,158,82,Against proposed Zoning Changes,high,opposes five story buildings,Building height,1,no,no
 Zone 5B,159,82,Against proposed Zoning Changes,high,opposes parking ratio,Parking,1,no,no
 Zone 5B,160,82,Against proposed Zoning Changes,high,does not agree,General support,1,no,no
-Zone 5B,161,83,In Favor of proposed Zoning Changes,high,good in general,General stance,1,no,no
+Zone 5B,161,83,In Favor of proposed Zoning Changes,high,good in general,General support,1,no,no
 Zone 5B,162,83,Against proposed Zoning Changes,medium,opposes reduced parking,Parking,1,yes,no
 Zone 5B,163,83,Against proposed Zoning Changes,high,opposes height and parking change,Parking; Building height,2,no,no
-Zone 5B,164,83,In Favor of proposed Zoning Changes,high,ok with zoning changes,General stance,1,no,no
-Zone 5B,165,83,Against proposed Zoning Changes,high,does not approve,General stance,1,no,no
+Zone 5B,164,83,In Favor of proposed Zoning Changes,high,ok with zoning changes,General support,1,no,no
+Zone 5B,165,83,Against proposed Zoning Changes,high,does not approve,General opposition,1,no,no
 Zone 5B,166,83,Against proposed Zoning Changes,medium,parking would be problem,Parking,1,yes,no
-Zone 5B,167,83,Against proposed Zoning Changes,high,against the plans,General stance,1,no,no
+Zone 5B,167,83,Against proposed Zoning Changes,high,against the plans,General opposition,1,no,no
 Zone 5B,168,83,Against proposed Zoning Changes,high,opposes high rises,General opposition,1,no,no
 Zone 5B,169,83,Against proposed Zoning Changes,high,opposes height and parking reduction,Parking; Building height,2,no,no
-Zone 5B,170,83,In Favor of proposed Zoning Changes,high,sounds good,General stance,1,no,no
-Zone 5B,171,83,Against proposed Zoning Changes,high,should not continue as described,General stance,1,no,no
-Zone 5B,172,83,In Favor of proposed Zoning Changes,high,likes this idea,General stance,1,no,no
+Zone 5B,170,83,In Favor of proposed Zoning Changes,high,sounds good,General support,1,no,no
+Zone 5B,171,83,Against proposed Zoning Changes,high,should not continue as described,General opposition,1,no,no
+Zone 5B,172,83,In Favor of proposed Zoning Changes,high,likes this idea,General support,1,no,no
 Zone 5B,173,83,In Favor of proposed Zoning Changes,medium,good with parking concern,Parking,1,yes,no
-Zone 5B,174,83,Against proposed Zoning Changes,high,warns overcrowding,General stance,1,no,no
+Zone 5B,174,83,Against proposed Zoning Changes,high,warns overcrowding,General opposition,1,no,no
 Zone 5B,175,83,Against proposed Zoning Changes,high,opposes additional housing,General opposition,1,no,no
 Zone 5B,176,83,Neutral,low,reference unclear,Unclear or neutral,1,yes,no
 Zone 5B,177,83,Against proposed Zoning Changes,low,implies loss of character,Neighborhood character,1,yes,no
-Zone 5B,178,83,In Favor of proposed Zoning Changes,high,more the better,General stance,1,no,no
+Zone 5B,178,83,In Favor of proposed Zoning Changes,high,more the better,General support,1,no,no
 Zone 5B,179,83,In Favor of proposed Zoning Changes,high,support,General support,1,no,no
 Zone 5B,180,83,Against proposed Zoning Changes,medium,opposes attracting lower income residents,General opposition,1,yes,no
 Zone 5B,181,83,In Favor of proposed Zoning Changes,high,supports height and mixed use,Building height; Conditional or mixed response,2,no,yes
-Zone 5B,182,83,In Favor of proposed Zoning Changes,high,positive response,General stance,1,no,no
+Zone 5B,182,83,In Favor of proposed Zoning Changes,high,positive response,General support,1,no,no
 Zone 5B,183,83,Against proposed Zoning Changes,high,completely oppose it,General opposition,1,no,no
 Zone 5B,184,83,Against proposed Zoning Changes,high,opposes eased parking,Parking,1,no,no
 Zone 5B,185,83,In Favor of proposed Zoning Changes,high,wants stronger density incentive,Density; Developer incentives,2,no,no
 Zone 5B,186,83,Against proposed Zoning Changes,high,opposes adding traffic and parking,Parking; Traffic and safety,2,no,no
-Zone 5B,187,83,In Favor of proposed Zoning Changes,high,calls changes positive,General stance,1,no,no
-Zone 5B,188,83,Against proposed Zoning Changes,high,calls changes misuse of power,General stance,1,no,no
+Zone 5B,187,83,In Favor of proposed Zoning Changes,high,calls changes positive,General support,1,no,no
+Zone 5B,188,83,Against proposed Zoning Changes,high,calls changes misuse of power,General opposition,1,no,no
 Zone 5B,189,83,In Favor of proposed Zoning Changes,medium,encourages business growth,Transit and walkability,1,yes,no
-Zone 5B,190,83,Against proposed Zoning Changes,high,emphatic no,General stance,1,no,no
+Zone 5B,190,83,Against proposed Zoning Changes,high,emphatic no,General opposition,1,no,no
 Zone 5B,191,83,Neutral,high,blank response,Unclear or neutral,1,no,no
-Zone 5B,192,83,Against proposed Zoning Changes,high,no way,General stance,1,no,no
+Zone 5B,192,83,Against proposed Zoning Changes,high,no way,General opposition,1,no,no
 Zone 5B,193,83,Against proposed Zoning Changes,high,opposes five story buildings,Building height,1,no,no
 Zone 5B,194,83,Against proposed Zoning Changes,high,opposes tall buildings,Building height,1,no,no
 Zone 5B,195,83,In Favor of proposed Zoning Changes,high,supports proposed changes,General support,1,no,no
 Zone 5B,196,83,In Favor of proposed Zoning Changes,medium,supports density bonus and parking reduction,Parking; Density; Affordable housing,3,yes,no
 Zone 5B,197,83,In Favor of proposed Zoning Changes,high,wants more affordable units,Density; Affordable housing,2,no,no
 Zone 5B,198,83,Against proposed Zoning Changes,medium,opposes diminished parking,Parking,1,yes,no
-Zone 5B,199,84,Against proposed Zoning Changes,high,calls plan poor,General stance,1,no,no
-Zone 5B,200,84,In Favor of proposed Zoning Changes,medium,seems okay,General stance,1,yes,no
+Zone 5B,199,84,Against proposed Zoning Changes,high,calls plan poor,General opposition,1,no,no
+Zone 5B,200,84,In Favor of proposed Zoning Changes,medium,seems okay,General support,1,yes,no
 Zone 5B,201,84,Against proposed Zoning Changes,medium,opposes less parking,Parking,1,yes,no
 Zone 5B,202,84,Against proposed Zoning Changes,high,too tall,Building height,1,no,no
 Zone 5B,203,84,Against proposed Zoning Changes,high,opposes overbuilding and minimal parking,Parking,1,no,no
-Zone 5B,204,84,In Favor of proposed Zoning Changes,high,loves proactive change,General stance,1,no,no
+Zone 5B,204,84,In Favor of proposed Zoning Changes,high,loves proactive change,General support,1,no,no
 Zone 5B,205,84,Neutral,high,Non substantive response,Unclear or neutral,1,no,no
 Zone 5B,206,84,Against proposed Zoning Changes,high,Opposes parking reduction and affordability,Parking; Affordable housing,2,no,no
 Zone 5B,207,84,Against proposed Zoning Changes,high,Rejects reduced parking and more residents,Parking,1,no,no
@@ -515,80 +515,80 @@ Zone 5B,210,84,Neutral,high,Cannot read materials,Unclear or neutral,1,no,no
 Zone 5B,211,84,Against proposed Zoning Changes,high,Says no need for five stories,Building height,1,no,no
 Zone 5B,212,84,In Favor of proposed Zoning Changes,medium,Could accept five stories with affordability,Building height; Affordable housing,2,yes,no
 Zone 5B,213,84,Against proposed Zoning Changes,high,Calls proposal poor and rejects parking reduction,Parking,1,no,no
-Zone 5B,214,84,Against proposed Zoning Changes,high,Calls changes a disaster,General stance,1,no,no
+Zone 5B,214,84,Against proposed Zoning Changes,high,Calls changes a disaster,General opposition,1,no,no
 Zone 5B,215,84,Against proposed Zoning Changes,high,Vehemently opposed to affordable housing,Affordable housing,1,no,no
-Zone 5B,216,85,Against proposed Zoning Changes,high,Says zoning changes worsen problems,General stance,1,no,no
+Zone 5B,216,85,Against proposed Zoning Changes,high,Says zoning changes worsen problems,General opposition,1,no,no
 Zone 5B,217,85,Against proposed Zoning Changes,medium,Criticizes transit oriented development approach,Transit and walkability,1,yes,no
 Zone 5B,218,85,Against proposed Zoning Changes,high,Opposes five story structure and traffic,Traffic and safety; Building height,2,no,no
 Zone 5B,219,85,Against proposed Zoning Changes,high,Opposes fifth floor density bonus,Density; Affordable housing,2,no,no
-Zone 5B,220,85,Against proposed Zoning Changes,medium,Rejects lowering development costs,General stance,1,yes,no
+Zone 5B,220,85,Against proposed Zoning Changes,medium,Rejects lowering development costs,General opposition,1,yes,no
 Zone 5B,221,85,Against proposed Zoning Changes,medium,Questions added stories without representation,Building height,1,yes,no
 Zone 5B,222,85,Against proposed Zoning Changes,high,Rejects five stories and reduced parking,Parking; Building height,2,no,no
 Zone 5B,223,85,Against proposed Zoning Changes,high,Says do not reduce parking,Parking,1,no,no
-Zone 5B,224,85,Against proposed Zoning Changes,high,Rejects YIMBY approach,General stance,1,no,no
-Zone 5B,225,85,Against proposed Zoning Changes,medium,Negative credibility comment,General stance,1,yes,no
-Zone 5B,226,85,In Favor of proposed Zoning Changes,high,Says proposal makes sense,General stance,1,no,no
+Zone 5B,224,85,Against proposed Zoning Changes,high,Rejects YIMBY approach,General opposition,1,no,no
+Zone 5B,225,85,Against proposed Zoning Changes,medium,Negative credibility comment,General opposition,1,yes,no
+Zone 5B,226,85,In Favor of proposed Zoning Changes,high,Says proposal makes sense,General support,1,no,no
 Zone 5B,227,85,Against proposed Zoning Changes,medium,Says traffic makes area unappealing,Traffic and safety,1,yes,no
 Zone 5B,228,85,Against proposed Zoning Changes,high,Rejects reduced parking,Parking,1,no,no
 Zone 5B,229,86,Against proposed Zoning Changes,high,Rejects fifth story and parking reduction,Parking; Building height,2,no,no
 Zone 5B,230,86,In Favor of proposed Zoning Changes,high,Supports upzoning and parking reform,Parking,1,no,no
 Zone 5B,231,86,Against proposed Zoning Changes,high,Rejects density push and parking allowances,Parking; Density,2,no,no
 Zone 5B,232,86,In Favor of proposed Zoning Changes,high,Supports walkable future with traffic calming,Traffic and safety; Transit and walkability,2,no,no
-Zone 5B,233,86,In Favor of proposed Zoning Changes,high,Says it looks good,General stance,1,no,no
+Zone 5B,233,86,In Favor of proposed Zoning Changes,high,Says it looks good,General support,1,no,no
 Zone 5B,234,86,Against proposed Zoning Changes,high,Opposes further development,General opposition,1,no,no
 Zone 5B,235,86,Against proposed Zoning Changes,high,Says density is out of character,Density; Neighborhood character,2,no,no
 Zone 5B,236,86,Against proposed Zoning Changes,high,Requires at least one parking space,Parking,1,no,no
 Zone 5B,237,86,Against proposed Zoning Changes,high,Says parking is a non starter,Parking,1,no,no
-Zone 5B,238,86,In Favor of proposed Zoning Changes,medium,Says it makes sense,General stance,1,yes,no
+Zone 5B,238,86,In Favor of proposed Zoning Changes,medium,Says it makes sense,General support,1,yes,no
 Zone 5B,239,86,In Favor of proposed Zoning Changes,medium,Fine with changes with height caveat,Building height,1,yes,no
 Zone 5B,240,86,Against proposed Zoning Changes,high,Rejects lower costs and parking reduction,Parking,1,no,no
 Zone 5B,241,86,Against proposed Zoning Changes,high,Votes no on density and developer benefits,Density; Developer incentives,2,no,no
-Zone 5B,242,86,Against proposed Zoning Changes,high,Calls it a bad idea,General stance,1,no,no
-Zone 5B,243,86,Against proposed Zoning Changes,high,Wants original code kept,General stance,1,no,no
+Zone 5B,242,86,Against proposed Zoning Changes,high,Calls it a bad idea,General opposition,1,no,no
+Zone 5B,243,86,Against proposed Zoning Changes,high,Wants original code kept,General opposition,1,no,no
 Zone 5B,244,86,Against proposed Zoning Changes,high,Strongly not in favor of density,Density,1,no,no
 Zone 5B,245,86,Against proposed Zoning Changes,high,Rejects five stories and low income housing,Building height,1,no,no
-Zone 5B,246,87,In Favor of proposed Zoning Changes,high,Calls recommendations common sense,General stance,1,no,no
-Zone 5B,247,87,Against proposed Zoning Changes,medium,Calls proposal ridiculous,General stance,1,yes,no
-Zone 5B,248,87,Against proposed Zoning Changes,high,Says leave it alone,General stance,1,no,no
+Zone 5B,246,87,In Favor of proposed Zoning Changes,high,Calls recommendations common sense,General support,1,no,no
+Zone 5B,247,87,Against proposed Zoning Changes,medium,Calls proposal ridiculous,General opposition,1,yes,no
+Zone 5B,248,87,Against proposed Zoning Changes,high,Says leave it alone,General opposition,1,no,no
 Zone 5B,249,87,Against proposed Zoning Changes,high,Against five story buildings,Building height,1,no,no
-Zone 5B,250,87,Against proposed Zoning Changes,high,Absolutely against proposal,General stance,1,no,no
+Zone 5B,250,87,Against proposed Zoning Changes,high,Absolutely against proposal,General opposition,1,no,no
 Zone 5B,251,87,Against proposed Zoning Changes,high,Rejects reduced parking ratio,Parking,1,no,no
-Zone 5B,252,87,Against proposed Zoning Changes,medium,Calls recommendations ridiculous,General stance,1,yes,no
+Zone 5B,252,87,Against proposed Zoning Changes,medium,Calls recommendations ridiculous,General opposition,1,yes,no
 Zone 5B,253,87,Against proposed Zoning Changes,high,Rejects height increase,Building height,1,no,no
 Zone 5B,254,87,Against proposed Zoning Changes,high,Rejects density bonus and parking reduction,Parking; Density; Affordable housing,3,no,no
-Zone 5B,255,87,In Favor of proposed Zoning Changes,medium,Says yes,General stance,1,yes,no
-Zone 5B,256,87,In Favor of proposed Zoning Changes,high,Likes the changes,General stance,1,no,no
+Zone 5B,255,87,In Favor of proposed Zoning Changes,medium,Says yes,General support,1,yes,no
+Zone 5B,256,87,In Favor of proposed Zoning Changes,high,Likes the changes,General support,1,no,no
 Zone 5B,257,87,Against proposed Zoning Changes,high,Wants three stories or fewer,Building height,1,no,no
 Zone 5B,258,87,In Favor of proposed Zoning Changes,high,Supports these changes,General support,1,no,no
-Zone 5B,259,87,Against proposed Zoning Changes,high,Strongly against proposal,General stance,1,no,no
-Zone 5B,260,87,Against proposed Zoning Changes,high,Not in favor,General stance,1,no,no
+Zone 5B,259,87,Against proposed Zoning Changes,high,Strongly against proposal,General opposition,1,no,no
+Zone 5B,260,87,Against proposed Zoning Changes,high,Not in favor,General opposition,1,no,no
 Zone 5B,261,87,Against proposed Zoning Changes,medium,Objects to affordable housing narrative,Affordable housing,1,yes,no
 Zone 5B,262,87,In Favor of proposed Zoning Changes,medium,Supports dense apartments along Montgomery,Density; Conditional or mixed response,2,yes,yes
 Zone 5B,263,87,Against proposed Zoning Changes,high,Says harmful to character,Neighborhood character,1,no,no
-Zone 5B,264,87,Against proposed Zoning Changes,high,Says nobody wants it,General stance,1,no,no
+Zone 5B,264,87,Against proposed Zoning Changes,high,Says nobody wants it,General opposition,1,no,no
 Zone 5B,265,87,Against proposed Zoning Changes,high,Opposes proposed apartments,Density; Conditional or mixed response,2,no,yes
-Zone 5B,266,87,In Favor of proposed Zoning Changes,medium,Fine with Montgomery development,General stance,1,yes,no
+Zone 5B,266,87,In Favor of proposed Zoning Changes,medium,Fine with Montgomery development,General support,1,yes,no
 Zone 5B,267,87,Against proposed Zoning Changes,high,Rejects four story buildings,Building height,1,no,no
-Zone 5B,268,87,In Favor of proposed Zoning Changes,medium,Says it is acceptable,General stance,1,yes,no
-Zone 5B,269,87,Against proposed Zoning Changes,high,Calls proposal nonsense,General stance,1,no,no
+Zone 5B,268,87,In Favor of proposed Zoning Changes,medium,Says it is acceptable,General support,1,yes,no
+Zone 5B,269,87,Against proposed Zoning Changes,high,Calls proposal nonsense,General opposition,1,no,no
 Zone 5B,270,87,Neutral,high,Blank response,Unclear or neutral,1,no,no
 Zone 5B,271,88,Against proposed Zoning Changes,high,Rejects parking reduction,Parking,1,no,no
-Zone 5B,272,88,Against proposed Zoning Changes,high,Says changes harm livability,General stance,1,no,no
+Zone 5B,272,88,Against proposed Zoning Changes,high,Says changes harm livability,General opposition,1,no,no
 Zone 5B,273,88,Against proposed Zoning Changes,high,Rejects reducing parking below one,Parking,1,no,no
 Zone 5B,274,88,In Favor of proposed Zoning Changes,high,Supports repurposing areas,General support,1,no,no
-Zone 5B,275,88,In Favor of proposed Zoning Changes,high,Calls it a great idea,General stance,1,no,no
-Zone 5B,276,88,Against proposed Zoning Changes,medium,Negative overall reaction,General stance,1,yes,no
+Zone 5B,275,88,In Favor of proposed Zoning Changes,high,Calls it a great idea,General support,1,no,no
+Zone 5B,276,88,Against proposed Zoning Changes,medium,Negative overall reaction,General opposition,1,yes,no
 Zone 5B,277,88,Against proposed Zoning Changes,medium,Concerned about home values,Property values,1,yes,no
 Zone 5B,278,88,Against proposed Zoning Changes,high,Vehemently opposes multipurpose buildings,General opposition,1,no,no
-Zone 5B,279,88,In Favor of proposed Zoning Changes,high,Says very good,General stance,1,no,no
+Zone 5B,279,88,In Favor of proposed Zoning Changes,high,Says very good,General support,1,no,no
 Zone 5B,280,88,Against proposed Zoning Changes,high,Raises parking problem and empty buildings,Parking,1,no,no
 Zone 5B,281,88,Against proposed Zoning Changes,high,Does not support changes,General support,1,no,no
-Zone 5B,282,88,In Favor of proposed Zoning Changes,high,Loves plan as progress,General stance,1,no,no
+Zone 5B,282,88,In Favor of proposed Zoning Changes,high,Loves plan as progress,General support,1,no,no
 Zone 5B,283,88,Against proposed Zoning Changes,medium,Rejects affordable housing recommendation,Affordable housing,1,yes,no
 Zone 5B,284,88,Against proposed Zoning Changes,high,Opposes development without more parking,Parking,1,no,no
 Zone 5B,285,88,Against proposed Zoning Changes,high,Calls parking reduction insane,Parking,1,no,no
 Zone 5B,286,88,Against proposed Zoning Changes,high,Strongly opposes zoning changes,General opposition,1,no,no
-Zone 5B,287,88,In Favor of proposed Zoning Changes,medium,Says makes sense with environmental caveat,General stance,1,yes,no
+Zone 5B,287,88,In Favor of proposed Zoning Changes,medium,Says makes sense with environmental caveat,General support,1,yes,no
 Zone 5B,288,88,Against proposed Zoning Changes,high,Requires one parking space per unit,Parking,1,no,no
 Zone 5B,289,88,Neutral,high,States housing preference only,Unclear or neutral,1,no,no
 Zone 5B,290,88,Against proposed Zoning Changes,high,Says stop building apartments,Density; Conditional or mixed response,2,no,yes
@@ -597,9 +597,9 @@ Zone 5B,292,88,In Favor of proposed Zoning Changes,high,Supports density and acc
 Zone 5B,293,88,Against proposed Zoning Changes,high,Would not support added stories,Building height,1,no,no
 Zone 5B,294,89,Against proposed Zoning Changes,high,Rejects parking requirement reduction,Parking,1,no,no
 Zone 5B,295,89,Against proposed Zoning Changes,medium,Concerned about height and traffic,Traffic and safety; Building height,2,yes,no
-Zone 5B,296,89,In Favor of proposed Zoning Changes,medium,Encourages development there,General stance,1,yes,no
+Zone 5B,296,89,In Favor of proposed Zoning Changes,medium,Encourages development there,General support,1,yes,no
 Zone 5B,297,89,Against proposed Zoning Changes,high,Says no taller buildings needed,Building height,1,no,no
-Zone 5B,298,89,Against proposed Zoning Changes,medium,Questions need for expansion,General stance,1,yes,no
+Zone 5B,298,89,Against proposed Zoning Changes,medium,Questions need for expansion,General opposition,1,yes,no
 Zone 5B,299,89,In Favor of proposed Zoning Changes,high,Supports denser development,Density,1,no,no
 Zone 5B,300,89,In Favor of proposed Zoning Changes,high,One hundred percent support,General support,1,no,no
 Zone 5B,301,89,In Favor of proposed Zoning Changes,high,Supports densification,General support,1,no,no

@@ -40,22 +40,22 @@
   "files": [
     {
       "path": "data/combined-classified.csv",
-      "bytes": 65394,
+      "bytes": 65330,
       "description": "Combined enriched row-level classification data."
     },
     {
       "path": "data/combined-classified.json",
-      "bytes": 180446,
+      "bytes": 180989,
       "description": "Combined enriched row-level classification data for the site."
     },
     {
       "path": "data/concerns-by-zone.json",
-      "bytes": 11225,
+      "bytes": 8473,
       "description": "Provisional topic and concern counts by zone."
     },
     {
       "path": "data/decision-brief.json",
-      "bytes": 18295,
+      "bytes": 18415,
       "description": "Decision-maker summary metrics and discussion questions."
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "path": "data/review-queue.json",
-      "bytes": 57296,
+      "bytes": 57429,
       "description": "Rows prioritized for human review by confidence or mixed flag."
     },
     {
@@ -85,32 +85,32 @@
     },
     {
       "path": "data/topic-summary.json",
-      "bytes": 8275,
+      "bytes": 7288,
       "description": "Topic counts, taxonomy, and stance-by-topic totals."
     },
     {
       "path": "data/topic-tags.csv",
-      "bytes": 51798,
+      "bytes": 51576,
       "description": "One row per response-topic assignment."
     },
     {
       "path": "data/zone-4a-classified.csv",
-      "bytes": 33422,
+      "bytes": 33399,
       "description": "Public project asset."
     },
     {
       "path": "data/zone-4a-classified.json",
-      "bytes": 90904,
+      "bytes": 91185,
       "description": "Public project asset."
     },
     {
       "path": "data/zone-5b-classified.csv",
-      "bytes": 32062,
+      "bytes": 32020,
       "description": "Public project asset."
     },
     {
       "path": "data/zone-5b-classified.json",
-      "bytes": 89544,
+      "bytes": 89806,
       "description": "Public project asset."
     },
     {
@@ -120,7 +120,7 @@
     },
     {
       "path": "documents/narberth-zoning-classifications.xlsx",
-      "bytes": 87377,
+      "bytes": 87230,
       "description": "Excel workbook with overview and row-level sheets."
     },
     {
@@ -135,12 +135,12 @@
     },
     {
       "path": "documents/zone-4a-classified.xlsx",
-      "bytes": 18965,
+      "bytes": 18936,
       "description": "Public project asset."
     },
     {
       "path": "documents/zone-5b-classified.xlsx",
-      "bytes": 18851,
+      "bytes": 18837,
       "description": "Public project asset."
     },
     {

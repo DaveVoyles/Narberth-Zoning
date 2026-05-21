@@ -160,33 +160,6 @@
             proposed zoning changes as written.
           </p>
         </div>
-        <article class="card chart-lens-card">
-          <h3>Chart lens</h3>
-          <p class="muted">
-            Filter the row-level data behind the charts by zone and stance to answer quick
-            "what if I only care about..." questions without leaving this page.
-          </p>
-          <div class="chart-lens-controls">
-            <label>
-              Zone
-              <select id="chart-zone-filter">
-                <option value="">All zones</option>
-                <option value="Zone 4A">Zone 4A</option>
-                <option value="Zone 5B">Zone 5B</option>
-              </select>
-            </label>
-            <label>
-              Stance
-              <select id="chart-stance-filter">
-                <option value="">All stances</option>
-                <option value="Against proposed Zoning Changes">Against as written</option>
-                <option value="Neutral">Neutral</option>
-                <option value="In Favor of proposed Zoning Changes">In favor</option>
-              </select>
-            </label>
-          </div>
-          <div id="chart-lens-summary" class="lens-summary" aria-live="polite"></div>
-        </article>
         <div class="chart-layout">
           <article class="card chart-card">
             <h3>Side-by-side stance comparison</h3>
@@ -204,18 +177,20 @@
           <article class="card chart-card">
             <h3>Provisional topic cloud</h3>
             <p class="muted">
-              Label size reflects keyword-assisted topic counts. Treat this as an exploration aid,
-              not a final topic model.
+              Larger labels mark recurring themes found in the classification rationale, such as
+              parking, height, or density. Use this as a quick orientation tool, not as a final
+              topic model or vote count.
             </p>
             <div id="topic-cloud" class="topic-cloud" aria-label="Provisional topic cloud"></div>
           </article>
           <article class="card chart-card">
             <h3>Response particle field</h3>
             <p class="muted">
-              Each point represents one classified response. WebGL is used when available; a canvas
-              fallback is used otherwise.
+              Each point represents one classified response, grouped by zone and stance. The counts
+              below provide the exact values for the dots.
             </p>
             <canvas id="particle-canvas" width="720" height="420" aria-label="Interactive particle visualization of classified responses"></canvas>
+            <div id="particle-values" class="particle-values" aria-label="Particle field values"></div>
             <p id="webgl-status" class="muted" role="status"></p>
           </article>
         </div>

@@ -165,10 +165,6 @@
   ],
   "topicCounts": [
     {
-      "topic": "General stance",
-      "count": 183
-    },
-    {
       "topic": "Parking",
       "count": 163
     },
@@ -183,18 +179,6 @@
     {
       "topic": "Conditional or mixed response",
       "count": 50
-    },
-    {
-      "topic": "General support",
-      "count": 48
-    },
-    {
-      "topic": "General opposition",
-      "count": 41
-    },
-    {
-      "topic": "Unclear or neutral",
-      "count": 27
     },
     {
       "topic": "Affordable housing",
@@ -235,13 +219,6 @@
   ],
   "stanceByTopic": [
     {
-      "topic": "General stance",
-      "total": 183,
-      "Against proposed Zoning Changes": 120,
-      "Neutral": 0,
-      "In Favor of proposed Zoning Changes": 63
-    },
-    {
       "topic": "Parking",
       "total": 163,
       "Against proposed Zoning Changes": 144,
@@ -268,27 +245,6 @@
       "Against proposed Zoning Changes": 43,
       "Neutral": 3,
       "In Favor of proposed Zoning Changes": 4
-    },
-    {
-      "topic": "General support",
-      "total": 48,
-      "Against proposed Zoning Changes": 13,
-      "Neutral": 0,
-      "In Favor of proposed Zoning Changes": 35
-    },
-    {
-      "topic": "General opposition",
-      "total": 41,
-      "Against proposed Zoning Changes": 40,
-      "Neutral": 0,
-      "In Favor of proposed Zoning Changes": 1
-    },
-    {
-      "topic": "Unclear or neutral",
-      "total": 27,
-      "Against proposed Zoning Changes": 0,
-      "Neutral": 27,
-      "In Favor of proposed Zoning Changes": 0
     },
     {
       "topic": "Affordable housing",

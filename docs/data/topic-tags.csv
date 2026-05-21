@@ -6,16 +6,16 @@ Zone 4A,1,90,Against proposed Zoning Changes,high,Conditional or mixed response
 Zone 4A,2,90,Against proposed Zoning Changes,high,Green space and stormwater
 Zone 4A,3,90,Neutral,medium,Unclear or neutral
 Zone 4A,4,90,Against proposed Zoning Changes,high,General opposition
-Zone 4A,5,90,Against proposed Zoning Changes,high,General stance
+Zone 4A,5,90,Against proposed Zoning Changes,high,General opposition
 Zone 4A,6,90,Against proposed Zoning Changes,high,Parking
 Zone 4A,6,90,Against proposed Zoning Changes,high,Density
 Zone 4A,7,90,Against proposed Zoning Changes,high,Building height
 Zone 4A,8,90,In Favor of proposed Zoning Changes,high,Density
-Zone 4A,9,90,In Favor of proposed Zoning Changes,high,General stance
+Zone 4A,9,90,In Favor of proposed Zoning Changes,high,General support
 Zone 4A,10,90,In Favor of proposed Zoning Changes,high,General support
-Zone 4A,11,90,Against proposed Zoning Changes,high,General stance
+Zone 4A,11,90,Against proposed Zoning Changes,high,General opposition
 Zone 4A,12,90,Against proposed Zoning Changes,high,General opposition
-Zone 4A,13,90,Against proposed Zoning Changes,high,General stance
+Zone 4A,13,90,Against proposed Zoning Changes,high,General opposition
 Zone 4A,14,90,In Favor of proposed Zoning Changes,high,Affordable housing
 Zone 4A,15,91,Against proposed Zoning Changes,high,General opposition
 Zone 4A,16,91,Against proposed Zoning Changes,high,Building height
@@ -23,14 +23,14 @@ Zone 4A,17,91,Against proposed Zoning Changes,medium,Parking
 Zone 4A,17,91,Against proposed Zoning Changes,medium,Traffic and safety
 Zone 4A,18,91,Against proposed Zoning Changes,high,General opposition
 Zone 4A,19,91,Against proposed Zoning Changes,high,General opposition
-Zone 4A,20,91,Against proposed Zoning Changes,high,General stance
+Zone 4A,20,91,Against proposed Zoning Changes,high,General opposition
 Zone 4A,21,91,Against proposed Zoning Changes,high,Parking
 Zone 4A,21,91,Against proposed Zoning Changes,high,Density
 Zone 4A,22,91,Against proposed Zoning Changes,high,Building height
 Zone 4A,22,91,Against proposed Zoning Changes,high,Density
 Zone 4A,22,91,Against proposed Zoning Changes,high,Conditional or mixed response
 Zone 4A,23,91,Neutral,medium,Conditional or mixed response
-Zone 4A,24,91,Against proposed Zoning Changes,medium,General stance
+Zone 4A,24,91,Against proposed Zoning Changes,medium,General opposition
 Zone 4A,25,91,Against proposed Zoning Changes,high,Building height
 Zone 4A,25,91,Against proposed Zoning Changes,high,Density
 Zone 4A,25,91,Against proposed Zoning Changes,high,Conditional or mixed response
@@ -40,9 +40,9 @@ Zone 4A,28,91,Against proposed Zoning Changes,high,General support
 Zone 4A,29,91,Against proposed Zoning Changes,high,General opposition
 Zone 4A,30,92,Against proposed Zoning Changes,high,Parking
 Zone 4A,31,92,Against proposed Zoning Changes,high,General opposition
-Zone 4A,32,92,Against proposed Zoning Changes,high,General stance
+Zone 4A,32,92,Against proposed Zoning Changes,high,General opposition
 Zone 4A,33,92,Against proposed Zoning Changes,medium,Developer incentives
-Zone 4A,34,92,Against proposed Zoning Changes,high,General stance
+Zone 4A,34,92,Against proposed Zoning Changes,high,General opposition
 Zone 4A,35,92,Against proposed Zoning Changes,high,Parking
 Zone 4A,36,92,Against proposed Zoning Changes,high,General opposition
 Zone 4A,37,92,Against proposed Zoning Changes,high,Density
@@ -54,37 +54,37 @@ Zone 4A,39,92,Against proposed Zoning Changes,high,Conditional or mixed response
 Zone 4A,40,92,Against proposed Zoning Changes,medium,Parking
 Zone 4A,41,92,In Favor of proposed Zoning Changes,high,Parking
 Zone 4A,42,92,In Favor of proposed Zoning Changes,high,Traffic and safety
-Zone 4A,43,92,In Favor of proposed Zoning Changes,medium,General stance
-Zone 4A,44,92,Against proposed Zoning Changes,high,General stance
-Zone 4A,45,92,Against proposed Zoning Changes,high,General stance
+Zone 4A,43,92,In Favor of proposed Zoning Changes,medium,General support
+Zone 4A,44,92,Against proposed Zoning Changes,high,General opposition
+Zone 4A,45,92,Against proposed Zoning Changes,high,General opposition
 Zone 4A,46,92,Against proposed Zoning Changes,high,General support
-Zone 4A,47,92,In Favor of proposed Zoning Changes,medium,General stance
+Zone 4A,47,92,In Favor of proposed Zoning Changes,medium,General support
 Zone 4A,48,92,Against proposed Zoning Changes,high,General support
-Zone 4A,49,92,Against proposed Zoning Changes,high,General stance
+Zone 4A,49,92,Against proposed Zoning Changes,high,General opposition
 Zone 4A,50,92,Neutral,high,Unclear or neutral
-Zone 4A,51,92,Against proposed Zoning Changes,medium,General stance
-Zone 4A,52,92,Against proposed Zoning Changes,high,General stance
+Zone 4A,51,92,Against proposed Zoning Changes,medium,General opposition
+Zone 4A,52,92,Against proposed Zoning Changes,high,General opposition
 Zone 4A,53,92,Against proposed Zoning Changes,high,General opposition
 Zone 4A,54,92,Against proposed Zoning Changes,high,Building height
-Zone 4A,55,92,Against proposed Zoning Changes,high,General stance
+Zone 4A,55,92,Against proposed Zoning Changes,high,General opposition
 Zone 4A,56,93,Against proposed Zoning Changes,high,Parking
 Zone 4A,56,93,Against proposed Zoning Changes,high,Density
-Zone 4A,57,93,Against proposed Zoning Changes,high,General stance
-Zone 4A,58,93,Against proposed Zoning Changes,high,General stance
+Zone 4A,57,93,Against proposed Zoning Changes,high,General opposition
+Zone 4A,58,93,Against proposed Zoning Changes,high,General opposition
 Zone 4A,59,93,Against proposed Zoning Changes,medium,Parking
-Zone 4A,60,93,Against proposed Zoning Changes,medium,General stance
+Zone 4A,60,93,Against proposed Zoning Changes,medium,General opposition
 Zone 4A,61,93,Against proposed Zoning Changes,high,Parking
 Zone 4A,61,93,Against proposed Zoning Changes,high,Density
 Zone 4A,61,93,Against proposed Zoning Changes,high,Conditional or mixed response
 Zone 4A,62,93,Against proposed Zoning Changes,high,Parking
 Zone 4A,62,93,Against proposed Zoning Changes,high,Building height
-Zone 4A,63,93,Against proposed Zoning Changes,high,General stance
+Zone 4A,63,93,Against proposed Zoning Changes,high,General opposition
 Zone 4A,64,93,In Favor of proposed Zoning Changes,high,Parking
-Zone 4A,65,93,Against proposed Zoning Changes,high,General stance
+Zone 4A,65,93,Against proposed Zoning Changes,high,General opposition
 Zone 4A,66,93,In Favor of proposed Zoning Changes,high,General support
-Zone 4A,67,93,Against proposed Zoning Changes,medium,General stance
+Zone 4A,67,93,Against proposed Zoning Changes,medium,General opposition
 Zone 4A,68,93,Against proposed Zoning Changes,high,Density
-Zone 4A,69,93,In Favor of proposed Zoning Changes,high,General stance
+Zone 4A,69,93,In Favor of proposed Zoning Changes,high,General support
 Zone 4A,70,94,Against proposed Zoning Changes,high,Parking
 Zone 4A,70,94,Against proposed Zoning Changes,high,Building height
 Zone 4A,70,94,Against proposed Zoning Changes,high,Affordable housing
@@ -103,16 +103,16 @@ Zone 4A,78,94,Against proposed Zoning Changes,high,Parking
 Zone 4A,78,94,Against proposed Zoning Changes,high,Density
 Zone 4A,78,94,Against proposed Zoning Changes,high,Neighborhood character
 Zone 4A,78,94,Against proposed Zoning Changes,high,Conditional or mixed response
-Zone 4A,79,94,In Favor of proposed Zoning Changes,medium,General stance
+Zone 4A,79,94,In Favor of proposed Zoning Changes,medium,General support
 Zone 4A,80,94,Against proposed Zoning Changes,high,General opposition
-Zone 4A,81,94,Against proposed Zoning Changes,high,General stance
+Zone 4A,81,94,Against proposed Zoning Changes,high,General opposition
 Zone 4A,82,94,Against proposed Zoning Changes,medium,Parking
-Zone 4A,83,94,Against proposed Zoning Changes,high,General stance
+Zone 4A,83,94,Against proposed Zoning Changes,high,General opposition
 Zone 4A,84,94,Neutral,low,Unclear or neutral
 Zone 4A,85,94,Against proposed Zoning Changes,high,General support
 Zone 4A,86,94,Against proposed Zoning Changes,high,General opposition
 Zone 4A,87,94,Against proposed Zoning Changes,high,Traffic and safety
-Zone 4A,88,94,Against proposed Zoning Changes,high,General stance
+Zone 4A,88,94,Against proposed Zoning Changes,high,General opposition
 Zone 4A,89,94,Against proposed Zoning Changes,medium,Building height
 Zone 4A,89,94,Against proposed Zoning Changes,medium,Developer incentives
 Zone 4A,90,94,Against proposed Zoning Changes,high,Parking
@@ -127,25 +127,25 @@ Zone 4A,93,94,Against proposed Zoning Changes,high,Density
 Zone 4A,93,94,Against proposed Zoning Changes,high,Conditional or mixed response
 Zone 4A,94,94,Against proposed Zoning Changes,high,Building height
 Zone 4A,95,94,Against proposed Zoning Changes,high,General support
-Zone 4A,96,94,Against proposed Zoning Changes,medium,General stance
+Zone 4A,96,94,Against proposed Zoning Changes,medium,General opposition
 Zone 4A,97,95,Neutral,low,Unclear or neutral
 Zone 4A,98,95,Against proposed Zoning Changes,high,General opposition
 Zone 4A,99,95,Against proposed Zoning Changes,high,Parking
 Zone 4A,99,95,Against proposed Zoning Changes,high,Building height
 Zone 4A,100,95,Against proposed Zoning Changes,high,Density
 Zone 4A,100,95,Against proposed Zoning Changes,high,Conditional or mixed response
-Zone 4A,101,95,Against proposed Zoning Changes,high,General stance
+Zone 4A,101,95,Against proposed Zoning Changes,high,General opposition
 Zone 4A,102,95,In Favor of proposed Zoning Changes,medium,Building height
 Zone 4A,103,95,Against proposed Zoning Changes,high,Parking
 Zone 4A,103,95,Against proposed Zoning Changes,high,Conditional or mixed response
-Zone 4A,104,95,Against proposed Zoning Changes,high,General stance
+Zone 4A,104,95,Against proposed Zoning Changes,high,General opposition
 Zone 4A,105,95,Against proposed Zoning Changes,high,Density
 Zone 4A,106,95,Against proposed Zoning Changes,medium,Parking
 Zone 4A,106,95,Against proposed Zoning Changes,medium,Transit and walkability
 Zone 4A,107,95,Against proposed Zoning Changes,high,Building height
 Zone 4A,108,95,Against proposed Zoning Changes,high,Density
 Zone 4A,108,95,Against proposed Zoning Changes,high,Conditional or mixed response
-Zone 4A,109,95,Against proposed Zoning Changes,high,General stance
+Zone 4A,109,95,Against proposed Zoning Changes,high,General opposition
 Zone 4A,110,95,Against proposed Zoning Changes,high,Traffic and safety
 Zone 4A,110,95,Against proposed Zoning Changes,high,Building height
 Zone 4A,111,95,Against proposed Zoning Changes,high,Parking
@@ -154,36 +154,36 @@ Zone 4A,112,95,Against proposed Zoning Changes,high,General opposition
 Zone 4A,113,95,Against proposed Zoning Changes,high,General opposition
 Zone 4A,114,95,Against proposed Zoning Changes,high,Density
 Zone 4A,115,95,Against proposed Zoning Changes,medium,Density
-Zone 4A,116,95,Against proposed Zoning Changes,high,General stance
-Zone 4A,117,95,In Favor of proposed Zoning Changes,high,General stance
+Zone 4A,116,95,Against proposed Zoning Changes,high,General opposition
+Zone 4A,117,95,In Favor of proposed Zoning Changes,high,General support
 Zone 4A,118,95,Against proposed Zoning Changes,high,Density
 Zone 4A,118,95,Against proposed Zoning Changes,high,Conditional or mixed response
 Zone 4A,119,95,Against proposed Zoning Changes,high,Building height
 Zone 4A,119,95,Against proposed Zoning Changes,high,Density
 Zone 4A,119,95,Against proposed Zoning Changes,high,Conditional or mixed response
 Zone 4A,120,95,In Favor of proposed Zoning Changes,medium,Transit and walkability
-Zone 4A,121,95,In Favor of proposed Zoning Changes,medium,General stance
+Zone 4A,121,95,In Favor of proposed Zoning Changes,medium,General support
 Zone 4A,122,95,Against proposed Zoning Changes,high,General opposition
 Zone 4A,123,95,Against proposed Zoning Changes,high,Parking
 Zone 4A,124,95,In Favor of proposed Zoning Changes,high,General support
-Zone 4A,125,95,In Favor of proposed Zoning Changes,high,General stance
-Zone 4A,126,95,In Favor of proposed Zoning Changes,medium,General stance
+Zone 4A,125,95,In Favor of proposed Zoning Changes,high,General support
+Zone 4A,126,95,In Favor of proposed Zoning Changes,medium,General support
 Zone 4A,127,95,Neutral,medium,Parking
-Zone 4A,128,95,Against proposed Zoning Changes,high,General stance
-Zone 4A,129,96,In Favor of proposed Zoning Changes,high,General stance
+Zone 4A,128,95,Against proposed Zoning Changes,high,General opposition
+Zone 4A,129,96,In Favor of proposed Zoning Changes,high,General support
 Zone 4A,130,96,Against proposed Zoning Changes,medium,Parking
 Zone 4A,131,96,In Favor of proposed Zoning Changes,high,Developer incentives
-Zone 4A,132,96,In Favor of proposed Zoning Changes,high,General stance
-Zone 4A,133,96,Against proposed Zoning Changes,high,General stance
+Zone 4A,132,96,In Favor of proposed Zoning Changes,high,General support
+Zone 4A,133,96,Against proposed Zoning Changes,high,General opposition
 Zone 4A,134,96,In Favor of proposed Zoning Changes,medium,General support
-Zone 4A,135,96,Against proposed Zoning Changes,high,General stance
+Zone 4A,135,96,Against proposed Zoning Changes,high,General opposition
 Zone 4A,136,96,Neutral,high,Unclear or neutral
 Zone 4A,137,96,Against proposed Zoning Changes,high,Building height
 Zone 4A,137,96,Against proposed Zoning Changes,high,Conditional or mixed response
 Zone 4A,138,96,Against proposed Zoning Changes,high,Parking
 Zone 4A,138,96,Against proposed Zoning Changes,high,Building height
 Zone 4A,138,96,Against proposed Zoning Changes,high,Density
-Zone 4A,139,96,Against proposed Zoning Changes,high,General stance
+Zone 4A,139,96,Against proposed Zoning Changes,high,General opposition
 Zone 4A,140,96,Against proposed Zoning Changes,high,Density
 Zone 4A,140,96,Against proposed Zoning Changes,high,Conditional or mixed response
 Zone 4A,141,96,Neutral,high,Unclear or neutral
@@ -196,7 +196,7 @@ Zone 4A,146,96,Against proposed Zoning Changes,high,General support
 Zone 4A,147,96,Against proposed Zoning Changes,medium,Density
 Zone 4A,147,96,Against proposed Zoning Changes,medium,Schools and infrastructure
 Zone 4A,148,96,Against proposed Zoning Changes,high,Density
-Zone 4A,149,96,Against proposed Zoning Changes,high,General stance
+Zone 4A,149,96,Against proposed Zoning Changes,high,General opposition
 Zone 4A,150,96,Against proposed Zoning Changes,medium,Parking
 Zone 4A,151,97,Against proposed Zoning Changes,high,Parking
 Zone 4A,151,97,Against proposed Zoning Changes,high,Building height
@@ -205,7 +205,7 @@ Zone 4A,152,97,Neutral,medium,Conditional or mixed response
 Zone 4A,153,97,Against proposed Zoning Changes,high,Parking
 Zone 4A,154,97,Against proposed Zoning Changes,high,General opposition
 Zone 4A,155,97,Against proposed Zoning Changes,high,General opposition
-Zone 4A,156,97,Against proposed Zoning Changes,high,General stance
+Zone 4A,156,97,Against proposed Zoning Changes,high,General opposition
 Zone 4A,157,97,Against proposed Zoning Changes,high,Conditional or mixed response
 Zone 4A,158,97,Against proposed Zoning Changes,high,Density
 Zone 4A,158,97,Against proposed Zoning Changes,high,Conditional or mixed response
@@ -215,10 +215,10 @@ Zone 4A,161,97,In Favor of proposed Zoning Changes,high,Building height
 Zone 4A,162,97,Against proposed Zoning Changes,high,Parking
 Zone 4A,163,97,Against proposed Zoning Changes,high,Parking
 Zone 4A,163,97,Against proposed Zoning Changes,high,Building height
-Zone 4A,164,97,Against proposed Zoning Changes,high,General stance
-Zone 4A,165,97,Against proposed Zoning Changes,high,General stance
-Zone 4A,166,97,Against proposed Zoning Changes,high,General stance
-Zone 4A,167,97,Against proposed Zoning Changes,high,General stance
+Zone 4A,164,97,Against proposed Zoning Changes,high,General opposition
+Zone 4A,165,97,Against proposed Zoning Changes,high,General opposition
+Zone 4A,166,97,Against proposed Zoning Changes,high,General opposition
+Zone 4A,167,97,Against proposed Zoning Changes,high,General opposition
 Zone 4A,168,97,In Favor of proposed Zoning Changes,high,General support
 Zone 4A,169,97,Against proposed Zoning Changes,medium,Parking
 Zone 4A,169,97,Against proposed Zoning Changes,medium,Building height
@@ -226,14 +226,14 @@ Zone 4A,169,97,Against proposed Zoning Changes,medium,Conditional or mixed respo
 Zone 4A,170,97,Against proposed Zoning Changes,high,Parking
 Zone 4A,171,97,Against proposed Zoning Changes,high,Parking
 Zone 4A,171,97,Against proposed Zoning Changes,high,Building height
-Zone 4A,172,97,In Favor of proposed Zoning Changes,medium,General stance
-Zone 4A,173,97,In Favor of proposed Zoning Changes,high,General stance
+Zone 4A,172,97,In Favor of proposed Zoning Changes,medium,General support
+Zone 4A,173,97,In Favor of proposed Zoning Changes,high,General support
 Zone 4A,174,97,Against proposed Zoning Changes,high,Neighborhood character
 Zone 4A,175,97,Against proposed Zoning Changes,high,Parking
 Zone 4A,176,97,Against proposed Zoning Changes,high,Parking
 Zone 4A,176,97,Against proposed Zoning Changes,high,Building height
 Zone 4A,177,97,In Favor of proposed Zoning Changes,medium,Parking
-Zone 4A,178,98,In Favor of proposed Zoning Changes,high,General stance
+Zone 4A,178,98,In Favor of proposed Zoning Changes,high,General support
 Zone 4A,179,98,In Favor of proposed Zoning Changes,high,General support
 Zone 4A,180,98,Against proposed Zoning Changes,high,Parking
 Zone 4A,180,98,Against proposed Zoning Changes,high,Density
@@ -246,10 +246,10 @@ Zone 4A,184,98,Against proposed Zoning Changes,medium,Traffic and safety
 Zone 4A,184,98,Against proposed Zoning Changes,medium,Conditional or mixed response
 Zone 4A,185,98,In Favor of proposed Zoning Changes,high,Transit and walkability
 Zone 4A,186,98,Against proposed Zoning Changes,medium,Parking
-Zone 4A,187,98,In Favor of proposed Zoning Changes,high,General stance
-Zone 4A,188,98,Against proposed Zoning Changes,medium,General stance
+Zone 4A,187,98,In Favor of proposed Zoning Changes,high,General support
+Zone 4A,188,98,Against proposed Zoning Changes,medium,General opposition
 Zone 4A,189,98,Against proposed Zoning Changes,high,Density
-Zone 4A,190,98,Against proposed Zoning Changes,high,General stance
+Zone 4A,190,98,Against proposed Zoning Changes,high,General opposition
 Zone 4A,191,98,Neutral,high,Unclear or neutral
 Zone 4A,192,98,Against proposed Zoning Changes,high,Parking
 Zone 4A,193,98,Neutral,low,Unclear or neutral
@@ -257,20 +257,20 @@ Zone 4A,194,98,Against proposed Zoning Changes,high,General opposition
 Zone 4A,195,98,In Favor of proposed Zoning Changes,high,General support
 Zone 4A,196,98,Against proposed Zoning Changes,medium,Parking
 Zone 4A,196,98,Against proposed Zoning Changes,medium,Conditional or mixed response
-Zone 4A,197,98,In Favor of proposed Zoning Changes,high,General stance
+Zone 4A,197,98,In Favor of proposed Zoning Changes,high,General support
 Zone 4A,198,98,Against proposed Zoning Changes,high,Parking
 Zone 4A,198,98,Against proposed Zoning Changes,high,Building height
 Zone 4A,198,98,Against proposed Zoning Changes,high,Density
 Zone 4A,198,98,Against proposed Zoning Changes,high,Conditional or mixed response
 Zone 4A,199,99,Against proposed Zoning Changes,high,Parking
 Zone 4A,199,99,Against proposed Zoning Changes,high,Building height
-Zone 4A,200,99,In Favor of proposed Zoning Changes,medium,General stance
+Zone 4A,200,99,In Favor of proposed Zoning Changes,medium,General support
 Zone 4A,201,99,Against proposed Zoning Changes,high,Parking
 Zone 4A,202,99,Against proposed Zoning Changes,high,Building height
 Zone 4A,203,99,Against proposed Zoning Changes,high,General opposition
 Zone 4A,204,99,In Favor of proposed Zoning Changes,high,Density
 Zone 4A,204,99,In Favor of proposed Zoning Changes,high,Conditional or mixed response
-Zone 4A,205,99,Against proposed Zoning Changes,high,General stance
+Zone 4A,205,99,Against proposed Zoning Changes,high,General opposition
 Zone 4A,206,99,Against proposed Zoning Changes,high,Parking
 Zone 4A,207,99,Against proposed Zoning Changes,high,Parking
 Zone 4A,207,99,Against proposed Zoning Changes,high,Density
@@ -280,97 +280,97 @@ Zone 4A,208,99,In Favor of proposed Zoning Changes,high,Building height
 Zone 4A,208,99,In Favor of proposed Zoning Changes,high,Density
 Zone 4A,209,99,Neutral,low,Unclear or neutral
 Zone 4A,210,99,Against proposed Zoning Changes,high,Density
-Zone 4A,211,100,Against proposed Zoning Changes,high,General stance
+Zone 4A,211,100,Against proposed Zoning Changes,high,General opposition
 Zone 4A,212,100,Against proposed Zoning Changes,high,Density
 Zone 4A,213,100,Against proposed Zoning Changes,high,Density
 Zone 4A,213,100,Against proposed Zoning Changes,high,Conditional or mixed response
-Zone 4A,214,100,Against proposed Zoning Changes,high,General stance
+Zone 4A,214,100,Against proposed Zoning Changes,high,General opposition
 Zone 4A,215,100,Against proposed Zoning Changes,high,Parking
-Zone 4A,216,100,Against proposed Zoning Changes,high,General stance
+Zone 4A,216,100,Against proposed Zoning Changes,high,General opposition
 Zone 4A,217,100,Against proposed Zoning Changes,high,Parking
 Zone 4A,217,100,Against proposed Zoning Changes,high,Building height
 Zone 4A,218,101,Against proposed Zoning Changes,medium,Parking
 Zone 4A,219,101,Against proposed Zoning Changes,medium,Parking
 Zone 4A,219,101,Against proposed Zoning Changes,medium,Density
 Zone 4A,219,101,Against proposed Zoning Changes,medium,Conditional or mixed response
-Zone 4A,220,101,Against proposed Zoning Changes,high,General stance
+Zone 4A,220,101,Against proposed Zoning Changes,high,General opposition
 Zone 4A,221,101,Against proposed Zoning Changes,medium,Building height
 Zone 4A,221,101,Against proposed Zoning Changes,medium,Process and trust
 Zone 4A,222,101,Against proposed Zoning Changes,high,Parking
 Zone 4A,222,101,Against proposed Zoning Changes,high,Building height
-Zone 4A,223,101,Against proposed Zoning Changes,medium,General stance
-Zone 4A,224,101,Against proposed Zoning Changes,high,General stance
-Zone 4A,225,101,Against proposed Zoning Changes,high,General stance
-Zone 4A,226,101,Against proposed Zoning Changes,high,General stance
+Zone 4A,223,101,Against proposed Zoning Changes,medium,General opposition
+Zone 4A,224,101,Against proposed Zoning Changes,high,General opposition
+Zone 4A,225,101,Against proposed Zoning Changes,high,General opposition
+Zone 4A,226,101,Against proposed Zoning Changes,high,General opposition
 Zone 4A,227,101,Against proposed Zoning Changes,high,Building height
 Zone 4A,227,101,Against proposed Zoning Changes,high,Density
 Zone 4A,227,101,Against proposed Zoning Changes,high,Conditional or mixed response
 Zone 4A,228,101,Against proposed Zoning Changes,high,Parking
 Zone 4A,228,101,Against proposed Zoning Changes,high,Building height
 Zone 4A,229,102,Against proposed Zoning Changes,medium,Parking
-Zone 4A,230,102,In Favor of proposed Zoning Changes,high,General stance
+Zone 4A,230,102,In Favor of proposed Zoning Changes,high,General support
 Zone 4A,231,102,Against proposed Zoning Changes,high,Parking
 Zone 4A,231,102,Against proposed Zoning Changes,high,Building height
-Zone 4A,232,102,In Favor of proposed Zoning Changes,high,General stance
-Zone 4A,233,102,In Favor of proposed Zoning Changes,high,General stance
-Zone 4A,234,102,Against proposed Zoning Changes,high,General stance
-Zone 4A,235,102,Against proposed Zoning Changes,medium,General stance
+Zone 4A,232,102,In Favor of proposed Zoning Changes,high,General support
+Zone 4A,233,102,In Favor of proposed Zoning Changes,high,General support
+Zone 4A,234,102,Against proposed Zoning Changes,high,General opposition
+Zone 4A,235,102,Against proposed Zoning Changes,medium,General opposition
 Zone 4A,236,102,Against proposed Zoning Changes,medium,Parking
 Zone 4A,236,102,Against proposed Zoning Changes,medium,Transit and walkability
 Zone 4A,237,102,Against proposed Zoning Changes,high,Neighborhood character
 Zone 4A,238,102,In Favor of proposed Zoning Changes,medium,General support
-Zone 4A,239,102,In Favor of proposed Zoning Changes,medium,General stance
+Zone 4A,239,102,In Favor of proposed Zoning Changes,medium,General support
 Zone 4A,240,102,Against proposed Zoning Changes,high,Parking
 Zone 4A,240,102,Against proposed Zoning Changes,high,Building height
-Zone 4A,241,102,Against proposed Zoning Changes,high,General stance
-Zone 4A,242,102,Against proposed Zoning Changes,high,General stance
+Zone 4A,241,102,Against proposed Zoning Changes,high,General opposition
+Zone 4A,242,102,Against proposed Zoning Changes,high,General opposition
 Zone 4A,243,102,Against proposed Zoning Changes,high,Density
-Zone 4A,244,102,Against proposed Zoning Changes,medium,General stance
+Zone 4A,244,102,Against proposed Zoning Changes,medium,General opposition
 Zone 4A,245,102,Against proposed Zoning Changes,high,Parking
 Zone 4A,245,102,Against proposed Zoning Changes,high,Building height
 Zone 4A,246,102,In Favor of proposed Zoning Changes,high,General support
-Zone 4A,247,102,Against proposed Zoning Changes,high,General stance
-Zone 4A,248,102,Against proposed Zoning Changes,high,General stance
+Zone 4A,247,102,Against proposed Zoning Changes,high,General opposition
+Zone 4A,248,102,Against proposed Zoning Changes,high,General opposition
 Zone 4A,249,102,Against proposed Zoning Changes,high,Density
 Zone 4A,249,102,Against proposed Zoning Changes,high,Conditional or mixed response
 Zone 4A,250,103,Against proposed Zoning Changes,high,Parking
 Zone 4A,250,103,Against proposed Zoning Changes,high,Density
 Zone 4A,250,103,Against proposed Zoning Changes,high,Green space and stormwater
 Zone 4A,251,103,Against proposed Zoning Changes,high,Parking
-Zone 4A,252,103,Against proposed Zoning Changes,high,General stance
+Zone 4A,252,103,Against proposed Zoning Changes,high,General opposition
 Zone 4A,253,103,Against proposed Zoning Changes,high,Building height
 Zone 4A,254,103,Against proposed Zoning Changes,medium,Conditional or mixed response
-Zone 4A,255,103,In Favor of proposed Zoning Changes,high,General stance
+Zone 4A,255,103,In Favor of proposed Zoning Changes,high,General support
 Zone 4A,256,103,In Favor of proposed Zoning Changes,high,General support
-Zone 4A,257,103,Against proposed Zoning Changes,high,General stance
+Zone 4A,257,103,Against proposed Zoning Changes,high,General opposition
 Zone 4A,258,103,In Favor of proposed Zoning Changes,high,Parking
-Zone 4A,259,103,Against proposed Zoning Changes,high,General stance
-Zone 4A,260,103,Against proposed Zoning Changes,high,General stance
+Zone 4A,259,103,Against proposed Zoning Changes,high,General opposition
+Zone 4A,260,103,Against proposed Zoning Changes,high,General opposition
 Zone 4A,261,103,Against proposed Zoning Changes,high,Building height
 Zone 4A,261,103,Against proposed Zoning Changes,high,Affordable housing
 Zone 4A,262,103,Against proposed Zoning Changes,high,Developer incentives
-Zone 4A,263,103,Against proposed Zoning Changes,high,General stance
+Zone 4A,263,103,Against proposed Zoning Changes,high,General opposition
 Zone 4A,264,103,Against proposed Zoning Changes,medium,Transit and walkability
 Zone 4A,265,103,Against proposed Zoning Changes,high,Parking
 Zone 4A,266,103,Against proposed Zoning Changes,medium,Parking
 Zone 4A,267,103,Against proposed Zoning Changes,high,General opposition
 Zone 4A,268,103,Neutral,medium,Building height
-Zone 4A,269,103,Against proposed Zoning Changes,high,General stance
+Zone 4A,269,103,Against proposed Zoning Changes,high,General opposition
 Zone 4A,270,103,Neutral,high,Unclear or neutral
 Zone 4A,271,103,Neutral,medium,Parking
 Zone 4A,272,103,Against proposed Zoning Changes,high,Parking
 Zone 4A,272,103,Against proposed Zoning Changes,high,Density
 Zone 4A,273,103,Against proposed Zoning Changes,high,Parking
 Zone 4A,274,103,In Favor of proposed Zoning Changes,medium,General support
-Zone 4A,275,103,In Favor of proposed Zoning Changes,high,General stance
-Zone 4A,276,103,Against proposed Zoning Changes,medium,General stance
+Zone 4A,275,103,In Favor of proposed Zoning Changes,high,General support
+Zone 4A,276,103,Against proposed Zoning Changes,medium,General opposition
 Zone 4A,277,104,Against proposed Zoning Changes,high,Building height
 Zone 4A,277,104,Against proposed Zoning Changes,high,Density
 Zone 4A,277,104,Against proposed Zoning Changes,high,Conditional or mixed response
 Zone 4A,278,104,Against proposed Zoning Changes,high,Building height
 Zone 4A,278,104,Against proposed Zoning Changes,high,Density
 Zone 4A,278,104,Against proposed Zoning Changes,high,Conditional or mixed response
-Zone 4A,279,104,In Favor of proposed Zoning Changes,medium,General stance
+Zone 4A,279,104,In Favor of proposed Zoning Changes,medium,General support
 Zone 4A,280,104,Against proposed Zoning Changes,high,Developer incentives
 Zone 4A,281,104,Against proposed Zoning Changes,high,General support
 Zone 4A,282,104,In Favor of proposed Zoning Changes,high,General support
@@ -380,8 +380,8 @@ Zone 4A,284,104,Against proposed Zoning Changes,medium,Density
 Zone 4A,284,104,Against proposed Zoning Changes,medium,Conditional or mixed response
 Zone 4A,285,104,Against proposed Zoning Changes,high,Parking
 Zone 4A,285,104,Against proposed Zoning Changes,high,Transit and walkability
-Zone 4A,286,104,Against proposed Zoning Changes,high,General stance
-Zone 4A,287,104,Against proposed Zoning Changes,medium,General stance
+Zone 4A,286,104,Against proposed Zoning Changes,high,General opposition
+Zone 4A,287,104,Against proposed Zoning Changes,medium,General opposition
 Zone 4A,288,104,Against proposed Zoning Changes,medium,Parking
 Zone 4A,288,104,Against proposed Zoning Changes,medium,Density
 Zone 4A,289,104,Neutral,low,Unclear or neutral
@@ -393,7 +393,7 @@ Zone 4A,291,104,Against proposed Zoning Changes,high,Density
 Zone 4A,292,104,In Favor of proposed Zoning Changes,high,General support
 Zone 4A,293,104,Against proposed Zoning Changes,medium,Parking
 Zone 4A,294,104,Neutral,high,Unclear or neutral
-Zone 4A,295,104,In Favor of proposed Zoning Changes,medium,General stance
+Zone 4A,295,104,In Favor of proposed Zoning Changes,medium,General support
 Zone 4A,296,104,Against proposed Zoning Changes,high,Density
 Zone 4A,297,104,Against proposed Zoning Changes,high,Building height
 Zone 4A,298,104,Neutral,low,Parking
@@ -408,17 +408,17 @@ Zone 5B,2,77,Against proposed Zoning Changes,medium,Conditional or mixed respons
 Zone 5B,3,77,Neutral,medium,Unclear or neutral
 Zone 5B,4,77,Against proposed Zoning Changes,high,Parking
 Zone 5B,5,77,Against proposed Zoning Changes,high,General opposition
-Zone 5B,6,77,Against proposed Zoning Changes,high,General stance
+Zone 5B,6,77,Against proposed Zoning Changes,high,General opposition
 Zone 5B,7,77,Against proposed Zoning Changes,high,Parking
 Zone 5B,7,77,Against proposed Zoning Changes,high,Density
 Zone 5B,8,77,In Favor of proposed Zoning Changes,high,Transit and walkability
-Zone 5B,9,77,In Favor of proposed Zoning Changes,high,General stance
+Zone 5B,9,77,In Favor of proposed Zoning Changes,high,General support
 Zone 5B,10,77,In Favor of proposed Zoning Changes,high,General support
 Zone 5B,11,77,Against proposed Zoning Changes,high,Building height
-Zone 5B,12,77,Against proposed Zoning Changes,high,General stance
-Zone 5B,13,77,Against proposed Zoning Changes,medium,General stance
+Zone 5B,12,77,Against proposed Zoning Changes,high,General opposition
+Zone 5B,13,77,Against proposed Zoning Changes,medium,General opposition
 Zone 5B,14,77,In Favor of proposed Zoning Changes,high,Affordable housing
-Zone 5B,15,77,Against proposed Zoning Changes,high,General stance
+Zone 5B,15,77,Against proposed Zoning Changes,high,General opposition
 Zone 5B,16,77,In Favor of proposed Zoning Changes,medium,General support
 Zone 5B,17,77,Against proposed Zoning Changes,high,Density
 Zone 5B,18,78,Against proposed Zoning Changes,high,Parking
@@ -430,60 +430,60 @@ Zone 5B,21,78,Against proposed Zoning Changes,medium,Parking
 Zone 5B,22,78,Against proposed Zoning Changes,high,Density
 Zone 5B,22,78,Against proposed Zoning Changes,high,Conditional or mixed response
 Zone 5B,23,78,Neutral,high,Unclear or neutral
-Zone 5B,24,78,In Favor of proposed Zoning Changes,medium,General stance
+Zone 5B,24,78,In Favor of proposed Zoning Changes,medium,General support
 Zone 5B,25,78,Against proposed Zoning Changes,medium,Traffic and safety
-Zone 5B,26,78,Against proposed Zoning Changes,medium,General stance
+Zone 5B,26,78,Against proposed Zoning Changes,medium,General opposition
 Zone 5B,27,78,In Favor of proposed Zoning Changes,high,Transit and walkability
 Zone 5B,28,78,Against proposed Zoning Changes,high,General support
 Zone 5B,29,78,Neutral,medium,Unclear or neutral
 Zone 5B,30,78,Against proposed Zoning Changes,high,Parking
 Zone 5B,31,78,Against proposed Zoning Changes,high,General opposition
 Zone 5B,32,79,Neutral,medium,Unclear or neutral
-Zone 5B,33,79,Against proposed Zoning Changes,medium,General stance
-Zone 5B,34,79,Against proposed Zoning Changes,high,General stance
+Zone 5B,33,79,Against proposed Zoning Changes,medium,General opposition
+Zone 5B,34,79,Against proposed Zoning Changes,high,General opposition
 Zone 5B,35,79,Against proposed Zoning Changes,high,Parking
 Zone 5B,36,79,Against proposed Zoning Changes,high,Parking
 Zone 5B,36,79,Against proposed Zoning Changes,high,Building height
 Zone 5B,37,79,In Favor of proposed Zoning Changes,low,Conditional or mixed response
 Zone 5B,38,79,Against proposed Zoning Changes,high,Parking
-Zone 5B,39,79,In Favor of proposed Zoning Changes,high,General stance
+Zone 5B,39,79,In Favor of proposed Zoning Changes,high,General support
 Zone 5B,40,79,Against proposed Zoning Changes,high,Parking
 Zone 5B,41,79,In Favor of proposed Zoning Changes,high,Parking
 Zone 5B,41,79,In Favor of proposed Zoning Changes,high,Building height
-Zone 5B,42,79,In Favor of proposed Zoning Changes,high,General stance
-Zone 5B,43,79,In Favor of proposed Zoning Changes,high,General stance
-Zone 5B,44,79,Against proposed Zoning Changes,medium,General stance
-Zone 5B,45,79,Against proposed Zoning Changes,high,General stance
-Zone 5B,46,79,Against proposed Zoning Changes,medium,General stance
-Zone 5B,47,79,Against proposed Zoning Changes,high,General stance
+Zone 5B,42,79,In Favor of proposed Zoning Changes,high,General support
+Zone 5B,43,79,In Favor of proposed Zoning Changes,high,General support
+Zone 5B,44,79,Against proposed Zoning Changes,medium,General opposition
+Zone 5B,45,79,Against proposed Zoning Changes,high,General opposition
+Zone 5B,46,79,Against proposed Zoning Changes,medium,General opposition
+Zone 5B,47,79,Against proposed Zoning Changes,high,General opposition
 Zone 5B,48,79,Against proposed Zoning Changes,high,Parking
 Zone 5B,48,79,Against proposed Zoning Changes,high,Building height
 Zone 5B,48,79,Against proposed Zoning Changes,high,Density
-Zone 5B,49,79,Against proposed Zoning Changes,high,General stance
-Zone 5B,50,79,Against proposed Zoning Changes,high,General stance
-Zone 5B,51,79,Against proposed Zoning Changes,high,General stance
+Zone 5B,49,79,Against proposed Zoning Changes,high,General opposition
+Zone 5B,50,79,Against proposed Zoning Changes,high,General opposition
+Zone 5B,51,79,Against proposed Zoning Changes,high,General opposition
 Zone 5B,52,79,Against proposed Zoning Changes,high,Parking
 Zone 5B,52,79,Against proposed Zoning Changes,high,Building height
 Zone 5B,52,79,Against proposed Zoning Changes,high,Affordable housing
 Zone 5B,53,79,Against proposed Zoning Changes,medium,Building height
-Zone 5B,54,79,Against proposed Zoning Changes,high,General stance
-Zone 5B,55,79,Against proposed Zoning Changes,high,General stance
+Zone 5B,54,79,Against proposed Zoning Changes,high,General opposition
+Zone 5B,55,79,Against proposed Zoning Changes,high,General opposition
 Zone 5B,56,79,Against proposed Zoning Changes,high,Parking
 Zone 5B,56,79,Against proposed Zoning Changes,high,Building height
-Zone 5B,57,79,Against proposed Zoning Changes,high,General stance
-Zone 5B,58,79,Against proposed Zoning Changes,medium,General stance
+Zone 5B,57,79,Against proposed Zoning Changes,high,General opposition
+Zone 5B,58,79,Against proposed Zoning Changes,medium,General opposition
 Zone 5B,59,79,Against proposed Zoning Changes,high,Traffic and safety
-Zone 5B,60,80,Against proposed Zoning Changes,high,General stance
+Zone 5B,60,80,Against proposed Zoning Changes,high,General opposition
 Zone 5B,61,80,Against proposed Zoning Changes,high,Building height
 Zone 5B,62,80,Against proposed Zoning Changes,high,Parking
 Zone 5B,62,80,Against proposed Zoning Changes,high,Building height
 Zone 5B,63,80,Against proposed Zoning Changes,medium,Developer incentives
 Zone 5B,64,80,In Favor of proposed Zoning Changes,medium,Parking
-Zone 5B,65,80,Against proposed Zoning Changes,high,General stance
+Zone 5B,65,80,Against proposed Zoning Changes,high,General opposition
 Zone 5B,66,80,In Favor of proposed Zoning Changes,high,General support
 Zone 5B,67,80,Neutral,medium,Unclear or neutral
 Zone 5B,68,80,Against proposed Zoning Changes,high,Parking
-Zone 5B,69,80,In Favor of proposed Zoning Changes,medium,General stance
+Zone 5B,69,80,In Favor of proposed Zoning Changes,medium,General support
 Zone 5B,70,80,Against proposed Zoning Changes,high,Parking
 Zone 5B,71,80,In Favor of proposed Zoning Changes,high,Parking
 Zone 5B,72,80,Against proposed Zoning Changes,high,Parking
@@ -495,17 +495,17 @@ Zone 5B,77,80,Against proposed Zoning Changes,high,Parking
 Zone 5B,77,80,Against proposed Zoning Changes,high,Traffic and safety
 Zone 5B,77,80,Against proposed Zoning Changes,high,Density
 Zone 5B,78,80,Against proposed Zoning Changes,medium,General support
-Zone 5B,79,80,In Favor of proposed Zoning Changes,medium,General stance
+Zone 5B,79,80,In Favor of proposed Zoning Changes,medium,General support
 Zone 5B,80,80,Against proposed Zoning Changes,high,General opposition
-Zone 5B,81,80,Against proposed Zoning Changes,high,General stance
+Zone 5B,81,80,Against proposed Zoning Changes,high,General opposition
 Zone 5B,82,80,Against proposed Zoning Changes,high,Parking
 Zone 5B,82,80,Against proposed Zoning Changes,high,Building height
-Zone 5B,83,80,Against proposed Zoning Changes,medium,General stance
+Zone 5B,83,80,Against proposed Zoning Changes,medium,General opposition
 Zone 5B,84,80,Against proposed Zoning Changes,medium,Developer incentives
-Zone 5B,85,80,Against proposed Zoning Changes,high,General stance
-Zone 5B,86,80,In Favor of proposed Zoning Changes,medium,General stance
-Zone 5B,87,80,In Favor of proposed Zoning Changes,high,General stance
-Zone 5B,88,80,Against proposed Zoning Changes,high,General stance
+Zone 5B,85,80,Against proposed Zoning Changes,high,General opposition
+Zone 5B,86,80,In Favor of proposed Zoning Changes,medium,General support
+Zone 5B,87,80,In Favor of proposed Zoning Changes,high,General support
+Zone 5B,88,80,Against proposed Zoning Changes,high,General opposition
 Zone 5B,89,80,Neutral,high,Unclear or neutral
 Zone 5B,90,80,Against proposed Zoning Changes,high,Parking
 Zone 5B,90,80,Against proposed Zoning Changes,high,Building height
@@ -520,9 +520,9 @@ Zone 5B,97,81,Against proposed Zoning Changes,high,General opposition
 Zone 5B,98,81,Against proposed Zoning Changes,high,General opposition
 Zone 5B,99,81,Against proposed Zoning Changes,high,Parking
 Zone 5B,99,81,Against proposed Zoning Changes,high,Building height
-Zone 5B,100,81,In Favor of proposed Zoning Changes,medium,General stance
-Zone 5B,101,81,Against proposed Zoning Changes,medium,General stance
-Zone 5B,102,81,In Favor of proposed Zoning Changes,high,General stance
+Zone 5B,100,81,In Favor of proposed Zoning Changes,medium,General support
+Zone 5B,101,81,Against proposed Zoning Changes,medium,General opposition
+Zone 5B,102,81,In Favor of proposed Zoning Changes,high,General support
 Zone 5B,103,81,Against proposed Zoning Changes,high,Density
 Zone 5B,103,81,Against proposed Zoning Changes,high,Conditional or mixed response
 Zone 5B,104,81,Against proposed Zoning Changes,high,Traffic and safety
@@ -531,27 +531,27 @@ Zone 5B,106,81,Against proposed Zoning Changes,high,Parking
 Zone 5B,107,81,Against proposed Zoning Changes,high,Density
 Zone 5B,107,81,Against proposed Zoning Changes,high,Conditional or mixed response
 Zone 5B,108,81,Against proposed Zoning Changes,high,Density
-Zone 5B,109,81,Against proposed Zoning Changes,medium,General stance
+Zone 5B,109,81,Against proposed Zoning Changes,medium,General opposition
 Zone 5B,110,81,Against proposed Zoning Changes,high,Building height
 Zone 5B,111,81,Against proposed Zoning Changes,high,Parking
 Zone 5B,112,81,Against proposed Zoning Changes,high,General opposition
 Zone 5B,113,81,Against proposed Zoning Changes,high,General opposition
-Zone 5B,114,81,Against proposed Zoning Changes,medium,General stance
+Zone 5B,114,81,Against proposed Zoning Changes,medium,General opposition
 Zone 5B,115,81,Against proposed Zoning Changes,medium,Density
-Zone 5B,116,81,Against proposed Zoning Changes,high,General stance
+Zone 5B,116,81,Against proposed Zoning Changes,high,General opposition
 Zone 5B,117,81,Against proposed Zoning Changes,medium,Building height
 Zone 5B,118,81,Against proposed Zoning Changes,medium,Traffic and safety
 Zone 5B,119,81,In Favor of proposed Zoning Changes,medium,General opposition
 Zone 5B,120,81,In Favor of proposed Zoning Changes,high,General support
 Zone 5B,121,81,Against proposed Zoning Changes,high,Parking
-Zone 5B,122,81,In Favor of proposed Zoning Changes,medium,General stance
+Zone 5B,122,81,In Favor of proposed Zoning Changes,medium,General support
 Zone 5B,123,81,In Favor of proposed Zoning Changes,high,General support
 Zone 5B,124,81,In Favor of proposed Zoning Changes,high,General support
 Zone 5B,125,81,In Favor of proposed Zoning Changes,high,Affordable housing
-Zone 5B,126,81,In Favor of proposed Zoning Changes,high,General stance
+Zone 5B,126,81,In Favor of proposed Zoning Changes,high,General support
 Zone 5B,127,81,Against proposed Zoning Changes,medium,Parking
-Zone 5B,128,81,Against proposed Zoning Changes,high,General stance
-Zone 5B,129,81,In Favor of proposed Zoning Changes,high,General stance
+Zone 5B,128,81,Against proposed Zoning Changes,high,General opposition
+Zone 5B,129,81,In Favor of proposed Zoning Changes,high,General support
 Zone 5B,130,81,Against proposed Zoning Changes,medium,Traffic and safety
 Zone 5B,131,81,In Favor of proposed Zoning Changes,high,General support
 Zone 5B,132,81,In Favor of proposed Zoning Changes,high,Building height
@@ -561,7 +561,7 @@ Zone 5B,134,82,In Favor of proposed Zoning Changes,high,Building height
 Zone 5B,135,82,Against proposed Zoning Changes,high,Parking
 Zone 5B,135,82,Against proposed Zoning Changes,high,Affordable housing
 Zone 5B,136,82,Neutral,high,Unclear or neutral
-Zone 5B,137,82,In Favor of proposed Zoning Changes,medium,General stance
+Zone 5B,137,82,In Favor of proposed Zoning Changes,medium,General support
 Zone 5B,138,82,Against proposed Zoning Changes,high,Parking
 Zone 5B,138,82,Against proposed Zoning Changes,high,Density
 Zone 5B,139,82,Against proposed Zoning Changes,high,Density
@@ -587,51 +587,51 @@ Zone 5B,152,82,Neutral,low,Affordable housing
 Zone 5B,152,82,Neutral,low,Conditional or mixed response
 Zone 5B,153,82,Against proposed Zoning Changes,high,Parking
 Zone 5B,154,82,Against proposed Zoning Changes,high,General opposition
-Zone 5B,155,82,In Favor of proposed Zoning Changes,medium,General stance
-Zone 5B,156,82,Against proposed Zoning Changes,high,General stance
+Zone 5B,155,82,In Favor of proposed Zoning Changes,medium,General support
+Zone 5B,156,82,Against proposed Zoning Changes,high,General opposition
 Zone 5B,157,82,Against proposed Zoning Changes,medium,Parking
 Zone 5B,157,82,Against proposed Zoning Changes,medium,Density
 Zone 5B,157,82,Against proposed Zoning Changes,medium,Conditional or mixed response
 Zone 5B,158,82,Against proposed Zoning Changes,high,Building height
 Zone 5B,159,82,Against proposed Zoning Changes,high,Parking
 Zone 5B,160,82,Against proposed Zoning Changes,high,General support
-Zone 5B,161,83,In Favor of proposed Zoning Changes,high,General stance
+Zone 5B,161,83,In Favor of proposed Zoning Changes,high,General support
 Zone 5B,162,83,Against proposed Zoning Changes,medium,Parking
 Zone 5B,163,83,Against proposed Zoning Changes,high,Parking
 Zone 5B,163,83,Against proposed Zoning Changes,high,Building height
-Zone 5B,164,83,In Favor of proposed Zoning Changes,high,General stance
-Zone 5B,165,83,Against proposed Zoning Changes,high,General stance
+Zone 5B,164,83,In Favor of proposed Zoning Changes,high,General support
+Zone 5B,165,83,Against proposed Zoning Changes,high,General opposition
 Zone 5B,166,83,Against proposed Zoning Changes,medium,Parking
-Zone 5B,167,83,Against proposed Zoning Changes,high,General stance
+Zone 5B,167,83,Against proposed Zoning Changes,high,General opposition
 Zone 5B,168,83,Against proposed Zoning Changes,high,General opposition
 Zone 5B,169,83,Against proposed Zoning Changes,high,Parking
 Zone 5B,169,83,Against proposed Zoning Changes,high,Building height
-Zone 5B,170,83,In Favor of proposed Zoning Changes,high,General stance
-Zone 5B,171,83,Against proposed Zoning Changes,high,General stance
-Zone 5B,172,83,In Favor of proposed Zoning Changes,high,General stance
+Zone 5B,170,83,In Favor of proposed Zoning Changes,high,General support
+Zone 5B,171,83,Against proposed Zoning Changes,high,General opposition
+Zone 5B,172,83,In Favor of proposed Zoning Changes,high,General support
 Zone 5B,173,83,In Favor of proposed Zoning Changes,medium,Parking
-Zone 5B,174,83,Against proposed Zoning Changes,high,General stance
+Zone 5B,174,83,Against proposed Zoning Changes,high,General opposition
 Zone 5B,175,83,Against proposed Zoning Changes,high,General opposition
 Zone 5B,176,83,Neutral,low,Unclear or neutral
 Zone 5B,177,83,Against proposed Zoning Changes,low,Neighborhood character
-Zone 5B,178,83,In Favor of proposed Zoning Changes,high,General stance
+Zone 5B,178,83,In Favor of proposed Zoning Changes,high,General support
 Zone 5B,179,83,In Favor of proposed Zoning Changes,high,General support
 Zone 5B,180,83,Against proposed Zoning Changes,medium,General opposition
 Zone 5B,181,83,In Favor of proposed Zoning Changes,high,Building height
 Zone 5B,181,83,In Favor of proposed Zoning Changes,high,Conditional or mixed response
-Zone 5B,182,83,In Favor of proposed Zoning Changes,high,General stance
+Zone 5B,182,83,In Favor of proposed Zoning Changes,high,General support
 Zone 5B,183,83,Against proposed Zoning Changes,high,General opposition
 Zone 5B,184,83,Against proposed Zoning Changes,high,Parking
 Zone 5B,185,83,In Favor of proposed Zoning Changes,high,Density
 Zone 5B,185,83,In Favor of proposed Zoning Changes,high,Developer incentives
 Zone 5B,186,83,Against proposed Zoning Changes,high,Parking
 Zone 5B,186,83,Against proposed Zoning Changes,high,Traffic and safety
-Zone 5B,187,83,In Favor of proposed Zoning Changes,high,General stance
-Zone 5B,188,83,Against proposed Zoning Changes,high,General stance
+Zone 5B,187,83,In Favor of proposed Zoning Changes,high,General support
+Zone 5B,188,83,Against proposed Zoning Changes,high,General opposition
 Zone 5B,189,83,In Favor of proposed Zoning Changes,medium,Transit and walkability
-Zone 5B,190,83,Against proposed Zoning Changes,high,General stance
+Zone 5B,190,83,Against proposed Zoning Changes,high,General opposition
 Zone 5B,191,83,Neutral,high,Unclear or neutral
-Zone 5B,192,83,Against proposed Zoning Changes,high,General stance
+Zone 5B,192,83,Against proposed Zoning Changes,high,General opposition
 Zone 5B,193,83,Against proposed Zoning Changes,high,Building height
 Zone 5B,194,83,Against proposed Zoning Changes,high,Building height
 Zone 5B,195,83,In Favor of proposed Zoning Changes,high,General support
@@ -641,12 +641,12 @@ Zone 5B,196,83,In Favor of proposed Zoning Changes,medium,Affordable housing
 Zone 5B,197,83,In Favor of proposed Zoning Changes,high,Density
 Zone 5B,197,83,In Favor of proposed Zoning Changes,high,Affordable housing
 Zone 5B,198,83,Against proposed Zoning Changes,medium,Parking
-Zone 5B,199,84,Against proposed Zoning Changes,high,General stance
-Zone 5B,200,84,In Favor of proposed Zoning Changes,medium,General stance
+Zone 5B,199,84,Against proposed Zoning Changes,high,General opposition
+Zone 5B,200,84,In Favor of proposed Zoning Changes,medium,General support
 Zone 5B,201,84,Against proposed Zoning Changes,medium,Parking
 Zone 5B,202,84,Against proposed Zoning Changes,high,Building height
 Zone 5B,203,84,Against proposed Zoning Changes,high,Parking
-Zone 5B,204,84,In Favor of proposed Zoning Changes,high,General stance
+Zone 5B,204,84,In Favor of proposed Zoning Changes,high,General support
 Zone 5B,205,84,Neutral,high,Unclear or neutral
 Zone 5B,206,84,Against proposed Zoning Changes,high,Parking
 Zone 5B,206,84,Against proposed Zoning Changes,high,Affordable housing
@@ -659,22 +659,22 @@ Zone 5B,211,84,Against proposed Zoning Changes,high,Building height
 Zone 5B,212,84,In Favor of proposed Zoning Changes,medium,Building height
 Zone 5B,212,84,In Favor of proposed Zoning Changes,medium,Affordable housing
 Zone 5B,213,84,Against proposed Zoning Changes,high,Parking
-Zone 5B,214,84,Against proposed Zoning Changes,high,General stance
+Zone 5B,214,84,Against proposed Zoning Changes,high,General opposition
 Zone 5B,215,84,Against proposed Zoning Changes,high,Affordable housing
-Zone 5B,216,85,Against proposed Zoning Changes,high,General stance
+Zone 5B,216,85,Against proposed Zoning Changes,high,General opposition
 Zone 5B,217,85,Against proposed Zoning Changes,medium,Transit and walkability
 Zone 5B,218,85,Against proposed Zoning Changes,high,Traffic and safety
 Zone 5B,218,85,Against proposed Zoning Changes,high,Building height
 Zone 5B,219,85,Against proposed Zoning Changes,high,Density
 Zone 5B,219,85,Against proposed Zoning Changes,high,Affordable housing
-Zone 5B,220,85,Against proposed Zoning Changes,medium,General stance
+Zone 5B,220,85,Against proposed Zoning Changes,medium,General opposition
 Zone 5B,221,85,Against proposed Zoning Changes,medium,Building height
 Zone 5B,222,85,Against proposed Zoning Changes,high,Parking
 Zone 5B,222,85,Against proposed Zoning Changes,high,Building height
 Zone 5B,223,85,Against proposed Zoning Changes,high,Parking
-Zone 5B,224,85,Against proposed Zoning Changes,high,General stance
-Zone 5B,225,85,Against proposed Zoning Changes,medium,General stance
-Zone 5B,226,85,In Favor of proposed Zoning Changes,high,General stance
+Zone 5B,224,85,Against proposed Zoning Changes,high,General opposition
+Zone 5B,225,85,Against proposed Zoning Changes,medium,General opposition
+Zone 5B,226,85,In Favor of proposed Zoning Changes,high,General support
 Zone 5B,227,85,Against proposed Zoning Changes,medium,Traffic and safety
 Zone 5B,228,85,Against proposed Zoning Changes,high,Parking
 Zone 5B,229,86,Against proposed Zoning Changes,high,Parking
@@ -684,67 +684,67 @@ Zone 5B,231,86,Against proposed Zoning Changes,high,Parking
 Zone 5B,231,86,Against proposed Zoning Changes,high,Density
 Zone 5B,232,86,In Favor of proposed Zoning Changes,high,Traffic and safety
 Zone 5B,232,86,In Favor of proposed Zoning Changes,high,Transit and walkability
-Zone 5B,233,86,In Favor of proposed Zoning Changes,high,General stance
+Zone 5B,233,86,In Favor of proposed Zoning Changes,high,General support
 Zone 5B,234,86,Against proposed Zoning Changes,high,General opposition
 Zone 5B,235,86,Against proposed Zoning Changes,high,Density
 Zone 5B,235,86,Against proposed Zoning Changes,high,Neighborhood character
 Zone 5B,236,86,Against proposed Zoning Changes,high,Parking
 Zone 5B,237,86,Against proposed Zoning Changes,high,Parking
-Zone 5B,238,86,In Favor of proposed Zoning Changes,medium,General stance
+Zone 5B,238,86,In Favor of proposed Zoning Changes,medium,General support
 Zone 5B,239,86,In Favor of proposed Zoning Changes,medium,Building height
 Zone 5B,240,86,Against proposed Zoning Changes,high,Parking
 Zone 5B,241,86,Against proposed Zoning Changes,high,Density
 Zone 5B,241,86,Against proposed Zoning Changes,high,Developer incentives
-Zone 5B,242,86,Against proposed Zoning Changes,high,General stance
-Zone 5B,243,86,Against proposed Zoning Changes,high,General stance
+Zone 5B,242,86,Against proposed Zoning Changes,high,General opposition
+Zone 5B,243,86,Against proposed Zoning Changes,high,General opposition
 Zone 5B,244,86,Against proposed Zoning Changes,high,Density
 Zone 5B,245,86,Against proposed Zoning Changes,high,Building height
-Zone 5B,246,87,In Favor of proposed Zoning Changes,high,General stance
-Zone 5B,247,87,Against proposed Zoning Changes,medium,General stance
-Zone 5B,248,87,Against proposed Zoning Changes,high,General stance
+Zone 5B,246,87,In Favor of proposed Zoning Changes,high,General support
+Zone 5B,247,87,Against proposed Zoning Changes,medium,General opposition
+Zone 5B,248,87,Against proposed Zoning Changes,high,General opposition
 Zone 5B,249,87,Against proposed Zoning Changes,high,Building height
-Zone 5B,250,87,Against proposed Zoning Changes,high,General stance
+Zone 5B,250,87,Against proposed Zoning Changes,high,General opposition
 Zone 5B,251,87,Against proposed Zoning Changes,high,Parking
-Zone 5B,252,87,Against proposed Zoning Changes,medium,General stance
+Zone 5B,252,87,Against proposed Zoning Changes,medium,General opposition
 Zone 5B,253,87,Against proposed Zoning Changes,high,Building height
 Zone 5B,254,87,Against proposed Zoning Changes,high,Parking
 Zone 5B,254,87,Against proposed Zoning Changes,high,Density
 Zone 5B,254,87,Against proposed Zoning Changes,high,Affordable housing
-Zone 5B,255,87,In Favor of proposed Zoning Changes,medium,General stance
-Zone 5B,256,87,In Favor of proposed Zoning Changes,high,General stance
+Zone 5B,255,87,In Favor of proposed Zoning Changes,medium,General support
+Zone 5B,256,87,In Favor of proposed Zoning Changes,high,General support
 Zone 5B,257,87,Against proposed Zoning Changes,high,Building height
 Zone 5B,258,87,In Favor of proposed Zoning Changes,high,General support
-Zone 5B,259,87,Against proposed Zoning Changes,high,General stance
-Zone 5B,260,87,Against proposed Zoning Changes,high,General stance
+Zone 5B,259,87,Against proposed Zoning Changes,high,General opposition
+Zone 5B,260,87,Against proposed Zoning Changes,high,General opposition
 Zone 5B,261,87,Against proposed Zoning Changes,medium,Affordable housing
 Zone 5B,262,87,In Favor of proposed Zoning Changes,medium,Density
 Zone 5B,262,87,In Favor of proposed Zoning Changes,medium,Conditional or mixed response
 Zone 5B,263,87,Against proposed Zoning Changes,high,Neighborhood character
-Zone 5B,264,87,Against proposed Zoning Changes,high,General stance
+Zone 5B,264,87,Against proposed Zoning Changes,high,General opposition
 Zone 5B,265,87,Against proposed Zoning Changes,high,Density
 Zone 5B,265,87,Against proposed Zoning Changes,high,Conditional or mixed response
-Zone 5B,266,87,In Favor of proposed Zoning Changes,medium,General stance
+Zone 5B,266,87,In Favor of proposed Zoning Changes,medium,General support
 Zone 5B,267,87,Against proposed Zoning Changes,high,Building height
-Zone 5B,268,87,In Favor of proposed Zoning Changes,medium,General stance
-Zone 5B,269,87,Against proposed Zoning Changes,high,General stance
+Zone 5B,268,87,In Favor of proposed Zoning Changes,medium,General support
+Zone 5B,269,87,Against proposed Zoning Changes,high,General opposition
 Zone 5B,270,87,Neutral,high,Unclear or neutral
 Zone 5B,271,88,Against proposed Zoning Changes,high,Parking
-Zone 5B,272,88,Against proposed Zoning Changes,high,General stance
+Zone 5B,272,88,Against proposed Zoning Changes,high,General opposition
 Zone 5B,273,88,Against proposed Zoning Changes,high,Parking
 Zone 5B,274,88,In Favor of proposed Zoning Changes,high,General support
-Zone 5B,275,88,In Favor of proposed Zoning Changes,high,General stance
-Zone 5B,276,88,Against proposed Zoning Changes,medium,General stance
+Zone 5B,275,88,In Favor of proposed Zoning Changes,high,General support
+Zone 5B,276,88,Against proposed Zoning Changes,medium,General opposition
 Zone 5B,277,88,Against proposed Zoning Changes,medium,Property values
 Zone 5B,278,88,Against proposed Zoning Changes,high,General opposition
-Zone 5B,279,88,In Favor of proposed Zoning Changes,high,General stance
+Zone 5B,279,88,In Favor of proposed Zoning Changes,high,General support
 Zone 5B,280,88,Against proposed Zoning Changes,high,Parking
 Zone 5B,281,88,Against proposed Zoning Changes,high,General support
-Zone 5B,282,88,In Favor of proposed Zoning Changes,high,General stance
+Zone 5B,282,88,In Favor of proposed Zoning Changes,high,General support
 Zone 5B,283,88,Against proposed Zoning Changes,medium,Affordable housing
 Zone 5B,284,88,Against proposed Zoning Changes,high,Parking
 Zone 5B,285,88,Against proposed Zoning Changes,high,Parking
 Zone 5B,286,88,Against proposed Zoning Changes,high,General opposition
-Zone 5B,287,88,In Favor of proposed Zoning Changes,medium,General stance
+Zone 5B,287,88,In Favor of proposed Zoning Changes,medium,General support
 Zone 5B,288,88,Against proposed Zoning Changes,high,Parking
 Zone 5B,289,88,Neutral,high,Unclear or neutral
 Zone 5B,290,88,Against proposed Zoning Changes,high,Density
@@ -755,9 +755,9 @@ Zone 5B,293,88,Against proposed Zoning Changes,high,Building height
 Zone 5B,294,89,Against proposed Zoning Changes,high,Parking
 Zone 5B,295,89,Against proposed Zoning Changes,medium,Traffic and safety
 Zone 5B,295,89,Against proposed Zoning Changes,medium,Building height
-Zone 5B,296,89,In Favor of proposed Zoning Changes,medium,General stance
+Zone 5B,296,89,In Favor of proposed Zoning Changes,medium,General support
 Zone 5B,297,89,Against proposed Zoning Changes,high,Building height
-Zone 5B,298,89,Against proposed Zoning Changes,medium,General stance
+Zone 5B,298,89,Against proposed Zoning Changes,medium,General opposition
 Zone 5B,299,89,In Favor of proposed Zoning Changes,high,Density
 Zone 5B,300,89,In Favor of proposed Zoning Changes,high,General support
 Zone 5B,301,89,In Favor of proposed Zoning Changes,high,General support

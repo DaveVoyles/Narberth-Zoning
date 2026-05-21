@@ -3,14 +3,6 @@
   "methodologyNote": "Topic counts are provisional keyword-assisted tags from classification rationale. A response can have more than one topic.",
   "overall": [
     {
-      "topic": "General stance",
-      "count": 183,
-      "responseShare": 30.2,
-      "Against proposed Zoning Changes": 120,
-      "Neutral": 0,
-      "In Favor of proposed Zoning Changes": 63
-    },
-    {
       "topic": "Parking",
       "count": 163,
       "responseShare": 26.9,
@@ -41,30 +33,6 @@
       "Against proposed Zoning Changes": 43,
       "Neutral": 3,
       "In Favor of proposed Zoning Changes": 4
-    },
-    {
-      "topic": "General support",
-      "count": 48,
-      "responseShare": 7.9,
-      "Against proposed Zoning Changes": 13,
-      "Neutral": 0,
-      "In Favor of proposed Zoning Changes": 35
-    },
-    {
-      "topic": "General opposition",
-      "count": 41,
-      "responseShare": 6.8,
-      "Against proposed Zoning Changes": 40,
-      "Neutral": 0,
-      "In Favor of proposed Zoning Changes": 1
-    },
-    {
-      "topic": "Unclear or neutral",
-      "count": 27,
-      "responseShare": 4.5,
-      "Against proposed Zoning Changes": 0,
-      "Neutral": 27,
-      "In Favor of proposed Zoning Changes": 0
     },
     {
       "topic": "Affordable housing",
@@ -146,14 +114,6 @@
       "totalResponses": 303,
       "topics": [
         {
-          "topic": "General stance",
-          "count": 89,
-          "responseShare": 29.4,
-          "Against proposed Zoning Changes": 64,
-          "Neutral": 0,
-          "In Favor of proposed Zoning Changes": 25
-        },
-        {
           "topic": "Parking",
           "count": 87,
           "responseShare": 28.7,
@@ -184,30 +144,6 @@
           "Against proposed Zoning Changes": 33,
           "Neutral": 2,
           "In Favor of proposed Zoning Changes": 1
-        },
-        {
-          "topic": "General support",
-          "count": 25,
-          "responseShare": 8.3,
-          "Against proposed Zoning Changes": 8,
-          "Neutral": 0,
-          "In Favor of proposed Zoning Changes": 17
-        },
-        {
-          "topic": "General opposition",
-          "count": 21,
-          "responseShare": 6.9,
-          "Against proposed Zoning Changes": 21,
-          "Neutral": 0,
-          "In Favor of proposed Zoning Changes": 0
-        },
-        {
-          "topic": "Unclear or neutral",
-          "count": 12,
-          "responseShare": 4.0,
-          "Against proposed Zoning Changes": 0,
-          "Neutral": 12,
-          "In Favor of proposed Zoning Changes": 0
         },
         {
           "topic": "Transit and walkability",
@@ -281,14 +217,6 @@
       "totalResponses": 303,
       "topics": [
         {
-          "topic": "General stance",
-          "count": 94,
-          "responseShare": 31.0,
-          "Against proposed Zoning Changes": 56,
-          "Neutral": 0,
-          "In Favor of proposed Zoning Changes": 38
-        },
-        {
           "topic": "Parking",
           "count": 76,
           "responseShare": 25.1,
@@ -313,36 +241,12 @@
           "In Favor of proposed Zoning Changes": 6
         },
         {
-          "topic": "General support",
-          "count": 23,
-          "responseShare": 7.6,
-          "Against proposed Zoning Changes": 5,
-          "Neutral": 0,
-          "In Favor of proposed Zoning Changes": 18
-        },
-        {
-          "topic": "General opposition",
-          "count": 20,
-          "responseShare": 6.6,
-          "Against proposed Zoning Changes": 19,
-          "Neutral": 0,
-          "In Favor of proposed Zoning Changes": 1
-        },
-        {
           "topic": "Affordable housing",
           "count": 15,
           "responseShare": 5.0,
           "Against proposed Zoning Changes": 9,
           "Neutral": 1,
           "In Favor of proposed Zoning Changes": 5
-        },
-        {
-          "topic": "Unclear or neutral",
-          "count": 15,
-          "responseShare": 5.0,
-          "Against proposed Zoning Changes": 0,
-          "Neutral": 15,
-          "In Favor of proposed Zoning Changes": 0
         },
         {
           "topic": "Conditional or mixed response",

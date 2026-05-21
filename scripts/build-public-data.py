@@ -135,6 +135,14 @@ TOPIC_RULES = [
     },
 ]
 
+PUBLIC_TOPIC_EXCLUSIONS = {
+    "General stance",
+    "General opposition",
+    "General support",
+    "Unclear or neutral",
+    "Uncategorized response",
+}
+
 REPRESENTATIVE_CARD_TOPICS = [
     {
         "topic": "Parking",
@@ -178,9 +186,9 @@ def read_rows() -> list[dict[str, str]]:
                     "zone": zone,
                     "index": int(row["index"]),
                     "page": int(row["page"]),
-                    "category": row["category"],
-                    "confidence": row["confidence"],
-                    "rationale": row["rationale"],
+                    "category": row["category"].strip(),
+                    "confidence": row["confidence"].strip(),
+                    "rationale": row["rationale"].strip(),
                 }
                 topics = infer_topics(enriched["rationale"], enriched["category"])
                 enriched["topics"] = "; ".join(topics)
@@ -204,14 +212,18 @@ def infer_topics(rationale: str, category: str) -> list[str]:
             topics.append("General support")
         elif category == "Neutral":
             topics.append("Unclear or neutral")
+        elif category == CATEGORY_ORDER[0]:
+            topics.append("General opposition")
+        elif category == CATEGORY_ORDER[2]:
+            topics.append("General support")
         else:
-            topics.append("General stance")
+            topics.append("Uncategorized response")
     return topics
 
 
 def write_csv(path: Path, rows: list[dict[str, object]], fields: list[str]) -> None:
     with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
@@ -275,8 +287,12 @@ def topic_rows(rows: list[dict[str, object]]) -> list[dict[str, object]]:
     return output
 
 
+def public_topic_rows(rows: list[dict[str, object]]) -> list[dict[str, object]]:
+    return [row for row in topic_rows(rows) if row["topic"] not in PUBLIC_TOPIC_EXCLUSIONS]
+
+
 def topic_summary(rows: list[dict[str, object]]) -> dict[str, object]:
-    tag_rows = topic_rows(rows)
+    tag_rows = public_topic_rows(rows)
     topics = sorted({row["topic"] for row in tag_rows})
     by_topic = []
     stance_by_topic = []
@@ -307,7 +323,7 @@ def topic_metric(topic: str, topic_items: list[dict[str, object]], total_respons
 
 
 def concerns_by_zone(rows: list[dict[str, object]]) -> dict[str, object]:
-    tag_rows = topic_rows(rows)
+    tag_rows = public_topic_rows(rows)
     overall_topics = sorted({row["topic"] for row in tag_rows})
     overall = [
         topic_metric(topic, [row for row in tag_rows if row["topic"] == topic], len(rows))
@@ -376,6 +392,14 @@ def zone_comparison(summary: dict[str, object]) -> list[dict[str, object]]:
     majority_title = "Both zones have majority opposition as written" if both_majority_against else "Against share by zone"
     against_title, against_summary = stance_comparison(CATEGORY_ORDER[0], "against")
     favor_title, favor_summary = stance_comparison(CATEGORY_ORDER[2], "in-favor")
+    if both_majority_against:
+        favor_title = "Zone 5B is still majority against, but has a larger in-favor share"
+        favor_summary = (
+            f"Zone 5B remains {zone_5b_categories[CATEGORY_ORDER[0]]['percent']}% against as written, "
+            f"while its in-favor share is {abs(zone_5b_categories[CATEGORY_ORDER[2]]['percent'] - zone_4a_categories[CATEGORY_ORDER[2]]['percent']):.1f} "
+            f"percentage points higher than Zone 4A "
+            f"({zone_5b_categories[CATEGORY_ORDER[2]]['percent']}% vs. {zone_4a_categories[CATEGORY_ORDER[2]]['percent']}%)."
+        )
     return [
         {
             "title": majority_title,
@@ -460,7 +484,7 @@ def what_would_change_minds(rows: list[dict[str, object]]) -> dict[str, object]:
         or row["category"] == CATEGORY_ORDER[1]
         or "conditional" in str(row["rationale"]).lower()
     ]
-    tag_rows = topic_rows(conditional_rows)
+    tag_rows = public_topic_rows(conditional_rows)
     topics = sorted({row["topic"] for row in tag_rows})
     top_topics = sorted(
         [

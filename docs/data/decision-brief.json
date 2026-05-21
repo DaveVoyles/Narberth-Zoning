@@ -174,7 +174,7 @@
     },
     {
       "title": "Biggest topic signal",
-      "body": "General stance is the most frequent provisional tag (183 tag assignments). Topic tags are not vote totals.",
+      "body": "Parking is the most frequent provisional tag (163 tag assignments). Topic tags are not vote totals.",
       "linkText": "Review topics",
       "href": "topics.html"
     },
@@ -192,14 +192,6 @@
     }
   ],
   "topTopics": [
-    {
-      "topic": "General stance",
-      "count": 183,
-      "responseShare": 30.2,
-      "Against proposed Zoning Changes": 120,
-      "Neutral": 0,
-      "In Favor of proposed Zoning Changes": 63
-    },
     {
       "topic": "Parking",
       "count": 163,
@@ -233,12 +225,20 @@
       "In Favor of proposed Zoning Changes": 4
     },
     {
-      "topic": "General support",
-      "count": 48,
-      "responseShare": 7.9,
+      "topic": "Affordable housing",
+      "count": 20,
+      "responseShare": 3.3,
       "Against proposed Zoning Changes": 13,
+      "Neutral": 1,
+      "In Favor of proposed Zoning Changes": 6
+    },
+    {
+      "topic": "Traffic and safety",
+      "count": 19,
+      "responseShare": 3.1,
+      "Against proposed Zoning Changes": 17,
       "Neutral": 0,
-      "In Favor of proposed Zoning Changes": 35
+      "In Favor of proposed Zoning Changes": 2
     }
   ],
   "zoneComparison": [
@@ -253,8 +253,8 @@
       "stance": "Against proposed Zoning Changes"
     },
     {
-      "title": "Zone 5B has more in-favor responses",
-      "summary": "The in-favor share is 6.9 percentage points higher in Zone 5B (27.4%) than Zone 4A (20.5%).",
+      "title": "Zone 5B is still majority against, but has a larger in-favor share",
+      "summary": "Zone 5B remains 67.3% against as written, while its in-favor share is 6.9 percentage points higher than Zone 4A (27.4% vs. 20.5%).",
       "stance": "In Favor of proposed Zoning Changes"
     }
   ],
@@ -305,14 +305,6 @@
         "In Favor of proposed Zoning Changes": 2
       },
       {
-        "topic": "Unclear or neutral",
-        "count": 27,
-        "responseShare": 33.3,
-        "Against proposed Zoning Changes": 0,
-        "Neutral": 27,
-        "In Favor of proposed Zoning Changes": 0
-      },
-      {
         "topic": "Parking",
         "count": 19,
         "responseShare": 23.5,
@@ -334,6 +326,14 @@
         "responseShare": 2.5,
         "Against proposed Zoning Changes": 2,
         "Neutral": 0,
+        "In Favor of proposed Zoning Changes": 0
+      },
+      {
+        "topic": "Affordable housing",
+        "count": 1,
+        "responseShare": 1.2,
+        "Against proposed Zoning Changes": 0,
+        "Neutral": 1,
         "In Favor of proposed Zoning Changes": 0
       }
     ],
@@ -370,14 +370,6 @@
   },
   "concernResponseMatrix": [
     {
-      "concern": "General stance",
-      "tagCount": 183,
-      "responseShare": 30.2,
-      "responsePath": "Convert the concern into a specific question, standard, or evidence request for public review.",
-      "evidenceNeeded": "Source-row review, topic-specific analysis, and examples showing how the proposal would work in practice.",
-      "sourceReference": "See topic-tag rows and the raw survey PDF page references for matching classified responses."
-    },
-    {
       "concern": "Parking",
       "tagCount": 163,
       "responseShare": 26.9,
@@ -410,25 +402,33 @@
       "sourceReference": "See topic-tag rows and the raw survey PDF page references for matching classified responses."
     },
     {
-      "concern": "General support",
-      "tagCount": 48,
-      "responseShare": 7.9,
-      "responsePath": "Convert the concern into a specific question, standard, or evidence request for public review.",
-      "evidenceNeeded": "Source-row review, topic-specific analysis, and examples showing how the proposal would work in practice.",
+      "concern": "Affordable housing",
+      "tagCount": 20,
+      "responseShare": 3.3,
+      "responsePath": "Define affordability requirements, duration, eligibility, monitoring, and whether bonuses produce enforceable units.",
+      "evidenceNeeded": "Affordable-unit yield estimates, AMI levels, deed-restriction duration, and compliance/enforcement plan.",
       "sourceReference": "See topic-tag rows and the raw survey PDF page references for matching classified responses."
     },
     {
-      "concern": "General opposition",
-      "tagCount": 41,
-      "responseShare": 6.8,
-      "responsePath": "Convert the concern into a specific question, standard, or evidence request for public review.",
-      "evidenceNeeded": "Source-row review, topic-specific analysis, and examples showing how the proposal would work in practice.",
+      "concern": "Traffic and safety",
+      "tagCount": 19,
+      "responseShare": 3.1,
+      "responsePath": "Identify pedestrian-safety treatments, traffic-calming measures, and intersection impacts before adoption.",
+      "evidenceNeeded": "Traffic counts, crash or near-miss history, pedestrian crossings, school-route impacts, and trip-generation assumptions.",
       "sourceReference": "See topic-tag rows and the raw survey PDF page references for matching classified responses."
     },
     {
-      "concern": "Unclear or neutral",
-      "tagCount": 27,
-      "responseShare": 4.5,
+      "concern": "Transit and walkability",
+      "tagCount": 15,
+      "responseShare": 2.5,
+      "responsePath": "Show where transit access can realistically substitute for parking and where it cannot.",
+      "evidenceNeeded": "Station walksheds, SEPTA service frequency, accessibility constraints, and resident travel-pattern assumptions.",
+      "sourceReference": "See topic-tag rows and the raw survey PDF page references for matching classified responses."
+    },
+    {
+      "concern": "Developer incentives",
+      "tagCount": 9,
+      "responseShare": 1.5,
       "responsePath": "Convert the concern into a specific question, standard, or evidence request for public review.",
       "evidenceNeeded": "Source-row review, topic-specific analysis, and examples showing how the proposal would work in practice.",
       "sourceReference": "See topic-tag rows and the raw survey PDF page references for matching classified responses."

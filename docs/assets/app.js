@@ -138,12 +138,27 @@ function renderSummaryCards() {
   if (!target) return;
   target.innerHTML = state.summary.zones.map((zone) => {
     const against = categoryItem(zone, categoryOrder[0]);
+    const neutral = categoryItem(zone, categoryOrder[1]);
     const favor = categoryItem(zone, categoryOrder[2]);
+    const segments = [
+      { item: against, label: "against", className: "against" },
+      { item: neutral, label: "neutral", className: "neutral" },
+      { item: favor, label: "in favor", className: "favor" },
+    ].map(({ item, label, className }) => `
+      <span class="segment ${className}" style="width:${item.percent}%">
+        <span class="visually-hidden">${item.percent}% ${label}</span>
+      </span>
+    `).join("");
     return `
-      <div class="stat">
+      <div class="stat summary-stat">
         <span class="stat-value tone-negative">${against.percent}%</span>
         <span class="stat-label">${escapeHtml(zone.zone)} against as written</span>
-        <p class="muted">${against.count} against / ${favor.count} in favor / ${zone.totalResponses} total</p>
+        <ul class="summary-breakdown" aria-label="${escapeHtml(zone.zone)} response counts">
+          <li class="tone-negative">${against.count} against</li>
+          <li class="tone-positive">${favor.count} in favor</li>
+          <li>${zone.totalResponses} total</li>
+        </ul>
+        <div class="summary-rounded-bar" aria-hidden="true">${segments}</div>
       </div>
     `;
   }).join("");
@@ -412,14 +427,20 @@ function renderReadFirst(selector = "#read-first-panel") {
   `).join("");
 }
 
+function colorStanceText(value) {
+  return escapeHtml(value)
+    .replace(/\b(against(?: as written)?|opposition)\b/gi, '<span class="tone-negative">$1</span>')
+    .replace(/\b(in-favor|in favor)\b/gi, '<span class="tone-positive">$1</span>');
+}
+
 function renderZoneComparisonCards(selector = "#zone-comparison-cards") {
   const target = document.querySelector(selector);
   if (!target) return;
   target.innerHTML = state.decisionBrief.zoneComparison.map((item) => `
     <article class="card compare-card ${classByCategory.get(item.stance) || "neutral"}">
-      <p class="eyebrow">${escapeHtml(shortCategory.get(item.stance) || "Comparison")}</p>
-      <h3>${escapeHtml(item.title)}</h3>
-      <p>${escapeHtml(item.summary)}</p>
+      <p class="eyebrow ${toneByCategory.get(item.stance) || "tone-neutral"}">${escapeHtml(shortCategory.get(item.stance) || "Comparison")}</p>
+      <h3>${colorStanceText(item.title)}</h3>
+      <p>${colorStanceText(item.summary)}</p>
     </article>
   `).join("");
 }
@@ -502,40 +523,6 @@ function renderGlossary(selector = "#glossary-list") {
       <p>${escapeHtml(item.definition)}</p>
     </article>
   `).join("");
-}
-
-function renderChartLens() {
-  const target = document.querySelector("#chart-lens-summary");
-  if (!target) return;
-  const selectedZone = document.querySelector("#chart-zone-filter")?.value || "";
-  const selectedStance = document.querySelector("#chart-stance-filter")?.value || "";
-  const rows = state.rows.filter((row) => {
-    return (!selectedZone || row.zone === selectedZone) && (!selectedStance || row.category === selectedStance);
-  });
-  const total = state.rows.length || 1;
-  const share = ((rows.length / total) * 100).toFixed(1);
-  const topicCounts = new Map();
-  rows.forEach((row) => {
-    row.topics.split("; ").forEach((topic) => topicCounts.set(topic, (topicCounts.get(topic) || 0) + 1));
-  });
-  const topTopics = [...topicCounts.entries()]
-    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-    .slice(0, 4);
-  const reviewCount = rows.filter((row) => row.needs_review === "yes" || row.mixed_flag === "yes").length;
-  const pages = [...new Set(rows.map((row) => row.page))].sort((a, b) => a - b);
-  const zoneLabel = selectedZone || "All analyzed zones";
-  const stanceLabel = selectedStance ? shortCategory.get(selectedStance) : "All stances";
-  target.innerHTML = `
-    <div class="lens-stat">
-      <span class="stat-value">${rows.length}</span>
-      <span class="stat-label">${escapeHtml(zoneLabel)} · ${escapeHtml(stanceLabel)} (${share}% of all rows)</span>
-    </div>
-    <div>
-      <h4>Top provisional topics in this lens</h4>
-      <p>${topTopics.length ? topTopics.map(([topic, count]) => `<strong>${escapeHtml(topic)}</strong> (${count})`).join(", ") : "No matching topic tags."}</p>
-      <p class="muted">${reviewCount} matching rows are in the review queue. ${pages.length ? `Source pages: ${pages.join(", ")}.` : ""}</p>
-    </div>
-  `;
 }
 
 function renderWhatWouldChangeMinds(selector = "#change-minds-panel") {
@@ -772,6 +759,24 @@ function renderParticles() {
   const canvas = document.querySelector("#particle-canvas");
   const status = document.querySelector("#webgl-status");
   if (!canvas || !status) return;
+  const values = document.querySelector("#particle-values");
+  if (values) {
+    values.innerHTML = state.summary.zones.map((zone) => {
+      const against = categoryItem(zone, categoryOrder[0]);
+      const neutral = categoryItem(zone, categoryOrder[1]);
+      const favor = categoryItem(zone, categoryOrder[2]);
+      return `
+        <article class="particle-value-card">
+          <h4>${escapeHtml(zone.zone)}</h4>
+          <p>
+            <span class="tone-negative">${against.count} against (${against.percent}%)</span>,
+            <span class="tone-neutral">${neutral.count} neutral (${neutral.percent}%)</span>,
+            <span class="tone-positive">${favor.count} in favor (${favor.percent}%)</span>
+          </p>
+        </article>
+      `;
+    }).join("");
+  }
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const gl = canvas.getContext("webgl", { antialias: true, alpha: false });
   const ctx = gl ? null : canvas.getContext("2d");
@@ -815,8 +820,8 @@ function renderParticles() {
   }
 
   status.textContent = reduceMotion
-    ? "WebGL is available. Motion is reduced because your system requests reduced motion."
-    : "WebGL is available. Points show response clusters by zone and stance.";
+    ? "Motion is reduced because your system requests reduced motion."
+    : "";
 
   const vertexShaderSource = `
     attribute vec2 position;
@@ -1076,7 +1081,6 @@ async function init() {
   renderConcernResponseMatrix("#brief-concern-response-matrix");
   renderGlossary();
   renderGlossary("#brief-glossary-list");
-  renderChartLens();
   renderWhatWouldChangeMinds();
   renderWhatWouldChangeMinds("#brief-change-minds");
   renderParticles();
@@ -1089,9 +1093,6 @@ async function init() {
   setupTableControls();
   ["#zone-filter", "#category-filter", "#confidence-filter", "#topic-filter", "#search-filter"].forEach((selector) => {
     document.querySelector(selector)?.addEventListener("input", renderTable);
-  });
-  ["#chart-zone-filter", "#chart-stance-filter"].forEach((selector) => {
-    document.querySelector(selector)?.addEventListener("input", renderChartLens);
   });
 }
 
