@@ -194,21 +194,6 @@ function legendHtml() {
   `;
 }
 
-function renderChartTextSummary() {
-  const target = document.querySelector("#chart-text-summary");
-  if (!target) return;
-  target.innerHTML = state.summary.zones.map((zone) => {
-    const parts = zone.categories
-      .map((entry) => {
-        const label = shortCategory.get(entry.category).toLowerCase();
-        const tone = toneByCategory.get(entry.category) || "tone-neutral";
-        return `<span class="${tone}">${entry.count} ${label} (${entry.percent}%)</span>`;
-      })
-      .join(", ");
-    return `<p><strong>${escapeHtml(zone.zone)}:</strong> ${parts}.</p>`;
-  }).join("");
-}
-
 function renderSourceDocuments() {
   const target = document.querySelector("#source-documents");
   if (!target) return;
@@ -252,30 +237,6 @@ function renderDifferenceChart() {
           <span class="difference-fill ${classByCategory.get(category)}" style="width:${width}%"></span>
         </span>
         <span>${label}</span>
-      </div>
-    `;
-  }).join("");
-}
-
-function renderConfidenceChart() {
-  const target = document.querySelector("#confidence-chart");
-  if (!target) return;
-  target.innerHTML = state.summary.zones.map((zone) => {
-    const confidence = Object.fromEntries(zone.confidence.map((entry) => [entry.confidence, entry]));
-    const high = confidence.high || { percent: 0, count: 0 };
-    const medium = confidence.medium || { percent: 0, count: 0 };
-    const low = confidence.low || { percent: 0, count: 0 };
-    return `
-      <div class="bar-group">
-        <strong>${escapeHtml(zone.zone)}</strong>
-        <div>
-          <div class="stack">
-            <span class="segment favor" style="width:${high.percent}%">${high.percent}%</span>
-            <span class="segment neutral" style="width:${medium.percent}%">${medium.percent}%</span>
-            <span class="segment against" style="width:${low.percent}%">${low.percent}%</span>
-          </div>
-          <p class="muted">${high.count} high, ${medium.count} medium, ${low.count} low. ${zone.needsReview} rows should receive human review.</p>
-        </div>
       </div>
     `;
   }).join("");
@@ -413,7 +374,7 @@ function renderZoneComparisonCards(selector = "#zone-comparison-cards") {
   if (!target) return;
   target.innerHTML = state.decisionBrief.zoneComparison.map((item) => `
     <article class="card compare-card ${classByCategory.get(item.stance) || "neutral"}">
-      <p class="eyebrow ${toneByCategory.get(item.stance) || "tone-neutral"}">${escapeHtml(shortCategory.get(item.stance) || "Comparison")}</p>
+      <p class="eyebrow ${toneByCategory.get(item.stance) || "tone-neutral"}">${escapeHtml(item.label || shortCategory.get(item.stance) || "Comparison")}</p>
       <h3>${colorStanceText(item.title)}</h3>
       <p>${colorStanceText(item.summary)}</p>
     </article>
@@ -1025,10 +986,8 @@ async function init() {
   renderSummaryCards();
   renderReadFirst();
   renderBarChart();
-  renderChartTextSummary();
   renderSourceDocuments();
   renderDifferenceChart();
-  renderConfidenceChart();
   renderTopicCloud("#topic-cloud-page", 22);
   renderPageChart();
   renderZoneContext();

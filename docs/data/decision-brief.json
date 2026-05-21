@@ -253,9 +253,10 @@
       "stance": "Against proposed Zoning Changes"
     },
     {
-      "title": "Zone 5B is still majority against, but has a larger in-favor share",
-      "summary": "Zone 5B remains 67.3% against as written, while its in-favor share is 6.9 percentage points higher than Zone 4A (27.4% vs. 20.5%).",
-      "stance": "In Favor of proposed Zoning Changes"
+      "title": "Zone 5B is still majority against, but has more support than Zone 4A",
+      "summary": "Zone 5B is 67.3% against, while its support share is 6.9 percentage points higher than Zone 4A (27.4% vs. 20.5%).",
+      "stance": "Against proposed Zoning Changes",
+      "label": "Comparison"
     }
   ],
   "decisionFaq": [
