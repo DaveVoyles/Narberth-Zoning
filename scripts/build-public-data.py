@@ -364,9 +364,12 @@ def zone_comparison(summary: dict[str, object]) -> list[dict[str, object]]:
             )
         higher_zone = first_zone if first_percent > second_percent else second_zone
         lower_zone = second_zone if first_percent > second_percent else first_zone
+        higher_percent = first_percent if first_percent > second_percent else second_percent
+        lower_percent = second_percent if first_percent > second_percent else first_percent
         return (
             f"{higher_zone} has more {label} responses",
-            f"The {label} share is {gap} percentage points higher in {higher_zone} than {lower_zone}.",
+            f"The {label} share is {gap} percentage points higher in {higher_zone} "
+            f"({higher_percent}%) than {lower_zone} ({lower_percent}%).",
         )
 
     both_majority_against = all(categories[CATEGORY_ORDER[0]]["percent"] > 50 for _, categories in zone_pairs)
