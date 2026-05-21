@@ -30,14 +30,13 @@
         </button>
         <div id="nav-links" class="nav-links">
           <a href="#home">Summary</a>
-          <a href="brief.html">Brief</a>
+          <a href="#brief">Brief</a>
           <a href="#questions">Questions</a>
           <a href="#charts">Charts</a>
           <a href="#topic-insights">Topics</a>
-          <a href="table.html">Table</a>
-          <a href="review.html">Review</a>
           <a href="#findings">Findings</a>
           <a href="#downloads">Downloads</a>
+          <a href="table.html">Table</a>
           <a href="https://github.com/DaveVoyles/Narberth-Zoning" rel="noreferrer">GitHub</a>
         </div>
       </nav>
@@ -80,12 +79,34 @@
         <div id="read-first-panel" class="card-grid read-first-grid"></div>
       </section>
 
-      <section id="section-links" class="page-section compact-section">
+      <section id="brief" class="page-section">
+        <div class="section-heading">
+          <p class="eyebrow">Decision brief</p>
+          <h2>The bottom line for council and residents</h2>
+          <p>
+            Combined totals across both zones, the key things to know before the meeting, and the
+            questions most likely to come up in public discussion.
+          </p>
+        </div>
+        <div id="brief-content"></div>
+        <div id="brief-zones" class="card-grid two"></div>
+        <div class="content-card">
+          <h2>Important caveats</h2>
+          <ul id="brief-limits" class="clean-list"></ul>
+          <p>
+            Download the underlying <a href="data/decision-brief.json">decision brief data</a> or
+            inspect the <a href="table.html">full response table</a> to trace these figures.
+          </p>
+        </div>
+      </section>
+
+ class="page-section compact-section">
         <div class="content-card">
           <h2>Shareable section links</h2>
           <p class="muted">Use these stable anchors to point someone directly to the part of the dashboard they need.</p>
           <nav class="anchor-list" aria-label="Shareable section links">
             <a href="#read-first">Read first</a>
+            <a href="#brief">Brief</a>
             <a href="#sources">Sources</a>
             <a href="#questions">Questions</a>
             <a href="#charts">Charts</a>
@@ -152,37 +173,40 @@
       <section id="charts" class="page-section">
         <div class="section-heading">
           <p class="eyebrow">Charts and graphics</p>
-          <h2>Stance breakdown by zone</h2>
+          <h2>How residents responded, by zone</h2>
           <p>
-            The charts below show each response classified as against, neutral, or in favor of the
-            proposed zoning changes as written.
+            Start with the bar chart — that's your headline number. Then use the other charts to
+            understand the gap between zones, the specific issues people raised, and how confident
+            the analysis is before you cite any figure officially.
           </p>
         </div>
         <div class="chart-layout">
           <article class="card chart-card">
-            <h3>Side-by-side stance comparison</h3>
+            <h3>Who opposed, who supported, who was neutral?</h3>
             <p class="muted">
-              This shows whether opposition, neutrality, or support is strongest in each zone; it matters
-              because decision-makers can see the overall public response before drilling into details.
+              Start here. This is the bottom line — what share of residents in each zone opposed,
+              supported, or were unclear about the proposed changes. If you only look at one chart,
+              make it this one.
             </p>
             <div id="bar-chart" class="bar-chart" role="img" aria-label="Bar chart comparing sentiment percentages for Zone 4A and Zone 5B"></div>
           </article>
           <article class="card chart-card">
-            <h3>Zone difference</h3>
+            <h3>Are the two zones reacting the same way?</h3>
             <p class="muted">
-              This makes the gap between Zone 4A and Zone 5B explicit for each stance; it matters
-              because it separates shared sentiment from zone-specific differences.
+              This shows where Zone 4A and Zone 5B diverge. A large gap means the two areas may need
+              to be addressed differently — the same response won't land the same way in both
+              neighborhoods.
             </p>
             <div id="difference-chart" class="difference-chart"></div>
           </article>
         </div>
         <div class="chart-layout secondary-charts single-chart">
           <article class="card chart-card">
-            <h3>Response particle field</h3>
+            <h3>Every response, as a dot</h3>
             <p class="muted">
-              Each point represents one classified response, grouped by zone and stance. The counts
-              below provide the exact values for the dots; it matters because clusters make imbalance
-              and minority viewpoints easier to see at a glance.
+              Each dot is one real response. The size of each cluster makes the scale concrete — not
+              just a percentage, but how many individual people are behind it. A large cluster of red
+              dots means a lot of residents said the same thing.
             </p>
             <canvas id="particle-canvas" width="720" height="420" aria-label="Interactive particle visualization of classified responses"></canvas>
             <div id="particle-values" class="particle-values" aria-label="Particle field values"></div>
@@ -190,19 +214,20 @@
           </article>
         </div>
         <div class="card">
-          <h3>Text equivalent</h3>
+          <h3>The numbers in plain text</h3>
           <p class="muted">
-            This restates the chart values in plain language; it matters for readers who need the
-            takeaway without interpreting graphics.
+            Prefer plain numbers over bar charts? Here's the same data written out. Useful for
+            copying into a report or presenting without graphics.
           </p>
           <div id="chart-text-summary"></div>
         </div>
         <div class="chart-layout secondary-charts single-chart">
           <article class="card chart-card">
-            <h3>Confidence and review queue</h3>
+            <h3>How reliable are these classifications?</h3>
             <p class="muted">
-              This shows how many classifications are high, medium, or low confidence; it matters
-              because medium and low-confidence rows should be checked before official use.
+              Some responses were harder to classify than others. Before citing specific figures in
+              an official document, it's worth having a person double-check the medium- and
+              low-confidence rows — they may need a closer read.
             </p>
             <div id="confidence-chart" class="bar-chart" role="img" aria-label="Confidence distribution by zone"></div>
           </article>
@@ -210,48 +235,50 @@
         <section id="topic-insights" class="topic-insights">
           <div class="section-heading compact-heading">
             <p class="eyebrow">Topic insights</p>
-            <h3>What issues came up most often?</h3>
+            <h3>What specific concerns did people raise?</h3>
             <p>
-              Topic tags are provisional, keyword-assisted tags inferred from classification rationale.
-              A single response can receive more than one tag, so topic totals are not vote totals.
+              These tags flag the issues mentioned most — parking, height, density, traffic, and
+              more. One person can mention several topics, so these counts show how often a topic
+              came up, not how many unique people raised it.
             </p>
           </div>
           <div id="topics-overall" class="mini-grid"></div>
           <article class="card chart-card topic-cloud-card">
             <p class="eyebrow">Topic cloud</p>
-            <h3>Frequency-weighted provisional topics</h3>
+            <h3>What dominated the conversation?</h3>
             <p class="muted">
-              Larger labels mark recurring themes found in the classification rationale, such as
-              parking, height, or density. This matters because it highlights which concerns deserve
-              closer source review without treating topic tags as votes.
+              The bigger the word, the more often it came up. This is the fastest way to see what
+              residents are most likely to bring up at a public meeting — the biggest words here are
+              the ones you should be prepared to address.
             </p>
             <div id="topic-cloud-page" class="topic-cloud" aria-label="Provisional topic cloud"></div>
           </article>
           <article class="card chart-card heatmap-card">
             <p class="eyebrow">Topic by stance</p>
-            <h3>Which topics appear with opposition, neutrality, or support?</h3>
+            <h3>What drove opposition vs. support?</h3>
             <p class="muted">
-              This heatmap shows which provisional topics appear most often within each stance; it matters
-              because it helps separate broad opposition from the specific issues driving each group.
+              Opponents and supporters often worried about different things. Darker cells mean more
+              responses. Use this to understand <em>why</em> people opposed or supported the
+              changes — not just that they did.
             </p>
             <div id="topic-stance-heatmap"></div>
           </article>
           <div class="chart-layout secondary-charts">
             <article class="card chart-card">
               <p class="eyebrow">By zone</p>
-              <h3>Top provisional topics in each analyzed section</h3>
+              <h3>Do both neighborhoods share the same concerns?</h3>
               <p class="muted">
-                This compares recurring topics in Zone 4A and Zone 5B; it matters because some concerns
-                may be shared while others are tied to a specific zoning section.
+                Or does each area have its own issues? Use this to decide whether a response needs
+                to treat both zones the same way, or address their specific concerns separately.
               </p>
               <div id="topics-by-zone" class="card-grid two nested-card-grid"></div>
             </article>
             <article class="card chart-card">
               <p class="eyebrow">Top concerns by stance</p>
-              <h3>What rises to the top within each stance?</h3>
+              <h3>What were opponents most focused on? What did supporters care about?</h3>
               <p class="muted">
-                This separates high-volume opposition topics from neutral or supportive themes so readers
-                can see what each group emphasized.
+                This ranks the issues within each group. If you want to know which concerns to
+                address to make a real difference in public response, start here.
               </p>
               <div id="top-concerns-by-stance" class="card-grid two nested-card-grid"></div>
             </article>
@@ -259,19 +286,21 @@
         </section>
         <div class="chart-layout secondary-charts single-chart">
           <article class="card chart-card">
-            <h3>Zone context</h3>
+            <h3>Which streets and areas are these zones?</h3>
             <p class="muted">
-              This identifies which survey pages and area labels each zone refers to. It is not a map;
-              use it to keep the chart data tied to the right survey section, not to parcel boundaries.
+              Not sure which zone covers which neighborhood? This maps each zone to the survey
+              pages and street areas it covers. Use it to connect a chart number back to a real
+              place. Note: this is about survey sections, not parcel boundaries.
             </p>
             <div id="zone-context" class="zone-context"></div>
           </article>
         </div>
         <article class="card chart-card">
-          <h3>Page flow through the source PDF</h3>
+          <h3>Was opposition spread evenly, or concentrated in one area?</h3>
           <p class="muted">
-            Small page-level bars show how response mix changes across the analyzed sections; it matters
-            because clusters by page can reveal where the source document may need closer review.
+            This shows how the response mix shifted page by page through the survey. A spike on a
+            few pages may mean something on those pages got a strong reaction — worth pulling up
+            the original survey to see what prompted it.
           </p>
           <div id="page-chart" class="page-chart" role="img" aria-label="Stance distribution by PDF page"></div>
         </article>

@@ -466,7 +466,6 @@ function renderConfidenceCallout() {
       The review queue contains ${state.reviewQueue.totalRows} rows because it also includes
       mixed or conditional responses. Use this as an audit list before official use.
     </p>
-    <a class="button" href="review.html">Open review queue</a>
   `;
 }
 
@@ -1030,7 +1029,6 @@ async function init() {
   renderTopicFilter();
   renderSummaryCards();
   renderReadFirst();
-  renderReadFirst("#brief-read-first");
   renderBarChart();
   renderChartTextSummary();
   renderSourceDocuments();
@@ -1041,25 +1039,18 @@ async function init() {
   renderZoneContext();
   renderRepresentativeCards();
   renderDecisionFaq();
-  renderDecisionFaq("#brief-faq");
   renderZoneComparisonCards();
-  renderZoneComparisonCards("#brief-zone-comparison");
   renderConfidenceExplainer();
-  renderConfidenceExplainer("#brief-confidence-explainer");
   renderConfidenceCallout();
   renderConcernResponseMatrix();
-  renderConcernResponseMatrix("#brief-concern-response-matrix");
   renderGlossary();
-  renderGlossary("#brief-glossary-list");
   renderWhatWouldChangeMinds();
-  renderWhatWouldChangeMinds("#brief-change-minds");
   renderParticles();
   renderTable();
   renderDownloads();
   renderAuditSummary();
   renderBriefPage();
   renderTopicsPage();
-  renderReviewPage();
   setupTableControls();
   ["#zone-filter", "#category-filter", "#confidence-filter", "#topic-filter", "#search-filter"].forEach((selector) => {
     document.querySelector(selector)?.addEventListener("input", renderTable);
