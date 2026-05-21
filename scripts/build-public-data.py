@@ -146,32 +146,26 @@ PUBLIC_TOPIC_EXCLUSIONS = {
 REPRESENTATIVE_CARD_TOPICS = [
     {
         "topic": "Parking",
-        "resident": "Narberth Resident A",
         "summary": "Parking requirements and spillover onto nearby streets were a recurring concern.",
     },
     {
         "topic": "Building height",
-        "resident": "Narberth Resident B",
         "summary": "Building height and scale were often raised as concerns about how larger projects would fit the borough.",
     },
     {
         "topic": "Density",
-        "resident": "Narberth Resident C",
         "summary": "Several responses focused on whether added density would be appropriate in the proposed locations.",
     },
     {
         "topic": "Affordable housing",
-        "resident": "Narberth Resident D",
         "summary": "Some respondents connected the zoning discussion to housing affordability and whether the proposal would create affordable options.",
     },
     {
         "topic": "Traffic and safety",
-        "resident": "Narberth Resident E",
         "summary": "Traffic, congestion, and pedestrian safety appeared as recurring practical concerns.",
     },
     {
         "topic": "Transit and walkability",
-        "resident": "Narberth Resident F",
         "summary": "Some responses discussed whether transit access and walkability could support different parking or density assumptions.",
     },
 ]
@@ -485,7 +479,7 @@ def what_would_change_minds(rows: list[dict[str, object]]) -> dict[str, object]:
         or "conditional" in str(row["rationale"]).lower()
     ]
     tag_rows = public_topic_rows(conditional_rows)
-    topics = sorted({row["topic"] for row in tag_rows})
+    topics = sorted({row["topic"] for row in tag_rows if row["topic"] != "Conditional or mixed response"})
     top_topics = sorted(
         [
             topic_metric(topic, [row for row in tag_rows if row["topic"] == topic], len(conditional_rows))
@@ -715,19 +709,18 @@ def representative_cards(rows: list[dict[str, object]]) -> dict[str, object]:
         row = matches[0]
         cards.append(
             {
-                "resident": card["resident"],
                 "topic": card["topic"],
                 "zone": row["zone"],
                 "page": row["page"],
                 "stance": row["category"],
                 "summary": card["summary"],
                 "rationale": row["rationale"],
-                "note": "Name-free representative card based on public classification rationale; not a verbatim respondent quote.",
+                "note": "Representative theme card based on public classification rationale; not a verbatim respondent quote.",
             }
         )
     return {
         "generatedOn": date.today().isoformat(),
-        "privacyNote": "Cards use anonymized resident labels and do not display names or direct raw-response text.",
+        "privacyNote": "Cards summarize themes without displaying names or direct raw-response text.",
         "cards": cards,
     }
 
@@ -756,7 +749,6 @@ def decision_brief(rows: list[dict[str, object]]) -> dict[str, object]:
         "keyTakeaways": [
             "Across both analyzed sections, against-as-written classifications are the largest stance category.",
             "Zone 4A has a higher against-as-written share than Zone 5B.",
-            "Zone 5B has a higher in-favor share than Zone 4A, though against-as-written responses remain larger.",
             "Topic tags are provisional and should be treated as exploration aids until human review.",
         ],
         "discussionQuestions": [
@@ -768,7 +760,7 @@ def decision_brief(rows: list[dict[str, object]]) -> dict[str, object]:
         ],
         "limits": [
             "This is a classified readout of written survey responses, not a scientific referendum.",
-            "Representative cards use anonymized labels and do not display names.",
+            "Representative cards summarize themes and do not display names or synthetic resident labels.",
             "Topic tags are keyword-assisted from classification rationale and may undercount or overcount themes.",
         ],
     }
@@ -805,6 +797,18 @@ def manifest(rows: list[dict[str, object]]) -> dict[str, object]:
         "sourceDocuments": SOURCE_DOCUMENTS,
         "files": files,
     }
+
+
+def write_manifest(path: Path, rows: list[dict[str, object]]) -> None:
+    output = manifest(rows)
+    while True:
+        text = json.dumps(output, indent=2)
+        manifest_size = len(text.encode("utf-8"))
+        manifest_entry = next(file for file in output["files"] if file["path"] == "data/manifest.json")
+        if manifest_entry["bytes"] == manifest_size:
+            path.write_text(text, encoding="utf-8")
+            return
+        manifest_entry["bytes"] = manifest_size
 
 
 def describe_file(name: str) -> str:
@@ -856,29 +860,36 @@ def sheet_xml(rows: list[list[object]]) -> str:
     return "".join(xml)
 
 
+def write_zip_text(archive: zipfile.ZipFile, name: str, content: str) -> None:
+    info = zipfile.ZipInfo(name, date_time=(2026, 1, 1, 0, 0, 0))
+    info.compress_type = zipfile.ZIP_DEFLATED
+    archive.writestr(info, content)
+
+
 def write_xlsx(path: Path, sheets: dict[str, list[list[object]]]) -> None:
     with zipfile.ZipFile(path, "w", zipfile.ZIP_DEFLATED) as archive:
         overrides = "".join(
             f'<Override PartName="/xl/worksheets/sheet{i}.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/>'
             for i in range(1, len(sheets) + 1)
         )
-        archive.writestr(
+        write_zip_text(
+            archive,
             "[Content_Types].xml",
             '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/><Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/>'
             + overrides
             + '<Override PartName="/docProps/core.xml" ContentType="application/vnd.openxmlformats-package.core-properties+xml"/><Override PartName="/docProps/app.xml" ContentType="application/vnd.openxmlformats-officedocument.extended-properties+xml"/></Types>',
         )
-        archive.writestr("_rels/.rels", '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/></Relationships>')
-        archive.writestr("docProps/core.xml", f'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><dc:title>Narberth zoning survey classifications</dc:title><dc:creator>GitHub Copilot</dc:creator><dcterms:created xsi:type="dcterms:W3CDTF">{date.today().isoformat()}T00:00:00Z</dcterms:created></cp:coreProperties>')
-        archive.writestr("docProps/app.xml", '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties" xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes"><Application>Microsoft Excel</Application></Properties>')
-        archive.writestr("xl/styles.xml", '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><fonts count="2"><font><sz val="11"/><name val="Arial"/></font><font><b/><sz val="11"/><name val="Arial"/></font></fonts><fills count="2"><fill><patternFill patternType="none"/></fill><fill><patternFill patternType="gray125"/></fill></fills><borders count="1"><border><left/><right/><top/><bottom/><diagonal/></border></borders><cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs><cellXfs count="2"><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/><xf numFmtId="0" fontId="1" fillId="0" borderId="0" xfId="0" applyFont="1"/></cellXfs><cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles></styleSheet>')
+        write_zip_text(archive, "_rels/.rels", '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/></Relationships>')
+        write_zip_text(archive, "docProps/core.xml", f'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><dc:title>Narberth zoning survey classifications</dc:title><dc:creator>GitHub Copilot</dc:creator><dcterms:created xsi:type="dcterms:W3CDTF">{date.today().isoformat()}T00:00:00Z</dcterms:created></cp:coreProperties>')
+        write_zip_text(archive, "docProps/app.xml", '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties" xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes"><Application>Microsoft Excel</Application></Properties>')
+        write_zip_text(archive, "xl/styles.xml", '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><fonts count="2"><font><sz val="11"/><name val="Arial"/></font><font><b/><sz val="11"/><name val="Arial"/></font></fonts><fills count="2"><fill><patternFill patternType="none"/></fill><fill><patternFill patternType="gray125"/></fill></fills><borders count="1"><border><left/><right/><top/><bottom/><diagonal/></border></borders><cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs><cellXfs count="2"><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/><xf numFmtId="0" fontId="1" fillId="0" borderId="0" xfId="0" applyFont="1"/></cellXfs><cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles></styleSheet>')
         sheet_nodes = "".join(f'<sheet name="{escape(name)}" sheetId="{i}" r:id="rId{i}"/>' for i, name in enumerate(sheets, 1))
-        archive.writestr("xl/workbook.xml", f'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><sheets>{sheet_nodes}</sheets></workbook>')
+        write_zip_text(archive, "xl/workbook.xml", f'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><sheets>{sheet_nodes}</sheets></workbook>')
         rels = "".join(f'<Relationship Id="rId{i}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet{i}.xml"/>' for i in range(1, len(sheets) + 1))
         rels += f'<Relationship Id="rId{len(sheets) + 1}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/>'
-        archive.writestr("xl/_rels/workbook.xml.rels", f'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">{rels}</Relationships>')
+        write_zip_text(archive, "xl/_rels/workbook.xml.rels", f'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">{rels}</Relationships>')
         for index, rows in enumerate(sheets.values(), 1):
-            archive.writestr(f"xl/worksheets/sheet{index}.xml", sheet_xml(rows))
+            write_zip_text(archive, f"xl/worksheets/sheet{index}.xml", sheet_xml(rows))
 
 
 def workbook_rows(rows: list[dict[str, object]]) -> list[list[object]]:
@@ -942,7 +953,7 @@ def main() -> None:
     )
     write_xlsx(DOCUMENTS / "zone-4a-classified.xlsx", {"Zone 4A": workbook_rows([row for row in rows if row["zone"] == "Zone 4A"])})
     write_xlsx(DOCUMENTS / "zone-5b-classified.xlsx", {"Zone 5B": workbook_rows([row for row in rows if row["zone"] == "Zone 5B"])})
-    (DATA / "manifest.json").write_text(json.dumps(manifest(rows), indent=2), encoding="utf-8")
+    write_manifest(DATA / "manifest.json", rows)
 
 
 if __name__ == "__main__":

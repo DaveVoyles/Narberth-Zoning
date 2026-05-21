@@ -1,66 +1,60 @@
 {
   "generatedOn": "2026-05-21",
-  "privacyNote": "Cards use anonymized resident labels and do not display names or direct raw-response text.",
+  "privacyNote": "Cards summarize themes without displaying names or direct raw-response text.",
   "cards": [
     {
-      "resident": "Narberth Resident A",
       "topic": "Parking",
       "zone": "Zone 4A",
       "page": 90,
       "stance": "Against proposed Zoning Changes",
       "summary": "Parking requirements and spillover onto nearby streets were a recurring concern.",
       "rationale": "opposes apartments traffic parking",
-      "note": "Name-free representative card based on public classification rationale; not a verbatim respondent quote."
+      "note": "Representative theme card based on public classification rationale; not a verbatim respondent quote."
     },
     {
-      "resident": "Narberth Resident B",
       "topic": "Building height",
       "zone": "Zone 4A",
       "page": 90,
       "stance": "Against proposed Zoning Changes",
       "summary": "Building height and scale were often raised as concerns about how larger projects would fit the borough.",
       "rationale": "opposes height and setbacks",
-      "note": "Name-free representative card based on public classification rationale; not a verbatim respondent quote."
+      "note": "Representative theme card based on public classification rationale; not a verbatim respondent quote."
     },
     {
-      "resident": "Narberth Resident C",
       "topic": "Density",
       "zone": "Zone 4A",
       "page": 90,
       "stance": "Against proposed Zoning Changes",
       "summary": "Several responses focused on whether added density would be appropriate in the proposed locations.",
       "rationale": "opposes apartments traffic parking",
-      "note": "Name-free representative card based on public classification rationale; not a verbatim respondent quote."
+      "note": "Representative theme card based on public classification rationale; not a verbatim respondent quote."
     },
     {
-      "resident": "Narberth Resident D",
       "topic": "Affordable housing",
       "zone": "Zone 4A",
       "page": 90,
       "stance": "In Favor of proposed Zoning Changes",
       "summary": "Some respondents connected the zoning discussion to housing affordability and whether the proposal would create affordable options.",
       "rationale": "supports with affordability caveat",
-      "note": "Name-free representative card based on public classification rationale; not a verbatim respondent quote."
+      "note": "Representative theme card based on public classification rationale; not a verbatim respondent quote."
     },
     {
-      "resident": "Narberth Resident E",
       "topic": "Traffic and safety",
       "zone": "Zone 4A",
       "page": 90,
       "stance": "Against proposed Zoning Changes",
       "summary": "Traffic, congestion, and pedestrian safety appeared as recurring practical concerns.",
       "rationale": "opposes apartments traffic parking",
-      "note": "Name-free representative card based on public classification rationale; not a verbatim respondent quote."
+      "note": "Representative theme card based on public classification rationale; not a verbatim respondent quote."
     },
     {
-      "resident": "Narberth Resident F",
       "topic": "Transit and walkability",
       "zone": "Zone 4A",
       "page": 98,
       "stance": "In Favor of proposed Zoning Changes",
       "summary": "Some responses discussed whether transit access and walkability could support different parking or density assumptions.",
       "rationale": "wants more housing and fewer constraints",
-      "note": "Name-free representative card based on public classification rationale; not a verbatim respondent quote."
+      "note": "Representative theme card based on public classification rationale; not a verbatim respondent quote."
     }
   ]
 }

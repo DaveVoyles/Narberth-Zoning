@@ -149,11 +149,11 @@ def validate_json(errors: list[str]) -> None:
     if len(cards.get("cards", [])) < 4:
         errors.append("representative-cards.json should include at least four cards")
     for card in cards.get("cards", []):
-        for field in ["resident", "topic", "zone", "page", "stance", "summary", "rationale", "note"]:
+        for field in ["topic", "zone", "page", "stance", "summary", "rationale", "note"]:
             if not card.get(field):
                 errors.append(f"representative card missing {field}: {card}")
-        if not re.fullmatch(r"Narberth Resident [A-Z]", card.get("resident", "")):
-            errors.append(f"representative card resident label is not anonymized: {card.get('resident')}")
+        if "resident" in card:
+            errors.append(f"representative card should not use synthetic resident labels: {card.get('resident')}")
 
 
 def validate_links(errors: list[str]) -> None:

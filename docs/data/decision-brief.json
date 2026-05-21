@@ -289,14 +289,6 @@
     "summary": "Rows flagged as mixed, neutral, or conditional are the best starting point for understanding which amendments, safeguards, or evidence could address concerns.",
     "topTopics": [
       {
-        "topic": "Conditional or mixed response",
-        "count": 50,
-        "responseShare": 61.7,
-        "Against proposed Zoning Changes": 43,
-        "Neutral": 3,
-        "In Favor of proposed Zoning Changes": 4
-      },
-      {
         "topic": "Density",
         "count": 37,
         "responseShare": 45.7,
@@ -334,6 +326,14 @@
         "responseShare": 1.2,
         "Against proposed Zoning Changes": 0,
         "Neutral": 1,
+        "In Favor of proposed Zoning Changes": 0
+      },
+      {
+        "topic": "Neighborhood character",
+        "count": 1,
+        "responseShare": 1.2,
+        "Against proposed Zoning Changes": 1,
+        "Neutral": 0,
         "In Favor of proposed Zoning Changes": 0
       }
     ],
@@ -467,7 +467,6 @@
   "keyTakeaways": [
     "Across both analyzed sections, against-as-written classifications are the largest stance category.",
     "Zone 4A has a higher against-as-written share than Zone 5B.",
-    "Zone 5B has a higher in-favor share than Zone 4A, though against-as-written responses remain larger.",
     "Topic tags are provisional and should be treated as exploration aids until human review."
   ],
   "discussionQuestions": [
@@ -479,7 +478,7 @@
   ],
   "limits": [
     "This is a classified readout of written survey responses, not a scientific referendum.",
-    "Representative cards use anonymized labels and do not display names.",
+    "Representative cards summarize themes and do not display names or synthetic resident labels.",
     "Topic tags are keyword-assisted from classification rationale and may undercount or overcount themes."
   ]
 }

@@ -163,12 +163,17 @@
         <div class="chart-layout">
           <article class="card chart-card">
             <h3>Side-by-side stance comparison</h3>
+            <p class="muted">
+              This shows whether opposition, neutrality, or support is strongest in each zone; it matters
+              because decision-makers can see the overall public response before drilling into details.
+            </p>
             <div id="bar-chart" class="bar-chart" role="img" aria-label="Bar chart comparing sentiment percentages for Zone 4A and Zone 5B"></div>
           </article>
           <article class="card chart-card">
             <h3>Zone difference</h3>
             <p class="muted">
-              This table makes the gap between Zone 4A and Zone 5B explicit for each stance.
+              This makes the gap between Zone 4A and Zone 5B explicit for each stance; it matters
+              because it separates shared sentiment from zone-specific differences.
             </p>
             <div id="difference-chart" class="difference-chart"></div>
           </article>
@@ -179,7 +184,8 @@
             <p class="muted">
               Larger labels mark recurring themes found in the classification rationale, such as
               parking, height, or density. Use this as a quick orientation tool, not as a final
-              topic model or vote count.
+              topic model or vote count; it matters because it highlights which concerns deserve
+              closer source review.
             </p>
             <div id="topic-cloud" class="topic-cloud" aria-label="Provisional topic cloud"></div>
           </article>
@@ -187,7 +193,8 @@
             <h3>Response particle field</h3>
             <p class="muted">
               Each point represents one classified response, grouped by zone and stance. The counts
-              below provide the exact values for the dots.
+              below provide the exact values for the dots; it matters because clusters make imbalance
+              and minority viewpoints easier to see at a glance.
             </p>
             <canvas id="particle-canvas" width="720" height="420" aria-label="Interactive particle visualization of classified responses"></canvas>
             <div id="particle-values" class="particle-values" aria-label="Particle field values"></div>
@@ -196,37 +203,46 @@
         </div>
         <div class="card">
           <h3>Text equivalent</h3>
+          <p class="muted">
+            This restates the chart values in plain language; it matters for readers who need the
+            takeaway without interpreting graphics.
+          </p>
           <div id="chart-text-summary"></div>
         </div>
         <div class="chart-layout secondary-charts">
           <article class="card chart-card">
             <h3>Confidence and review queue</h3>
-            <p class="muted">Medium and low-confidence rows are useful starting points for human review.</p>
+            <p class="muted">
+              This shows how many classifications are high, medium, or low confidence; it matters
+              because medium and low-confidence rows should be checked before official use.
+            </p>
             <div id="confidence-chart" class="bar-chart" role="img" aria-label="Confidence distribution by zone"></div>
           </article>
           <article class="card chart-card">
             <h3>Most common provisional topics</h3>
-            <p class="muted">Topic tags are keyword-assisted tags from classification rationale, not full raw responses.</p>
+            <p class="muted">
+              This ranks the most frequent provisional tags from the classification rationale; it matters
+              because it points to the issues residents mentioned most often, without treating tags as votes.
+            </p>
             <div id="topic-chart" class="bar-chart" role="img" aria-label="Most common provisional topics"></div>
           </article>
         </div>
-        <div class="chart-layout secondary-charts">
-          <article class="card chart-card">
-            <h3>Zone stance donuts</h3>
-            <p class="muted">Each donut repeats the stance percentages for one analyzed section.</p>
-            <div id="donut-chart" class="donut-grid" aria-label="Donut charts by zone"></div>
-          </article>
+        <div class="chart-layout secondary-charts single-chart">
           <article class="card chart-card">
             <h3>Zone context</h3>
             <p class="muted">
               Boundary geometry is not available yet, so this is a context panel rather than a map.
+              It matters because readers should not mistake this dashboard for a parcel-level zoning map.
             </p>
             <div id="zone-context" class="zone-context"></div>
           </article>
         </div>
         <article class="card chart-card">
           <h3>Page flow through the source PDF</h3>
-          <p class="muted">Small page-level bars show how response mix changes across the analyzed sections.</p>
+          <p class="muted">
+            Small page-level bars show how response mix changes across the analyzed sections; it matters
+            because clusters by page can reveal where the source document may need closer review.
+          </p>
           <div id="page-chart" class="page-chart" role="img" aria-label="Stance distribution by PDF page"></div>
         </article>
       </section>
@@ -236,8 +252,8 @@
           <p class="eyebrow">Representative cards</p>
           <h2>Name-free public comment themes</h2>
           <p>
-            These cards summarize recurring themes from the public classification data and use
-            anonymized labels such as "Narberth Resident A." They do not display names.
+            These cards summarize recurring themes from the public classification data. They do not
+            display names, synthetic resident labels, or direct quotes.
           </p>
         </div>
         <div id="quote-card-grid" class="card-grid three"></div>
@@ -347,8 +363,8 @@
           <article class="card">
             <h3>Privacy guardrail</h3>
             <p>
-              The public table shows classification rationale. Representative cards use anonymized
-              resident labels and do not display names.
+              The public table shows classification rationale. Representative cards summarize themes
+              without names, synthetic resident labels, or direct quotes.
             </p>
           </article>
           <article class="card">

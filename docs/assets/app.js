@@ -22,6 +22,14 @@ const toneByCategory = new Map([
   ["In Favor of proposed Zoning Changes", "tone-positive"],
 ]);
 
+const genericTopicLabels = new Set([
+  "General stance",
+  "General opposition",
+  "General support",
+  "Unclear or neutral",
+  "Uncategorized response",
+]);
+
 const downloads = [
   { title: "Raw survey results", href: "documents/raw-survey-results.pdf", format: "PDF", description: "Original 90+ page survey export used as the source document." },
   { title: "Zone 4A classifications", href: "data/zone-4a-classified.csv", format: "CSV", description: "Enriched row-level classification output for Zone 4A responses." },
@@ -248,28 +256,6 @@ function renderDifferenceChart() {
   }).join("");
 }
 
-function renderDonutChart() {
-  const target = document.querySelector("#donut-chart");
-  if (!target) return;
-  target.innerHTML = state.summary.zones.map((zone) => {
-    const values = Object.fromEntries(zone.categories.map((entry) => [entry.category, entry.percent]));
-    const against = values[categoryOrder[0]] || 0;
-    const neutral = values[categoryOrder[1]] || 0;
-    const favor = values[categoryOrder[2]] || 0;
-    return `
-      <article class="donut-card">
-        <div class="donut" style="--against:${against}; --neutral:${neutral}; --favor:${favor};" aria-hidden="true">
-          <span>${zone.totalResponses}</span>
-        </div>
-        <div>
-          <h4>${escapeHtml(zone.zone)}</h4>
-          <p class="muted">${against}% against, ${neutral}% neutral, ${favor}% in favor.</p>
-        </div>
-      </article>
-    `;
-  }).join("");
-}
-
 function renderConfidenceChart() {
   const target = document.querySelector("#confidence-chart");
   if (!target) return;
@@ -297,7 +283,9 @@ function renderConfidenceChart() {
 function renderTopicChart() {
   const target = document.querySelector("#topic-chart");
   if (!target) return;
-  const topics = state.topicSummary.topicCounts.slice(0, 10);
+  const topics = state.topicSummary.topicCounts
+    .filter((item) => !genericTopicLabels.has(item.topic))
+    .slice(0, 10);
   const max = Math.max(...topics.map((item) => item.count), 1);
   target.innerHTML = topics.map((item) => `
     <div class="metric-row">
@@ -320,7 +308,9 @@ function dominantTopicCategory(topic) {
 function renderTopicCloud(selector, limit = 18) {
   const target = document.querySelector(selector);
   if (!target) return;
-  const topics = state.topicSummary.topicCounts.slice(0, limit);
+  const topics = state.topicSummary.topicCounts
+    .filter((item) => !genericTopicLabels.has(item.topic))
+    .slice(0, limit);
   const counts = topics.map((topic) => topic.count);
   const min = Math.min(...counts);
   const max = Math.max(...counts);
@@ -388,7 +378,6 @@ function renderRepresentativeCards() {
       <blockquote>
         <p>${escapeHtml(card.summary)}</p>
       </blockquote>
-      <p><strong>${escapeHtml(card.resident)}</strong></p>
       <p class="muted">${escapeHtml(card.zone)} p.${card.page}; ${escapeHtml(shortCategory.get(card.stance) || card.stance)}. Based on classification rationale: ${escapeHtml(card.rationale)}.</p>
       ${sourceReferenceHtml(card.page)}
     </article>
@@ -997,7 +986,10 @@ function downloadFilteredCsv() {
 function renderTopicFilter() {
   const select = document.querySelector("#topic-filter");
   if (!select) return;
-  const topics = state.topicSummary.topicCounts.map((entry) => entry.topic).sort();
+  const topics = state.topicSummary.topicCounts
+    .map((entry) => entry.topic)
+    .filter((topic) => !genericTopicLabels.has(topic))
+    .sort();
   select.innerHTML += topics.map((topic) => `<option value="${escapeHtml(topic)}">${escapeHtml(topic)}</option>`).join("");
 }
 
@@ -1062,7 +1054,6 @@ async function init() {
   renderChartTextSummary();
   renderSourceDocuments();
   renderDifferenceChart();
-  renderDonutChart();
   renderConfidenceChart();
   renderTopicChart();
   renderTopicCloud("#topic-cloud", 16);

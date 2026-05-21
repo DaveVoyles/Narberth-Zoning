@@ -393,6 +393,10 @@ h4 {
   margin-top: 1.5rem;
 }
 
+.single-chart {
+  grid-template-columns: 1fr;
+}
+
 .chart-card {
   min-height: 360px;
 }
@@ -648,13 +652,11 @@ h4 {
   margin: 0 0 0.75rem;
 }
 
-.donut-grid,
 .zone-context {
   display: grid;
   gap: 1rem;
 }
 
-.donut-card,
 .zone-context-card {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -664,24 +666,6 @@ h4 {
   border: 1px solid var(--cp-border);
   border-radius: 0.625rem;
   background: var(--cp-surface-soft);
-}
-
-.donut {
-  --against-end: calc(var(--against) * 1%);
-  --neutral-end: calc((var(--against) + var(--neutral)) * 1%);
-  display: grid;
-  width: 6rem;
-  height: 6rem;
-  place-items: center;
-  border-radius: 50%;
-  background:
-    radial-gradient(circle at center, var(--cp-surface) 0 48%, transparent 49%),
-    conic-gradient(
-      var(--cp-danger) 0 var(--against-end),
-      var(--cp-text-muted) var(--against-end) var(--neutral-end),
-      var(--cp-success) var(--neutral-end) 100%
-    );
-  font-weight: 800;
 }
 
 .zone-context-card {

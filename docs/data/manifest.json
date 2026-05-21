@@ -55,12 +55,12 @@
     },
     {
       "path": "data/decision-brief.json",
-      "bytes": 18415,
+      "bytes": 18321,
       "description": "Decision-maker summary metrics and discussion questions."
     },
     {
       "path": "data/manifest.json",
-      "bytes": 4529,
+      "bytes": 4528,
       "description": "Generated file inventory and metadata."
     },
     {
@@ -70,7 +70,7 @@
     },
     {
       "path": "data/representative-cards.json",
-      "bytes": 3068,
+      "bytes": 2784,
       "description": "Anonymized representative public comment theme cards."
     },
     {
