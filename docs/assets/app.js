@@ -160,7 +160,7 @@ function renderSummaryCards() {
     return `
       <div class="stat summary-stat">
         <span class="stat-value tone-negative">${against.percent}%</span>
-        <span class="stat-label">${escapeHtml(zone.zone)} against as written</span>
+        <span class="stat-label">${escapeHtml(zone.zone)} against</span>
         <ul class="summary-breakdown" aria-label="${escapeHtml(zone.zone)} response counts">
           <li class="tone-negative">${against.count} against</li>
           <li class="tone-positive">${favor.count} in favor</li>
@@ -404,7 +404,7 @@ function renderReadFirst(selector = "#read-first-panel") {
 
 function colorStanceText(value) {
   return escapeHtml(value)
-    .replace(/\b(against(?: as written)?|opposition)\b/gi, '<span class="tone-negative">$1</span>')
+    .replace(/\b(against|opposition)\b/gi, '<span class="tone-negative">$1</span>')
     .replace(/\b(in-favor|in favor)\b/gi, '<span class="tone-positive">$1</span>');
 }
 
@@ -533,7 +533,7 @@ function renderBriefPage() {
     <div class="card-grid three">
       <article class="stat">
         <span class="stat-value tone-negative">${against.percent}%</span>
-        <span class="stat-label">against as written (${against.count} responses)</span>
+        <span class="stat-label">against (${against.count} responses)</span>
       </article>
       <article class="stat">
         <span class="stat-value tone-neutral">${neutral.percent}%</span>
@@ -565,7 +565,6 @@ function renderBriefPage() {
           <h2>${escapeHtml(zone.zone)}</h2>
           <p><strong>${zone.totalResponses}</strong> classified responses from source pages ${escapeHtml(zone.sourcePages)}.</p>
           <p><span class="tone-negative">${zoneAgainst.count} against (${zoneAgainst.percent}%)</span> / <span class="tone-positive">${zoneFavor.count} in favor (${zoneFavor.percent}%)</span>.</p>
-          <p class="muted">${zone.needsReview} classifications are medium or low confidence and should receive human review before official use.</p>
           ${sourceReferenceHtml(zone.sourcePages)}
         </article>
       `;
