@@ -168,7 +168,7 @@
     },
     {
       "title": "Main takeaway",
-      "body": "Against-as-written responses are the largest category overall: 427 responses (70.5%).",
+      "body": "Against responses are the largest category overall: 427 responses (70.5%).",
       "linkText": "Compare stances",
       "href": "index.html#charts"
     },
@@ -262,7 +262,7 @@
   "decisionFaq": [
     {
       "question": "What is the main takeaway?",
-      "answer": "Against-as-written responses are the largest category overall: 427 of 606 responses (70.5%)."
+      "answer": "Against responses are the largest category overall: 427 of 606 responses (70.5%)."
     },
     {
       "question": "How different are Zone 4A and Zone 5B?",
@@ -466,8 +466,8 @@
     "combinedNeedsReview": 149
   },
   "keyTakeaways": [
-    "Across both analyzed sections, against-as-written classifications are the largest stance category.",
-    "Zone 4A has a higher against-as-written share than Zone 5B.",
+    "Across both analyzed sections, against classifications are the largest stance category.",
+    "Zone 4A has a higher against share than Zone 5B.",
     "Topic tags are provisional and should be treated as exploration aids until human review."
   ],
   "discussionQuestions": [
