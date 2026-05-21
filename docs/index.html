@@ -54,6 +54,7 @@
             readout, not a policy recommendation or scientific referendum.
           </p>
           <div class="hero-actions">
+            <a class="button primary" href="#read-first">Read this first</a>
             <a class="button primary" href="#charts">View charts</a>
             <a class="button" href="#downloads">Download data</a>
           </div>
@@ -65,6 +66,35 @@
           </div>
           <div class="mini-grid" id="summary-cards" aria-live="polite"></div>
         </aside>
+      </section>
+
+      <section id="read-first" class="page-section">
+        <div class="section-heading">
+          <p class="eyebrow">Read this first</p>
+          <h2>Five points to orient interpretation</h2>
+          <p>
+            Start here before using the charts. These points distinguish what the data can say from
+            what still needs source review, planning evidence, or public discussion.
+          </p>
+        </div>
+        <div id="read-first-panel" class="card-grid read-first-grid"></div>
+      </section>
+
+      <section id="section-links" class="page-section compact-section">
+        <div class="content-card">
+          <h2>Shareable section links</h2>
+          <p class="muted">Use these stable anchors to point someone directly to the part of the dashboard they need.</p>
+          <nav class="anchor-list" aria-label="Shareable section links">
+            <a href="#read-first">Read first</a>
+            <a href="#sources">Sources</a>
+            <a href="#questions">Questions</a>
+            <a href="#charts">Charts</a>
+            <a href="#concern-response">Concern matrix</a>
+            <a href="#methodology">Methodology</a>
+            <a href="#glossary">Glossary</a>
+            <a href="#downloads">Downloads</a>
+          </nav>
+        </div>
       </section>
 
       <section id="sources" class="page-section">
@@ -130,6 +160,33 @@
             proposed zoning changes as written.
           </p>
         </div>
+        <article class="card chart-lens-card">
+          <h3>Chart lens</h3>
+          <p class="muted">
+            Filter the row-level data behind the charts by zone and stance to answer quick
+            "what if I only care about..." questions without leaving this page.
+          </p>
+          <div class="chart-lens-controls">
+            <label>
+              Zone
+              <select id="chart-zone-filter">
+                <option value="">All zones</option>
+                <option value="Zone 4A">Zone 4A</option>
+                <option value="Zone 5B">Zone 5B</option>
+              </select>
+            </label>
+            <label>
+              Stance
+              <select id="chart-stance-filter">
+                <option value="">All stances</option>
+                <option value="Against proposed Zoning Changes">Against as written</option>
+                <option value="Neutral">Neutral</option>
+                <option value="In Favor of proposed Zoning Changes">In favor</option>
+              </select>
+            </label>
+          </div>
+          <div id="chart-lens-summary" class="lens-summary" aria-live="polite"></div>
+        </article>
         <div class="chart-layout">
           <article class="card chart-card">
             <h3>Side-by-side stance comparison</h3>
@@ -251,6 +308,18 @@
         <div id="change-minds-panel" class="card"></div>
       </section>
 
+      <section id="concern-response" class="page-section">
+        <div class="section-heading">
+          <p class="eyebrow">Concern-to-response matrix</p>
+          <h2>Questions and evidence that could make discussion more concrete</h2>
+          <p>
+            These are possible response paths to discuss, not recommendations. They translate
+            recurring concerns into safeguards, evidence requests, or design questions.
+          </p>
+        </div>
+        <div id="concern-response-matrix" class="matrix-grid"></div>
+      </section>
+
       <section id="methodology" class="page-section">
         <div class="section-heading">
           <p class="eyebrow">Methodology and limitations</p>
@@ -275,6 +344,15 @@
             </p>
           </article>
         </div>
+        <div id="confidence-explainer" class="card confidence-explainer"></div>
+      </section>
+
+      <section id="glossary" class="page-section">
+        <div class="section-heading">
+          <p class="eyebrow">Glossary</p>
+          <h2>Terms used throughout the dashboard</h2>
+        </div>
+        <div id="glossary-list" class="glossary-grid"></div>
       </section>
 
       <section id="audit" class="page-section">

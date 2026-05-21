@@ -483,6 +483,165 @@ def what_would_change_minds(rows: list[dict[str, object]]) -> dict[str, object]:
     }
 
 
+def read_first(summary: dict[str, object], concerns: dict[str, object], review: dict[str, object]) -> list[dict[str, object]]:
+    combined = {entry["category"]: entry for entry in summary["combined"]["categories"]}
+    top_topic = concerns["overall"][0] if concerns["overall"] else {"topic": "No topic tags", "count": 0}
+    return [
+        {
+            "title": "What was analyzed",
+            "body": (
+                f"{summary['combined']['totalResponses']} classified written responses from the Zone 5B "
+                "and Zone 4A sections of the public survey export."
+            ),
+            "linkText": "See source documents",
+            "href": "index.html#sources",
+        },
+        {
+            "title": "Main takeaway",
+            "body": (
+                f"Against-as-written responses are the largest category overall: "
+                f"{combined[CATEGORY_ORDER[0]]['count']} responses ({combined[CATEGORY_ORDER[0]]['percent']}%)."
+            ),
+            "linkText": "Compare stances",
+            "href": "index.html#charts",
+        },
+        {
+            "title": "Biggest topic signal",
+            "body": (
+                f"{top_topic['topic']} is the most frequent provisional tag "
+                f"({top_topic['count']} tag assignments). Topic tags are not vote totals."
+            ),
+            "linkText": "Review topics",
+            "href": "topics.html",
+        },
+        {
+            "title": "Uncertainty to review",
+            "body": (
+                f"{summary['combined']['needsReview']} classifications are medium or low confidence; "
+                f"{review['totalRows']} rows are in the broader review queue."
+            ),
+            "linkText": "Open review queue",
+            "href": "review.html",
+        },
+        {
+            "title": "Best next read",
+            "body": "Use the concern-to-response matrix and glossary before interpreting the charts as decision evidence.",
+            "linkText": "Open brief",
+            "href": "brief.html",
+        },
+    ]
+
+
+def confidence_explainer(summary: dict[str, object], review: dict[str, object]) -> dict[str, object]:
+    return {
+        "summary": (
+            "Confidence describes how directly a classification follows from the available rationale. "
+            "It is a review signal, not a judgment about whether a respondent is correct."
+        ),
+        "levels": [
+            {
+                "level": "high",
+                "meaning": "The rationale points clearly to against, neutral, or in-favor as written.",
+            },
+            {
+                "level": "medium",
+                "meaning": "The rationale is mostly clear but may include mixed concerns or wording that should be checked.",
+            },
+            {
+                "level": "low",
+                "meaning": "The rationale is ambiguous enough that a human reviewer should inspect the source row before official use.",
+            },
+        ],
+        "reviewCriteria": review["criteria"],
+        "combinedNeedsReview": summary["combined"]["needsReview"],
+        "reviewQueueRows": review["totalRows"],
+    }
+
+
+def concern_response_matrix(concerns: dict[str, object]) -> list[dict[str, object]]:
+    response_paths = {
+        "Parking": {
+            "responsePath": "Clarify parking minimums, spillover management, loading, enforcement, and shared-parking assumptions.",
+            "evidenceNeeded": "Street-parking occupancy, loading needs, household car ownership assumptions, and enforcement capacity.",
+        },
+        "Traffic and safety": {
+            "responsePath": "Identify pedestrian-safety treatments, traffic-calming measures, and intersection impacts before adoption.",
+            "evidenceNeeded": "Traffic counts, crash or near-miss history, pedestrian crossings, school-route impacts, and trip-generation assumptions.",
+        },
+        "Building height": {
+            "responsePath": "Test height, stepback, setback, and transition standards that protect adjacent lower-scale blocks.",
+            "evidenceNeeded": "Massing diagrams, shadow or streetscape examples, and comparisons with existing built form.",
+        },
+        "Density": {
+            "responsePath": "Separate housing-count goals from bulk standards so residents can see what density would look like in practice.",
+            "evidenceNeeded": "Unit-count scenarios, lot-fit examples, sewer and school capacity assumptions, and phased buildout estimates.",
+        },
+        "Affordable housing": {
+            "responsePath": "Define affordability requirements, duration, eligibility, monitoring, and whether bonuses produce enforceable units.",
+            "evidenceNeeded": "Affordable-unit yield estimates, AMI levels, deed-restriction duration, and compliance/enforcement plan.",
+        },
+        "Transit and walkability": {
+            "responsePath": "Show where transit access can realistically substitute for parking and where it cannot.",
+            "evidenceNeeded": "Station walksheds, SEPTA service frequency, accessibility constraints, and resident travel-pattern assumptions.",
+        },
+        "Neighborhood character": {
+            "responsePath": "Translate character concerns into measurable design standards rather than general preference statements.",
+            "evidenceNeeded": "Existing facade rhythm, height, setback, frontage, tree canopy, and small-town streetscape examples.",
+        },
+        "Green space and stormwater": {
+            "responsePath": "Specify impervious coverage limits, tree retention, stormwater controls, and open-space expectations.",
+            "evidenceNeeded": "Impervious-surface scenarios, runoff modeling, tree impacts, and maintenance responsibilities.",
+        },
+    }
+    matrix = []
+    for topic in concerns["overall"][:8]:
+        defaults = {
+            "responsePath": "Convert the concern into a specific question, standard, or evidence request for public review.",
+            "evidenceNeeded": "Source-row review, topic-specific analysis, and examples showing how the proposal would work in practice.",
+        }
+        detail = response_paths.get(str(topic["topic"]), defaults)
+        matrix.append(
+            {
+                "concern": topic["topic"],
+                "tagCount": topic["count"],
+                "responseShare": topic["responseShare"],
+                "responsePath": detail["responsePath"],
+                "evidenceNeeded": detail["evidenceNeeded"],
+                "sourceReference": "See topic-tag rows and the raw survey PDF page references for matching classified responses.",
+            }
+        )
+    return matrix
+
+
+def glossary() -> list[dict[str, str]]:
+    return [
+        {
+            "term": "As written",
+            "definition": "The proposal details as classified from the survey section, not a general view for or against housing.",
+        },
+        {
+            "term": "Classification",
+            "definition": "A row-level label summarizing whether a written response is against, neutral, or in favor of the proposal as written.",
+        },
+        {
+            "term": "Topic tag",
+            "definition": "A provisional keyword-assisted concern label inferred from classification rationale. One response can have multiple topic tags.",
+        },
+        {
+            "term": "Review queue",
+            "definition": "Rows prioritized for human review because confidence is medium or low, or because the response appears mixed or conditional.",
+        },
+        {
+            "term": "Conditional response",
+            "definition": "A response that may support some goals while objecting to details such as parking, height, density, process, or safeguards.",
+        },
+        {
+            "term": "Not a referendum",
+            "definition": "The data summarizes written survey responses and is not a statistically weighted vote of all Narberth residents.",
+        },
+    ]
+
+
 def review_queue(rows: list[dict[str, object]]) -> dict[str, object]:
     queue = [
         row
@@ -555,10 +714,14 @@ def decision_brief(rows: list[dict[str, object]]) -> dict[str, object]:
         "generatedOn": date.today().isoformat(),
         "title": "Narberth zoning survey decision brief",
         "summary": summary,
+        "readFirst": read_first(summary, concerns, review),
         "topTopics": top_topics,
         "zoneComparison": zone_comparison(summary),
         "decisionFaq": decision_faq(summary, review),
         "whatWouldChangeMinds": what_would_change_minds(rows),
+        "confidenceExplainer": confidence_explainer(summary, review),
+        "concernResponseMatrix": concern_response_matrix(concerns),
+        "glossary": glossary(),
         "reviewQueue": {
             "totalRows": review["totalRows"],
             "combinedNeedsReview": summary["combined"]["needsReview"],

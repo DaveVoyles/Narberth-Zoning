@@ -199,6 +199,14 @@ function renderSourceDocuments() {
   `).join("");
 }
 
+function sourceReferenceHtml(pages) {
+  return `
+    <p class="source-reference">
+      Source reference: <a href="documents/raw-survey-results.pdf">Raw survey PDF</a>, pages ${escapeHtml(pages)}.
+    </p>
+  `;
+}
+
 function renderDifferenceChart() {
   const target = document.querySelector("#difference-chart");
   if (!target) return;
@@ -350,6 +358,7 @@ function renderZoneContext() {
     <article class="zone-context-card">
       <h4>${escapeHtml(item.zone)}</h4>
       <p class="muted">Source pages ${escapeHtml(item.pages)}</p>
+      ${sourceReferenceHtml(item.pages)}
       <ul class="clean-list">${item.places.map((place) => `<li>${escapeHtml(place)}</li>`).join("")}</ul>
     </article>
   `).join("");
@@ -366,6 +375,7 @@ function renderRepresentativeCards() {
       </blockquote>
       <p><strong>${escapeHtml(card.resident)}</strong></p>
       <p class="muted">${escapeHtml(card.zone)} p.${card.page}; ${escapeHtml(shortCategory.get(card.stance) || card.stance)}. Based on classification rationale: ${escapeHtml(card.rationale)}.</p>
+      ${sourceReferenceHtml(card.page)}
     </article>
   `).join("");
 }
@@ -389,6 +399,19 @@ function renderDecisionFaq(selector = "#decision-faq", limit = 6) {
   `).join("");
 }
 
+function renderReadFirst(selector = "#read-first-panel") {
+  const target = document.querySelector(selector);
+  if (!target) return;
+  target.innerHTML = state.decisionBrief.readFirst.map((item, index) => `
+    <article class="card read-first-card">
+      <span class="step-number">${index + 1}</span>
+      <h3>${escapeHtml(item.title)}</h3>
+      <p>${escapeHtml(item.body)}</p>
+      <a href="${escapeHtml(item.href)}">${escapeHtml(item.linkText)}</a>
+    </article>
+  `).join("");
+}
+
 function renderZoneComparisonCards(selector = "#zone-comparison-cards") {
   const target = document.querySelector(selector);
   if (!target) return;
@@ -399,6 +422,30 @@ function renderZoneComparisonCards(selector = "#zone-comparison-cards") {
       <p>${escapeHtml(item.summary)}</p>
     </article>
   `).join("");
+}
+
+function renderConfidenceExplainer(selector = "#confidence-explainer") {
+  const target = document.querySelector(selector);
+  if (!target) return;
+  const data = state.decisionBrief.confidenceExplainer;
+  target.innerHTML = `
+    <p>${escapeHtml(data.summary)}</p>
+    <div class="confidence-levels">
+      ${data.levels.map((item) => `
+        <article class="confidence-level ${escapeHtml(item.level)}">
+          <h3>${escapeHtml(item.level)}</h3>
+          <p>${escapeHtml(item.meaning)}</p>
+        </article>
+      `).join("")}
+    </div>
+    <p class="muted">
+      ${data.combinedNeedsReview} rows are medium or low confidence. The broader review queue has
+      ${data.reviewQueueRows} rows because it also includes mixed or conditional responses.
+    </p>
+    <ul class="clean-list">
+      ${data.reviewCriteria.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
+    </ul>
+  `;
 }
 
 function renderConfidenceCallout() {
@@ -424,6 +471,70 @@ function renderConfidenceCallout() {
       mixed or conditional responses. Use this as an audit list before official use.
     </p>
     <a class="button" href="review.html">Open review queue</a>
+  `;
+}
+
+function renderConcernResponseMatrix(selector = "#concern-response-matrix") {
+  const target = document.querySelector(selector);
+  if (!target) return;
+  target.innerHTML = state.decisionBrief.concernResponseMatrix.map((item) => `
+    <article class="card matrix-card">
+      <p class="eyebrow">${escapeHtml(item.tagCount)} tags · ${escapeHtml(item.responseShare)}% of responses</p>
+      <h3>${escapeHtml(item.concern)}</h3>
+      <dl>
+        <dt>Possible response path</dt>
+        <dd>${escapeHtml(item.responsePath)}</dd>
+        <dt>Evidence to bring forward</dt>
+        <dd>${escapeHtml(item.evidenceNeeded)}</dd>
+        <dt>Source reference</dt>
+        <dd>${escapeHtml(item.sourceReference)} <a href="topics.html">Review topic rows</a>.</dd>
+      </dl>
+    </article>
+  `).join("");
+}
+
+function renderGlossary(selector = "#glossary-list") {
+  const target = document.querySelector(selector);
+  if (!target) return;
+  target.innerHTML = state.decisionBrief.glossary.map((item) => `
+    <article class="card glossary-card">
+      <h3>${escapeHtml(item.term)}</h3>
+      <p>${escapeHtml(item.definition)}</p>
+    </article>
+  `).join("");
+}
+
+function renderChartLens() {
+  const target = document.querySelector("#chart-lens-summary");
+  if (!target) return;
+  const selectedZone = document.querySelector("#chart-zone-filter")?.value || "";
+  const selectedStance = document.querySelector("#chart-stance-filter")?.value || "";
+  const rows = state.rows.filter((row) => {
+    return (!selectedZone || row.zone === selectedZone) && (!selectedStance || row.category === selectedStance);
+  });
+  const total = state.rows.length || 1;
+  const share = ((rows.length / total) * 100).toFixed(1);
+  const topicCounts = new Map();
+  rows.forEach((row) => {
+    row.topics.split("; ").forEach((topic) => topicCounts.set(topic, (topicCounts.get(topic) || 0) + 1));
+  });
+  const topTopics = [...topicCounts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .slice(0, 4);
+  const reviewCount = rows.filter((row) => row.needs_review === "yes" || row.mixed_flag === "yes").length;
+  const pages = [...new Set(rows.map((row) => row.page))].sort((a, b) => a - b);
+  const zoneLabel = selectedZone || "All analyzed zones";
+  const stanceLabel = selectedStance ? shortCategory.get(selectedStance) : "All stances";
+  target.innerHTML = `
+    <div class="lens-stat">
+      <span class="stat-value">${rows.length}</span>
+      <span class="stat-label">${escapeHtml(zoneLabel)} · ${escapeHtml(stanceLabel)} (${share}% of all rows)</span>
+    </div>
+    <div>
+      <h4>Top provisional topics in this lens</h4>
+      <p>${topTopics.length ? topTopics.map(([topic, count]) => `<strong>${escapeHtml(topic)}</strong> (${count})`).join(", ") : "No matching topic tags."}</p>
+      <p class="muted">${reviewCount} matching rows are in the review queue. ${pages.length ? `Source pages: ${pages.join(", ")}.` : ""}</p>
+    </div>
   `;
 }
 
@@ -499,6 +610,7 @@ function renderBriefPage() {
           <p><strong>${zone.totalResponses}</strong> classified responses from source pages ${escapeHtml(zone.sourcePages)}.</p>
           <p><span class="tone-negative">${zoneAgainst.count} against (${zoneAgainst.percent}%)</span> / <span class="tone-positive">${zoneFavor.count} in favor (${zoneFavor.percent}%)</span>.</p>
           <p class="muted">${zone.needsReview} classifications are medium or low confidence and should receive human review before official use.</p>
+          ${sourceReferenceHtml(zone.sourcePages)}
         </article>
       `;
     }).join("");
@@ -538,6 +650,7 @@ function renderTopicsPage() {
       <article class="card">
         <h2>${escapeHtml(zone.zone)}</h2>
         <p class="muted">${zone.totalResponses} responses; source pages ${escapeHtml(zone.sourcePages)}.</p>
+        ${sourceReferenceHtml(zone.sourcePages)}
         <ol class="ranked-list">
           ${zone.topics.slice(0, 8).map((topic) => `<li><strong>${escapeHtml(topic.topic)}</strong>: ${topic.count} tags (${topic.responseShare}%)</li>`).join("")}
         </ol>
@@ -938,6 +1051,8 @@ async function init() {
   state.representativeCards = representativeCards;
   renderTopicFilter();
   renderSummaryCards();
+  renderReadFirst();
+  renderReadFirst("#brief-read-first");
   renderBarChart();
   renderChartTextSummary();
   renderSourceDocuments();
@@ -954,7 +1069,14 @@ async function init() {
   renderDecisionFaq("#brief-faq");
   renderZoneComparisonCards();
   renderZoneComparisonCards("#brief-zone-comparison");
+  renderConfidenceExplainer();
+  renderConfidenceExplainer("#brief-confidence-explainer");
   renderConfidenceCallout();
+  renderConcernResponseMatrix();
+  renderConcernResponseMatrix("#brief-concern-response-matrix");
+  renderGlossary();
+  renderGlossary("#brief-glossary-list");
+  renderChartLens();
   renderWhatWouldChangeMinds();
   renderWhatWouldChangeMinds("#brief-change-minds");
   renderParticles();
@@ -967,6 +1089,9 @@ async function init() {
   setupTableControls();
   ["#zone-filter", "#category-filter", "#confidence-filter", "#topic-filter", "#search-filter"].forEach((selector) => {
     document.querySelector(selector)?.addEventListener("input", renderTable);
+  });
+  ["#chart-zone-filter", "#chart-stance-filter"].forEach((selector) => {
+    document.querySelector(selector)?.addEventListener("input", renderChartLens);
   });
 }
 

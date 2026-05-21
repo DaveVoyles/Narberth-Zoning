@@ -111,9 +111,22 @@ def validate_json(errors: list[str]) -> None:
         errors.append("decision brief should include upfront reader FAQ entries")
     if len(brief.get("zoneComparison", [])) < 3:
         errors.append("decision brief should include plain-language zone comparison cards")
+    if len(brief.get("readFirst", [])) < 5:
+        errors.append("decision brief should include a read-first summary panel")
     change_minds = brief.get("whatWouldChangeMinds", {})
     if change_minds.get("conditionalRows", 0) <= 0 or not change_minds.get("discussionPrompts"):
         errors.append("decision brief should include whatWouldChangeMinds prompts and row count")
+    confidence_explainer = brief.get("confidenceExplainer", {})
+    if len(confidence_explainer.get("levels", [])) != 3 or not confidence_explainer.get("reviewCriteria"):
+        errors.append("decision brief should explain confidence levels and review criteria")
+    if len(brief.get("concernResponseMatrix", [])) < 5:
+        errors.append("decision brief should include a concern-to-response matrix")
+    for row in brief.get("concernResponseMatrix", []):
+        for field in ["concern", "tagCount", "responsePath", "evidenceNeeded", "sourceReference"]:
+            if not row.get(field):
+                errors.append(f"concern-response matrix row missing {field}: {row}")
+    if len(brief.get("glossary", [])) < 6:
+        errors.append("decision brief should include glossary terms")
     concerns = json.loads((DATA / "concerns-by-zone.json").read_text(encoding="utf-8"))
     if not concerns.get("overall") or len(concerns.get("byZone", [])) != 2:
         errors.append("concerns-by-zone.json missing overall or zone topic summaries")
