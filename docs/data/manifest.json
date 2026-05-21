@@ -1,9 +1,41 @@
 {
-  "generatedOn": "2026-05-19",
+  "generatedOn": "2026-05-21",
   "totalClassifiedResponses": 606,
   "sourceFiles": [
     "Zone 4A Response Classifications.csv",
     "Zone 5B Response Classifications.csv"
+  ],
+  "sourceDocuments": [
+    {
+      "title": "Raw Survey Results.pdf",
+      "role": "Original survey export",
+      "scope": "Survey on Housing Affordability in Narberth; Zone 5B pages 77-89 and Zone 4A pages 90-105.",
+      "href": "documents/raw-survey-results.pdf"
+    },
+    {
+      "title": "Zone 5B Response Classifications.csv",
+      "role": "Row-level classification source",
+      "scope": "303 classified written responses from Zone 5B / Montgomery Avenue.",
+      "href": "data/zone-5b-classified.csv"
+    },
+    {
+      "title": "Zone 4A Response Classifications.csv",
+      "role": "Row-level classification source",
+      "scope": "303 classified written responses from Zone 4A.",
+      "href": "data/zone-4a-classified.csv"
+    },
+    {
+      "title": "High-Level Survey Overview.md",
+      "role": "Context and orientation source",
+      "scope": "Survey structure, page ranges, and section descriptions.",
+      "href": "documents/high-level-survey-overview.md"
+    },
+    {
+      "title": "Zoning Sentiment Analysis.md",
+      "role": "Method and findings source",
+      "scope": "Classification method, category rules, and headline findings.",
+      "href": "documents/zoning-sentiment-analysis.md"
+    }
   ],
   "files": [
     {
@@ -23,12 +55,12 @@
     },
     {
       "path": "data/decision-brief.json",
-      "bytes": 5731,
+      "bytes": 6989,
       "description": "Decision-maker summary metrics and discussion questions."
     },
     {
       "path": "data/manifest.json",
-      "bytes": 3139,
+      "bytes": 4528,
       "description": "Generated file inventory and metadata."
     },
     {
@@ -37,13 +69,18 @@
       "description": "Page-level stance totals by zone."
     },
     {
+      "path": "data/representative-cards.json",
+      "bytes": 3068,
+      "description": "Anonymized representative public comment theme cards."
+    },
+    {
       "path": "data/review-queue.json",
       "bytes": 57296,
       "description": "Rows prioritized for human review by confidence or mixed flag."
     },
     {
       "path": "data/summary.json",
-      "bytes": 2737,
+      "bytes": 3967,
       "description": "Zone and combined stance/confidence totals."
     },
     {

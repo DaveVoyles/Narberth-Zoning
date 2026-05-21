@@ -89,9 +89,21 @@ def validate_json(errors: list[str]) -> None:
     summary = json.loads((DATA / "summary.json").read_text(encoding="utf-8"))
     if summary["combined"]["totalResponses"] != 606:
         errors.append("summary combined total is not 606")
+    source_documents = summary.get("sourceDocuments", [])
+    if len(source_documents) < 5:
+        errors.append("summary sourceDocuments should describe the initial source files")
+    for source in source_documents:
+        for field in ["title", "role", "scope", "href"]:
+            if not source.get(field):
+                errors.append(f"source document metadata missing {field}: {source}")
+        href = source.get("href", "")
+        if href and not href.startswith("http") and not (DOCS / href).exists():
+            errors.append(f"source document href does not exist: {href}")
     manifest = json.loads((DATA / "manifest.json").read_text(encoding="utf-8"))
     if manifest["totalClassifiedResponses"] != 606:
         errors.append("manifest totalClassifiedResponses is not 606")
+    if len(manifest.get("sourceDocuments", [])) != len(source_documents):
+        errors.append("manifest sourceDocuments does not match summary sourceDocuments")
     brief = json.loads((DATA / "decision-brief.json").read_text(encoding="utf-8"))
     if brief["summary"]["combined"]["totalResponses"] != summary["combined"]["totalResponses"]:
         errors.append("decision brief combined total does not match summary")
@@ -108,6 +120,15 @@ def validate_json(errors: list[str]) -> None:
             errors.append(f"review queue row not found in combined data: {row['zone']} #{row['index']}")
         if row["needs_review"] != "yes" and row["mixed_flag"] != "yes":
             errors.append(f"review queue row lacks review criteria: {row['zone']} #{row['index']}")
+    cards = json.loads((DATA / "representative-cards.json").read_text(encoding="utf-8"))
+    if len(cards.get("cards", [])) < 4:
+        errors.append("representative-cards.json should include at least four cards")
+    for card in cards.get("cards", []):
+        for field in ["resident", "topic", "zone", "page", "stance", "summary", "rationale", "note"]:
+            if not card.get(field):
+                errors.append(f"representative card missing {field}: {card}")
+        if not re.fullmatch(r"Narberth Resident [A-Z]", card.get("resident", "")):
+            errors.append(f"representative card resident label is not anonymized: {card.get('resident')}")
 
 
 def validate_links(errors: list[str]) -> None:

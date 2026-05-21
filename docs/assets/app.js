@@ -33,6 +33,7 @@ const downloads = [
   { title: "Decision brief data", href: "data/decision-brief.json", format: "JSON", description: "Meeting-ready summary metrics, takeaways, and discussion questions." },
   { title: "Concerns by zone", href: "data/concerns-by-zone.json", format: "JSON", description: "Provisional topic and concern counts by zone." },
   { title: "Review queue", href: "data/review-queue.json", format: "JSON", description: "Rows prioritized for human review by confidence or mixed-response flag." },
+  { title: "Representative cards", href: "data/representative-cards.json", format: "JSON", description: "Name-free representative public comment theme cards." },
   { title: "Generated file manifest", href: "data/manifest.json", format: "JSON", description: "File inventory with byte sizes, generated date, and source relationships." },
   { title: "All classifications workbook", href: "documents/narberth-zoning-classifications.xlsx", format: "XLSX", description: "Excel workbook with overview, row-level data, and topic tags." },
   { title: "Zone 4A workbook", href: "documents/zone-4a-classified.xlsx", format: "XLSX", description: "Excel workbook for Zone 4A row-level classifications." },
@@ -48,6 +49,7 @@ const state = {
   decisionBrief: null,
   concernsByZone: null,
   reviewQueue: null,
+  representativeCards: null,
   pageSummary: [],
   rows: [],
   sort: { field: "zone", direction: "asc" },
@@ -180,6 +182,67 @@ function renderChartTextSummary() {
   }).join("");
 }
 
+function renderSourceDocuments() {
+  const target = document.querySelector("#source-documents");
+  if (!target) return;
+  target.innerHTML = (state.summary.sourceDocuments || []).map((source) => `
+    <article class="card source-card">
+      <h3>${escapeHtml(source.title)}</h3>
+      <p><strong>${escapeHtml(source.role)}</strong></p>
+      <p>${escapeHtml(source.scope)}</p>
+      <a class="button" href="${escapeHtml(source.href)}" download>Open source</a>
+    </article>
+  `).join("");
+}
+
+function renderDifferenceChart() {
+  const target = document.querySelector("#difference-chart");
+  if (!target) return;
+  const zone4a = state.summary.zones.find((zone) => zone.zone === "Zone 4A");
+  const zone5b = state.summary.zones.find((zone) => zone.zone === "Zone 5B");
+  if (!zone4a || !zone5b) return;
+  target.innerHTML = categoryOrder.map((category) => {
+    const left = categoryItem(zone4a, category);
+    const right = categoryItem(zone5b, category);
+    const diff = Number((left.percent - right.percent).toFixed(1));
+    const width = Math.min(Math.abs(diff) * 8, 100);
+    const label = diff === 0
+      ? "No difference"
+      : `${Math.abs(diff).toFixed(1)} points ${diff > 0 ? "higher in Zone 4A" : "higher in Zone 5B"}`;
+    return `
+      <div class="difference-row">
+        <strong>${escapeHtml(shortCategory.get(category))}</strong>
+        <span class="difference-track">
+          <span class="difference-fill ${classByCategory.get(category)}" style="width:${width}%"></span>
+        </span>
+        <span>${label}</span>
+      </div>
+    `;
+  }).join("");
+}
+
+function renderDonutChart() {
+  const target = document.querySelector("#donut-chart");
+  if (!target) return;
+  target.innerHTML = state.summary.zones.map((zone) => {
+    const values = Object.fromEntries(zone.categories.map((entry) => [entry.category, entry.percent]));
+    const against = values[categoryOrder[0]] || 0;
+    const neutral = values[categoryOrder[1]] || 0;
+    const favor = values[categoryOrder[2]] || 0;
+    return `
+      <article class="donut-card">
+        <div class="donut" style="--against:${against}; --neutral:${neutral}; --favor:${favor};" aria-hidden="true">
+          <span>${zone.totalResponses}</span>
+        </div>
+        <div>
+          <h4>${escapeHtml(zone.zone)}</h4>
+          <p class="muted">${against}% against, ${neutral}% neutral, ${favor}% in favor.</p>
+        </div>
+      </article>
+    `;
+  }).join("");
+}
+
 function renderConfidenceChart() {
   const target = document.querySelector("#confidence-chart");
   if (!target) return;
@@ -218,17 +281,89 @@ function renderTopicChart() {
   `).join("");
 }
 
+function dominantTopicCategory(topic) {
+  const stance = state.topicSummary.stanceByTopic.find((entry) => entry.topic === topic.topic);
+  if (!stance) return "neutral";
+  const category = categoryOrder.reduce((current, next) => {
+    return (stance[next] || 0) > (stance[current] || 0) ? next : current;
+  }, categoryOrder[0]);
+  return classByCategory.get(category) || "neutral";
+}
+
+function renderTopicCloud(selector, limit = 18) {
+  const target = document.querySelector(selector);
+  if (!target) return;
+  const topics = state.topicSummary.topicCounts.slice(0, limit);
+  const counts = topics.map((topic) => topic.count);
+  const min = Math.min(...counts);
+  const max = Math.max(...counts);
+  target.innerHTML = `
+    <ul class="topic-cloud-list">
+      ${topics.map((topic) => {
+        const scale = max === min ? 1.15 : 0.9 + ((topic.count - min) / (max - min)) * 1.25;
+        return `
+          <li>
+            <span class="topic-cloud-term ${dominantTopicCategory(topic)}" style="--topic-scale:${scale.toFixed(2)}">
+              ${escapeHtml(topic.topic)}
+              <span class="topic-cloud-count">${topic.count}</span>
+            </span>
+          </li>
+        `;
+      }).join("")}
+    </ul>
+  `;
+}
+
 function renderPageChart() {
   const target = document.querySelector("#page-chart");
   if (!target) return;
-  target.innerHTML = state.pageSummary.map((entry) => {
+  target.innerHTML = state.pageSummary.map((entry, index) => {
     const total = entry.total || 1;
     const segments = categoryOrder.map((category) => {
       const percent = (entry[category] / total) * 100;
       return `<span class="segment ${classByCategory.get(category)}" style="width:${percent}%"></span>`;
     }).join("");
-    return `<div class="page-row"><strong>${escapeHtml(entry.zone)} p.${entry.page}</strong><span class="page-track">${segments}</span><span>${entry.total}</span></div>`;
+    return `<div class="page-row" style="--page-order:${index}"><strong>${escapeHtml(entry.zone)} p.${entry.page}</strong><span class="page-track">${segments}</span><span>${entry.total}</span></div>`;
   }).join("");
+}
+
+function renderZoneContext() {
+  const target = document.querySelector("#zone-context");
+  if (!target) return;
+  const contexts = [
+    {
+      zone: "Zone 5B / Montgomery Avenue",
+      pages: "77-89",
+      places: ["Montgomery Avenue", "nearby residential streets", "transit access"],
+    },
+    {
+      zone: "Zone 4A",
+      pages: "90-105",
+      places: ["downtown Narberth", "train station area", "nearby residential blocks"],
+    },
+  ];
+  target.innerHTML = contexts.map((item) => `
+    <article class="zone-context-card">
+      <h4>${escapeHtml(item.zone)}</h4>
+      <p class="muted">Source pages ${escapeHtml(item.pages)}</p>
+      <ul class="clean-list">${item.places.map((place) => `<li>${escapeHtml(place)}</li>`).join("")}</ul>
+    </article>
+  `).join("");
+}
+
+function renderRepresentativeCards() {
+  const target = document.querySelector("#quote-card-grid");
+  if (!target) return;
+  target.innerHTML = state.representativeCards.cards.map((card) => `
+    <article class="card quote-card">
+      <p class="eyebrow">${escapeHtml(card.topic)}</p>
+      <blockquote>
+        <p>${escapeHtml(card.summary)}</p>
+      </blockquote>
+      <p><strong>${escapeHtml(card.resident)}</strong></p>
+      <p class="muted">${escapeHtml(card.zone)} p.${card.page}; ${escapeHtml(shortCategory.get(card.stance) || card.stance)}. Based on classification rationale: ${escapeHtml(card.rationale)}.</p>
+    </article>
+  `).join("");
 }
 
 function categoryItem(summaryLike, category) {
@@ -634,7 +769,7 @@ async function renderDownloads() {
 
 async function init() {
   setupNavigation();
-  const [summary, rows, manifest, topicSummary, pageSummary, decisionBrief, concernsByZone, reviewQueue] = await Promise.all([
+  const [summary, rows, manifest, topicSummary, pageSummary, decisionBrief, concernsByZone, reviewQueue, representativeCards] = await Promise.all([
     fetchJson("data/summary.json"),
     fetchJson("data/combined-classified.json"),
     fetchJson("data/manifest.json"),
@@ -643,6 +778,7 @@ async function init() {
     fetchJson("data/decision-brief.json"),
     fetchJson("data/concerns-by-zone.json"),
     fetchJson("data/review-queue.json"),
+    fetchJson("data/representative-cards.json"),
   ]);
   state.summary = summary;
   state.rows = rows;
@@ -652,13 +788,21 @@ async function init() {
   state.decisionBrief = decisionBrief;
   state.concernsByZone = concernsByZone;
   state.reviewQueue = reviewQueue;
+  state.representativeCards = representativeCards;
   renderTopicFilter();
   renderSummaryCards();
   renderBarChart();
   renderChartTextSummary();
+  renderSourceDocuments();
+  renderDifferenceChart();
+  renderDonutChart();
   renderConfidenceChart();
   renderTopicChart();
+  renderTopicCloud("#topic-cloud", 16);
+  renderTopicCloud("#topic-cloud-page", 22);
   renderPageChart();
+  renderZoneContext();
+  renderRepresentativeCards();
   renderParticles();
   renderTable();
   renderDownloads();

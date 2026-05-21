@@ -66,6 +66,19 @@
         </aside>
       </section>
 
+      <section id="sources" class="page-section">
+        <div class="section-heading">
+          <p class="eyebrow">Initial source documents</p>
+          <h2>What this first analysis is based on</h2>
+          <p>
+            These are the project documents used to produce the current classification readout and
+            public dashboard. The source list is generated with the public data files so it stays
+            aligned with the downloads.
+          </p>
+        </div>
+        <div id="source-documents" class="card-grid source-grid"></div>
+      </section>
+
       <section class="page-section">
         <div class="section-heading">
           <p class="eyebrow">What was analyzed</p>
@@ -100,6 +113,23 @@
             <div id="bar-chart" class="bar-chart" role="img" aria-label="Bar chart comparing sentiment percentages for Zone 4A and Zone 5B"></div>
           </article>
           <article class="card chart-card">
+            <h3>Zone difference</h3>
+            <p class="muted">
+              This table makes the gap between Zone 4A and Zone 5B explicit for each stance.
+            </p>
+            <div id="difference-chart" class="difference-chart"></div>
+          </article>
+        </div>
+        <div class="chart-layout secondary-charts">
+          <article class="card chart-card">
+            <h3>Provisional topic cloud</h3>
+            <p class="muted">
+              Label size reflects keyword-assisted topic counts. Treat this as an exploration aid,
+              not a final topic model.
+            </p>
+            <div id="topic-cloud" class="topic-cloud" aria-label="Provisional topic cloud"></div>
+          </article>
+          <article class="card chart-card">
             <h3>Response particle field</h3>
             <p class="muted">
               Each point represents one classified response. WebGL is used when available; a canvas
@@ -125,11 +155,37 @@
             <div id="topic-chart" class="bar-chart" role="img" aria-label="Most common provisional topics"></div>
           </article>
         </div>
+        <div class="chart-layout secondary-charts">
+          <article class="card chart-card">
+            <h3>Zone stance donuts</h3>
+            <p class="muted">Each donut repeats the stance percentages for one analyzed section.</p>
+            <div id="donut-chart" class="donut-grid" aria-label="Donut charts by zone"></div>
+          </article>
+          <article class="card chart-card">
+            <h3>Zone context</h3>
+            <p class="muted">
+              Boundary geometry is not available yet, so this is a context panel rather than a map.
+            </p>
+            <div id="zone-context" class="zone-context"></div>
+          </article>
+        </div>
         <article class="card chart-card">
-          <h3>Stance by PDF page</h3>
-          <p class="muted">Small page-level bars help show whether response mix changes across the analyzed sections.</p>
+          <h3>Page flow through the source PDF</h3>
+          <p class="muted">Small page-level bars show how response mix changes across the analyzed sections.</p>
           <div id="page-chart" class="page-chart" role="img" aria-label="Stance distribution by PDF page"></div>
         </article>
+      </section>
+
+      <section id="representative-cards" class="page-section">
+        <div class="section-heading">
+          <p class="eyebrow">Representative cards</p>
+          <h2>Name-free public comment themes</h2>
+          <p>
+            These cards summarize recurring themes from the public classification data and use
+            anonymized labels such as "Narberth Resident A." They do not display names.
+          </p>
+        </div>
+        <div id="quote-card-grid" class="card-grid three"></div>
       </section>
 
       <section id="findings" class="page-section">
@@ -203,8 +259,8 @@
           <article class="card">
             <h3>Privacy guardrail</h3>
             <p>
-              The public table shows classification rationale, not full raw response text. Quote cards
-              and full-text displays should wait for privacy and redaction review.
+              The public table shows classification rationale. Representative cards use anonymized
+              resident labels and do not display names.
             </p>
           </article>
           <article class="card">

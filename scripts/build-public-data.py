@@ -34,6 +34,39 @@ SOURCES = {
     },
 }
 
+SOURCE_DOCUMENTS = [
+    {
+        "title": "Raw Survey Results.pdf",
+        "role": "Original survey export",
+        "scope": "Survey on Housing Affordability in Narberth; Zone 5B pages 77-89 and Zone 4A pages 90-105.",
+        "href": "documents/raw-survey-results.pdf",
+    },
+    {
+        "title": "Zone 5B Response Classifications.csv",
+        "role": "Row-level classification source",
+        "scope": "303 classified written responses from Zone 5B / Montgomery Avenue.",
+        "href": "data/zone-5b-classified.csv",
+    },
+    {
+        "title": "Zone 4A Response Classifications.csv",
+        "role": "Row-level classification source",
+        "scope": "303 classified written responses from Zone 4A.",
+        "href": "data/zone-4a-classified.csv",
+    },
+    {
+        "title": "High-Level Survey Overview.md",
+        "role": "Context and orientation source",
+        "scope": "Survey structure, page ranges, and section descriptions.",
+        "href": "documents/high-level-survey-overview.md",
+    },
+    {
+        "title": "Zoning Sentiment Analysis.md",
+        "role": "Method and findings source",
+        "scope": "Classification method, category rules, and headline findings.",
+        "href": "documents/zoning-sentiment-analysis.md",
+    },
+]
+
 TOPIC_RULES = [
     {
         "topic": "Parking",
@@ -102,6 +135,39 @@ TOPIC_RULES = [
     },
 ]
 
+REPRESENTATIVE_CARD_TOPICS = [
+    {
+        "topic": "Parking",
+        "resident": "Narberth Resident A",
+        "summary": "Parking requirements and spillover onto nearby streets were a recurring concern.",
+    },
+    {
+        "topic": "Building height",
+        "resident": "Narberth Resident B",
+        "summary": "Building height and scale were often raised as concerns about how larger projects would fit the borough.",
+    },
+    {
+        "topic": "Density",
+        "resident": "Narberth Resident C",
+        "summary": "Several responses focused on whether added density would be appropriate in the proposed locations.",
+    },
+    {
+        "topic": "Affordable housing",
+        "resident": "Narberth Resident D",
+        "summary": "Some respondents connected the zoning discussion to housing affordability and whether the proposal would create affordable options.",
+    },
+    {
+        "topic": "Traffic and safety",
+        "resident": "Narberth Resident E",
+        "summary": "Traffic, congestion, and pedestrian safety appeared as recurring practical concerns.",
+    },
+    {
+        "topic": "Transit and walkability",
+        "resident": "Narberth Resident F",
+        "summary": "Some responses discussed whether transit access and walkability could support different parking or density assumptions.",
+    },
+]
+
 
 def read_rows() -> list[dict[str, str]]:
     rows: list[dict[str, str]] = []
@@ -167,6 +233,7 @@ def summarize(rows: list[dict[str, object]]) -> dict[str, object]:
     return {
         "generatedOn": date.today().isoformat(),
         "sourceDocument": "Raw Survey Results.pdf",
+        "sourceDocuments": SOURCE_DOCUMENTS,
         "repository": "https://github.com/DaveVoyles/Narberth-Zoning",
         "methodologyNote": "Topic tags are provisional keyword-assisted tags inferred from classification rationale, not from full raw response text.",
         "zones": zones,
@@ -303,6 +370,39 @@ def review_queue(rows: list[dict[str, object]]) -> dict[str, object]:
     }
 
 
+def representative_cards(rows: list[dict[str, object]]) -> dict[str, object]:
+    cards = []
+    for card in REPRESENTATIVE_CARD_TOPICS:
+        matches = [
+            row
+            for row in rows
+            if card["topic"] in str(row["topics"]).split("; ") and row["confidence"] == "high"
+        ]
+        if not matches:
+            matches = [row for row in rows if card["topic"] in str(row["topics"]).split("; ")]
+        if not matches:
+            continue
+        matches = sorted(matches, key=lambda row: (row["zone"], int(row["index"])))
+        row = matches[0]
+        cards.append(
+            {
+                "resident": card["resident"],
+                "topic": card["topic"],
+                "zone": row["zone"],
+                "page": row["page"],
+                "stance": row["category"],
+                "summary": card["summary"],
+                "rationale": row["rationale"],
+                "note": "Name-free representative card based on public classification rationale; not a verbatim respondent quote.",
+            }
+        )
+    return {
+        "generatedOn": date.today().isoformat(),
+        "privacyNote": "Cards use anonymized resident labels and do not display names or direct raw-response text.",
+        "cards": cards,
+    }
+
+
 def decision_brief(rows: list[dict[str, object]]) -> dict[str, object]:
     summary = summarize(rows)
     concerns = concerns_by_zone(rows)
@@ -331,7 +431,7 @@ def decision_brief(rows: list[dict[str, object]]) -> dict[str, object]:
         ],
         "limits": [
             "This is a classified readout of written survey responses, not a scientific referendum.",
-            "The public site does not display full raw response text or quote cards without privacy/redaction review.",
+            "Representative cards use anonymized labels and do not display names.",
             "Topic tags are keyword-assisted from classification rationale and may undercount or overcount themes.",
         ],
     }
@@ -365,6 +465,7 @@ def manifest(rows: list[dict[str, object]]) -> dict[str, object]:
         "generatedOn": date.today().isoformat(),
         "totalClassifiedResponses": len(rows),
         "sourceFiles": [source["path"].name for source in SOURCES.values()],
+        "sourceDocuments": SOURCE_DOCUMENTS,
         "files": files,
     }
 
@@ -377,6 +478,7 @@ def describe_file(name: str) -> str:
         "decision-brief.json": "Decision-maker summary metrics and discussion questions.",
         "concerns-by-zone.json": "Provisional topic and concern counts by zone.",
         "review-queue.json": "Rows prioritized for human review by confidence or mixed flag.",
+        "representative-cards.json": "Anonymized representative public comment theme cards.",
         "topic-tags.csv": "One row per response-topic assignment.",
         "topic-summary.json": "Topic counts, taxonomy, and stance-by-topic totals.",
         "page-summary.json": "Page-level stance totals by zone.",
@@ -466,6 +568,7 @@ def main() -> None:
     (DATA / "concerns-by-zone.json").write_text(json.dumps(concerns_by_zone(rows), indent=2), encoding="utf-8")
     (DATA / "decision-brief.json").write_text(json.dumps(decision_brief(rows), indent=2), encoding="utf-8")
     (DATA / "review-queue.json").write_text(json.dumps(review_queue(rows), indent=2), encoding="utf-8")
+    (DATA / "representative-cards.json").write_text(json.dumps(representative_cards(rows), indent=2), encoding="utf-8")
     (DATA / "page-summary.json").write_text(json.dumps(page_summary(rows), indent=2), encoding="utf-8")
 
     for src, dst in [

@@ -1,9 +1,41 @@
 {
-  "generatedOn": "2026-05-19",
+  "generatedOn": "2026-05-21",
   "title": "Narberth zoning survey decision brief",
   "summary": {
-    "generatedOn": "2026-05-19",
+    "generatedOn": "2026-05-21",
     "sourceDocument": "Raw Survey Results.pdf",
+    "sourceDocuments": [
+      {
+        "title": "Raw Survey Results.pdf",
+        "role": "Original survey export",
+        "scope": "Survey on Housing Affordability in Narberth; Zone 5B pages 77-89 and Zone 4A pages 90-105.",
+        "href": "documents/raw-survey-results.pdf"
+      },
+      {
+        "title": "Zone 5B Response Classifications.csv",
+        "role": "Row-level classification source",
+        "scope": "303 classified written responses from Zone 5B / Montgomery Avenue.",
+        "href": "data/zone-5b-classified.csv"
+      },
+      {
+        "title": "Zone 4A Response Classifications.csv",
+        "role": "Row-level classification source",
+        "scope": "303 classified written responses from Zone 4A.",
+        "href": "data/zone-4a-classified.csv"
+      },
+      {
+        "title": "High-Level Survey Overview.md",
+        "role": "Context and orientation source",
+        "scope": "Survey structure, page ranges, and section descriptions.",
+        "href": "documents/high-level-survey-overview.md"
+      },
+      {
+        "title": "Zoning Sentiment Analysis.md",
+        "role": "Method and findings source",
+        "scope": "Classification method, category rules, and headline findings.",
+        "href": "documents/zoning-sentiment-analysis.md"
+      }
+    ],
     "repository": "https://github.com/DaveVoyles/Narberth-Zoning",
     "methodologyNote": "Topic tags are provisional keyword-assisted tags inferred from classification rationale, not from full raw response text.",
     "zones": [
@@ -196,7 +228,7 @@
   ],
   "limits": [
     "This is a classified readout of written survey responses, not a scientific referendum.",
-    "The public site does not display full raw response text or quote cards without privacy/redaction review.",
+    "Representative cards use anonymized labels and do not display names.",
     "Topic tags are keyword-assisted from classification rationale and may undercount or overcount themes."
   ]
 }
